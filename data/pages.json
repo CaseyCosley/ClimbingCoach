@@ -6,7 +6,7 @@
    "lead": "Language: managing risk",
    "text": "Climbing is inherently dangerous, so nothing here promises it is risk-free. Entries talk about managing and reducing risk: checking systems, clearing fall zones, spotting to manage risk, and choosing when not to commit to a move."
   },
-  "text": "Ages use these groups: Parent & Child (ages 2–3), Ages 3–4, Ages 4–6, Ages 6–9, Ages 9–12, Ages 12+ (training) and Ages 14+ (competitive). Month themes match the curriculum chart colors. Entries marked coaching practice have no published source; they come from common youth-coaching practice.",
+  "text": "Ages use these groups: Parent & Child (ages 2–3), Ages 3–4, Ages 4–6, Ages 6–9, Ages 9–12, Ages 12+ (training) and Ages 14+ (competitive). Month themes are shared across the age groups. Entries marked coaching practice have no published source; they come from common youth-coaching practice.",
   "dedup": [
    {
     "title": "Normalize the name",
@@ -42,7 +42,7 @@
   "title": "Youth Curricula by Age Group",
   "summary": "A September–June plan for each youth group, built on my month-by-month chart and adapted to each age using the coaching playbook research. Pick a group to see its chart, a week-by-week plan with vocabulary and timed activities, its session plan and its games.",
   "how": [
-   "Same rhythm as the original: 4 weeks a month, Dec and Jun as Find your Fun!, and the same color for each theme type in every group.",
+   "Same rhythm throughout: 4 weeks a month, with Dec and Jun as Review & Play in every group.",
    "The week types change with age. Hard Workout (Grade Pushing) only returns at Ages 12+ (training) and Ages 14+ (competitive); younger groups get Brave Steps, Challenge Climb, Personal Best or Project Push instead.",
    "No formal competition through about age 9: March is a team or family celebration, a mock comp for Ages 9–12, and real comp prep for teens.",
    "No campus, hangboard or weighted finger training in any group; strength comes from climbing.",
@@ -53,7 +53,7 @@
    "lead": "Class lengths",
    "text": "These are the real class lengths: 60 min (Parent & Child (ages 2–3), Ages 3–4, Ages 4–6), 90 min (Ages 6–9) and 120 min (Ages 9–12, Ages 12+ (training), Ages 14+ (competitive))."
   },
-  "weekIntro": "Pick a month and a week. Dec and Jun are Find your Fun months: three review weeks that revisit earlier months, then a celebration week. Look up any activity or term by name in the Library for full steps, why it works, variations by age, risk management and sources.",
+  "weekIntro": "Pick a month and a week. Dec and Jun are Review & Play months: three review weeks that revisit earlier months, then a celebration week. Look up any activity or term by name in the Library for full steps, why it works, variations by age, risk management and sources.",
   "related": [
    {
     "title": "Youth Climbing Coaching Library: Vocabulary and Activities (every game and term, how to run it, and sources)",

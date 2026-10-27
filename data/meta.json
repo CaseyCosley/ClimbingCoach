@@ -41,27 +41,27 @@
   {
    "id": "rope",
    "label": "Ropes, endurance and risk management (Sept, Jan)",
-   "fill": "#F5A623"
+   "fill": "#FBF8F2"
   },
   {
    "id": "tech",
    "label": "Technique and movement (Oct, Feb, May)",
-   "fill": "#7DC46B"
+   "fill": "#FBF8F2"
   },
   {
    "id": "str",
    "label": "Strength, speed and body control (Nov, Apr)",
-   "fill": "#4FA3E0"
+   "fill": "#FBF8F2"
   },
   {
    "id": "event",
    "label": "March event",
-   "fill": "#F2DC3A"
+   "fill": "#FBF8F2"
   },
   {
    "id": "fun",
-   "label": "Find your Fun (Dec, Jun)",
-   "fill": "#8E4FB8"
+   "label": "Review & Play (Dec, Jun)",
+   "fill": "#E7EFE4"
   }
  ],
  "types": [
