@@ -28,7 +28,7 @@ Pages then serves this site at `https://caseycosley.github.io/ClimbingCoach/`. A
 | Path | What it is |
 |---|---|
 | `index.html` | Home: what this is, who it's for, the key principles, links to each age group |
-| `curricula.html` | Group dropdown, school-year chart, month and week pickers, vocabulary and timed activity plan for each week, Print this week |
+| `curricula.html` | Group dropdown and a view switcher: this-week lesson card, year roadmap, month cards, skill ladder, and the full table |
 | `library.html` / `activity.html#<id>` | Activity search and filters / one activity's page (shareable URL) |
 | `vocabulary.html` / `term.html#<id>` | Glossary search and category filter / one term's page |
 | `playbook.html` | Research by age group, comparison table, game-theory section, sources |
