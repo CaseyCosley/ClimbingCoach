@@ -1,0 +1,8443 @@
+{
+ "categories": {
+  "rope": {
+   "fill": "#F5A623",
+   "ink": "#1A1A1A",
+   "label": "Endurance, ropes and risk management"
+  },
+  "tech": {
+   "fill": "#7DC46B",
+   "ink": "#1A1A1A",
+   "label": "Technique and movement"
+  },
+  "str": {
+   "fill": "#4FA3E0",
+   "ink": "#1A1A1A",
+   "label": "Strength, speed and body control"
+  },
+  "event": {
+   "fill": "#F2DC3A",
+   "ink": "#1A1A1A",
+   "label": "March event"
+  },
+  "fun": {
+   "fill": "#8E4FB8",
+   "ink": "#FFFFFF",
+   "label": "Find your Fun!"
+  }
+ },
+ "groups": [
+  {
+   "id": "pm",
+   "ageId": "PM",
+   "name": "Parent & Me (2–3)",
+   "minutes": 60,
+   "types": [
+    "Explore & Play",
+    "Copy Me (parent-led)",
+    "Brave Steps",
+    "Story Game"
+   ],
+   "intro": "Every session here stands on its own, so families who join mid-year don't miss anything, while still following a monthly theme. The parent is the spotter and the main coach; you coach the parents.",
+   "months": [
+    {
+     "m": "Sept",
+     "theme": "Welcome & Wall Rules",
+     "c": "rope",
+     "w": [
+      [
+       "Mat rules & where to stand",
+       "Explore & Play & Intro"
+      ],
+      [
+       "Parent spotting hands"
+      ],
+      [
+       "Up two, down two"
+      ],
+      [
+       "Turtle landings"
+      ]
+     ]
+    },
+    {
+     "m": "Oct",
+     "theme": "Moving Like Animals 101",
+     "c": "tech",
+     "w": [
+      [
+       "Crawl & step"
+      ],
+      [
+       "Big bear steps"
+      ],
+      [
+       "Reach & grab"
+      ],
+      [
+       "Animal Rescue"
+      ]
+     ]
+    },
+    {
+     "m": "Nov",
+     "theme": "Strong Little Bodies 101",
+     "c": "str",
+     "w": [
+      [
+       "Hold on & count to 3"
+      ],
+      [
+       "Push with legs"
+      ],
+      [
+       "Short spotted hang & let go"
+      ],
+      [
+       "Bear Crawl Path"
+      ]
+     ]
+    },
+    {
+     "m": "Dec",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    },
+    {
+     "m": "Jan",
+     "theme": "Welcome Back & Routines",
+     "c": "rope",
+     "w": [
+      [
+       "Mat & spotting refresh",
+       "Explore & Play & Intro"
+      ],
+      [
+       "Up-and-down climbs"
+      ],
+      [
+       "Climb to the star"
+      ],
+      [
+       "Turtle landings review"
+      ]
+     ]
+    },
+    {
+     "m": "Feb",
+     "theme": "Feet First 201",
+     "c": "tech",
+     "w": [
+      [
+       "Look at your feet"
+      ],
+      [
+       "Step on the big holds"
+      ],
+      [
+       "Feet on colored dots"
+      ],
+      [
+       "Mirror Me"
+      ]
+     ]
+    },
+    {
+     "m": "Mar",
+     "theme": "Family Climbing Party",
+     "c": "event",
+     "w": [
+      [
+       "Practice favorite climb"
+      ],
+      [
+       "Family Rescue Mission (everyone together)",
+       "Celebration Day"
+      ],
+      [
+       "Show your grown-up a new move"
+      ],
+      [
+       "Photo & cheer day"
+      ]
+     ]
+    },
+    {
+     "m": "Apr",
+     "theme": "Balance & Body 201",
+     "c": "str",
+     "w": [
+      [
+       "Three points on the wall"
+      ],
+      [
+       "Stand tall, reach sideways"
+      ],
+      [
+       "Step up and stand"
+      ],
+      [
+       "Bear Crawl Path 2.0"
+      ]
+     ]
+    },
+    {
+     "m": "May",
+     "theme": "New Shapes 301",
+     "c": "tech",
+     "w": [
+      [
+       "Big jugs & bumps"
+      ],
+      [
+       "Corners and volumes"
+      ],
+      [
+       "Going sideways"
+      ],
+      [
+       "Climbing down"
+      ]
+     ]
+    },
+    {
+     "m": "Jun",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    }
+   ],
+   "session": [
+    {
+     "title": "Warm-up, 10 min",
+     "detail": "Free explore on mats, then a crawl-and-step path to the wall."
+    },
+    {
+     "title": "Station rotation, 20 min",
+     "detail": "Four 5-minute stations families rotate through: the themed skill (coach shows parent, parent shows child), a free climb, a crawl or balance path, and a calm corner for anyone who needs a pause."
+    },
+    {
+     "title": "Water and song break, 5 min",
+     "detail": "Sit together, drink water, a short movement song."
+    },
+    {
+     "title": "Story game, 15 min",
+     "detail": "The week's story game, played in parallel by each family, restarting often with small changes."
+    },
+    {
+     "title": "Cool-down, 10 min",
+     "detail": "Turtle landings, a goodbye song or cheer, tell parents one thing to try at the playground."
+    }
+   ],
+   "notes": [
+    "No ropes, knots or belaying: feet stay within a short step of the mat.",
+    "Brave Steps replaces Hard Workout: one gentle stretch past last time, always the child's choice."
+   ],
+   "blocks": [
+    {
+     "label": "Warm-up",
+     "min": 10,
+     "slot": "W"
+    },
+    {
+     "label": "Skill stations",
+     "min": 20,
+     "slot": "D"
+    },
+    {
+     "label": "Water and song break",
+     "min": 5,
+     "slot": "B"
+    },
+    {
+     "label": "Story game",
+     "min": 15,
+     "slot": "G"
+    },
+    {
+     "label": "Cool-down",
+     "min": 10,
+     "slot": "C"
+    }
+   ],
+   "vocabLevel": "little",
+   "gamesByMonth": [
+    [
+     "Sept",
+     "Learn to Fall",
+     "High-Five the Star"
+    ],
+    [
+     "Oct",
+     "Rescue Mission",
+     "Fuzz-Ball Search"
+    ],
+    [
+     "Nov",
+     "Animal Walks",
+     "Rescue Mission"
+    ],
+    [
+     "Dec",
+     "Fun rotation",
+     "Parachute Games, Rescue Mission, Fuzz-Ball Search, High-Five the Star"
+    ],
+    [
+     "Jan",
+     "High-Five the Star",
+     "Fuzz-Ball Search"
+    ],
+    [
+     "Feb",
+     "Mirror Me",
+     "Animal Walks"
+    ],
+    [
+     "Mar",
+     "Rescue Mission",
+     "Parachute Games"
+    ],
+    [
+     "Apr",
+     "Animal Walks",
+     "High-Five the Star"
+    ],
+    [
+     "May",
+     "Mirror Me",
+     "Rescue Mission"
+    ],
+    [
+     "Jun",
+     "Fun rotation",
+     "Parachute Games, Rescue Mission, Fuzz-Ball Search, High-Five the Star"
+    ]
+   ],
+   "plan": {
+    "w": [
+     "Fall Zones Tour|Crash Pad;Fall Zone",
+     "Spotting Practice|Spotting;Crash Pad",
+     "Downclimbing|Downclimb;Hold",
+     "Learn to Fall|Landing Position;Fall Zone",
+     "Animal Walks|Hold;Foothold",
+     "Animal Crossing|High Step;Foothold",
+     "High-Five the Star|Jug;Hold",
+     "Rescue Mission|Jug;Traverse",
+     "Freeze Traverse|Jug;Three Points of Contact",
+     "Animal Crossing|Foothold;High Step",
+     "Learn to Fall|Landing Position;Spotting",
+     "Animal Walks|Crash Pad;Hold",
+     "Spotting Practice|Spotting;Fall Zone",
+     "Downclimbing|Downclimb;Top Out",
+     "High-Five the Star|Top Out;Jug",
+     "Learn to Fall|Landing Position;Crash Pad",
+     "Mirror Me|Foothold;Quiet Feet",
+     "Animal Crossing|Foothold;Jug",
+     "Sticky Feet|Foothold;Route",
+     "Mirror Me|Hold;Foothold",
+     "High-Five the Star|Top Out;Route",
+     "Rescue Mission|Traverse;Send",
+     "Mirror Me|Match;Hold",
+     "High-Five the Star|Send;Sportsmanship",
+     "Freeze Traverse|Three Points of Contact;Hold",
+     "Animal Crossing|Traverse;Center of Gravity",
+     "Mirror Me|High Step;Rock Over",
+     "Animal Walks|Center of Gravity;Crash Pad",
+     "Fuzz-Ball Search|Jug;Volume",
+     "Animal Crossing|Volume;Dihedral",
+     "Freeze Traverse|Traverse;Foothold",
+     "Downclimbing|Downclimb;Landing Position"
+    ],
+    "g": [
+     [
+      "Learn to Fall",
+      "High-Five the Star"
+     ],
+     [
+      "Rescue Mission",
+      "Fuzz-Ball Search"
+     ],
+     [
+      "Animal Walks",
+      "Rescue Mission"
+     ],
+     [
+      "High-Five the Star",
+      "Fuzz-Ball Search"
+     ],
+     [
+      "Mirror Me",
+      "Animal Walks"
+     ],
+     [
+      "Rescue Mission",
+      "Parachute Games"
+     ],
+     [
+      "Animal Walks",
+      "High-Five the Star"
+     ],
+     [
+      "Mirror Me",
+      "Rescue Mission"
+     ]
+    ],
+    "warm": [
+     "Animal Walks",
+     "Pulse Raiser",
+     "Joint Circles"
+    ],
+    "cool": [
+     "Learn to Fall",
+     "Story Stretch",
+     "Belly Breathing",
+     "Cool-Down Stretch & Reflect"
+    ],
+    "fun": [
+     "Parachute Games",
+     "Rescue Mission",
+     "Fuzz-Ball Search",
+     "High-Five the Star"
+    ]
+   },
+   "weeks": [
+    {
+     "n": 1,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 1,
+     "theme": "Welcome & Wall Rules",
+     "cat": "rope",
+     "skill": "Mat rules & where to stand",
+     "type": "Explore & Play & Intro",
+     "vocab": [
+      "Crash Pad",
+      "Fall Zone"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Fall Zones Tour",
+     "game": "Learn to Fall",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 2,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 2,
+     "theme": "Welcome & Wall Rules",
+     "cat": "rope",
+     "skill": "Parent spotting hands",
+     "type": "Copy Me (parent-led)",
+     "vocab": [
+      "Spotting",
+      "Crash Pad"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Spotting Practice",
+     "game": "High-Five the Star",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 3,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 3,
+     "theme": "Welcome & Wall Rules",
+     "cat": "rope",
+     "skill": "Up two, down two",
+     "type": "Brave Steps",
+     "vocab": [
+      "Downclimb",
+      "Hold"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Downclimbing",
+     "game": "Learn to Fall",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 4,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 4,
+     "theme": "Welcome & Wall Rules",
+     "cat": "rope",
+     "skill": "Turtle landings",
+     "type": "Story Game",
+     "vocab": [
+      "Landing Position",
+      "Fall Zone"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Learn to Fall",
+     "game": "High-Five the Star",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 5,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 1,
+     "theme": "Moving Like Animals 101",
+     "cat": "tech",
+     "skill": "Crawl & step",
+     "type": "Explore & Play",
+     "vocab": [
+      "Hold",
+      "Foothold"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Animal Walks",
+     "game": "Rescue Mission",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 6,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 2,
+     "theme": "Moving Like Animals 101",
+     "cat": "tech",
+     "skill": "Big bear steps",
+     "type": "Copy Me (parent-led)",
+     "vocab": [
+      "High Step",
+      "Foothold"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Animal Crossing",
+     "game": "Fuzz-Ball Search",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 7,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 3,
+     "theme": "Moving Like Animals 101",
+     "cat": "tech",
+     "skill": "Reach & grab",
+     "type": "Brave Steps",
+     "vocab": [
+      "Jug",
+      "Hold"
+     ],
+     "warm": "Animal Walks",
+     "drill": "High-Five the Star",
+     "game": "Rescue Mission",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 8,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 4,
+     "theme": "Moving Like Animals 101",
+     "cat": "tech",
+     "skill": "Animal Rescue",
+     "type": "Story Game",
+     "vocab": [
+      "Jug",
+      "Traverse"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Rescue Mission",
+     "game": "Fuzz-Ball Search",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 9,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 1,
+     "theme": "Strong Little Bodies 101",
+     "cat": "str",
+     "skill": "Hold on & count to 3",
+     "type": "Explore & Play",
+     "vocab": [
+      "Jug",
+      "Three Points of Contact"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Freeze Traverse",
+     "game": "Animal Walks",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 10,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 2,
+     "theme": "Strong Little Bodies 101",
+     "cat": "str",
+     "skill": "Push with legs",
+     "type": "Copy Me (parent-led)",
+     "vocab": [
+      "Foothold",
+      "High Step"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Animal Crossing",
+     "game": "Rescue Mission",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 11,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 3,
+     "theme": "Strong Little Bodies 101",
+     "cat": "str",
+     "skill": "Short spotted hang & let go",
+     "type": "Brave Steps",
+     "vocab": [
+      "Landing Position",
+      "Spotting"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Learn to Fall",
+     "game": "Animal Walks",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 12,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 4,
+     "theme": "Strong Little Bodies 101",
+     "cat": "str",
+     "skill": "Bear Crawl Path",
+     "type": "Story Game",
+     "vocab": [
+      "Crash Pad",
+      "Hold"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Animal Walks",
+     "game": "Rescue Mission",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 13,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Welcome & Wall Rules favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Crash Pad",
+      "Spotting",
+      "Downclimb",
+      "Landing Position"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Spotting Practice",
+     "game": "Parachute Games",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 14,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Moving Like Animals 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Hold",
+      "High Step",
+      "Jug"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Rescue Mission",
+     "game": "Rescue Mission",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 15,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Strong Little Bodies 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Jug",
+      "Foothold",
+      "Landing Position",
+      "Crash Pad"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Animal Crossing",
+     "game": "Fuzz-Ball Search",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 16,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Holiday fun day: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Rescue Mission",
+     "game": "High-Five the Star",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 17,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 1,
+     "theme": "Welcome Back & Routines",
+     "cat": "rope",
+     "skill": "Mat & spotting refresh",
+     "type": "Explore & Play & Intro",
+     "vocab": [
+      "Spotting",
+      "Fall Zone"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Spotting Practice",
+     "game": "High-Five the Star",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 18,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 2,
+     "theme": "Welcome Back & Routines",
+     "cat": "rope",
+     "skill": "Up-and-down climbs",
+     "type": "Copy Me (parent-led)",
+     "vocab": [
+      "Downclimb",
+      "Top Out"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Downclimbing",
+     "game": "Fuzz-Ball Search",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 19,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 3,
+     "theme": "Welcome Back & Routines",
+     "cat": "rope",
+     "skill": "Climb to the star",
+     "type": "Brave Steps",
+     "vocab": [
+      "Top Out",
+      "Jug"
+     ],
+     "warm": "Animal Walks",
+     "drill": "High-Five the Star",
+     "game": "High-Five the Star",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 20,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 4,
+     "theme": "Welcome Back & Routines",
+     "cat": "rope",
+     "skill": "Turtle landings review",
+     "type": "Story Game",
+     "vocab": [
+      "Landing Position",
+      "Crash Pad"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Learn to Fall",
+     "game": "Fuzz-Ball Search",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 21,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 1,
+     "theme": "Feet First 201",
+     "cat": "tech",
+     "skill": "Look at your feet",
+     "type": "Explore & Play",
+     "vocab": [
+      "Foothold",
+      "Quiet Feet"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Mirror Me",
+     "game": "Mirror Me",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 22,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 2,
+     "theme": "Feet First 201",
+     "cat": "tech",
+     "skill": "Step on the big holds",
+     "type": "Copy Me (parent-led)",
+     "vocab": [
+      "Foothold",
+      "Jug"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Animal Crossing",
+     "game": "Animal Walks",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 23,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 3,
+     "theme": "Feet First 201",
+     "cat": "tech",
+     "skill": "Feet on colored dots",
+     "type": "Brave Steps",
+     "vocab": [
+      "Foothold",
+      "Route"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Sticky Feet",
+     "game": "Mirror Me",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 24,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 4,
+     "theme": "Feet First 201",
+     "cat": "tech",
+     "skill": "Mirror Me",
+     "type": "Story Game",
+     "vocab": [
+      "Hold",
+      "Foothold"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Mirror Me",
+     "game": "Animal Walks",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 25,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 1,
+     "theme": "Family Climbing Party",
+     "cat": "event",
+     "skill": "Practice favorite climb",
+     "type": "Explore & Play",
+     "vocab": [
+      "Top Out",
+      "Route"
+     ],
+     "warm": "Animal Walks",
+     "drill": "High-Five the Star",
+     "game": "Rescue Mission",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 26,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 2,
+     "theme": "Family Climbing Party",
+     "cat": "event",
+     "skill": "Family Rescue Mission (everyone together)",
+     "type": "Celebration Day",
+     "vocab": [
+      "Traverse",
+      "Send"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Rescue Mission",
+     "game": "Parachute Games",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 27,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 3,
+     "theme": "Family Climbing Party",
+     "cat": "event",
+     "skill": "Show your grown-up a new move",
+     "type": "Brave Steps",
+     "vocab": [
+      "Match",
+      "Hold"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Mirror Me",
+     "game": "Rescue Mission",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 28,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 4,
+     "theme": "Family Climbing Party",
+     "cat": "event",
+     "skill": "Photo & cheer day",
+     "type": "Story Game",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Animal Walks",
+     "drill": "High-Five the Star",
+     "game": "Parachute Games",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 29,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 1,
+     "theme": "Balance & Body 201",
+     "cat": "str",
+     "skill": "Three points on the wall",
+     "type": "Explore & Play",
+     "vocab": [
+      "Three Points of Contact",
+      "Hold"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Freeze Traverse",
+     "game": "Animal Walks",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 30,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 2,
+     "theme": "Balance & Body 201",
+     "cat": "str",
+     "skill": "Stand tall, reach sideways",
+     "type": "Copy Me (parent-led)",
+     "vocab": [
+      "Traverse",
+      "Center of Gravity"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Animal Crossing",
+     "game": "High-Five the Star",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 31,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 3,
+     "theme": "Balance & Body 201",
+     "cat": "str",
+     "skill": "Step up and stand",
+     "type": "Brave Steps",
+     "vocab": [
+      "High Step",
+      "Rock Over"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Mirror Me",
+     "game": "Animal Walks",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 32,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 4,
+     "theme": "Balance & Body 201",
+     "cat": "str",
+     "skill": "Bear Crawl Path 2.0",
+     "type": "Story Game",
+     "vocab": [
+      "Center of Gravity",
+      "Crash Pad"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Animal Walks",
+     "game": "High-Five the Star",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 33,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 1,
+     "theme": "New Shapes 301",
+     "cat": "tech",
+     "skill": "Big jugs & bumps",
+     "type": "Explore & Play",
+     "vocab": [
+      "Jug",
+      "Volume"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Fuzz-Ball Search",
+     "game": "Mirror Me",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 34,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 2,
+     "theme": "New Shapes 301",
+     "cat": "tech",
+     "skill": "Corners and volumes",
+     "type": "Copy Me (parent-led)",
+     "vocab": [
+      "Volume",
+      "Dihedral"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Animal Crossing",
+     "game": "Rescue Mission",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 35,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 3,
+     "theme": "New Shapes 301",
+     "cat": "tech",
+     "skill": "Going sideways",
+     "type": "Brave Steps",
+     "vocab": [
+      "Traverse",
+      "Foothold"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Freeze Traverse",
+     "game": "Mirror Me",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 36,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 4,
+     "theme": "New Shapes 301",
+     "cat": "tech",
+     "skill": "Climbing down",
+     "type": "Story Game",
+     "vocab": [
+      "Downclimb",
+      "Landing Position"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Downclimbing",
+     "game": "Rescue Mission",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 37,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Feet First 201 favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Foothold",
+      "Hold"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Animal Crossing",
+     "game": "Parachute Games",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 38,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Balance & Body 201 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Three Points of Contact",
+      "Traverse",
+      "High Step",
+      "Center of Gravity"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Animal Walks",
+     "game": "Rescue Mission",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 39,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: New Shapes 301 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Jug",
+      "Volume",
+      "Traverse",
+      "Downclimb"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Animal Crossing",
+     "game": "Fuzz-Ball Search",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 40,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "End-of-year send party: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Rescue Mission",
+     "game": "High-Five the Star",
+     "cool": "Cool-Down Stretch & Reflect"
+    }
+   ]
+  },
+  {
+   "id": "rt",
+   "ageId": "RT",
+   "name": "Rockin' Tots (3–4)",
+   "minutes": 60,
+   "types": [
+    "Guided Play",
+    "Story Lesson",
+    "Brave Climb Challenge",
+    "Game Day"
+   ],
+   "intro": "Pretend play is the engine at this age. Each skill is wrapped in a character or story, one rule at a time, with constant rotation so nobody waits.",
+   "months": [
+    {
+     "m": "Sept",
+     "theme": "Wall Rules & Stamina 101",
+     "c": "rope",
+     "w": [
+      [
+       "Shoes, mats & wall rules",
+       "Guided Play & Intro"
+      ],
+      [
+       "Falling Leaf landings"
+      ],
+      [
+       "Up-down-up laps"
+      ],
+      [
+       "Red Light, Green Light"
+      ]
+     ]
+    },
+    {
+     "m": "Oct",
+     "theme": "Movement 101",
+     "c": "tech",
+     "w": [
+      [
+       "Animal Climbs"
+      ],
+      [
+       "Mouse feet (quiet feet)"
+      ],
+      [
+       "Two hands, one hold (matching)"
+      ],
+      [
+       "Slow sloth vs. quick frog"
+      ]
+     ]
+    },
+    {
+     "m": "Nov",
+     "theme": "Strong Bodies 101",
+     "c": "str",
+     "w": [
+      [
+       "Statue squeeze (body tension)"
+      ],
+      [
+       "Point & touch (accuracy)"
+      ],
+      [
+       "Pull like a rope"
+      ],
+      [
+       "Smooth sloth climbing"
+      ]
+     ]
+    },
+    {
+     "m": "Dec",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    },
+    {
+     "m": "Jan",
+     "theme": "Wall Rules & Stamina 201",
+     "c": "rope",
+     "w": [
+      [
+       "Landing review",
+       "Guided Play & Intro"
+      ],
+      [
+       "Longer traverses"
+      ],
+      [
+       "Wall rules refresh"
+      ],
+      [
+       "Hot Lava Floor"
+      ]
+     ]
+    },
+    {
+     "m": "Feb",
+     "theme": "Feet 201",
+     "c": "tech",
+     "w": [
+      [
+       "Look at your feet"
+      ],
+      [
+       "Tippy-toes on holds"
+      ],
+      [
+       "Feet stay put (sticky feet intro)"
+      ],
+      [
+       "Color Detective"
+      ]
+     ]
+    },
+    {
+     "m": "Mar",
+     "theme": "Treasure Celebration",
+     "c": "event",
+     "w": [
+      [
+       "Treasure Hunt practice"
+      ],
+      [
+       "Team Treasure Day (fill one bucket together)",
+       "Celebration Day"
+      ],
+      [
+       "First rope climb with coach belay"
+      ],
+      [
+       "Show-off day for families"
+      ]
+     ]
+    },
+    {
+     "m": "Apr",
+     "theme": "Strong Bodies 201",
+     "c": "str",
+     "w": [
+      [
+       "Point & touch, higher targets"
+      ],
+      [
+       "Statue squeeze on new holds"
+      ],
+      [
+       "Climb to the bell"
+      ],
+      [
+       "Smooth sloth 2.0"
+      ]
+     ]
+    },
+    {
+     "m": "May",
+     "theme": "Shapes 301",
+     "c": "tech",
+     "w": [
+      [
+       "Climbing corners"
+      ],
+      [
+       "Big volumes & bumps"
+      ],
+      [
+       "Sideways crab"
+      ],
+      [
+       "Climbing down"
+      ]
+     ]
+    },
+    {
+     "m": "Jun",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    }
+   ],
+   "session": [
+    {
+     "title": "Warm-up, 10 min",
+     "detail": "Story warm-up on the floor: animal walks, jumps, reaching for the sky."
+    },
+    {
+     "title": "Station rotation, 20 min",
+     "detail": "Four 5-minute stations on low walls and mats: the skill of the week as guided play, a free climb, a floor balance or crawl game, and a coach-led \"brave\" climb."
+    },
+    {
+     "title": "Water break, 5 min",
+     "detail": "Sit in a circle, drink water, retell the story so far."
+    },
+    {
+     "title": "Game, 15 min",
+     "detail": "Game Day or the month's game, one rule only, adding a twist each round."
+    },
+    {
+     "title": "Cool-down, 10 min",
+     "detail": "Falling Leaf landings and a closing cheer."
+    }
+   ],
+   "notes": [
+    "Brave Climb Challenge replaces Hard Workout: each child picks one thing that felt scary or new and tries it once.",
+    "No races or \"who went highest\"; praise what they did with their feet and body."
+   ],
+   "blocks": [
+    {
+     "label": "Warm-up",
+     "min": 10,
+     "slot": "W"
+    },
+    {
+     "label": "Skill stations",
+     "min": 20,
+     "slot": "D"
+    },
+    {
+     "label": "Water break",
+     "min": 5,
+     "slot": "B"
+    },
+    {
+     "label": "Game",
+     "min": 15,
+     "slot": "G"
+    },
+    {
+     "label": "Cool-down",
+     "min": 10,
+     "slot": "C"
+    }
+   ],
+   "vocabLevel": "little",
+   "gamesByMonth": [
+    [
+     "Sept",
+     "Freeze Traverse",
+     "Hot Lava"
+    ],
+    [
+     "Oct",
+     "Animal Crossing",
+     "Octopus"
+    ],
+    [
+     "Nov",
+     "Fuzz-Ball Search",
+     "Shark Attack"
+    ],
+    [
+     "Dec",
+     "Fun rotation",
+     "Shark Attack, Swinging Monkeys, Animal Habitats, Hot Lava, Puzzle Hunt"
+    ],
+    [
+     "Jan",
+     "Hot Lava",
+     "Freeze Traverse"
+    ],
+    [
+     "Feb",
+     "Color Detective",
+     "Pass the Animal"
+    ],
+    [
+     "Mar",
+     "Fuzz-Ball Search",
+     "Animal Habitats"
+    ],
+    [
+     "Apr",
+     "Freeze Traverse",
+     "Swinging Monkeys"
+    ],
+    [
+     "May",
+     "Animal Crossing",
+     "Shark Attack"
+    ],
+    [
+     "Jun",
+     "Fun rotation",
+     "Shark Attack, Swinging Monkeys, Animal Habitats, Hot Lava, Puzzle Hunt"
+    ]
+   ],
+   "plan": {
+    "w": [
+     "Fall Zones Tour|Climbing Shoes;Crash Pad;Fall Zone",
+     "Learn to Fall|Landing Position;Crash Pad",
+     "Downclimbing|Downclimb;Endurance",
+     "Freeze Traverse|Traverse;Rest Position",
+     "Animal Crossing|Hold;Foothold",
+     "Silent Feet|Quiet Feet;Foothold",
+     "Mirror Me|Match;Jug",
+     "Static and Dynamic|Static;Dynamic",
+     "Freeze Traverse|Body Tension;Three Points of Contact",
+     "High-Five the Star|Hold;Foothold",
+     "Swinging Monkeys|Straight Arms;Jug",
+     "Static and Dynamic|Static;Quiet Feet",
+     "Learn to Fall|Landing Position;Fall Zone",
+     "Hula Hoop Traverse|Traverse;Endurance",
+     "Fall Zones Tour|Fall Zone;Spotting",
+     "Hot Lava|Traverse;Crash Pad",
+     "Silent Feet|Foothold;Quiet Feet",
+     "Mirror Me|Edging;Foothold",
+     "Sticky Feet|Foothold;Smear",
+     "Color Detective|Route;Hold",
+     "Fuzz-Ball Search|Route;Hold",
+     "Puzzle Hunt|Send;Sportsmanship",
+     "Astronaut Lowering|Rope;Harness;Lower",
+     "High-Five the Star|Send;Top Out",
+     "High-Five the Star|Hold;Top Out",
+     "Freeze Traverse|Body Tension;Sloper",
+     "Fuzz-Ball Search|Top Out;Route",
+     "Static and Dynamic|Static;Quiet Feet",
+     "Animal Crossing|Dihedral;Stemming",
+     "Animal Habitats|Volume;Jug",
+     "Freeze Traverse|Traverse;Sidepull",
+     "Downclimbing|Downclimb;Landing Position"
+    ],
+    "g": [
+     [
+      "Freeze Traverse",
+      "Hot Lava"
+     ],
+     [
+      "Animal Crossing",
+      "Octopus"
+     ],
+     [
+      "Fuzz-Ball Search",
+      "Shark Attack"
+     ],
+     [
+      "Hot Lava",
+      "Freeze Traverse"
+     ],
+     [
+      "Color Detective",
+      "Pass the Animal"
+     ],
+     [
+      "Fuzz-Ball Search",
+      "Animal Habitats"
+     ],
+     [
+      "Freeze Traverse",
+      "Swinging Monkeys"
+     ],
+     [
+      "Animal Crossing",
+      "Shark Attack"
+     ]
+    ],
+    "warm": [
+     "Animal Walks",
+     "Freeze Tag",
+     "Joe and the Button Factory",
+     "Pulse Raiser",
+     "Sneak Up on Granny",
+     "Banana Tag"
+    ],
+    "cool": [
+     "Learn to Fall",
+     "Story Stretch",
+     "Belly Breathing",
+     "Cool-Down Stretch & Reflect"
+    ],
+    "fun": [
+     "Shark Attack",
+     "Swinging Monkeys",
+     "Animal Habitats",
+     "Hot Lava",
+     "Puzzle Hunt"
+    ]
+   },
+   "weeks": [
+    {
+     "n": 1,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 1,
+     "theme": "Wall Rules & Stamina 101",
+     "cat": "rope",
+     "skill": "Shoes, mats & wall rules",
+     "type": "Guided Play & Intro",
+     "vocab": [
+      "Climbing Shoes",
+      "Crash Pad",
+      "Fall Zone"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Fall Zones Tour",
+     "game": "Freeze Traverse",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 2,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 2,
+     "theme": "Wall Rules & Stamina 101",
+     "cat": "rope",
+     "skill": "Falling Leaf landings",
+     "type": "Story Lesson",
+     "vocab": [
+      "Landing Position",
+      "Crash Pad"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Learn to Fall",
+     "game": "Hot Lava",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 3,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 3,
+     "theme": "Wall Rules & Stamina 101",
+     "cat": "rope",
+     "skill": "Up-down-up laps",
+     "type": "Brave Climb Challenge",
+     "vocab": [
+      "Downclimb",
+      "Endurance"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Downclimbing",
+     "game": "Freeze Traverse",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 4,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 4,
+     "theme": "Wall Rules & Stamina 101",
+     "cat": "rope",
+     "skill": "Red Light, Green Light",
+     "type": "Game Day",
+     "vocab": [
+      "Traverse",
+      "Rest Position"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Freeze Traverse",
+     "game": "Hot Lava",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 5,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 1,
+     "theme": "Movement 101",
+     "cat": "tech",
+     "skill": "Animal Climbs",
+     "type": "Guided Play",
+     "vocab": [
+      "Hold",
+      "Foothold"
+     ],
+     "warm": "Sneak Up on Granny",
+     "drill": "Animal Crossing",
+     "game": "Animal Crossing",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 6,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 2,
+     "theme": "Movement 101",
+     "cat": "tech",
+     "skill": "Mouse feet (quiet feet)",
+     "type": "Story Lesson",
+     "vocab": [
+      "Quiet Feet",
+      "Foothold"
+     ],
+     "warm": "Banana Tag",
+     "drill": "Silent Feet",
+     "game": "Octopus",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 7,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 3,
+     "theme": "Movement 101",
+     "cat": "tech",
+     "skill": "Two hands, one hold (matching)",
+     "type": "Brave Climb Challenge",
+     "vocab": [
+      "Match",
+      "Jug"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Mirror Me",
+     "game": "Animal Crossing",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 8,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 4,
+     "theme": "Movement 101",
+     "cat": "tech",
+     "skill": "Slow sloth vs. quick frog",
+     "type": "Game Day",
+     "vocab": [
+      "Static",
+      "Dynamic"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Static and Dynamic",
+     "game": "Octopus",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 9,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 1,
+     "theme": "Strong Bodies 101",
+     "cat": "str",
+     "skill": "Statue squeeze (body tension)",
+     "type": "Guided Play",
+     "vocab": [
+      "Body Tension",
+      "Three Points of Contact"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Freeze Traverse",
+     "game": "Fuzz-Ball Search",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 10,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 2,
+     "theme": "Strong Bodies 101",
+     "cat": "str",
+     "skill": "Point & touch (accuracy)",
+     "type": "Story Lesson",
+     "vocab": [
+      "Hold",
+      "Foothold"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "High-Five the Star",
+     "game": "Shark Attack",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 11,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 3,
+     "theme": "Strong Bodies 101",
+     "cat": "str",
+     "skill": "Pull like a rope",
+     "type": "Brave Climb Challenge",
+     "vocab": [
+      "Straight Arms",
+      "Jug"
+     ],
+     "warm": "Sneak Up on Granny",
+     "drill": "Swinging Monkeys",
+     "game": "Fuzz-Ball Search",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 12,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 4,
+     "theme": "Strong Bodies 101",
+     "cat": "str",
+     "skill": "Smooth sloth climbing",
+     "type": "Game Day",
+     "vocab": [
+      "Static",
+      "Quiet Feet"
+     ],
+     "warm": "Banana Tag",
+     "drill": "Static and Dynamic",
+     "game": "Shark Attack",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 13,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Wall Rules & Stamina 101 favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Climbing Shoes",
+      "Landing Position",
+      "Downclimb",
+      "Traverse"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Learn to Fall",
+     "game": "Animal Habitats",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 14,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Movement 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Hold",
+      "Quiet Feet",
+      "Match",
+      "Static"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Static and Dynamic",
+     "game": "Hot Lava",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 15,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Strong Bodies 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Body Tension",
+      "Hold",
+      "Straight Arms",
+      "Static"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "High-Five the Star",
+     "game": "Puzzle Hunt",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 16,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Holiday fun day: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Fuzz-Ball Search",
+     "game": "Shark Attack",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 17,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 1,
+     "theme": "Wall Rules & Stamina 201",
+     "cat": "rope",
+     "skill": "Landing review",
+     "type": "Guided Play & Intro",
+     "vocab": [
+      "Landing Position",
+      "Fall Zone"
+     ],
+     "warm": "Sneak Up on Granny",
+     "drill": "Learn to Fall",
+     "game": "Hot Lava",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 18,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 2,
+     "theme": "Wall Rules & Stamina 201",
+     "cat": "rope",
+     "skill": "Longer traverses",
+     "type": "Story Lesson",
+     "vocab": [
+      "Traverse",
+      "Endurance"
+     ],
+     "warm": "Banana Tag",
+     "drill": "Hula Hoop Traverse",
+     "game": "Freeze Traverse",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 19,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 3,
+     "theme": "Wall Rules & Stamina 201",
+     "cat": "rope",
+     "skill": "Wall rules refresh",
+     "type": "Brave Climb Challenge",
+     "vocab": [
+      "Fall Zone",
+      "Spotting"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Fall Zones Tour",
+     "game": "Hot Lava",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 20,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 4,
+     "theme": "Wall Rules & Stamina 201",
+     "cat": "rope",
+     "skill": "Hot Lava Floor",
+     "type": "Game Day",
+     "vocab": [
+      "Traverse",
+      "Crash Pad"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Hot Lava",
+     "game": "Freeze Traverse",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 21,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 1,
+     "theme": "Feet 201",
+     "cat": "tech",
+     "skill": "Look at your feet",
+     "type": "Guided Play",
+     "vocab": [
+      "Foothold",
+      "Quiet Feet"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Silent Feet",
+     "game": "Color Detective",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 22,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 2,
+     "theme": "Feet 201",
+     "cat": "tech",
+     "skill": "Tippy-toes on holds",
+     "type": "Story Lesson",
+     "vocab": [
+      "Edging",
+      "Foothold"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Mirror Me",
+     "game": "Pass the Animal",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 23,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 3,
+     "theme": "Feet 201",
+     "cat": "tech",
+     "skill": "Feet stay put (sticky feet intro)",
+     "type": "Brave Climb Challenge",
+     "vocab": [
+      "Foothold",
+      "Smear"
+     ],
+     "warm": "Sneak Up on Granny",
+     "drill": "Sticky Feet",
+     "game": "Color Detective",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 24,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 4,
+     "theme": "Feet 201",
+     "cat": "tech",
+     "skill": "Color Detective",
+     "type": "Game Day",
+     "vocab": [
+      "Route",
+      "Hold"
+     ],
+     "warm": "Banana Tag",
+     "drill": "Color Detective",
+     "game": "Pass the Animal",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 25,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 1,
+     "theme": "Treasure Celebration",
+     "cat": "event",
+     "skill": "Treasure Hunt practice",
+     "type": "Guided Play",
+     "vocab": [
+      "Route",
+      "Hold"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Fuzz-Ball Search",
+     "game": "Fuzz-Ball Search",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 26,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 2,
+     "theme": "Treasure Celebration",
+     "cat": "event",
+     "skill": "Team Treasure Day (fill one bucket together)",
+     "type": "Celebration Day",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Puzzle Hunt",
+     "game": "Animal Habitats",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 27,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 3,
+     "theme": "Treasure Celebration",
+     "cat": "event",
+     "skill": "First rope climb with coach belay",
+     "type": "Brave Climb Challenge",
+     "vocab": [
+      "Rope",
+      "Harness",
+      "Lower"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Astronaut Lowering",
+     "game": "Fuzz-Ball Search",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 28,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 4,
+     "theme": "Treasure Celebration",
+     "cat": "event",
+     "skill": "Show-off day for families",
+     "type": "Game Day",
+     "vocab": [
+      "Send",
+      "Top Out"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "High-Five the Star",
+     "game": "Animal Habitats",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 29,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 1,
+     "theme": "Strong Bodies 201",
+     "cat": "str",
+     "skill": "Point & touch, higher targets",
+     "type": "Guided Play",
+     "vocab": [
+      "Hold",
+      "Top Out"
+     ],
+     "warm": "Sneak Up on Granny",
+     "drill": "High-Five the Star",
+     "game": "Freeze Traverse",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 30,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 2,
+     "theme": "Strong Bodies 201",
+     "cat": "str",
+     "skill": "Statue squeeze on new holds",
+     "type": "Story Lesson",
+     "vocab": [
+      "Body Tension",
+      "Sloper"
+     ],
+     "warm": "Banana Tag",
+     "drill": "Freeze Traverse",
+     "game": "Swinging Monkeys",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 31,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 3,
+     "theme": "Strong Bodies 201",
+     "cat": "str",
+     "skill": "Climb to the bell",
+     "type": "Brave Climb Challenge",
+     "vocab": [
+      "Top Out",
+      "Route"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Fuzz-Ball Search",
+     "game": "Freeze Traverse",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 32,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 4,
+     "theme": "Strong Bodies 201",
+     "cat": "str",
+     "skill": "Smooth sloth 2.0",
+     "type": "Game Day",
+     "vocab": [
+      "Static",
+      "Quiet Feet"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Static and Dynamic",
+     "game": "Swinging Monkeys",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 33,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 1,
+     "theme": "Shapes 301",
+     "cat": "tech",
+     "skill": "Climbing corners",
+     "type": "Guided Play",
+     "vocab": [
+      "Dihedral",
+      "Stemming"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Animal Crossing",
+     "game": "Animal Crossing",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 34,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 2,
+     "theme": "Shapes 301",
+     "cat": "tech",
+     "skill": "Big volumes & bumps",
+     "type": "Story Lesson",
+     "vocab": [
+      "Volume",
+      "Jug"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Animal Habitats",
+     "game": "Shark Attack",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 35,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 3,
+     "theme": "Shapes 301",
+     "cat": "tech",
+     "skill": "Sideways crab",
+     "type": "Brave Climb Challenge",
+     "vocab": [
+      "Traverse",
+      "Sidepull"
+     ],
+     "warm": "Sneak Up on Granny",
+     "drill": "Freeze Traverse",
+     "game": "Animal Crossing",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 36,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 4,
+     "theme": "Shapes 301",
+     "cat": "tech",
+     "skill": "Climbing down",
+     "type": "Game Day",
+     "vocab": [
+      "Downclimb",
+      "Landing Position"
+     ],
+     "warm": "Banana Tag",
+     "drill": "Downclimbing",
+     "game": "Shark Attack",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 37,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Feet 201 favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Foothold",
+      "Edging",
+      "Route"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Mirror Me",
+     "game": "Swinging Monkeys",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 38,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Strong Bodies 201 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Hold",
+      "Body Tension",
+      "Top Out",
+      "Static"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Static and Dynamic",
+     "game": "Animal Habitats",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 39,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Shapes 301 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Dihedral",
+      "Volume",
+      "Traverse",
+      "Downclimb"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Animal Habitats",
+     "game": "Hot Lava",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 40,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "End-of-year send party: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Fuzz-Ball Search",
+     "game": "Puzzle Hunt",
+     "cool": "Cool-Down Stretch & Reflect"
+    }
+   ]
+  },
+  {
+   "id": "lp",
+   "ageId": "LP",
+   "name": "Lil' Pebbles (4–6)",
+   "minutes": 60,
+   "types": [
+    "Guided Play",
+    "Learn & Try",
+    "Challenge Climb",
+    "Game Day"
+   ],
+   "intro": "Kids can now follow simple rules and love \"again!\". Ropes come in as something to explore with staff belaying; the skill names start to match the big-kid chart.",
+   "months": [
+    {
+     "m": "Sept",
+     "theme": "Ropes & Rules 101",
+     "c": "rope",
+     "w": [
+      [
+       "Harness on (with help)",
+       "Guided Play & Intro"
+      ],
+      [
+       "Spot the figure 8 (picture check)"
+      ],
+      [
+       "Astronaut lowering"
+      ],
+      [
+       "Climbing words: \"on belay?\""
+      ]
+     ]
+    },
+    {
+     "m": "Oct",
+     "theme": "Technique 101",
+     "c": "tech",
+     "w": [
+      [
+       "Straight-arm monkey"
+      ],
+      [
+       "Ninja feet"
+      ],
+      [
+       "Matching hands"
+      ],
+      [
+       "Slow & smooth vs. quick"
+      ]
+     ]
+    },
+    {
+     "m": "Nov",
+     "theme": "Body Control 101",
+     "c": "str",
+     "w": [
+      [
+       "Statue squeeze (body tension)"
+      ],
+      [
+       "Target touch (accuracy)"
+      ],
+      [
+       "Pull and push"
+      ],
+      [
+       "Smooth repeat"
+      ]
+     ]
+    },
+    {
+     "m": "Dec",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    },
+    {
+     "m": "Jan",
+     "theme": "Ropes & Rules 201",
+     "c": "rope",
+     "w": [
+      [
+       "Harness & figure 8 picture check",
+       "Guided Play & Intro"
+      ],
+      [
+       "Longer top-rope climbs"
+      ],
+      [
+       "Climbing words review"
+      ],
+      [
+       "Pass the Animal"
+      ]
+     ]
+    },
+    {
+     "m": "Feb",
+     "theme": "Technique 201",
+     "c": "tech",
+     "w": [
+      [
+       "Sticky Feet"
+      ],
+      [
+       "Sticky shoes (smearing)"
+      ],
+      [
+       "Toe tips on edges"
+      ],
+      [
+       "Hold Bingo"
+      ]
+     ]
+    },
+    {
+     "m": "Mar",
+     "theme": "March Marvels (team challenge)",
+     "c": "event",
+     "w": [
+      [
+       "Point the path (route reading)"
+      ],
+      [
+       "March Marvels: class total of climbs",
+       "Celebration Day"
+      ],
+      [
+       "Ring the bell on rope"
+      ],
+      [
+       "Family share day"
+      ]
+     ]
+    },
+    {
+     "m": "Apr",
+     "theme": "Body Control 201",
+     "c": "str",
+     "w": [
+      [
+       "Target touch on smaller holds"
+      ],
+      [
+       "Statue squeeze on steeper wall"
+      ],
+      [
+       "Little hops and landings on the mat"
+      ],
+      [
+       "Pull with a straight body"
+      ]
+     ]
+    },
+    {
+     "m": "May",
+     "theme": "Technique 301",
+     "c": "tech",
+     "w": [
+      [
+       "Climbing over bumps (mantle lite)"
+      ],
+      [
+       "Corners (stemming lite)"
+      ],
+      [
+       "Sideways cross-through feet"
+      ],
+      [
+       "Hold Bingo 2.0"
+      ]
+     ]
+    },
+    {
+     "m": "Jun",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    }
+   ],
+   "session": [
+    {
+     "title": "Warm-up, 10 min",
+     "detail": "Active floor game, then easy climbing."
+    },
+    {
+     "title": "Main, 25 min",
+     "detail": "Skill of the day as a game, then free choice on set problems."
+    },
+    {
+     "title": "Game, 15 min",
+     "detail": "Whole-group goal game or the month's game."
+    },
+    {
+     "title": "Cool-down, 10 min",
+     "detail": "Landing or lowering practice and show-and-tell."
+    }
+   ],
+   "notes": [
+    "Staff do all knots and belaying; kids learn the words and the picture of a good figure 8.",
+    "Challenge Climb replaces Grade Pushing: try one climb you couldn't do last month. No grades on the board."
+   ],
+   "blocks": [
+    {
+     "label": "Warm-up",
+     "min": 10,
+     "slot": "W"
+    },
+    {
+     "label": "Skill block",
+     "min": 25,
+     "slot": "D"
+    },
+    {
+     "label": "Game",
+     "min": 15,
+     "slot": "G"
+    },
+    {
+     "label": "Cool-down",
+     "min": 10,
+     "slot": "C"
+    }
+   ],
+   "vocabLevel": "little",
+   "gamesByMonth": [
+    [
+     "Sept",
+     "Simon Says",
+     "Climb the Rainbow"
+    ],
+    [
+     "Oct",
+     "Silent Feet",
+     "Monkeys and Bananas"
+    ],
+    [
+     "Nov",
+     "Astronaut Lowering",
+     "Climbing Limbo"
+    ],
+    [
+     "Dec",
+     "Fun rotation",
+     "Dress-Up, Climbing Hide and Seek, Monkeys and Bananas, Climbing Limbo, Hot Lava"
+    ],
+    [
+     "Jan",
+     "Pass the Animal",
+     "Harness Check Race"
+    ],
+    [
+     "Feb",
+     "Sticky Feet",
+     "Climbing Bingo"
+    ],
+    [
+     "Mar",
+     "Pass the Animal",
+     "Climb the Rainbow"
+    ],
+    [
+     "Apr",
+     "Simon Says",
+     "Monkeys and Bananas"
+    ],
+    [
+     "May",
+     "Climbing Bingo",
+     "Dress-Up"
+    ],
+    [
+     "Jun",
+     "Fun rotation",
+     "Dress-Up, Climbing Hide and Seek, Monkeys and Bananas, Climbing Limbo, Hot Lava"
+    ]
+   ],
+   "plan": {
+    "w": [
+     "Harness Check Race|Harness;Belay Loop",
+     "Spot the Figure 8|Figure-8 Follow-Through;Tail",
+     "Astronaut Lowering|Lower;Rope",
+     "Climbing Commands Call-and-Response|On Belay?;Belay",
+     "Robot Arms|Straight Arms;Jug",
+     "Silent Feet|Quiet Feet;Foothold",
+     "Mirror Me|Match;Hold",
+     "Static and Dynamic|Static;Dynamic",
+     "Freeze Traverse|Body Tension;Three Points of Contact",
+     "High-Five the Star|Hold;Foothold",
+     "Step Step Reach|Foothold;Straight Arms",
+     "Smooth Repeat|Quiet Feet;Send",
+     "Spot the Figure 8|Harness;Figure-8 Follow-Through;Partner Check",
+     "Astronaut Lowering|Top Rope;Belay;Lower",
+     "Climbing Commands Call-and-Response|On Belay?;Take;Falling!",
+     "Pass the Animal|Traverse;Sportsmanship",
+     "Sticky Feet|Foothold;Quiet Feet",
+     "Smearing Drill|Smear;Climbing Shoes",
+     "Step Step Reach|Edging;Foothold",
+     "Climbing Bingo|Hold;Jug;Crimp",
+     "Read and Point|Route Reading;Route",
+     "Climb the Rainbow|Route;Send",
+     "Astronaut Lowering|Top Out;Lower",
+     "Mirror Me|Sportsmanship;Send",
+     "High-Five the Star|Crimp;Foothold",
+     "Freeze Traverse|Body Tension;Overhang",
+     "Learn to Fall|Landing Position;Dynamic",
+     "Robot Arms|Straight Arms;Body Tension",
+     "Animal Crossing|Mantle;Volume",
+     "Mirror Me|Stemming;Dihedral",
+     "Freeze Traverse|Cross Through;Traverse",
+     "Climbing Bingo|Sloper;Pinch;Pocket"
+    ],
+    "g": [
+     [
+      "Simon Says",
+      "Climb the Rainbow"
+     ],
+     [
+      "Silent Feet",
+      "Monkeys and Bananas"
+     ],
+     [
+      "Astronaut Lowering",
+      "Climbing Limbo"
+     ],
+     [
+      "Pass the Animal",
+      "Harness Check Race"
+     ],
+     [
+      "Sticky Feet",
+      "Climbing Bingo"
+     ],
+     [
+      "Pass the Animal",
+      "Climb the Rainbow"
+     ],
+     [
+      "Simon Says",
+      "Monkeys and Bananas"
+     ],
+     [
+      "Climbing Bingo",
+      "Dress-Up"
+     ]
+    ],
+    "warm": [
+     "Simon Says",
+     "Animal Walks",
+     "Snake Tag",
+     "Joe and the Button Factory",
+     "Freeze Tag",
+     "Bosu Balance",
+     "Easy Climbing Build-Up"
+    ],
+    "cool": [
+     "Story Stretch",
+     "Learn to Fall",
+     "Cool-Down Stretch & Reflect",
+     "Belly Breathing"
+    ],
+    "fun": [
+     "Dress-Up",
+     "Climbing Hide and Seek",
+     "Monkeys and Bananas",
+     "Climbing Limbo",
+     "Hot Lava"
+    ]
+   },
+   "weeks": [
+    {
+     "n": 1,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 1,
+     "theme": "Ropes & Rules 101",
+     "cat": "rope",
+     "skill": "Harness on (with help)",
+     "type": "Guided Play & Intro",
+     "vocab": [
+      "Harness",
+      "Belay Loop"
+     ],
+     "warm": "Simon Says",
+     "drill": "Harness Check Race",
+     "game": "Simon Says",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 2,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 2,
+     "theme": "Ropes & Rules 101",
+     "cat": "rope",
+     "skill": "Spot the figure 8 (picture check)",
+     "type": "Learn & Try",
+     "vocab": [
+      "Figure-8 Follow-Through",
+      "Tail"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Spot the Figure 8",
+     "game": "Climb the Rainbow",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 3,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 3,
+     "theme": "Ropes & Rules 101",
+     "cat": "rope",
+     "skill": "Astronaut lowering",
+     "type": "Challenge Climb",
+     "vocab": [
+      "Lower",
+      "Rope"
+     ],
+     "warm": "Snake Tag",
+     "drill": "Astronaut Lowering",
+     "game": "Simon Says",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 4,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 4,
+     "theme": "Ropes & Rules 101",
+     "cat": "rope",
+     "skill": "Climbing words: \"on belay?\"",
+     "type": "Game Day",
+     "vocab": [
+      "On Belay?",
+      "Belay"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Climbing Commands Call-and-Response",
+     "game": "Climb the Rainbow",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 5,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 1,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Straight-arm monkey",
+     "type": "Guided Play",
+     "vocab": [
+      "Straight Arms",
+      "Jug"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Robot Arms",
+     "game": "Silent Feet",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 6,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 2,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Ninja feet",
+     "type": "Learn & Try",
+     "vocab": [
+      "Quiet Feet",
+      "Foothold"
+     ],
+     "warm": "Bosu Balance",
+     "drill": "Silent Feet",
+     "game": "Monkeys and Bananas",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 7,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 3,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Matching hands",
+     "type": "Challenge Climb",
+     "vocab": [
+      "Match",
+      "Hold"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Mirror Me",
+     "game": "Silent Feet",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 8,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 4,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Slow & smooth vs. quick",
+     "type": "Game Day",
+     "vocab": [
+      "Static",
+      "Dynamic"
+     ],
+     "warm": "Simon Says",
+     "drill": "Static and Dynamic",
+     "game": "Monkeys and Bananas",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 9,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 1,
+     "theme": "Body Control 101",
+     "cat": "str",
+     "skill": "Statue squeeze (body tension)",
+     "type": "Guided Play",
+     "vocab": [
+      "Body Tension",
+      "Three Points of Contact"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Freeze Traverse",
+     "game": "Astronaut Lowering",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 10,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 2,
+     "theme": "Body Control 101",
+     "cat": "str",
+     "skill": "Target touch (accuracy)",
+     "type": "Learn & Try",
+     "vocab": [
+      "Hold",
+      "Foothold"
+     ],
+     "warm": "Snake Tag",
+     "drill": "High-Five the Star",
+     "game": "Climbing Limbo",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 11,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 3,
+     "theme": "Body Control 101",
+     "cat": "str",
+     "skill": "Pull and push",
+     "type": "Challenge Climb",
+     "vocab": [
+      "Foothold",
+      "Straight Arms"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Step Step Reach",
+     "game": "Astronaut Lowering",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 12,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 4,
+     "theme": "Body Control 101",
+     "cat": "str",
+     "skill": "Smooth repeat",
+     "type": "Game Day",
+     "vocab": [
+      "Quiet Feet",
+      "Send"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Smooth Repeat",
+     "game": "Climbing Limbo",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 13,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Ropes & Rules 101 favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Harness",
+      "Figure-8 Follow-Through",
+      "Lower",
+      "On Belay?"
+     ],
+     "warm": "Bosu Balance",
+     "drill": "Spot the Figure 8",
+     "game": "Monkeys and Bananas",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 14,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Straight Arms",
+      "Quiet Feet",
+      "Match",
+      "Static"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Static and Dynamic",
+     "game": "Climbing Limbo",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 15,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Body Control 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Body Tension",
+      "Hold",
+      "Foothold",
+      "Quiet Feet"
+     ],
+     "warm": "Simon Says",
+     "drill": "High-Five the Star",
+     "game": "Hot Lava",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 16,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Holiday fun day: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Pass the Animal",
+     "game": "Dress-Up",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 17,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 1,
+     "theme": "Ropes & Rules 201",
+     "cat": "rope",
+     "skill": "Harness & figure 8 picture check",
+     "type": "Guided Play & Intro",
+     "vocab": [
+      "Harness",
+      "Figure-8 Follow-Through",
+      "Partner Check"
+     ],
+     "warm": "Snake Tag",
+     "drill": "Spot the Figure 8",
+     "game": "Pass the Animal",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 18,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 2,
+     "theme": "Ropes & Rules 201",
+     "cat": "rope",
+     "skill": "Longer top-rope climbs",
+     "type": "Learn & Try",
+     "vocab": [
+      "Top Rope",
+      "Belay",
+      "Lower"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Astronaut Lowering",
+     "game": "Harness Check Race",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 19,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 3,
+     "theme": "Ropes & Rules 201",
+     "cat": "rope",
+     "skill": "Climbing words review",
+     "type": "Challenge Climb",
+     "vocab": [
+      "On Belay?",
+      "Take",
+      "Falling!"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Climbing Commands Call-and-Response",
+     "game": "Pass the Animal",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 20,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 4,
+     "theme": "Ropes & Rules 201",
+     "cat": "rope",
+     "skill": "Pass the Animal",
+     "type": "Game Day",
+     "vocab": [
+      "Traverse",
+      "Sportsmanship"
+     ],
+     "warm": "Bosu Balance",
+     "drill": "Pass the Animal",
+     "game": "Harness Check Race",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 21,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 1,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Sticky Feet",
+     "type": "Guided Play",
+     "vocab": [
+      "Foothold",
+      "Quiet Feet"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Sticky Feet",
+     "game": "Sticky Feet",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 22,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 2,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Sticky shoes (smearing)",
+     "type": "Learn & Try",
+     "vocab": [
+      "Smear",
+      "Climbing Shoes"
+     ],
+     "warm": "Simon Says",
+     "drill": "Smearing Drill",
+     "game": "Climbing Bingo",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 23,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 3,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Toe tips on edges",
+     "type": "Challenge Climb",
+     "vocab": [
+      "Edging",
+      "Foothold"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Step Step Reach",
+     "game": "Sticky Feet",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 24,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 4,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Hold Bingo",
+     "type": "Game Day",
+     "vocab": [
+      "Hold",
+      "Jug",
+      "Crimp"
+     ],
+     "warm": "Snake Tag",
+     "drill": "Climbing Bingo",
+     "game": "Climbing Bingo",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 25,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 1,
+     "theme": "March Marvels (team challenge)",
+     "cat": "event",
+     "skill": "Point the path (route reading)",
+     "type": "Guided Play",
+     "vocab": [
+      "Route Reading",
+      "Route"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Read and Point",
+     "game": "Pass the Animal",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 26,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 2,
+     "theme": "March Marvels (team challenge)",
+     "cat": "event",
+     "skill": "March Marvels: class total of climbs",
+     "type": "Celebration Day",
+     "vocab": [
+      "Route",
+      "Send"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Climb the Rainbow",
+     "game": "Climb the Rainbow",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 27,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 3,
+     "theme": "March Marvels (team challenge)",
+     "cat": "event",
+     "skill": "Ring the bell on rope",
+     "type": "Challenge Climb",
+     "vocab": [
+      "Top Out",
+      "Lower"
+     ],
+     "warm": "Bosu Balance",
+     "drill": "Astronaut Lowering",
+     "game": "Pass the Animal",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 28,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 4,
+     "theme": "March Marvels (team challenge)",
+     "cat": "event",
+     "skill": "Family share day",
+     "type": "Game Day",
+     "vocab": [
+      "Sportsmanship",
+      "Send"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Mirror Me",
+     "game": "Climb the Rainbow",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 29,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 1,
+     "theme": "Body Control 201",
+     "cat": "str",
+     "skill": "Target touch on smaller holds",
+     "type": "Guided Play",
+     "vocab": [
+      "Crimp",
+      "Foothold"
+     ],
+     "warm": "Simon Says",
+     "drill": "High-Five the Star",
+     "game": "Simon Says",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 30,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 2,
+     "theme": "Body Control 201",
+     "cat": "str",
+     "skill": "Statue squeeze on steeper wall",
+     "type": "Learn & Try",
+     "vocab": [
+      "Body Tension",
+      "Overhang"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Freeze Traverse",
+     "game": "Monkeys and Bananas",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 31,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 3,
+     "theme": "Body Control 201",
+     "cat": "str",
+     "skill": "Little hops and landings on the mat",
+     "type": "Challenge Climb",
+     "vocab": [
+      "Landing Position",
+      "Dynamic"
+     ],
+     "warm": "Snake Tag",
+     "drill": "Learn to Fall",
+     "game": "Simon Says",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 32,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 4,
+     "theme": "Body Control 201",
+     "cat": "str",
+     "skill": "Pull with a straight body",
+     "type": "Game Day",
+     "vocab": [
+      "Straight Arms",
+      "Body Tension"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Robot Arms",
+     "game": "Monkeys and Bananas",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 33,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 1,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Climbing over bumps (mantle lite)",
+     "type": "Guided Play",
+     "vocab": [
+      "Mantle",
+      "Volume"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Animal Crossing",
+     "game": "Climbing Bingo",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 34,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 2,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Corners (stemming lite)",
+     "type": "Learn & Try",
+     "vocab": [
+      "Stemming",
+      "Dihedral"
+     ],
+     "warm": "Bosu Balance",
+     "drill": "Mirror Me",
+     "game": "Dress-Up",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 35,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 3,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Sideways cross-through feet",
+     "type": "Challenge Climb",
+     "vocab": [
+      "Cross Through",
+      "Traverse"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Freeze Traverse",
+     "game": "Climbing Bingo",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 36,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 4,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Hold Bingo 2.0",
+     "type": "Game Day",
+     "vocab": [
+      "Sloper",
+      "Pinch",
+      "Pocket"
+     ],
+     "warm": "Simon Says",
+     "drill": "Climbing Bingo",
+     "game": "Dress-Up",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 37,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 201 favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Foothold",
+      "Smear",
+      "Edging",
+      "Hold"
+     ],
+     "warm": "Animal Walks",
+     "drill": "Smearing Drill",
+     "game": "Climbing Hide and Seek",
+     "cool": "Story Stretch"
+    },
+    {
+     "n": 38,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Body Control 201 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Crimp",
+      "Body Tension",
+      "Landing Position",
+      "Straight Arms"
+     ],
+     "warm": "Snake Tag",
+     "drill": "Robot Arms",
+     "game": "Monkeys and Bananas",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 39,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 301 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Mantle",
+      "Stemming",
+      "Cross Through",
+      "Sloper"
+     ],
+     "warm": "Joe and the Button Factory",
+     "drill": "Mirror Me",
+     "game": "Climbing Limbo",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 40,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "End-of-year send party: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Freeze Tag",
+     "drill": "Pass the Animal",
+     "game": "Hot Lava",
+     "cool": "Belly Breathing"
+    }
+   ]
+  },
+  {
+   "id": "lr",
+   "ageId": "LR",
+   "name": "Little Rockers (6–9)",
+   "minutes": 90,
+   "types": [
+    "Structured Climbing",
+    "Educational",
+    "Personal Best Challenge",
+    "Game/Engaging"
+   ],
+   "intro": "This is the FUNdamentals stage: lots of easy, varied climbing, a high success rate, short instructions and no formal competition. The chart's topics stay, scaled down.",
+   "months": [
+    {
+     "m": "Sept",
+     "theme": "Endurance 101 & Knots",
+     "c": "rope",
+     "w": [
+      [
+       "Harness",
+       "Structured Climbing & Intro"
+      ],
+      [
+       "Figure 8 & partner checks"
+      ],
+      [
+       "Climbing commands"
+      ],
+      [
+       "Team Add-On laps"
+      ]
+     ]
+    },
+    {
+     "m": "Oct",
+     "theme": "Technique 101",
+     "c": "tech",
+     "w": [
+      [
+       "Straight arms"
+      ],
+      [
+       "Quiet feet"
+      ],
+      [
+       "Matching"
+      ],
+      [
+       "Hover hands (static control)"
+      ]
+     ]
+    },
+    {
+     "m": "Nov",
+     "theme": "Strength & Speed 101",
+     "c": "str",
+     "w": [
+      [
+       "Body tension"
+      ],
+      [
+       "Accuracy"
+      ],
+      [
+       "Push with legs, pull with arms"
+      ],
+      [
+       "Movement efficiency"
+      ]
+     ]
+    },
+    {
+     "m": "Dec",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    },
+    {
+     "m": "Jan",
+     "theme": "Endurance 201 & Rope Review",
+     "c": "rope",
+     "w": [
+      [
+       "Knot & check review",
+       "Structured Climbing & Intro"
+      ],
+      [
+       "Climb (longer laps)"
+      ],
+      [
+       "Belay basics with backup (ready 8–9s)"
+      ],
+      [
+       "Climb (games)"
+      ]
+     ]
+    },
+    {
+     "m": "Feb",
+     "theme": "Technique 201",
+     "c": "tech",
+     "w": [
+      [
+       "Flagging intro"
+      ],
+      [
+       "Smearing"
+      ],
+      [
+       "Edging"
+      ],
+      [
+       "Any feet, one color hands"
+      ]
+     ]
+    },
+    {
+     "m": "Mar",
+     "theme": "March Marvels (team, no rankings)",
+     "c": "event",
+     "w": [
+      [
+       "Route reading"
+      ],
+      [
+       "March Marvels: class beats its own total"
+      ],
+      [
+       "Rope personal best"
+      ],
+      [
+       "Celebration & certificates for effort"
+      ]
+     ]
+    },
+    {
+     "m": "Apr",
+     "theme": "Strength & Speed 201",
+     "c": "str",
+     "w": [
+      [
+       "Accuracy and efficiency"
+      ],
+      [
+       "Body tension"
+      ],
+      [
+       "Controlled reach (static vs. dynamic, no big dynos)"
+      ],
+      [
+       "Push with the feet"
+      ]
+     ]
+    },
+    {
+     "m": "May",
+     "theme": "Technique 301",
+     "c": "tech",
+     "w": [
+      [
+       "Lieback / mantling"
+      ],
+      [
+       "Stemming"
+      ],
+      [
+       "Step-through footwork"
+      ],
+      [
+       "Heel hook intro"
+      ]
+     ]
+    },
+    {
+     "m": "Jun",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    }
+   ],
+   "session": [
+    {
+     "title": "Warm-up, 15 min",
+     "detail": "Tag-style pulse raiser, joint circles, easy climbing."
+    },
+    {
+     "title": "Main, 40 min",
+     "detail": "Skill in short steps (about 15 min), then lots of easy varied climbing in pairs (one climbs, one watches for one thing), switching every few climbs."
+    },
+    {
+     "title": "Water break, 5 min",
+     "detail": "Drink, sit, and a quick \"show me\" of the skill."
+    },
+    {
+     "title": "Game, 20 min",
+     "detail": "The month's game, scored for the skill being taught."
+    },
+    {
+     "title": "Cool-down, 10 min",
+     "detail": "Easy climbing or landings, then each kid names one thing they got better at."
+    }
+   ],
+   "notes": [
+    "Personal Best Challenge replaces Hard Workout (Grade Pushing): beat your own number, never a classmate's.",
+    "Belaying at 8–9 only with a staff backup and per the gym's policy; younger kids take the \"check partner\" role."
+   ],
+   "blocks": [
+    {
+     "label": "Warm-up",
+     "min": 15,
+     "slot": "W"
+    },
+    {
+     "label": "Skill block, then varied climbing",
+     "min": 40,
+     "slot": "D"
+    },
+    {
+     "label": "Water break",
+     "min": 5,
+     "slot": "B"
+    },
+    {
+     "label": "Game",
+     "min": 20,
+     "slot": "G"
+    },
+    {
+     "label": "Cool-down",
+     "min": 10,
+     "slot": "C"
+    }
+   ],
+   "vocabLevel": "kid",
+   "gamesByMonth": [
+    [
+     "Sept",
+     "Add-On",
+     "Spot the Figure 8"
+    ],
+    [
+     "Oct",
+     "Silent Feet",
+     "Climbing Wall Tag"
+    ],
+    [
+     "Nov",
+     "Robot Arms",
+     "Beat the Clock"
+    ],
+    [
+     "Dec",
+     "Fun rotation",
+     "Climbing Twister, Shark Attack, Yarn Ball Traverse, Capture the Flag, Train Wreck"
+    ],
+    [
+     "Jan",
+     "I Went to the Wall…",
+     "Train Wreck"
+    ],
+    [
+     "Feb",
+     "Any Feet One Color Hands",
+     "Bean Bag Feet"
+    ],
+    [
+     "Mar",
+     "Add-On",
+     "Trivia Traverse"
+    ],
+    [
+     "Apr",
+     "Hover Hands",
+     "Balloon Traverse"
+    ],
+    [
+     "May",
+     "I Went to the Wall…",
+     "Climbing Twister"
+    ],
+    [
+     "Jun",
+     "Fun rotation",
+     "Climbing Twister, Shark Attack, Yarn Ball Traverse, Capture the Flag, Train Wreck"
+    ]
+   ],
+   "plan": {
+    "w": [
+     "Harness Check Race|Harness;Belay Loop;Tie-In Points",
+     "Partner Check|Figure-8 Follow-Through;Partner Check;Tail",
+     "Climbing Commands Call-and-Response|On Belay?;Take;Lower",
+     "Add-On|Route;Endurance",
+     "Robot Arms|Straight Arms;Pump",
+     "Silent Feet|Quiet Feet;Foothold",
+     "Mirror Me|Match;Bump",
+     "Hover Hands|Lock-Off;Static",
+     "Freeze Traverse|Body Tension;Three Points of Contact",
+     "Foot Stab|Foothold;Quiet Feet",
+     "Step Step Reach|High Step;Rock Over",
+     "Smooth Repeat|Straight Arms;Rest Position",
+     "Spot the Figure 8|Figure-8 Follow-Through;Partner Check",
+     "Climber Up–Climber Down|Endurance;Pump",
+     "Ground School Belay|Belay;Brake Hand;Belay Device",
+     "Take Away|Route;Rest",
+     "Monkey Tails|Flagging;Center of Gravity",
+     "Smearing Drill|Smear;Climbing Shoes",
+     "Foot Placement Focus|Edging;Frontstep",
+     "Any Feet One Color Hands|Route;Foothold",
+     "Read and Point|Route Reading;Beta;Start Holds",
+     "Choose-Your-Level Ladder|Send;Attempt",
+     "Climb the Rainbow|Top Rope;Send",
+     "Team Reach Challenge|Sportsmanship;Send",
+     "Connect the Dots|Foothold;Quiet Feet",
+     "Triangles|Body Tension;Center of Gravity",
+     "Static and Dynamic|Static;Dynamic;Deadpoint",
+     "High/Low Feet|High Step;Foothold",
+     "Mirror Me|Layback;Mantle",
+     "Octopus|Stemming;Dihedral",
+     "Quick Step|Frontstep;Backstep",
+     "Heel and Toe|Heel Hook;Toe Hook"
+    ],
+    "g": [
+     [
+      "Add-On",
+      "Spot the Figure 8"
+     ],
+     [
+      "Silent Feet",
+      "Climbing Wall Tag"
+     ],
+     [
+      "Robot Arms",
+      "Beat the Clock"
+     ],
+     [
+      "I Went to the Wall…",
+      "Train Wreck"
+     ],
+     [
+      "Any Feet One Color Hands",
+      "Bean Bag Feet"
+     ],
+     [
+      "Add-On",
+      "Trivia Traverse"
+     ],
+     [
+      "Hover Hands",
+      "Balloon Traverse"
+     ],
+     [
+      "I Went to the Wall…",
+      "Climbing Twister"
+     ]
+    ],
+    "warm": [
+     "Banana Tag",
+     "Pulse Raiser",
+     "Look Up, Look Down",
+     "Bear, Salmon, Hunter",
+     "Traverse Tag",
+     "Workout Dice",
+     "Sumo",
+     "Easy Climbing Build-Up"
+    ],
+    "cool": [
+     "Cool-Down Stretch & Reflect",
+     "Learn to Fall",
+     "Belly Breathing",
+     "Duck Hunt"
+    ],
+    "fun": [
+     "Climbing Twister",
+     "Shark Attack",
+     "Yarn Ball Traverse",
+     "Capture the Flag",
+     "Train Wreck"
+    ]
+   },
+   "weeks": [
+    {
+     "n": 1,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 1,
+     "theme": "Endurance 101 & Knots",
+     "cat": "rope",
+     "skill": "Harness",
+     "type": "Structured Climbing & Intro",
+     "vocab": [
+      "Harness",
+      "Belay Loop",
+      "Tie-In Points"
+     ],
+     "warm": "Banana Tag",
+     "drill": "Harness Check Race",
+     "game": "Add-On",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 2,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 2,
+     "theme": "Endurance 101 & Knots",
+     "cat": "rope",
+     "skill": "Figure 8 & partner checks",
+     "type": "Educational",
+     "vocab": [
+      "Figure-8 Follow-Through",
+      "Partner Check",
+      "Tail"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Partner Check",
+     "game": "Spot the Figure 8",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 3,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 3,
+     "theme": "Endurance 101 & Knots",
+     "cat": "rope",
+     "skill": "Climbing commands",
+     "type": "Personal Best Challenge",
+     "vocab": [
+      "On Belay?",
+      "Take",
+      "Lower"
+     ],
+     "warm": "Look Up, Look Down",
+     "drill": "Climbing Commands Call-and-Response",
+     "game": "Add-On",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 4,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 4,
+     "theme": "Endurance 101 & Knots",
+     "cat": "rope",
+     "skill": "Team Add-On laps",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Route",
+      "Endurance"
+     ],
+     "warm": "Bear, Salmon, Hunter",
+     "drill": "Add-On",
+     "game": "Spot the Figure 8",
+     "cool": "Duck Hunt"
+    },
+    {
+     "n": 5,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 1,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Straight arms",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Straight Arms",
+      "Pump"
+     ],
+     "warm": "Traverse Tag",
+     "drill": "Robot Arms",
+     "game": "Silent Feet",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 6,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 2,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Quiet feet",
+     "type": "Educational",
+     "vocab": [
+      "Quiet Feet",
+      "Foothold"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Silent Feet",
+     "game": "Climbing Wall Tag",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 7,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 3,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Matching",
+     "type": "Personal Best Challenge",
+     "vocab": [
+      "Match",
+      "Bump"
+     ],
+     "warm": "Sumo",
+     "drill": "Mirror Me",
+     "game": "Silent Feet",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 8,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 4,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Hover hands (static control)",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Lock-Off",
+      "Static"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Hover Hands",
+     "game": "Climbing Wall Tag",
+     "cool": "Duck Hunt"
+    },
+    {
+     "n": 9,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 1,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Body tension",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Body Tension",
+      "Three Points of Contact"
+     ],
+     "warm": "Banana Tag",
+     "drill": "Freeze Traverse",
+     "game": "Robot Arms",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 10,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 2,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Accuracy",
+     "type": "Educational",
+     "vocab": [
+      "Foothold",
+      "Quiet Feet"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Foot Stab",
+     "game": "Beat the Clock",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 11,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 3,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Push with legs, pull with arms",
+     "type": "Personal Best Challenge",
+     "vocab": [
+      "High Step",
+      "Rock Over"
+     ],
+     "warm": "Look Up, Look Down",
+     "drill": "Step Step Reach",
+     "game": "Robot Arms",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 12,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 4,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Movement efficiency",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Straight Arms",
+      "Rest Position"
+     ],
+     "warm": "Bear, Salmon, Hunter",
+     "drill": "Smooth Repeat",
+     "game": "Beat the Clock",
+     "cool": "Duck Hunt"
+    },
+    {
+     "n": 13,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Endurance 101 & Knots favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Harness",
+      "Figure-8 Follow-Through",
+      "On Belay?",
+      "Route"
+     ],
+     "warm": "Traverse Tag",
+     "drill": "Partner Check",
+     "game": "Yarn Ball Traverse",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 14,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Straight Arms",
+      "Quiet Feet",
+      "Match",
+      "Lock-Off"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Hover Hands",
+     "game": "Capture the Flag",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 15,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Strength & Speed 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Body Tension",
+      "Foothold",
+      "High Step",
+      "Straight Arms"
+     ],
+     "warm": "Sumo",
+     "drill": "Foot Stab",
+     "game": "Train Wreck",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 16,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Holiday fun day: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Add-On",
+     "game": "Climbing Twister",
+     "cool": "Duck Hunt"
+    },
+    {
+     "n": 17,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 1,
+     "theme": "Endurance 201 & Rope Review",
+     "cat": "rope",
+     "skill": "Knot & check review",
+     "type": "Structured Climbing & Intro",
+     "vocab": [
+      "Figure-8 Follow-Through",
+      "Partner Check"
+     ],
+     "warm": "Banana Tag",
+     "drill": "Spot the Figure 8",
+     "game": "I Went to the Wall…",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 18,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 2,
+     "theme": "Endurance 201 & Rope Review",
+     "cat": "rope",
+     "skill": "Climb (longer laps)",
+     "type": "Educational",
+     "vocab": [
+      "Endurance",
+      "Pump"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Climber Up–Climber Down",
+     "game": "Train Wreck",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 19,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 3,
+     "theme": "Endurance 201 & Rope Review",
+     "cat": "rope",
+     "skill": "Belay basics with backup (ready 8–9s)",
+     "type": "Personal Best Challenge",
+     "vocab": [
+      "Belay",
+      "Brake Hand",
+      "Belay Device"
+     ],
+     "warm": "Look Up, Look Down",
+     "drill": "Ground School Belay",
+     "game": "I Went to the Wall…",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 20,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 4,
+     "theme": "Endurance 201 & Rope Review",
+     "cat": "rope",
+     "skill": "Climb (games)",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Route",
+      "Rest"
+     ],
+     "warm": "Bear, Salmon, Hunter",
+     "drill": "Take Away",
+     "game": "Train Wreck",
+     "cool": "Duck Hunt"
+    },
+    {
+     "n": 21,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 1,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Flagging intro",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Flagging",
+      "Center of Gravity"
+     ],
+     "warm": "Traverse Tag",
+     "drill": "Monkey Tails",
+     "game": "Any Feet One Color Hands",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 22,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 2,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Smearing",
+     "type": "Educational",
+     "vocab": [
+      "Smear",
+      "Climbing Shoes"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Smearing Drill",
+     "game": "Bean Bag Feet",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 23,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 3,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Edging",
+     "type": "Personal Best Challenge",
+     "vocab": [
+      "Edging",
+      "Frontstep"
+     ],
+     "warm": "Sumo",
+     "drill": "Foot Placement Focus",
+     "game": "Any Feet One Color Hands",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 24,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 4,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Any feet, one color hands",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Route",
+      "Foothold"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Any Feet One Color Hands",
+     "game": "Bean Bag Feet",
+     "cool": "Duck Hunt"
+    },
+    {
+     "n": 25,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 1,
+     "theme": "March Marvels (team, no rankings)",
+     "cat": "event",
+     "skill": "Route reading",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Route Reading",
+      "Beta",
+      "Start Holds"
+     ],
+     "warm": "Banana Tag",
+     "drill": "Read and Point",
+     "game": "Add-On",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 26,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 2,
+     "theme": "March Marvels (team, no rankings)",
+     "cat": "event",
+     "skill": "March Marvels: class beats its own total",
+     "type": "Educational",
+     "vocab": [
+      "Send",
+      "Attempt"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Choose-Your-Level Ladder",
+     "game": "Trivia Traverse",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 27,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 3,
+     "theme": "March Marvels (team, no rankings)",
+     "cat": "event",
+     "skill": "Rope personal best",
+     "type": "Personal Best Challenge",
+     "vocab": [
+      "Top Rope",
+      "Send"
+     ],
+     "warm": "Look Up, Look Down",
+     "drill": "Climb the Rainbow",
+     "game": "Add-On",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 28,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 4,
+     "theme": "March Marvels (team, no rankings)",
+     "cat": "event",
+     "skill": "Celebration & certificates for effort",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Sportsmanship",
+      "Send"
+     ],
+     "warm": "Bear, Salmon, Hunter",
+     "drill": "Team Reach Challenge",
+     "game": "Trivia Traverse",
+     "cool": "Duck Hunt"
+    },
+    {
+     "n": 29,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 1,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Accuracy and efficiency",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Foothold",
+      "Quiet Feet"
+     ],
+     "warm": "Traverse Tag",
+     "drill": "Connect the Dots",
+     "game": "Hover Hands",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 30,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 2,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Body tension",
+     "type": "Educational",
+     "vocab": [
+      "Body Tension",
+      "Center of Gravity"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Triangles",
+     "game": "Balloon Traverse",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 31,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 3,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Controlled reach (static vs. dynamic, no big dynos)",
+     "type": "Personal Best Challenge",
+     "vocab": [
+      "Static",
+      "Dynamic",
+      "Deadpoint"
+     ],
+     "warm": "Sumo",
+     "drill": "Static and Dynamic",
+     "game": "Hover Hands",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 32,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 4,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Push with the feet",
+     "type": "Game/Engaging",
+     "vocab": [
+      "High Step",
+      "Foothold"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "High/Low Feet",
+     "game": "Balloon Traverse",
+     "cool": "Duck Hunt"
+    },
+    {
+     "n": 33,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 1,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Lieback / mantling",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Layback",
+      "Mantle"
+     ],
+     "warm": "Banana Tag",
+     "drill": "Mirror Me",
+     "game": "I Went to the Wall…",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 34,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 2,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Stemming",
+     "type": "Educational",
+     "vocab": [
+      "Stemming",
+      "Dihedral"
+     ],
+     "warm": "Pulse Raiser",
+     "drill": "Octopus",
+     "game": "Climbing Twister",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 35,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 3,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Step-through footwork",
+     "type": "Personal Best Challenge",
+     "vocab": [
+      "Frontstep",
+      "Backstep"
+     ],
+     "warm": "Look Up, Look Down",
+     "drill": "Quick Step",
+     "game": "I Went to the Wall…",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 36,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 4,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Heel hook intro",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Heel Hook",
+      "Toe Hook"
+     ],
+     "warm": "Bear, Salmon, Hunter",
+     "drill": "Heel and Toe",
+     "game": "Climbing Twister",
+     "cool": "Duck Hunt"
+    },
+    {
+     "n": 37,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 201 favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Flagging",
+      "Smear",
+      "Edging",
+      "Route"
+     ],
+     "warm": "Traverse Tag",
+     "drill": "Smearing Drill",
+     "game": "Shark Attack",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 38,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Strength & Speed 201 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Foothold",
+      "Body Tension",
+      "Static",
+      "High Step"
+     ],
+     "warm": "Workout Dice",
+     "drill": "High/Low Feet",
+     "game": "Yarn Ball Traverse",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 39,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 301 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Layback",
+      "Stemming",
+      "Frontstep",
+      "Heel Hook"
+     ],
+     "warm": "Sumo",
+     "drill": "Octopus",
+     "game": "Capture the Flag",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 40,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "End-of-year send party: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Add-On",
+     "game": "Train Wreck",
+     "cool": "Duck Hunt"
+    }
+   ]
+  },
+  {
+   "id": "bc",
+   "ageId": "BC",
+   "name": "Base Club (9–12)",
+   "minutes": 120,
+   "types": [
+    "Structured Climbing",
+    "Educational",
+    "Project Push (personal grade)",
+    "Game/Engaging"
+   ],
+   "intro": "My chart fits this group best. It's the prime skill-learning window and kids are ready for friendly competition, so the structure stays close to the original. The changes are a mock comp in March and bodyweight-only strength.",
+   "months": [
+    {
+     "m": "Sept",
+     "theme": "Endurance 101 & Knots, Belaying",
+     "c": "rope",
+     "w": [
+      [
+       "Harness",
+       "Structured Climbing & Intro"
+      ],
+      [
+       "Figure 8 / climb checks"
+      ],
+      [
+       "ATC belay / belay checks (with backup)"
+      ],
+      [
+       "Commands"
+      ]
+     ]
+    },
+    {
+     "m": "Oct",
+     "theme": "Technique 101",
+     "c": "tech",
+     "w": [
+      [
+       "Straight arms"
+      ],
+      [
+       "Quiet feet"
+      ],
+      [
+       "Matching"
+      ],
+      [
+       "Static vs. dynamic"
+      ]
+     ]
+    },
+    {
+     "m": "Nov",
+     "theme": "Strength & Speed 101",
+     "c": "str",
+     "w": [
+      [
+       "Body tension"
+      ],
+      [
+       "Accuracy"
+      ],
+      [
+       "Pulling hard (bodyweight, open hand)"
+      ],
+      [
+       "Movement efficiency"
+      ]
+     ]
+    },
+    {
+     "m": "Dec",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    },
+    {
+     "m": "Jan",
+     "theme": "Endurance 201 & ATC Review",
+     "c": "rope",
+     "w": [
+      [
+       "ATC belay / belay checks",
+       "Structured Climbing & Intro"
+      ],
+      [
+       "Climb"
+      ],
+      [
+       "Knot/commands review"
+      ],
+      [
+       "Climb"
+      ]
+     ]
+    },
+    {
+     "m": "Feb",
+     "theme": "Technique 201",
+     "c": "tech",
+     "w": [
+      [
+       "Flagging"
+      ],
+      [
+       "Smearing"
+      ],
+      [
+       "Edging"
+      ],
+      [
+       "Foot cut (low, controlled)"
+      ]
+     ]
+    },
+    {
+     "m": "Mar",
+     "theme": "March Madness Mock Comp",
+     "c": "event",
+     "w": [
+      [
+       "Comp formats & route reading"
+      ],
+      [
+       "Mock comp (private scorecards or team totals)"
+      ],
+      [
+       "Clipping practice on the ground"
+      ],
+      [
+       "Clipping stance and feet"
+      ]
+     ]
+    },
+    {
+     "m": "Apr",
+     "theme": "Strength & Speed 201",
+     "c": "str",
+     "w": [
+      [
+       "Accuracy and efficiency"
+      ],
+      [
+       "Body tension"
+      ],
+      [
+       "Small dynos on good holds + landings"
+      ],
+      [
+       "Pulling hard (wall only)"
+      ]
+     ]
+    },
+    {
+     "m": "May",
+     "theme": "Technique 301",
+     "c": "tech",
+     "w": [
+      [
+       "Lieback / mantling"
+      ],
+      [
+       "Stemming / drop knee"
+      ],
+      [
+       "Step-through footwork"
+      ],
+      [
+       "Heel hook / toe hook"
+      ]
+     ]
+    },
+    {
+     "m": "Jun",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    }
+   ],
+   "session": [
+    {
+     "title": "Warm-up, 20 min",
+     "detail": "Pulse raiser, joint mobility, easy climbing building up."
+    },
+    {
+     "title": "Main, 55 min",
+     "detail": "Technique block as a game (about 20 min), then applied on routes or boulders, with ropes and belay practice on rope weeks."
+    },
+    {
+     "title": "Water and snack break, 5 min",
+     "detail": "Refuel and rest the fingers."
+    },
+    {
+     "title": "Game, 25 min",
+     "detail": "The month's game; competitive games are fine if they reward the skill, not just tops."
+    },
+    {
+     "title": "Cool-down, 15 min",
+     "detail": "Easy climbing and mobility, then a quick goal check."
+    }
+   ],
+   "notes": [
+    "Project Push keeps the Grade Pushing idea but frames it as a personal project; no hangboard, campus or added weight.",
+    "Finger pain at the middle knuckle means stop and tell a parent; this age can start growth spurts."
+   ],
+   "blocks": [
+    {
+     "label": "Warm-up",
+     "min": 20,
+     "slot": "W"
+    },
+    {
+     "label": "Skill drill, then apply on routes",
+     "min": 55,
+     "slot": "D"
+    },
+    {
+     "label": "Water and snack break",
+     "min": 5,
+     "slot": "B"
+    },
+    {
+     "label": "Game",
+     "min": 25,
+     "slot": "G"
+    },
+    {
+     "label": "Cool-down",
+     "min": 15,
+     "slot": "C"
+    }
+   ],
+   "vocabLevel": "kid",
+   "gamesByMonth": [
+    [
+     "Sept",
+     "Read and Point",
+     "What Is Wrong?"
+    ],
+    [
+     "Oct",
+     "Smooth Repeat",
+     "Climber Dice"
+    ],
+    [
+     "Nov",
+     "Add-On",
+     "Golf"
+    ],
+    [
+     "Dec",
+     "Fun rotation",
+     "Marco Polo, King of the Volume, Climbing Twister, Climber Dice, Nitro Crossing"
+    ],
+    [
+     "Jan",
+     "Downclimbing",
+     "Take Away"
+    ],
+    [
+     "Feb",
+     "Step Flag Reach",
+     "Flag Boxes"
+    ],
+    [
+     "Mar",
+     "Comp Simulation",
+     "V-Point Comp"
+    ],
+    [
+     "Apr",
+     "Add-On",
+     "Flying Squirrel"
+    ],
+    [
+     "May",
+     "Step Flag Reach",
+     "King of the Volume"
+    ],
+    [
+     "Jun",
+     "Fun rotation",
+     "Marco Polo, King of the Volume, Climbing Twister, Climber Dice, Nitro Crossing"
+    ]
+   ],
+   "plan": {
+    "w": [
+     "Harness Check Race|Harness;Belay Loop;Tie-In Points",
+     "Knot Practice|Figure-8 Follow-Through;Stopper Knot;Partner Check",
+     "Ground School Belay|Belay Device;Brake Hand;PBUS",
+     "Climbing Commands Call-and-Response|On Belay?;Take;Lower;Falling!",
+     "Robot Arms|Straight Arms;Pump",
+     "Silent Feet|Quiet Feet;Foothold",
+     "Match|Match;Bump",
+     "Static and Dynamic|Static;Dynamic;Deadpoint",
+     "Keep the Tension|Body Tension;Overhang",
+     "Foot Stab|Foothold;Edging",
+     "Climbing Pyramid|Strength;Crimp;Growth Plate",
+     "Smooth Repeat|Rest Position;Straight Arms",
+     "Ground School Belay|Belay;Brake Hand;Belay Device",
+     "Easy Continuous Laps|Endurance;Pump;Rest",
+     "Knot Practice|Figure-8 Follow-Through;On Belay?",
+     "Climb Your Age|Endurance;Send",
+     "Step Flag Reach|Flagging;Center of Gravity",
+     "Smearing Drill|Smear;Slab",
+     "Small Feet|Edging;Foothold",
+     "Keep the Tension|Cut Feet;Body Tension",
+     "Read and Point|Zone;Observation Period;Route Reading",
+     "Comp Simulation|Attempt;Zone;Isolation",
+     "Ground Clipping Practice|Quickdraw;Back-Clip;Z-Clip",
+     "Ground Clipping Practice|Lead Climbing;Quickdraw",
+     "Connect the Dots|Foothold;Quiet Feet",
+     "Clockwork|Body Tension;Turning In",
+     "Dyno Dash|Dyno;Landing Position;Commitment",
+     "Two in a Row|Strength;Crux",
+     "Wall Types|Layback;Mantle;Arete",
+     "Pivot Practice|Stemming;Drop Knee",
+     "Quick Step|Frontstep;Backstep;Foot Swap",
+     "Heel and Toe|Heel Hook;Toe Hook"
+    ],
+    "g": [
+     [
+      "Read and Point",
+      "What Is Wrong?"
+     ],
+     [
+      "Smooth Repeat",
+      "Climber Dice"
+     ],
+     [
+      "Add-On",
+      "Golf"
+     ],
+     [
+      "Downclimbing",
+      "Take Away"
+     ],
+     [
+      "Step Flag Reach",
+      "Flag Boxes"
+     ],
+     [
+      "Comp Simulation",
+      "V-Point Comp"
+     ],
+     [
+      "Add-On",
+      "Flying Squirrel"
+     ],
+     [
+      "Step Flag Reach",
+      "King of the Volume"
+     ]
+    ],
+    "warm": [
+     "Easy Climbing Build-Up",
+     "Traverse Tag",
+     "Workout Dice",
+     "Elbow Tag",
+     "Joint Circles",
+     "Alphabet Exercise",
+     "Fastest Tag in the West",
+     "Climber-Led Warm-Up"
+    ],
+    "cool": [
+     "Cool-Down Stretch & Reflect",
+     "Belly Breathing",
+     "Goal Setting & Training Log",
+     "Learn to Fall"
+    ],
+    "fun": [
+     "Marco Polo",
+     "King of the Volume",
+     "Climbing Twister",
+     "Climber Dice",
+     "Nitro Crossing"
+    ]
+   },
+   "weeks": [
+    {
+     "n": 1,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 1,
+     "theme": "Endurance 101 & Knots, Belaying",
+     "cat": "rope",
+     "skill": "Harness",
+     "type": "Structured Climbing & Intro",
+     "vocab": [
+      "Harness",
+      "Belay Loop",
+      "Tie-In Points"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Harness Check Race",
+     "game": "Read and Point",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 2,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 2,
+     "theme": "Endurance 101 & Knots, Belaying",
+     "cat": "rope",
+     "skill": "Figure 8 / climb checks",
+     "type": "Educational",
+     "vocab": [
+      "Figure-8 Follow-Through",
+      "Stopper Knot",
+      "Partner Check"
+     ],
+     "warm": "Traverse Tag",
+     "drill": "Knot Practice",
+     "game": "What Is Wrong?",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 3,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 3,
+     "theme": "Endurance 101 & Knots, Belaying",
+     "cat": "rope",
+     "skill": "ATC belay / belay checks (with backup)",
+     "type": "Project Push (personal grade)",
+     "vocab": [
+      "Belay Device",
+      "Brake Hand",
+      "PBUS"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Ground School Belay",
+     "game": "Read and Point",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 4,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 4,
+     "theme": "Endurance 101 & Knots, Belaying",
+     "cat": "rope",
+     "skill": "Commands",
+     "type": "Game/Engaging",
+     "vocab": [
+      "On Belay?",
+      "Take",
+      "Lower",
+      "Falling!"
+     ],
+     "warm": "Elbow Tag",
+     "drill": "Climbing Commands Call-and-Response",
+     "game": "What Is Wrong?",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 5,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 1,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Straight arms",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Straight Arms",
+      "Pump"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Robot Arms",
+     "game": "Smooth Repeat",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 6,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 2,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Quiet feet",
+     "type": "Educational",
+     "vocab": [
+      "Quiet Feet",
+      "Foothold"
+     ],
+     "warm": "Alphabet Exercise",
+     "drill": "Silent Feet",
+     "game": "Climber Dice",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 7,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 3,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Matching",
+     "type": "Project Push (personal grade)",
+     "vocab": [
+      "Match",
+      "Bump"
+     ],
+     "warm": "Fastest Tag in the West",
+     "drill": "Match",
+     "game": "Smooth Repeat",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 8,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 4,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Static vs. dynamic",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Static",
+      "Dynamic",
+      "Deadpoint"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Static and Dynamic",
+     "game": "Climber Dice",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 9,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 1,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Body tension",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Body Tension",
+      "Overhang"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Keep the Tension",
+     "game": "Add-On",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 10,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 2,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Accuracy",
+     "type": "Educational",
+     "vocab": [
+      "Foothold",
+      "Edging"
+     ],
+     "warm": "Traverse Tag",
+     "drill": "Foot Stab",
+     "game": "Golf",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 11,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 3,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Pulling hard (bodyweight, open hand)",
+     "type": "Project Push (personal grade)",
+     "vocab": [
+      "Strength",
+      "Crimp",
+      "Growth Plate"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Climbing Pyramid",
+     "game": "Add-On",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 12,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 4,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Movement efficiency",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Rest Position",
+      "Straight Arms"
+     ],
+     "warm": "Elbow Tag",
+     "drill": "Smooth Repeat",
+     "game": "Golf",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 13,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Endurance 101 & Knots, Belaying favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Harness",
+      "Figure-8 Follow-Through",
+      "Belay Device",
+      "On Belay?"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Knot Practice",
+     "game": "Climbing Twister",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 14,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Straight Arms",
+      "Quiet Feet",
+      "Match",
+      "Static"
+     ],
+     "warm": "Alphabet Exercise",
+     "drill": "Static and Dynamic",
+     "game": "Climber Dice",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 15,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Strength & Speed 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Body Tension",
+      "Foothold",
+      "Strength",
+      "Rest Position"
+     ],
+     "warm": "Fastest Tag in the West",
+     "drill": "Foot Stab",
+     "game": "Nitro Crossing",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 16,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Holiday fun day: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Comp Simulation",
+     "game": "Marco Polo",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 17,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 1,
+     "theme": "Endurance 201 & ATC Review",
+     "cat": "rope",
+     "skill": "ATC belay / belay checks",
+     "type": "Structured Climbing & Intro",
+     "vocab": [
+      "Belay",
+      "Brake Hand",
+      "Belay Device"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Ground School Belay",
+     "game": "Downclimbing",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 18,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 2,
+     "theme": "Endurance 201 & ATC Review",
+     "cat": "rope",
+     "skill": "Climb",
+     "type": "Educational",
+     "vocab": [
+      "Endurance",
+      "Pump",
+      "Rest"
+     ],
+     "warm": "Traverse Tag",
+     "drill": "Easy Continuous Laps",
+     "game": "Take Away",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 19,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 3,
+     "theme": "Endurance 201 & ATC Review",
+     "cat": "rope",
+     "skill": "Knot/commands review",
+     "type": "Project Push (personal grade)",
+     "vocab": [
+      "Figure-8 Follow-Through",
+      "On Belay?"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Knot Practice",
+     "game": "Downclimbing",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 20,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 4,
+     "theme": "Endurance 201 & ATC Review",
+     "cat": "rope",
+     "skill": "Climb",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Endurance",
+      "Send"
+     ],
+     "warm": "Elbow Tag",
+     "drill": "Climb Your Age",
+     "game": "Take Away",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 21,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 1,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Flagging",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Flagging",
+      "Center of Gravity"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Step Flag Reach",
+     "game": "Step Flag Reach",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 22,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 2,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Smearing",
+     "type": "Educational",
+     "vocab": [
+      "Smear",
+      "Slab"
+     ],
+     "warm": "Alphabet Exercise",
+     "drill": "Smearing Drill",
+     "game": "Flag Boxes",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 23,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 3,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Edging",
+     "type": "Project Push (personal grade)",
+     "vocab": [
+      "Edging",
+      "Foothold"
+     ],
+     "warm": "Fastest Tag in the West",
+     "drill": "Small Feet",
+     "game": "Step Flag Reach",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 24,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 4,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Foot cut (low, controlled)",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Cut Feet",
+      "Body Tension"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Keep the Tension",
+     "game": "Flag Boxes",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 25,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 1,
+     "theme": "March Madness Mock Comp",
+     "cat": "event",
+     "skill": "Comp formats & route reading",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Zone",
+      "Observation Period",
+      "Route Reading"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Read and Point",
+     "game": "Comp Simulation",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 26,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 2,
+     "theme": "March Madness Mock Comp",
+     "cat": "event",
+     "skill": "Mock comp (private scorecards or team totals)",
+     "type": "Educational",
+     "vocab": [
+      "Attempt",
+      "Zone",
+      "Isolation"
+     ],
+     "warm": "Traverse Tag",
+     "drill": "Comp Simulation",
+     "game": "V-Point Comp",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 27,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 3,
+     "theme": "March Madness Mock Comp",
+     "cat": "event",
+     "skill": "Clipping practice on the ground",
+     "type": "Project Push (personal grade)",
+     "vocab": [
+      "Quickdraw",
+      "Back-Clip",
+      "Z-Clip"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Ground Clipping Practice",
+     "game": "Comp Simulation",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 28,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 4,
+     "theme": "March Madness Mock Comp",
+     "cat": "event",
+     "skill": "Clipping stance and feet",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Lead Climbing",
+      "Quickdraw"
+     ],
+     "warm": "Elbow Tag",
+     "drill": "Ground Clipping Practice",
+     "game": "V-Point Comp",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 29,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 1,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Accuracy and efficiency",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Foothold",
+      "Quiet Feet"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Connect the Dots",
+     "game": "Add-On",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 30,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 2,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Body tension",
+     "type": "Educational",
+     "vocab": [
+      "Body Tension",
+      "Turning In"
+     ],
+     "warm": "Alphabet Exercise",
+     "drill": "Clockwork",
+     "game": "Flying Squirrel",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 31,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 3,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Small dynos on good holds + landings",
+     "type": "Project Push (personal grade)",
+     "vocab": [
+      "Dyno",
+      "Landing Position",
+      "Commitment"
+     ],
+     "warm": "Fastest Tag in the West",
+     "drill": "Dyno Dash",
+     "game": "Add-On",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 32,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 4,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Pulling hard (wall only)",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Strength",
+      "Crux"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Two in a Row",
+     "game": "Flying Squirrel",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 33,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 1,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Lieback / mantling",
+     "type": "Structured Climbing",
+     "vocab": [
+      "Layback",
+      "Mantle",
+      "Arete"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Wall Types",
+     "game": "Step Flag Reach",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 34,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 2,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Stemming / drop knee",
+     "type": "Educational",
+     "vocab": [
+      "Stemming",
+      "Drop Knee"
+     ],
+     "warm": "Traverse Tag",
+     "drill": "Pivot Practice",
+     "game": "King of the Volume",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 35,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 3,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Step-through footwork",
+     "type": "Project Push (personal grade)",
+     "vocab": [
+      "Frontstep",
+      "Backstep",
+      "Foot Swap"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Quick Step",
+     "game": "Step Flag Reach",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 36,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 4,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Heel hook / toe hook",
+     "type": "Game/Engaging",
+     "vocab": [
+      "Heel Hook",
+      "Toe Hook"
+     ],
+     "warm": "Elbow Tag",
+     "drill": "Heel and Toe",
+     "game": "King of the Volume",
+     "cool": "Learn to Fall"
+    },
+    {
+     "n": 37,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 201 favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Flagging",
+      "Smear",
+      "Edging",
+      "Cut Feet"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Smearing Drill",
+     "game": "King of the Volume",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 38,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Strength & Speed 201 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Foothold",
+      "Body Tension",
+      "Dyno",
+      "Strength"
+     ],
+     "warm": "Alphabet Exercise",
+     "drill": "Two in a Row",
+     "game": "Climbing Twister",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 39,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 301 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Layback",
+      "Stemming",
+      "Frontstep",
+      "Heel Hook"
+     ],
+     "warm": "Fastest Tag in the West",
+     "drill": "Pivot Practice",
+     "game": "Climber Dice",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 40,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "End-of-year send party: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Comp Simulation",
+     "game": "Nitro Crossing",
+     "cool": "Learn to Fall"
+    }
+   ]
+  },
+  {
+   "id": "ac",
+   "ageId": "AC",
+   "name": "Ascent Club (12+)",
+   "minutes": 120,
+   "types": [
+    "Structured Climbing (climber-led warm-up)",
+    "Educational (video & beta swap)",
+    "Hard Workout (Grade Pushing)",
+    "Game/Engaging (team)"
+   ],
+   "intro": "My full rhythm, with Hard Workout back in, plus more choice, peer roles and lead. Strength work stays on the wall because finger growth plates are most at risk around 12–15.",
+   "months": [
+    {
+     "m": "Sept",
+     "theme": "Endurance 101 & Belay Check-off",
+     "c": "rope",
+     "w": [
+      [
+       "Harness & knot",
+       "Structured Climbing & Intro"
+      ],
+      [
+       "Belay checks & peer checking"
+      ],
+      [
+       "Belay check-off"
+      ],
+      [
+       "Top-rope fall practice"
+      ]
+     ]
+    },
+    {
+     "m": "Oct",
+     "theme": "Technique 101",
+     "c": "tech",
+     "w": [
+      [
+       "Straight arms"
+      ],
+      [
+       "Quiet feet"
+      ],
+      [
+       "Matching & hand swaps"
+      ],
+      [
+       "Static vs. dynamic"
+      ]
+     ]
+    },
+    {
+     "m": "Nov",
+     "theme": "Strength & Speed 101",
+     "c": "str",
+     "w": [
+      [
+       "Body tension"
+      ],
+      [
+       "Accuracy"
+      ],
+      [
+       "Pulling hard (on the wall)"
+      ],
+      [
+       "Movement efficiency"
+      ]
+     ]
+    },
+    {
+     "m": "Dec",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    },
+    {
+     "m": "Jan",
+     "theme": "Endurance 201 & Lead Intro",
+     "c": "rope",
+     "w": [
+      [
+       "Belay review",
+       "Structured Climbing & Intro"
+      ],
+      [
+       "Climb (easy continuous laps)"
+      ],
+      [
+       "Lead clipping on the ground"
+      ],
+      [
+       "Climb (Team Send Board)"
+      ]
+     ]
+    },
+    {
+     "m": "Feb",
+     "theme": "Technique 201",
+     "c": "tech",
+     "w": [
+      [
+       "Flagging"
+      ],
+      [
+       "Smearing"
+      ],
+      [
+       "Edging"
+      ],
+      [
+       "Foot cut & recover"
+      ]
+     ]
+    },
+    {
+     "m": "Mar",
+     "theme": "March Madness / Lead",
+     "c": "event",
+     "w": [
+      [
+       "MM prep / route reading"
+      ],
+      [
+       "March Madness (team or level brackets)"
+      ],
+      [
+       "Lead clipping"
+      ],
+      [
+       "Clipping stance & feet + lead fall ladder"
+      ]
+     ]
+    },
+    {
+     "m": "Apr",
+     "theme": "Strength & Speed 201",
+     "c": "str",
+     "w": [
+      [
+       "Accuracy and efficiency"
+      ],
+      [
+       "Body tension on steep"
+      ],
+      [
+       "Dynoing"
+      ],
+      [
+       "Pulling hard (limit bouldering, no campus)"
+      ]
+     ]
+    },
+    {
+     "m": "May",
+     "theme": "Technique 301",
+     "c": "tech",
+     "w": [
+      [
+       "Lieback / mantling"
+      ],
+      [
+       "Stemming / drop knee"
+      ],
+      [
+       "Step-through footwork"
+      ],
+      [
+       "Heel hook / toe hook"
+      ]
+     ]
+    },
+    {
+     "m": "Jun",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    }
+   ],
+   "session": [
+    {
+     "title": "Warm-up, 20 min",
+     "detail": "Climber-led warm-up (rotate leaders), then easy climbing."
+    },
+    {
+     "title": "Main, 60 min",
+     "detail": "Skill or Hard Workout block, then project time with peer beta."
+    },
+    {
+     "title": "Game, 25 min",
+     "detail": "Team game or fall-practice block."
+    },
+    {
+     "title": "Cool-down, 15 min",
+     "detail": "Easy climbing, mobility, one-line reflection."
+    }
+   ],
+   "notes": [
+    "Expect clumsy months during growth spurts; adjust expectations instead of adding load.",
+    "Offer a recreational track inside the club so non-competitors stay in the sport."
+   ],
+   "blocks": [
+    {
+     "label": "Warm-up",
+     "min": 20,
+     "slot": "W"
+    },
+    {
+     "label": "Skill or Hard Workout block",
+     "min": 60,
+     "slot": "D"
+    },
+    {
+     "label": "Team game",
+     "min": 25,
+     "slot": "G"
+    },
+    {
+     "label": "Cool-down",
+     "min": 15,
+     "slot": "C"
+    }
+   ],
+   "vocabLevel": "kid",
+   "gamesByMonth": [
+    [
+     "Sept",
+     "Top-Rope Fall Practice",
+     "What Is Wrong?"
+    ],
+    [
+     "Oct",
+     "Video Self-Review",
+     "Lose-a-Limb Traverse"
+    ],
+    [
+     "Nov",
+     "Precision Speed",
+     "Climbing Chess"
+    ],
+    [
+     "Dec",
+     "Fun rotation",
+     "Climbing Chess, Marco Polo, Ready, Set, GO!, Flash or Fail, King of the Volume"
+    ],
+    [
+     "Jan",
+     "Team Send Board",
+     "4x4s"
+    ],
+    [
+     "Feb",
+     "Beta Swap",
+     "Opposite Day"
+    ],
+    [
+     "Mar",
+     "Under Pressure",
+     "Speed Climbing: Bouldering"
+    ],
+    [
+     "Apr",
+     "Team Send Board",
+     "Dyno Dash"
+    ],
+    [
+     "May",
+     "Beta Swap",
+     "Climbing Chess"
+    ],
+    [
+     "Jun",
+     "Fun rotation",
+     "Climbing Chess, Marco Polo, Ready, Set, GO!, Flash or Fail, King of the Volume"
+    ]
+   ],
+   "plan": {
+    "w": [
+     "Knot Practice|Harness;Figure-8 Follow-Through;Stopper Knot",
+     "Partner Check|Partner Check;Belay Device;Carabiner",
+     "Ground School Belay|Belay;Brake Hand;PBUS",
+     "Top-Rope Fall Practice|Falling!;Fear of Falling;Take",
+     "Robot Arms|Straight Arms;Pump",
+     "Silent Feet|Quiet Feet;Foothold",
+     "Match|Match;Bump;Cross Through",
+     "Static and Dynamic|Static;Dynamic;Deadpoint",
+     "Keep the Tension|Body Tension;Overhang;Cut Feet",
+     "Sticky Foot Throws|Foothold;Edging",
+     "Climbing Pyramid|Strength;Growth Plate;Crimp",
+     "Smooth Repeat|Rest Position;Straight Arms;Pump",
+     "Ground School Belay|Belay;Brake Hand",
+     "Easy Continuous Laps|Endurance;Pump",
+     "Ground Clipping Practice|Quickdraw;Back-Clip;Z-Clip",
+     "Team Send Board|Send;Project",
+     "Flag Boxes|Flagging;Center of Gravity",
+     "Single Leg Smear|Smear;Slab",
+     "Small Feet|Edging;Frontstep",
+     "Keep the Tension|Cut Feet;Body Tension",
+     "Read and Point|Observation Period;Route Reading;Zone",
+     "Comp Simulation|Isolation;Attempt;Zone",
+     "Mock Lead|Lead Climbing;Quickdraw",
+     "Lead Fall Progression|Soft Catch;Fear of Falling;Lead Climbing",
+     "Precision Speed|Foothold;Speed Climbing",
+     "One Arm, One Foot|Body Tension;Overhang",
+     "Dyno War|Dyno;Deadpoint;Commitment",
+     "Climbing Pyramid|Strength;Crux;Project",
+     "Wall Types|Layback;Mantle;Arete",
+     "Pivot Practice|Drop Knee;Stemming",
+     "Quick Step|Backstep;Foot Swap",
+     "Heel and Toe|Heel Hook;Toe Hook;Knee Bar"
+    ],
+    "g": [
+     [
+      "Top-Rope Fall Practice",
+      "What Is Wrong?"
+     ],
+     [
+      "Video Self-Review",
+      "Lose-a-Limb Traverse"
+     ],
+     [
+      "Precision Speed",
+      "Climbing Chess"
+     ],
+     [
+      "Team Send Board",
+      "4x4s"
+     ],
+     [
+      "Beta Swap",
+      "Opposite Day"
+     ],
+     [
+      "Under Pressure",
+      "Speed Climbing: Bouldering"
+     ],
+     [
+      "Team Send Board",
+      "Dyno Dash"
+     ],
+     [
+      "Beta Swap",
+      "Climbing Chess"
+     ]
+    ],
+    "warm": [
+     "Climber-Led Warm-Up",
+     "Easy Climbing Build-Up",
+     "Workout Dice",
+     "Easy Continuous Laps",
+     "Elbow Tag",
+     "Joint Circles"
+    ],
+    "cool": [
+     "Cool-Down Stretch & Reflect",
+     "Goal Setting & Training Log",
+     "Belly Breathing"
+    ],
+    "fun": [
+     "Climbing Chess",
+     "Marco Polo",
+     "Ready, Set, GO!",
+     "Flash or Fail",
+     "King of the Volume"
+    ]
+   },
+   "weeks": [
+    {
+     "n": 1,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 1,
+     "theme": "Endurance 101 & Belay Check-off",
+     "cat": "rope",
+     "skill": "Harness & knot",
+     "type": "Structured Climbing & Intro",
+     "vocab": [
+      "Harness",
+      "Figure-8 Follow-Through",
+      "Stopper Knot"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Knot Practice",
+     "game": "Top-Rope Fall Practice",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 2,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 2,
+     "theme": "Endurance 101 & Belay Check-off",
+     "cat": "rope",
+     "skill": "Belay checks & peer checking",
+     "type": "Educational (video & beta swap)",
+     "vocab": [
+      "Partner Check",
+      "Belay Device",
+      "Carabiner"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Partner Check",
+     "game": "What Is Wrong?",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 3,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 3,
+     "theme": "Endurance 101 & Belay Check-off",
+     "cat": "rope",
+     "skill": "Belay check-off",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Belay",
+      "Brake Hand",
+      "PBUS"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Ground School Belay",
+     "game": "Top-Rope Fall Practice",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 4,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 4,
+     "theme": "Endurance 101 & Belay Check-off",
+     "cat": "rope",
+     "skill": "Top-rope fall practice",
+     "type": "Game/Engaging (team)",
+     "vocab": [
+      "Falling!",
+      "Fear of Falling",
+      "Take"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Top-Rope Fall Practice",
+     "game": "What Is Wrong?",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 5,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 1,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Straight arms",
+     "type": "Structured Climbing (climber-led warm-up)",
+     "vocab": [
+      "Straight Arms",
+      "Pump"
+     ],
+     "warm": "Elbow Tag",
+     "drill": "Robot Arms",
+     "game": "Video Self-Review",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 6,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 2,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Quiet feet",
+     "type": "Educational (video & beta swap)",
+     "vocab": [
+      "Quiet Feet",
+      "Foothold"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Silent Feet",
+     "game": "Lose-a-Limb Traverse",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 7,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 3,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Matching & hand swaps",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Match",
+      "Bump",
+      "Cross Through"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Match",
+     "game": "Video Self-Review",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 8,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 4,
+     "theme": "Technique 101",
+     "cat": "tech",
+     "skill": "Static vs. dynamic",
+     "type": "Game/Engaging (team)",
+     "vocab": [
+      "Static",
+      "Dynamic",
+      "Deadpoint"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Static and Dynamic",
+     "game": "Lose-a-Limb Traverse",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 9,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 1,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Body tension",
+     "type": "Structured Climbing (climber-led warm-up)",
+     "vocab": [
+      "Body Tension",
+      "Overhang",
+      "Cut Feet"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Keep the Tension",
+     "game": "Precision Speed",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 10,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 2,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Accuracy",
+     "type": "Educational (video & beta swap)",
+     "vocab": [
+      "Foothold",
+      "Edging"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Sticky Foot Throws",
+     "game": "Climbing Chess",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 11,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 3,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Pulling hard (on the wall)",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Strength",
+      "Growth Plate",
+      "Crimp"
+     ],
+     "warm": "Elbow Tag",
+     "drill": "Climbing Pyramid",
+     "game": "Precision Speed",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 12,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 4,
+     "theme": "Strength & Speed 101",
+     "cat": "str",
+     "skill": "Movement efficiency",
+     "type": "Game/Engaging (team)",
+     "vocab": [
+      "Rest Position",
+      "Straight Arms",
+      "Pump"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Smooth Repeat",
+     "game": "Climbing Chess",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 13,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Endurance 101 & Belay Check-off favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Harness",
+      "Partner Check",
+      "Belay",
+      "Falling!"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Partner Check",
+     "game": "Ready, Set, GO!",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 14,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Straight Arms",
+      "Quiet Feet",
+      "Match",
+      "Static"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Static and Dynamic",
+     "game": "Flash or Fail",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 15,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Strength & Speed 101 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Body Tension",
+      "Foothold",
+      "Strength",
+      "Rest Position"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Sticky Foot Throws",
+     "game": "King of the Volume",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 16,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Holiday fun day: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Under Pressure",
+     "game": "Climbing Chess",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 17,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 1,
+     "theme": "Endurance 201 & Lead Intro",
+     "cat": "rope",
+     "skill": "Belay review",
+     "type": "Structured Climbing & Intro",
+     "vocab": [
+      "Belay",
+      "Brake Hand"
+     ],
+     "warm": "Elbow Tag",
+     "drill": "Ground School Belay",
+     "game": "Team Send Board",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 18,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 2,
+     "theme": "Endurance 201 & Lead Intro",
+     "cat": "rope",
+     "skill": "Climb (easy continuous laps)",
+     "type": "Educational (video & beta swap)",
+     "vocab": [
+      "Endurance",
+      "Pump"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Easy Continuous Laps",
+     "game": "4x4s",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 19,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 3,
+     "theme": "Endurance 201 & Lead Intro",
+     "cat": "rope",
+     "skill": "Lead clipping on the ground",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Quickdraw",
+      "Back-Clip",
+      "Z-Clip"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Ground Clipping Practice",
+     "game": "Team Send Board",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 20,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 4,
+     "theme": "Endurance 201 & Lead Intro",
+     "cat": "rope",
+     "skill": "Climb (Team Send Board)",
+     "type": "Game/Engaging (team)",
+     "vocab": [
+      "Send",
+      "Project"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Team Send Board",
+     "game": "4x4s",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 21,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 1,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Flagging",
+     "type": "Structured Climbing (climber-led warm-up)",
+     "vocab": [
+      "Flagging",
+      "Center of Gravity"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Flag Boxes",
+     "game": "Beta Swap",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 22,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 2,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Smearing",
+     "type": "Educational (video & beta swap)",
+     "vocab": [
+      "Smear",
+      "Slab"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Single Leg Smear",
+     "game": "Opposite Day",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 23,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 3,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Edging",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Edging",
+      "Frontstep"
+     ],
+     "warm": "Elbow Tag",
+     "drill": "Small Feet",
+     "game": "Beta Swap",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 24,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 4,
+     "theme": "Technique 201",
+     "cat": "tech",
+     "skill": "Foot cut & recover",
+     "type": "Game/Engaging (team)",
+     "vocab": [
+      "Cut Feet",
+      "Body Tension"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Keep the Tension",
+     "game": "Opposite Day",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 25,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 1,
+     "theme": "March Madness / Lead",
+     "cat": "event",
+     "skill": "MM prep / route reading",
+     "type": "Structured Climbing (climber-led warm-up)",
+     "vocab": [
+      "Observation Period",
+      "Route Reading",
+      "Zone"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Read and Point",
+     "game": "Under Pressure",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 26,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 2,
+     "theme": "March Madness / Lead",
+     "cat": "event",
+     "skill": "March Madness (team or level brackets)",
+     "type": "Educational (video & beta swap)",
+     "vocab": [
+      "Isolation",
+      "Attempt",
+      "Zone"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Comp Simulation",
+     "game": "Speed Climbing: Bouldering",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 27,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 3,
+     "theme": "March Madness / Lead",
+     "cat": "event",
+     "skill": "Lead clipping",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Lead Climbing",
+      "Quickdraw"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Mock Lead",
+     "game": "Under Pressure",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 28,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 4,
+     "theme": "March Madness / Lead",
+     "cat": "event",
+     "skill": "Clipping stance & feet + lead fall ladder",
+     "type": "Game/Engaging (team)",
+     "vocab": [
+      "Soft Catch",
+      "Fear of Falling",
+      "Lead Climbing"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Lead Fall Progression",
+     "game": "Speed Climbing: Bouldering",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 29,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 1,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Accuracy and efficiency",
+     "type": "Structured Climbing (climber-led warm-up)",
+     "vocab": [
+      "Foothold",
+      "Speed Climbing"
+     ],
+     "warm": "Elbow Tag",
+     "drill": "Precision Speed",
+     "game": "Team Send Board",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 30,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 2,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Body tension on steep",
+     "type": "Educational (video & beta swap)",
+     "vocab": [
+      "Body Tension",
+      "Overhang"
+     ],
+     "warm": "Joint Circles",
+     "drill": "One Arm, One Foot",
+     "game": "Dyno Dash",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 31,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 3,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Dynoing",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Dyno",
+      "Deadpoint",
+      "Commitment"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Dyno War",
+     "game": "Team Send Board",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 32,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 4,
+     "theme": "Strength & Speed 201",
+     "cat": "str",
+     "skill": "Pulling hard (limit bouldering, no campus)",
+     "type": "Game/Engaging (team)",
+     "vocab": [
+      "Strength",
+      "Crux",
+      "Project"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Climbing Pyramid",
+     "game": "Dyno Dash",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 33,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 1,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Lieback / mantling",
+     "type": "Structured Climbing (climber-led warm-up)",
+     "vocab": [
+      "Layback",
+      "Mantle",
+      "Arete"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Wall Types",
+     "game": "Beta Swap",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 34,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 2,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Stemming / drop knee",
+     "type": "Educational (video & beta swap)",
+     "vocab": [
+      "Drop Knee",
+      "Stemming"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Pivot Practice",
+     "game": "Climbing Chess",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 35,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 3,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Step-through footwork",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Backstep",
+      "Foot Swap"
+     ],
+     "warm": "Elbow Tag",
+     "drill": "Quick Step",
+     "game": "Beta Swap",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 36,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 4,
+     "theme": "Technique 301",
+     "cat": "tech",
+     "skill": "Heel hook / toe hook",
+     "type": "Game/Engaging (team)",
+     "vocab": [
+      "Heel Hook",
+      "Toe Hook",
+      "Knee Bar"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Heel and Toe",
+     "game": "Climbing Chess",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 37,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 201 favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Flagging",
+      "Smear",
+      "Edging",
+      "Cut Feet"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Single Leg Smear",
+     "game": "Marco Polo",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 38,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Strength & Speed 201 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Foothold",
+      "Body Tension",
+      "Dyno",
+      "Strength"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Climbing Pyramid",
+     "game": "Ready, Set, GO!",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 39,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 301 favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Layback",
+      "Drop Knee",
+      "Backstep",
+      "Heel Hook"
+     ],
+     "warm": "Workout Dice",
+     "drill": "Pivot Practice",
+     "game": "Flash or Fail",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 40,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "End-of-year send party: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Under Pressure",
+     "game": "King of the Volume",
+     "cool": "Cool-Down Stretch & Reflect"
+    }
+   ]
+  },
+  {
+   "id": "sc",
+   "ageId": "SC",
+   "name": "Summit Club (14+)",
+   "minutes": 120,
+   "types": [
+    "Structured Training",
+    "Educational / Mental Skills",
+    "Hard Workout (Grade Pushing)",
+    "Comp Sim / Game"
+   ],
+   "intro": "Periodized around the USA Climbing youth season as it ran in 2025–26 (qualifiers Oct–Feb, Regionals in March, Divisionals Apr–May, Nationals June 26–July 3). Check this year's schedule before you lock dates. Dec and Jun stay as Find your Fun, which also gives planned rest weeks.",
+   "months": [
+    {
+     "m": "Sept",
+     "theme": "Base Building & Systems (general prep)",
+     "c": "rope",
+     "w": [
+      [
+       "Lead & belay systems check",
+       "Structured Training & Intro"
+      ],
+      [
+       "Goal setting & training logs"
+      ],
+      [
+       "Volume: easy continuous climbing"
+      ],
+      [
+       "Limit Add-On"
+      ]
+     ]
+    },
+    {
+     "m": "Oct",
+     "theme": "Technique & Onsight (qualifiers)",
+     "c": "tech",
+     "w": [
+      [
+       "Precision footwork"
+      ],
+      [
+       "Onsight reading & visualization"
+      ],
+      [
+       "Grade pushing on varied styles"
+      ],
+      [
+       "Comp Simulation"
+      ]
+     ]
+    },
+    {
+     "m": "Nov",
+     "theme": "Strength & Power (in season)",
+     "c": "str",
+     "w": [
+      [
+       "Body tension on steep"
+      ],
+      [
+       "Accuracy under fatigue"
+      ],
+      [
+       "Limit bouldering"
+      ],
+      [
+       "Comp Simulation"
+      ]
+     ]
+    },
+    {
+     "m": "Dec",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    },
+    {
+     "m": "Jan",
+     "theme": "Endurance 201 & Lead Tactics",
+     "c": "rope",
+     "w": [
+      [
+       "Clipping efficiency",
+       "Structured Training & Intro"
+      ],
+      [
+       "Redpoint tactics"
+      ],
+      [
+       "Power endurance circuits"
+      ],
+      [
+       "Lead Fall Progression"
+      ]
+     ]
+    },
+    {
+     "m": "Feb",
+     "theme": "Technique 201 & Mental Skills",
+     "c": "tech",
+     "w": [
+      [
+       "Advanced flagging & positions"
+      ],
+      [
+       "Pre-climb routine & breathing"
+      ],
+      [
+       "Slab and smear comp styles"
+      ],
+      [
+       "Comp Simulation"
+      ]
+     ]
+    },
+    {
+     "m": "Mar",
+     "theme": "Regionals Peak (March Madness)",
+     "c": "event",
+     "w": [
+      [
+       "Taper & route reading"
+      ],
+      [
+       "Regionals / in-house March Madness"
+      ],
+      [
+       "Lead clipping under pressure"
+      ],
+      [
+       "Debrief & reset"
+      ]
+     ]
+    },
+    {
+     "m": "Apr",
+     "theme": "Strength & Speed 201 (Divisionals build)",
+     "c": "str",
+     "w": [
+      [
+       "Accuracy and efficiency"
+      ],
+      [
+       "Body tension"
+      ],
+      [
+       "Dynos & coordination moves"
+      ],
+      [
+       "Pulling hard (limit bouldering)"
+      ]
+     ]
+    },
+    {
+     "m": "May",
+     "theme": "Technique 301 & Divisionals",
+     "c": "tech",
+     "w": [
+      [
+       "Lieback / mantling"
+      ],
+      [
+       "Stemming / drop knee"
+      ],
+      [
+       "Heel hook / toe hook"
+      ],
+      [
+       "Divisionals taper / comp sim"
+      ]
+     ]
+    },
+    {
+     "m": "Jun",
+     "theme": "Find your Fun!",
+     "c": "fun",
+     "w": [
+      [
+       "Practice Skills",
+       "FUN!"
+      ]
+     ]
+    }
+   ],
+   "session": [
+    {
+     "title": "Warm-up, 20 min",
+     "detail": "Specific warm-up the athlete runs themselves."
+    },
+    {
+     "title": "Main, 60 min",
+     "detail": "The planned training block for the week."
+    },
+    {
+     "title": "Comp sim or game, 25 min",
+     "detail": "Isolation, preview and four-minute rotations, or the month's game."
+    },
+    {
+     "title": "Cool-down, 15 min",
+     "detail": "Mobility, training log, check in on pain, sleep and fueling."
+    }
+   ],
+   "notes": [
+    "No campus, hangboard or weighted hangs before about 16–17, and only after growth has finished; strength comes from the wall.",
+    "Athletes going to Nationals get an individual June plan; everyone else gets Find your Fun.",
+    "Watch for under-fueling and body-image pressure, and keep pain reporting normal."
+   ],
+   "blocks": [
+    {
+     "label": "Warm-up",
+     "min": 20,
+     "slot": "W"
+    },
+    {
+     "label": "Training block",
+     "min": 60,
+     "slot": "D"
+    },
+    {
+     "label": "Comp sim or game",
+     "min": 25,
+     "slot": "G"
+    },
+    {
+     "label": "Cool-down",
+     "min": 15,
+     "slot": "C"
+    }
+   ],
+   "vocabLevel": "kid",
+   "gamesByMonth": [
+    [
+     "Sept",
+     "Add-On",
+     "Over and Under"
+    ],
+    [
+     "Oct",
+     "Read and Point",
+     "Flash or Fail"
+    ],
+    [
+     "Nov",
+     "Comp Simulation",
+     "Under Pressure"
+    ],
+    [
+     "Dec",
+     "Fun rotation",
+     "Climbing Chess, Wimbledon, Ready, Set, GO!, Flash or Fail, Golf"
+    ],
+    [
+     "Jan",
+     "Lead Fall Progression",
+     "4x4s"
+    ],
+    [
+     "Feb",
+     "Read and Point",
+     "Wimbledon"
+    ],
+    [
+     "Mar",
+     "Redpoint Tactics",
+     "Flash or Fail"
+    ],
+    [
+     "Apr",
+     "Add-On",
+     "Dyno Dash"
+    ],
+    [
+     "May",
+     "Comp Simulation",
+     "Golf"
+    ],
+    [
+     "Jun",
+     "Fun rotation",
+     "Climbing Chess, Wimbledon, Ready, Set, GO!, Flash or Fail, Golf"
+    ]
+   ],
+   "plan": {
+    "w": [
+     "Partner Check|Partner Check;Lead Climbing;Soft Catch",
+     "Goal Setting & Training Log|Training Log;Project;Growth Mindset",
+     "Easy Continuous Laps|Endurance;Pump",
+     "Add-On|Crux;Strength",
+     "Foot Placement Focus|Foothold;Edging;Quiet Feet",
+     "Read and Point|Onsight;Visualization;Observation Period",
+     "Wall Types|Slab;Vertical;Overhang;V-Scale",
+     "Comp Simulation|Isolation;Zone;Attempt",
+     "Keep the Tension|Body Tension;Cut Feet;Overhang",
+     "Precision Speed|Speed Climbing;Pump",
+     "Limit Bouldering|Strength;Project;Growth Plate",
+     "Comp Simulation|Isolation;Observation Period",
+     "Ground Clipping Practice|Quickdraw;Z-Clip;Back-Clip",
+     "Redpoint Tactics|Redpoint;Project;Beta",
+     "Power Endurance Circuits|Power Endurance;Pump;Rest",
+     "Lead Fall Progression|Soft Catch;Fear of Falling",
+     "Flag Boxes|Flagging;Drop Knee;Backstep",
+     "Pre-Climb Routine|Breathing;Visualization;Commitment",
+     "Single Leg Smear|Smear;Slab",
+     "Comp Simulation|Zone;Attempt",
+     "Read and Point|Observation Period;Onsight;Rest",
+     "Comp Simulation|Isolation;Zone;Sportsmanship",
+     "Mock Lead|Lead Climbing;Quickdraw;Z-Clip",
+     "Goal Setting & Training Log|Training Log;Growth Mindset",
+     "Precision Speed|Speed Climbing;Foothold",
+     "One Arm, One Foot|Body Tension;Center of Gravity",
+     "Dyno War|Dyno;Deadpoint;Commitment",
+     "Limit Bouldering|Strength;Crux",
+     "Wall Types|Layback;Mantle;Arete",
+     "Pivot Practice|Stemming;Drop Knee",
+     "Heel and Toe|Heel Hook;Toe Hook;Knee Bar",
+     "Comp Simulation|Observation Period;Isolation;Rest"
+    ],
+    "g": [
+     [
+      "Add-On",
+      "Over and Under"
+     ],
+     [
+      "Read and Point",
+      "Flash or Fail"
+     ],
+     [
+      "Comp Simulation",
+      "Under Pressure"
+     ],
+     [
+      "Lead Fall Progression",
+      "4x4s"
+     ],
+     [
+      "Read and Point",
+      "Wimbledon"
+     ],
+     [
+      "Redpoint Tactics",
+      "Flash or Fail"
+     ],
+     [
+      "Add-On",
+      "Dyno Dash"
+     ],
+     [
+      "Comp Simulation",
+      "Golf"
+     ]
+    ],
+    "warm": [
+     "Climber-Led Warm-Up",
+     "Easy Continuous Laps",
+     "Easy Climbing Build-Up",
+     "Joint Circles"
+    ],
+    "cool": [
+     "Goal Setting & Training Log",
+     "Cool-Down Stretch & Reflect",
+     "Belly Breathing"
+    ],
+    "fun": [
+     "Climbing Chess",
+     "Wimbledon",
+     "Ready, Set, GO!",
+     "Flash or Fail",
+     "Golf"
+    ]
+   },
+   "weeks": [
+    {
+     "n": 1,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 1,
+     "theme": "Base Building & Systems (general prep)",
+     "cat": "rope",
+     "skill": "Lead & belay systems check",
+     "type": "Structured Training & Intro",
+     "vocab": [
+      "Partner Check",
+      "Lead Climbing",
+      "Soft Catch"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Partner Check",
+     "game": "Add-On",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 2,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 2,
+     "theme": "Base Building & Systems (general prep)",
+     "cat": "rope",
+     "skill": "Goal setting & training logs",
+     "type": "Educational / Mental Skills",
+     "vocab": [
+      "Training Log",
+      "Project",
+      "Growth Mindset"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Goal Setting & Training Log",
+     "game": "Over and Under",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 3,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 3,
+     "theme": "Base Building & Systems (general prep)",
+     "cat": "rope",
+     "skill": "Volume: easy continuous climbing",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Endurance",
+      "Pump"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Easy Continuous Laps",
+     "game": "Add-On",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 4,
+     "month": "Sept",
+     "monthIndex": 0,
+     "week": 4,
+     "theme": "Base Building & Systems (general prep)",
+     "cat": "rope",
+     "skill": "Limit Add-On",
+     "type": "Comp Sim / Game",
+     "vocab": [
+      "Crux",
+      "Strength"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Add-On",
+     "game": "Over and Under",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 5,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 1,
+     "theme": "Technique & Onsight (qualifiers)",
+     "cat": "tech",
+     "skill": "Precision footwork",
+     "type": "Structured Training",
+     "vocab": [
+      "Foothold",
+      "Edging",
+      "Quiet Feet"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Foot Placement Focus",
+     "game": "Read and Point",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 6,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 2,
+     "theme": "Technique & Onsight (qualifiers)",
+     "cat": "tech",
+     "skill": "Onsight reading & visualization",
+     "type": "Educational / Mental Skills",
+     "vocab": [
+      "Onsight",
+      "Visualization",
+      "Observation Period"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Read and Point",
+     "game": "Flash or Fail",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 7,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 3,
+     "theme": "Technique & Onsight (qualifiers)",
+     "cat": "tech",
+     "skill": "Grade pushing on varied styles",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Slab",
+      "Vertical",
+      "Overhang",
+      "V-Scale"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Wall Types",
+     "game": "Read and Point",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 8,
+     "month": "Oct",
+     "monthIndex": 1,
+     "week": 4,
+     "theme": "Technique & Onsight (qualifiers)",
+     "cat": "tech",
+     "skill": "Comp Simulation",
+     "type": "Comp Sim / Game",
+     "vocab": [
+      "Isolation",
+      "Zone",
+      "Attempt"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Comp Simulation",
+     "game": "Flash or Fail",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 9,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 1,
+     "theme": "Strength & Power (in season)",
+     "cat": "str",
+     "skill": "Body tension on steep",
+     "type": "Structured Training",
+     "vocab": [
+      "Body Tension",
+      "Cut Feet",
+      "Overhang"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Keep the Tension",
+     "game": "Comp Simulation",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 10,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 2,
+     "theme": "Strength & Power (in season)",
+     "cat": "str",
+     "skill": "Accuracy under fatigue",
+     "type": "Educational / Mental Skills",
+     "vocab": [
+      "Speed Climbing",
+      "Pump"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Precision Speed",
+     "game": "Under Pressure",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 11,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 3,
+     "theme": "Strength & Power (in season)",
+     "cat": "str",
+     "skill": "Limit bouldering",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Strength",
+      "Project",
+      "Growth Plate"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Limit Bouldering",
+     "game": "Comp Simulation",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 12,
+     "month": "Nov",
+     "monthIndex": 2,
+     "week": 4,
+     "theme": "Strength & Power (in season)",
+     "cat": "str",
+     "skill": "Comp Simulation",
+     "type": "Comp Sim / Game",
+     "vocab": [
+      "Isolation",
+      "Observation Period"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Comp Simulation",
+     "game": "Under Pressure",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 13,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Base Building & Systems (general prep) favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Partner Check",
+      "Training Log",
+      "Endurance",
+      "Crux"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Goal Setting & Training Log",
+     "game": "Ready, Set, GO!",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 14,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique & Onsight (qualifiers) favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Foothold",
+      "Onsight",
+      "Slab",
+      "Isolation"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Comp Simulation",
+     "game": "Flash or Fail",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 15,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Strength & Power (in season) favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Body Tension",
+      "Speed Climbing",
+      "Strength",
+      "Isolation"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Precision Speed",
+     "game": "Golf",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 16,
+     "month": "Dec",
+     "monthIndex": 3,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Holiday fun day: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Redpoint Tactics",
+     "game": "Climbing Chess",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 17,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 1,
+     "theme": "Endurance 201 & Lead Tactics",
+     "cat": "rope",
+     "skill": "Clipping efficiency",
+     "type": "Structured Training & Intro",
+     "vocab": [
+      "Quickdraw",
+      "Z-Clip",
+      "Back-Clip"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Ground Clipping Practice",
+     "game": "Lead Fall Progression",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 18,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 2,
+     "theme": "Endurance 201 & Lead Tactics",
+     "cat": "rope",
+     "skill": "Redpoint tactics",
+     "type": "Educational / Mental Skills",
+     "vocab": [
+      "Redpoint",
+      "Project",
+      "Beta"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Redpoint Tactics",
+     "game": "4x4s",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 19,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 3,
+     "theme": "Endurance 201 & Lead Tactics",
+     "cat": "rope",
+     "skill": "Power endurance circuits",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Power Endurance",
+      "Pump",
+      "Rest"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Power Endurance Circuits",
+     "game": "Lead Fall Progression",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 20,
+     "month": "Jan",
+     "monthIndex": 4,
+     "week": 4,
+     "theme": "Endurance 201 & Lead Tactics",
+     "cat": "rope",
+     "skill": "Lead Fall Progression",
+     "type": "Comp Sim / Game",
+     "vocab": [
+      "Soft Catch",
+      "Fear of Falling"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Lead Fall Progression",
+     "game": "4x4s",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 21,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 1,
+     "theme": "Technique 201 & Mental Skills",
+     "cat": "tech",
+     "skill": "Advanced flagging & positions",
+     "type": "Structured Training",
+     "vocab": [
+      "Flagging",
+      "Drop Knee",
+      "Backstep"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Flag Boxes",
+     "game": "Read and Point",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 22,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 2,
+     "theme": "Technique 201 & Mental Skills",
+     "cat": "tech",
+     "skill": "Pre-climb routine & breathing",
+     "type": "Educational / Mental Skills",
+     "vocab": [
+      "Breathing",
+      "Visualization",
+      "Commitment"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Pre-Climb Routine",
+     "game": "Wimbledon",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 23,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 3,
+     "theme": "Technique 201 & Mental Skills",
+     "cat": "tech",
+     "skill": "Slab and smear comp styles",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Smear",
+      "Slab"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Single Leg Smear",
+     "game": "Read and Point",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 24,
+     "month": "Feb",
+     "monthIndex": 5,
+     "week": 4,
+     "theme": "Technique 201 & Mental Skills",
+     "cat": "tech",
+     "skill": "Comp Simulation",
+     "type": "Comp Sim / Game",
+     "vocab": [
+      "Zone",
+      "Attempt"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Comp Simulation",
+     "game": "Wimbledon",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 25,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 1,
+     "theme": "Regionals Peak (March Madness)",
+     "cat": "event",
+     "skill": "Taper & route reading",
+     "type": "Structured Training",
+     "vocab": [
+      "Observation Period",
+      "Onsight",
+      "Rest"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Read and Point",
+     "game": "Redpoint Tactics",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 26,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 2,
+     "theme": "Regionals Peak (March Madness)",
+     "cat": "event",
+     "skill": "Regionals / in-house March Madness",
+     "type": "Educational / Mental Skills",
+     "vocab": [
+      "Isolation",
+      "Zone",
+      "Sportsmanship"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Comp Simulation",
+     "game": "Flash or Fail",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 27,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 3,
+     "theme": "Regionals Peak (March Madness)",
+     "cat": "event",
+     "skill": "Lead clipping under pressure",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Lead Climbing",
+      "Quickdraw",
+      "Z-Clip"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Mock Lead",
+     "game": "Redpoint Tactics",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 28,
+     "month": "Mar",
+     "monthIndex": 6,
+     "week": 4,
+     "theme": "Regionals Peak (March Madness)",
+     "cat": "event",
+     "skill": "Debrief & reset",
+     "type": "Comp Sim / Game",
+     "vocab": [
+      "Training Log",
+      "Growth Mindset"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Goal Setting & Training Log",
+     "game": "Flash or Fail",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 29,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 1,
+     "theme": "Strength & Speed 201 (Divisionals build)",
+     "cat": "str",
+     "skill": "Accuracy and efficiency",
+     "type": "Structured Training",
+     "vocab": [
+      "Speed Climbing",
+      "Foothold"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Precision Speed",
+     "game": "Add-On",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 30,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 2,
+     "theme": "Strength & Speed 201 (Divisionals build)",
+     "cat": "str",
+     "skill": "Body tension",
+     "type": "Educational / Mental Skills",
+     "vocab": [
+      "Body Tension",
+      "Center of Gravity"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "One Arm, One Foot",
+     "game": "Dyno Dash",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 31,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 3,
+     "theme": "Strength & Speed 201 (Divisionals build)",
+     "cat": "str",
+     "skill": "Dynos & coordination moves",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Dyno",
+      "Deadpoint",
+      "Commitment"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Dyno War",
+     "game": "Add-On",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 32,
+     "month": "Apr",
+     "monthIndex": 7,
+     "week": 4,
+     "theme": "Strength & Speed 201 (Divisionals build)",
+     "cat": "str",
+     "skill": "Pulling hard (limit bouldering)",
+     "type": "Comp Sim / Game",
+     "vocab": [
+      "Strength",
+      "Crux"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Limit Bouldering",
+     "game": "Dyno Dash",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 33,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 1,
+     "theme": "Technique 301 & Divisionals",
+     "cat": "tech",
+     "skill": "Lieback / mantling",
+     "type": "Structured Training",
+     "vocab": [
+      "Layback",
+      "Mantle",
+      "Arete"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Wall Types",
+     "game": "Comp Simulation",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 34,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 2,
+     "theme": "Technique 301 & Divisionals",
+     "cat": "tech",
+     "skill": "Stemming / drop knee",
+     "type": "Educational / Mental Skills",
+     "vocab": [
+      "Stemming",
+      "Drop Knee"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Pivot Practice",
+     "game": "Golf",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 35,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 3,
+     "theme": "Technique 301 & Divisionals",
+     "cat": "tech",
+     "skill": "Heel hook / toe hook",
+     "type": "Hard Workout (Grade Pushing)",
+     "vocab": [
+      "Heel Hook",
+      "Toe Hook",
+      "Knee Bar"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Heel and Toe",
+     "game": "Comp Simulation",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 36,
+     "month": "May",
+     "monthIndex": 8,
+     "week": 4,
+     "theme": "Technique 301 & Divisionals",
+     "cat": "tech",
+     "skill": "Divisionals taper / comp sim",
+     "type": "Comp Sim / Game",
+     "vocab": [
+      "Observation Period",
+      "Isolation",
+      "Rest"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Comp Simulation",
+     "game": "Golf",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 37,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 1,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 201 & Mental Skills favorites",
+     "type": "Practice Skills & FUN!",
+     "vocab": [
+      "Flagging",
+      "Breathing",
+      "Smear",
+      "Zone"
+     ],
+     "warm": "Climber-Led Warm-Up",
+     "drill": "Pre-Climb Routine",
+     "game": "Wimbledon",
+     "cool": "Goal Setting & Training Log"
+    },
+    {
+     "n": 38,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 2,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Strength & Speed 201 (Divisionals build) favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Speed Climbing",
+      "Body Tension",
+      "Dyno",
+      "Strength"
+     ],
+     "warm": "Easy Continuous Laps",
+     "drill": "Limit Bouldering",
+     "game": "Ready, Set, GO!",
+     "cool": "Cool-Down Stretch & Reflect"
+    },
+    {
+     "n": 39,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 3,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "Review: Technique 301 & Divisionals favorites",
+     "type": "FUN!",
+     "vocab": [
+      "Layback",
+      "Stemming",
+      "Heel Hook",
+      "Observation Period"
+     ],
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Pivot Practice",
+     "game": "Flash or Fail",
+     "cool": "Belly Breathing"
+    },
+    {
+     "n": 40,
+     "month": "Jun",
+     "monthIndex": 9,
+     "week": 4,
+     "theme": "Find your Fun!",
+     "cat": "fun",
+     "skill": "End-of-year send party: kids' choice",
+     "type": "FUN!",
+     "vocab": [
+      "Send",
+      "Sportsmanship"
+     ],
+     "warm": "Joint Circles",
+     "drill": "Redpoint Tactics",
+     "game": "Golf",
+     "cool": "Goal Setting & Training Log"
+    }
+   ]
+  }
+ ],
+ "weekVocab": {
+  "Arete": [
+   "An outside corner edge of the wall.",
+   "The corner edge that sticks out.",
+   "Corner edge."
+  ],
+  "Attempt": [
+   "One go at a route; comps count them.",
+   "One try.",
+   "One go."
+  ],
+  "Back-Clip": [
+   "Clipping a quickdraw so the rope runs from the wall side out toward the climber the wrong way, which can unclip in a fall.",
+   "Clipping the rope in backward.",
+   "Backward clip."
+  ],
+  "Backstep": [
+   "Standing on the outside edge with the hip turned in.",
+   "Standing on your pinky-toe side, hip turned to the wall.",
+   "Side to the wall."
+  ],
+  "Belay": [
+   "Managing the rope to catch and lower a climber.",
+   "Holding the rope for your climber.",
+   "Rope holder."
+  ],
+  "Belay Device": [
+   "A device that adds friction so the belayer can hold and lower the climber.",
+   "The tool that helps the belayer hold the rope.",
+   "Rope helper."
+  ],
+  "Belay Loop": [
+   "The strong loop on a harness for the belay device.",
+   "The strongest loop on the front of your harness.",
+   "Front loop."
+  ],
+  "Beta": [
+   "Information on how to do a route; unrequested beta is 'spray'.",
+   "The secret plan for a climb.",
+   "The plan."
+  ],
+  "Body Tension": [
+   "Engaging the core to keep feet on and body controlled.",
+   "Squeezing your middle so you stay stuck.",
+   "Strong tummy."
+  ],
+  "Brake Hand": [
+   "The hand that never leaves the brake strand.",
+   "The hand that never lets go.",
+   "Never-let-go hand."
+  ],
+  "Breathing": [
+   "Slow breathing to calm nerves and recover.",
+   "Slow breaths to calm down.",
+   "Balloon breaths."
+  ],
+  "Bump": [
+   "Moving one hand twice in a row to reach a better hold.",
+   "Moving the same hand again.",
+   "Hop the hand."
+  ],
+  "Carabiner": [
+   "A metal clip with a gate; lockers have a sleeve that closes the gate.",
+   "A metal clip; lockers screw shut.",
+   "The clip."
+  ],
+  "Center of Gravity": [
+   "The body's balance point; climbers keep it over the feet.",
+   "Your body's balance spot, near your belly button.",
+   "Belly over toes."
+  ],
+  "Climbing Shoes": [
+   "Snug, sticky rubber shoes for climbing.",
+   "Special sticky shoes.",
+   "Sticky shoes."
+  ],
+  "Commitment": [
+   "Fully attempting a move once you've decided it is a reasonable risk.",
+   "Going for the move all the way.",
+   "Go for it."
+  ],
+  "Crash Pad": [
+   "Foam padding below boulders to reduce landing impact.",
+   "The squishy floor that cushions falls.",
+   "Squishy floor."
+  ],
+  "Crimp": [
+   "A small, thin edge held with the fingertips; also the grip used on it.",
+   "A tiny ledge you hold with your fingertips.",
+   "A skinny little hold."
+  ],
+  "Cross Through": [
+   "Reaching one hand over or under the other.",
+   "Crossing your arms to reach.",
+   "Cross arms."
+  ],
+  "Crux": [
+   "The hardest move or section.",
+   "The hardest part.",
+   "Tricky part."
+  ],
+  "Cut Feet": [
+   "Feet coming off the wall, usually on steep terrain.",
+   "When your feet swing off the wall.",
+   "Feet fly."
+  ],
+  "Deadpoint": [
+   "A dynamic move catching a hold at the top of the body's movement.",
+   "A quick reach at the floaty moment.",
+   "Float and grab."
+  ],
+  "Dihedral": [
+   "An inside corner.",
+   "An inside corner like an open book.",
+   "Book corner."
+  ],
+  "Downclimb": [
+   "Climbing back down instead of dropping.",
+   "Climbing down instead of jumping.",
+   "Climb down."
+  ],
+  "Drop Knee": [
+   "Turning one knee down and in to bring the hip to the wall.",
+   "Twisting your knee down so your hip touches the wall.",
+   "Knee down."
+  ],
+  "Dynamic": [
+   "Movement using momentum.",
+   "Moving fast with a swing or jump.",
+   "Frog moves."
+  ],
+  "Dyno": [
+   "A jump where the body leaves contact to catch a hold.",
+   "A jump to a hold.",
+   "Big jump."
+  ],
+  "Edging": [
+   "Standing on a hold with the inside or outside edge of the shoe.",
+   "Standing on the side of your shoe.",
+   "Side of the shoe."
+  ],
+  "Endurance": [
+   "The ability to keep climbing a long time.",
+   "Climbing a long time without getting tired.",
+   "Long climbing."
+  ],
+  "Fall Zone": [
+   "The area under and around a climber where they might land; keep it clear.",
+   "The mat space where a climber could fall; stay out.",
+   "No-sit zone."
+  ],
+  "Falling!": [
+   "Warning calls: 'Falling!' for the belayer, 'Rock!' for anything dropped.",
+   "Shout it to warn people.",
+   "Uh-oh shout."
+  ],
+  "Fear of Falling": [
+   "Normal fear managed by gradual exposure and practiced falls.",
+   "Feeling scared to fall, which is normal.",
+   "Scared is OK."
+  ],
+  "Figure-8 Follow-Through": [
+   "The standard tie-in knot; finish with a tail.",
+   "The knot that ties you to the rope.",
+   "The 8 knot."
+  ],
+  "Flagging": [
+   "Placing a leg against the wall without a hold to balance.",
+   "Sticking a leg out like a tail to keep balance.",
+   "Monkey tail."
+  ],
+  "Foot Swap": [
+   "Replacing one foot with the other on the same hold.",
+   "Swapping feet on one hold.",
+   "Trade feet."
+  ],
+  "Foothold": [
+   "A hold used for feet; small ones are called chips or jibs.",
+   "A hold for your feet.",
+   "A step."
+  ],
+  "Frontstep": [
+   "Standing on the inside edge, hips square to the wall.",
+   "Standing facing the wall on your big toe side.",
+   "Tummy to the wall."
+  ],
+  "Growth Mindset": [
+   "The belief that ability grows with practice; coaches praise effort and strategy.",
+   "Your brain grows when you try hard.",
+   "Keep trying."
+  ],
+  "Growth Plate": [
+   "Growing bone ends in kids' fingers; hangboarding and full crimping are deferred for youth to manage injury risk.",
+   "The growing part of your finger bones that needs care.",
+   "Growing fingers."
+  ],
+  "Harness": [
+   "Waist belt and leg loops that connect a climber to the rope.",
+   "The seat you wear to tie into the rope.",
+   "Climbing pants."
+  ],
+  "Heel Hook": [
+   "Placing the heel on a hold and pulling with the hamstring.",
+   "Hooking your heel on a hold like a hand.",
+   "Heel hand."
+  ],
+  "High Step": [
+   "Placing a foot high, near the hip or hand.",
+   "A big step way up high.",
+   "Big step."
+  ],
+  "Hold": [
+   "Any shaped grip bolted to the wall for hands or feet.",
+   "The bumps on the wall you grab or stand on.",
+   "The wall's handles and steps."
+  ],
+  "Isolation": [
+   "Waiting area at comps where climbers can't see routes.",
+   "The waiting room at comps.",
+   "Waiting room."
+  ],
+  "Jug": [
+   "A large, deep, positive hold that is easy to grip.",
+   "A big hold shaped like a jug handle.",
+   "A big handle hold."
+  ],
+  "Knee Bar": [
+   "Wedging the knee and foot between holds to rest.",
+   "Wedging your knee to rest your arms.",
+   "Knee lock."
+  ],
+  "Landing Position": [
+   "Landing on feet with bent knees, then rolling back, arms in.",
+   "Bend knees, land, roll back like a turtle.",
+   "Turtle roll."
+  ],
+  "Layback": [
+   "Pulling on a side edge while pushing feet the opposite way.",
+   "Pulling and pushing opposite ways on an edge.",
+   "Pull and push."
+  ],
+  "Lead Climbing": [
+   "Climbing with the rope from below, clipping quickdraws on the way; falls are longer.",
+   "Bringing the rope up with you and clipping it as you go.",
+   "Take the rope up."
+  ],
+  "Lock-Off": [
+   "Holding a bent arm still while the other hand reaches.",
+   "Freezing one arm bent while you reach.",
+   "Statue arm."
+  ],
+  "Lower": [
+   "Commands for coming down and ending the belay.",
+   "Coming down; feet out, sit back.",
+   "Sit and walk down."
+  ],
+  "Mantle": [
+   "Pressing down on a ledge to climb on top of it.",
+   "Pushing down like getting out of a pool.",
+   "Pool push."
+  ],
+  "Match": [
+   "Putting both hands (or feet) on the same hold.",
+   "Both hands on one hold.",
+   "Hands share."
+  ],
+  "Observation Period": [
+   "Comp time to read routes before climbing.",
+   "Time to look at the route at comps.",
+   "Look time."
+  ],
+  "On Belay?": [
+   "Start-up commands: 'On belay?' / 'Belay on.' / 'Climbing.' / 'Climb on.'",
+   "The question-and-answer before you climb.",
+   "Ready? Ready!"
+  ],
+  "Onsight": [
+   "Sending on the first try with no beta.",
+   "First-try send with no hints.",
+   "No-hint send."
+  ],
+  "Overhang": [
+   "Wall steeper than vertical; a roof is horizontal.",
+   "A wall that leans over you.",
+   "Leaning-over wall."
+  ],
+  "PBUS": [
+   "A tube-device belay sequence: pull, brake, under, slide.",
+   "Pull, brake, under, slide.",
+   "Pull-brake song."
+  ],
+  "Partner Check": [
+   "Checking each other's harness, knot, device and carabiner before every climb.",
+   "Checking your buddy's gear before climbing.",
+   "Check check."
+  ],
+  "Pinch": [
+   "A hold squeezed between thumb and fingers.",
+   "A hold you pinch like a crab claw.",
+   "Crab-claw hold."
+  ],
+  "Pocket": [
+   "A hole in a hold for one or more fingers (one-finger pockets, monos, are not for youth).",
+   "A hole you poke fingers into.",
+   "A finger hole."
+  ],
+  "Power Endurance": [
+   "Repeating hard moves without much rest.",
+   "Doing hard moves again and again.",
+   "Strong-again power."
+  ],
+  "Project": [
+   "A route worked over multiple sessions.",
+   "A hard climb you keep practicing.",
+   "Big goal climb."
+  ],
+  "Pump": [
+   "Forearm fatigue from sustained gripping.",
+   "When your arms feel tight and tired.",
+   "Tired arms."
+  ],
+  "Quickdraw": [
+   "Two carabiners joined by a sling, used to clip the rope to bolts when leading.",
+   "Two clips on a strap for lead climbing.",
+   "Clip strap."
+  ],
+  "Quiet Feet": [
+   "Placing feet without noise, which signals precision.",
+   "Putting your feet down so quietly nobody hears.",
+   "Ninja feet."
+  ],
+  "Redpoint": [
+   "Sending after practicing the route.",
+   "Finishing after practicing it.",
+   "Practice send."
+  ],
+  "Rest": [
+   "Time off the wall between attempts or sessions.",
+   "Resting so you can climb strong again.",
+   "Break time."
+  ],
+  "Rest Position": [
+   "A low-effort stance on the wall to recover, often with straight arms, shaking out each hand.",
+   "A comfy spot on the wall to rest your arms.",
+   "Rest spot."
+  ],
+  "Rock Over": [
+   "Shifting weight over a high foot to stand on it.",
+   "Moving your body over a high foot and standing up.",
+   "Climb onto your foot."
+  ],
+  "Rope": [
+   "A stretchy dynamic rope that absorbs fall energy.",
+   "The stretchy rope that catches you.",
+   "The rope."
+  ],
+  "Route": [
+   "A designated path of holds, usually one color.",
+   "The holds you're allowed to use, all one color.",
+   "Color path."
+  ],
+  "Route Reading": [
+   "Planning a sequence from the ground.",
+   "Planning your moves before climbing.",
+   "Look first."
+  ],
+  "Send": [
+   "Completing a route from start to finish without falling.",
+   "Finishing a climb without falling.",
+   "Did it!"
+  ],
+  "Sidepull": [
+   "A hold facing sideways, pulled toward the body's midline.",
+   "A hold you pull sideways, like opening a sliding door.",
+   "The sideways hold."
+  ],
+  "Slab": [
+   "Wall less than vertical; balance and footwork terrain.",
+   "A wall that leans back toward you.",
+   "Leaning wall."
+  ],
+  "Sloper": [
+   "A rounded hold with no edge; it relies on friction and body position.",
+   "A round, smooth hold you hug with your whole hand.",
+   "The ball hold."
+  ],
+  "Smear": [
+   "Pressing the sole flat on the wall with no foothold, using friction.",
+   "Pressing your shoe flat on the wall to stick.",
+   "Sticky shoe."
+  ],
+  "Soft Catch": [
+   "Letting a little rope give during a lead fall so the climber swings in gently.",
+   "Making a fall feel gentle.",
+   "Soft stop."
+  ],
+  "Speed Climbing": [
+   "Racing up a standardized route on auto belay or top rope.",
+   "Racing up the wall.",
+   "Race climb."
+  ],
+  "Sportsmanship": [
+   "Respecting others: taking turns, cheering, not spraying beta.",
+   "Being a good teammate and taking turns.",
+   "Take turns."
+  ],
+  "Spotting": [
+   "Guiding a falling boulderer's hips and head toward the mat.",
+   "Helping a climber land on the mat.",
+   "Helper hands."
+  ],
+  "Start Holds": [
+   "The tagged holds a route starts on.",
+   "The hold with the tape where you start.",
+   "Start sticker."
+  ],
+  "Static": [
+   "Slow, controlled movement keeping three points on.",
+   "Moving slow and smooth like a sloth.",
+   "Sloth moves."
+  ],
+  "Stemming": [
+   "Pushing feet and hands against opposing walls.",
+   "Pushing out on both sides of a corner.",
+   "Spider legs."
+  ],
+  "Stopper Knot": [
+   "A knot tied in the rope end so it can't pass through the device.",
+   "A knot at the rope end.",
+   "End knot."
+  ],
+  "Straight Arms": [
+   "Hanging on extended arms so the skeleton holds weight.",
+   "Hanging like a monkey with long arms.",
+   "Long monkey arms."
+  ],
+  "Strength": [
+   "Maximum force for single hard moves.",
+   "How hard you can pull.",
+   "Strong muscles."
+  ],
+  "Tail": [
+   "The extra rope past a knot.",
+   "The extra bit of rope left over.",
+   "Rope tail."
+  ],
+  "Take": [
+   "A call to pull rope tight and hold the climber.",
+   "Say 'take' to have your belayer hold you.",
+   "Hold me."
+  ],
+  "Three Points of Contact": [
+   "Keeping three limbs on while one moves.",
+   "Three on, one moves.",
+   "Three stay, one goes."
+  ],
+  "Tie-In Points": [
+   "The two harness points the rope goes through to tie in.",
+   "The two loops your rope goes through.",
+   "Rope loops."
+  ],
+  "Toe Hook": [
+   "Hooking the top of the toes behind a hold.",
+   "Hooking the top of your toes on a hold.",
+   "Toe hook."
+  ],
+  "Top Out": [
+   "The finish of a problem: matching the last hold or climbing onto the top.",
+   "The end of the climb.",
+   "The top."
+  ],
+  "Top Rope": [
+   "Climbing with the rope already running through an anchor above.",
+   "Climbing with the rope already at the top.",
+   "Rope from the top."
+  ],
+  "Training Log": [
+   "A record of climbs, attempts and lessons.",
+   "A notebook of your climbs.",
+   "Climb diary."
+  ],
+  "Traverse": [
+   "Climbing sideways near the ground.",
+   "Climbing sideways.",
+   "Crab climb."
+  ],
+  "Turning In": [
+   "Rotating the hips so one side faces the wall, adding reach.",
+   "Twisting your hip to the wall to reach higher.",
+   "Turn sideways."
+  ],
+  "V-Scale": [
+   "The bouldering difficulty scale, VB/V0 upward.",
+   "Numbers for how hard a boulder is.",
+   "Hard number."
+  ],
+  "Vertical": [
+   "Wall straight up and down.",
+   "A straight-up wall.",
+   "Straight wall."
+  ],
+  "Visualization": [
+   "Mentally rehearsing moves before climbing.",
+   "Picturing yourself doing the moves.",
+   "Movie in your head."
+  ],
+  "Volume": [
+   "A large hollow feature bolted to the wall, often with holds on it.",
+   "A giant shape on the wall you can stand or grab on.",
+   "The big block."
+  ],
+  "Z-Clip": [
+   "Clipping rope from below the previous draw into the next, creating a Z and heavy drag.",
+   "Grabbing rope from the wrong spot so it zigzags.",
+   "Zigzag rope."
+  ],
+  "Zone": [
+   "A mid-problem hold scoring partial points in comps.",
+   "The halfway points hold.",
+   "Halfway hold."
+  ]
+ }
+}

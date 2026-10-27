@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Activity Library · Youth Climbing Coaching Hub</title>
+<meta name="description" content="Searchable library of youth climbing games, drills, warm-ups and cool-downs with steps, variations by age, risk management and sources.">
+<meta name="theme-color" content="#0f6e6e">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+<main id="main" tabindex="-1">
+<noscript><p class="noscript">This site needs JavaScript to load its data files.</p></noscript>
+
+<h1>Activity Library</h1>
+<div id="lib-intro"></div>
+<div class="controls" role="search">
+  <label class="field" for="q" style="grid-column:1/-1">Search names, aliases and descriptions<input type="search" id="q" placeholder="e.g. flag, quiet feet, belay" autocomplete="off"></label>
+  <label class="field" for="f-type">Session type<select id="f-type"></select></label>
+  <label class="field" for="f-age">Age group<select id="f-age"></select></label>
+  <label class="field" for="f-skill">Skill<select id="f-skill"></select></label>
+  <label class="field" for="f-theme">Month theme<select id="f-theme"></select></label>
+</div>
+<div class="btn-row no-print"><button type="button" class="btn ghost" id="reset">Clear filters</button></div>
+<p class="result-count" id="count" aria-live="polite"></p>
+<div class="list" id="results"></div>
+<p class="muted small" style="margin-top:20px">How entries are added without duplicates: see <a href="about.html#dedup">About &amp; Sources</a>.</p>
+
+</main>
+<footer id="site-footer"></footer>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/library.js"></script>
+</body>
+</html>

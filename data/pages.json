@@ -1,0 +1,80 @@
+{
+ "library": {
+  "title": "Youth Climbing Coaching Library: Vocabulary and Activities",
+  "summary": "A growing, de-duplicated master list of climbing activities and climbing vocabulary for coaching kids and teens, with how to run each activity, why it works, how to adapt it by age, how to manage its risks, and where it comes from. Every activity and term named in the weekly curricula is listed here by the same name.",
+  "callout": {
+   "lead": "Language: managing risk",
+   "text": "Climbing is inherently dangerous, so nothing here promises it is risk-free. Entries talk about managing and reducing risk: checking systems, clearing fall zones, spotting to manage risk, and choosing when not to commit to a move."
+  },
+  "text": "Ages use these groups: Parent & Me (2–3), Rockin' Tots (3–4), Lil' Pebbles (4–6), Little Rockers (6–9), Base Club (9–12), Ascent Club (12+) and Summit Club (14+). Month themes match the curriculum chart colors. Entries marked coaching practice have no published source; they come from common youth-coaching practice.",
+  "dedup": [
+   {
+    "title": "Normalize the name",
+    "detail": "Lowercase it and strip spaces, hyphens and punctuation (“Add-On” and “add on” both become “addon”). Compare against every existing name and every “also called” alias."
+   },
+   {
+    "title": "Compare the core rule, not the name",
+    "detail": "Write the game in one sentence (what the climber does, and what wins or ends a round). If an existing entry has the same core rule, it is a duplicate even with a different name: add the new name to that entry's aliases and add its source."
+   },
+   {
+    "title": "Variants go inside the parent entry",
+    "detail": "A scoring change, a theme, a prop swap or an age tweak (letters for falls, a dice roll, a board version) is a variation of the parent entry, not a new entry. Only a different core rule or a different purpose earns its own entry."
+   },
+   {
+    "title": "Same name, different game",
+    "detail": "If two sources use one name for two different games, give each a descriptive unique name and keep the source's name as an alias with a qualifier."
+   },
+   {
+    "title": "Cite or mark it",
+    "detail": "Every new entry links the page it came from, or is marked coaching practice. Never invent a source."
+   },
+   {
+    "title": "Use risk language",
+    "detail": "Write about managing and reducing risk, never as if any activity were free of risk; keep source titles verbatim."
+   },
+   {
+    "title": "Update the counts",
+    "detail": "Bump the last-updated date. The counts update themselves from the data."
+   }
+  ]
+ },
+ "curricula": {
+  "title": "Youth Curricula by Age Group",
+  "summary": "A September–June plan for each youth group, built on my month-by-month chart and adapted to each age using the coaching playbook research. Pick a group to see its chart, a week-by-week plan with vocabulary and timed activities, its session plan and its games.",
+  "how": [
+   "Same rhythm as the original: 4 weeks a month, Dec and Jun as Find your Fun!, and the same color for each theme type in every group.",
+   "The week types change with age. Hard Workout (Grade Pushing) only returns at Ascent and Summit; younger groups get Brave Steps, Challenge Climb, Personal Best or Project Push instead.",
+   "No formal competition through about age 9: March is a team or family celebration, a mock comp for Base Club, and real comp prep for teens.",
+   "No campus, hangboard or weighted finger training in any group; strength comes from climbing.",
+   "Every week has its own plan: the skill and session type, the vocabulary with an age-pitched kid version, and a warm-up, skill drill, game and cool-down timed to the class length. All 40 weeks for all 7 groups (280 plans) use activity and term names exactly as they appear in the Library.",
+   "Climbing is inherently dangerous, so the plans talk about managing and avoiding risk (checking systems, clearing fall zones, spotting, choosing when to commit), never about being risk-free."
+  ],
+  "callout": {
+   "lead": "Class lengths",
+   "text": "These are the real class lengths: 60 min (Parent & Me, Rockin' Tots, Lil' Pebbles), 90 min (Little Rockers) and 120 min (Base Club, Ascent, Summit)."
+  },
+  "weekIntro": "Pick a month and a week. Dec and Jun are Find your Fun months: three review weeks that revisit earlier months, then a celebration week. Look up any activity or term by name in the Library for full steps, why it works, variations by age, risk management and sources.",
+  "related": [
+   {
+    "title": "Youth Climbing Coaching Library: Vocabulary and Activities (every game and term, how to run it, and sources)",
+    "site": "Page",
+    "href": "https://cursor.com/canvas/store-edc659e8-fcef-4b84-800f-ace65cba90dc/5259e55d-28c1-4392-aeb8-085a57eb14bd"
+   },
+   {
+    "title": "Youth Climbing Coaching Playbook by Age Group (research, game descriptions and sources)",
+    "site": "Page",
+    "href": "https://cursor.com/canvas/store-edc659e8-fcef-4b84-800f-ace65cba90dc/4063d581-4629-4f9c-a1ae-37cdef026a97"
+   },
+   {
+    "title": "USA Climbing youth series changes for 2025–26 (season timing used for Summit Club)",
+    "site": "Climbing Business Journal",
+    "href": "https://climbingbusinessjournal.com/usa-climbing-makes-changes-to-youth-series-schedule-and-age-categories/"
+   },
+   {
+    "title": "USA Climbing 2026 National Championships schedule (Youth Nationals June 26–July 3)",
+    "site": "USA Climbing",
+    "href": "https://usaclimbing.org/news/usa-climbing-announces-2026-national-championships-schedule/"
+   }
+  ]
+ }
+}
