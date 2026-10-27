@@ -17,13 +17,13 @@
     "listening"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope",
@@ -39,7 +39,7 @@
     "Finish standing still so the group is ready to listen."
    ],
    "why": "BMC's FUNdamentals notes build a climbing warm-up in three parts: pulse raiser, joint rotation, then easy climbing. Raising heart rate and body temperature first prepares muscles and gets attention on you.",
-   "variations": "Parent & Me to Lil' Pebbles: tell a story (run from the rain, jump the puddles). Little Rockers and Base: follow-the-leader or a tag game. Ascent and Summit: athlete-led.",
+   "variations": "Parent & Child (ages 2–3) to Ages 4–6: tell a story (run from the rain, jump the puddles). Ages 6–9 and Ages 9–12: follow-the-leader or a tag game. Ages 12+ (training) and Ages 14+ (competitive): athlete-led.",
    "risk": "Keep running lanes clear of bags, ropes and the landing zones under climbers.",
    "sources": [
     "BMC",
@@ -61,13 +61,13 @@
     "mobility"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope",
@@ -104,11 +104,11 @@
     "footwork"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope",
@@ -124,7 +124,7 @@
     "Only move to small holds after several easy climbs."
    ],
    "why": "The third part of the BMC warm-up: easy climbing prepares fingers and tendons and grooves movement before harder efforts.",
-   "variations": "Lil' Pebbles: two easy climbs with a coach. Little Rockers: one-color circuit. Base and up: build to about two grades below their max.",
+   "variations": "Ages 4–6: two easy climbs with a coach. Ages 6–9: one-color circuit. Ages 9–12 and older: build to about two grades below their max.",
    "risk": "Small crimps and steep pulls only after the build-up; finger loading is the main injury risk for young climbers.",
    "sources": [
     "BMC",
@@ -148,10 +148,10 @@
     "mobility"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "str",
@@ -165,7 +165,7 @@
     "Change the animal each lap."
    ],
    "why": "Crawling and quadruped movement build shoulder and core strength and coordination the wall will use, while feeling like play.",
-   "variations": "Parent & Me: parent crawls beside the child. Tots and Pebbles: kids pick the next animal. Little Rockers: race to beat their own time.",
+   "variations": "Parent & Child (ages 2–3): parent crawls beside the child. Ages 3–4 and Ages 4–6: kids pick the next animal. Ages 6–9: race to beat their own time.",
    "risk": "One direction of travel to avoid head bumps; keep the path off the landing zones.",
    "sources": [
     "CP"
@@ -185,9 +185,9 @@
     "mobility"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope",
@@ -203,7 +203,7 @@
     "The group gives the leader one compliment."
    ],
    "why": "Handing over the warm-up builds autonomy and makes the warm-up structure a habit they keep outside class.",
-   "variations": "Base: leader picks from a card of options. Ascent: leader designs it. Summit: each athlete runs a personal, specific warm-up.",
+   "variations": "Ages 9–12: leader picks from a card of options. Ages 12+ (training): leader designs it. Ages 14+ (competitive): each athlete runs a personal, specific warm-up.",
    "risk": "Check the leader includes easy climbing before small holds.",
    "sources": [
     "CP"
@@ -222,9 +222,9 @@
     "mobility"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "str",
@@ -237,7 +237,7 @@
     "Pass the dice to the next roller."
    ],
    "why": "Chance keeps it exciting and gives every kid a turn as leader.",
-   "variations": "Little Rockers: easy moves, small numbers. Base and Ascent: add climbing-specific moves such as scapular shrugs.",
+   "variations": "Ages 6–9: easy moves, small numbers. Ages 9–12 and Ages 12+ (training): add climbing-specific moves such as scapular shrugs.",
    "risk": "Keep numbers modest; no maximal efforts in a warm-up.",
    "sources": [
     "MOMO"
@@ -258,9 +258,9 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun",
@@ -291,9 +291,9 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun",
@@ -325,9 +325,9 @@
     "coordination"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "fun"
@@ -339,7 +339,7 @@
     "Finish with everything moving."
    ],
    "why": "Repetition with one change per round fits how young children learn; it gets bodies moving and ears listening.",
-   "variations": "Tots: slower, with you modelling. Little Rockers: a kid leads.",
+   "variations": "Ages 3–4: slower, with you modelling. Ages 6–9: a kid leads.",
    "risk": "Leave space between kids for moving arms.",
    "sources": [
     "MOME"
@@ -360,11 +360,11 @@
     "body tension"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -377,7 +377,7 @@
     "Whoever moves a foot first loses the round."
    ],
    "why": "Teaches center of gravity and pressure through the feet; Hailey Caissie uses it as an adaptive-friendly warm-up and icebreaker.",
-   "variations": "Pebbles: kneeling version. Kids: stand on one foot. Teens: stand on a low volume.",
+   "variations": "Ages 4–6: kneeling version. Kids: stand on one foot. Teens: stand on a low volume.",
    "risk": "No grabbing or interlocking fingers; pair by size.",
    "sources": [
     "B4C",
@@ -402,11 +402,11 @@
     "balance"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -419,7 +419,7 @@
     "Each round start one step farther back; a wobble or step means out."
    ],
    "why": "Practising soft, bent-knee landings on the floor prepares for bouldering falls and for dynamic moves.",
-   "variations": "Pebbles: frog jumps onto a mat spot. Little Rockers: add a turn in the air. Teens: jump from a low box.",
+   "variations": "Ages 4–6: frog jumps onto a mat spot. Ages 6–9: add a turn in the air. Teens: jump from a low box.",
    "risk": "Land on two feet with bent knees; no locked knees and no landing on hands.",
    "sources": [
     "B4C",
@@ -444,13 +444,13 @@
     "fear & confidence"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope",
@@ -463,7 +463,7 @@
     "Progress to about halfway up the wall when the landing is controlled."
    ],
    "why": "Falling is part of climbing; a rehearsed landing reduces injury risk and fear, which frees kids to try harder moves.",
-   "variations": "Parent & Me: parent holds hands and they ‘fall like a leaf’ together from the first hold. Tots: Turtle Tuck story. Little Rockers to Summit: add falls from awkward positions and sideways.",
+   "variations": "Parent & Child (ages 2–3): parent holds hands and they ‘fall like a leaf’ together from the first hold. Ages 3–4: Turtle Tuck story. Ages 6–9 through Ages 14+ (competitive): add falls from awkward positions and sideways.",
    "risk": "Check the landing zone is clear before every fall; no arms reaching back to catch the fall; only one climber per fall zone.",
    "sources": [
     "MOMO",
@@ -484,8 +484,8 @@
     "listening"
    ],
    "ages": [
-    "LR",
-    "BC"
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun"
@@ -516,9 +516,9 @@
     "listening"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "rope",
@@ -552,9 +552,9 @@
     "body tension"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "fun",
@@ -567,7 +567,7 @@
     "First to tag Granny becomes the next Granny."
    ],
    "why": "Practises stop-and-go control and listening for a signal, the same skill as freezing when a coach calls.",
-   "variations": "Tots: you are Granny. Pebbles: freeze in a climbing shape.",
+   "variations": "Ages 3–4: you are Granny. Ages 4–6: freeze in a climbing shape.",
    "risk": "Keep the playing area clear of the wall's landing zones.",
    "sources": [
     "MOMW"
@@ -585,9 +585,9 @@
     "counting"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "fun"
@@ -617,9 +617,9 @@
     "listening"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun"
@@ -650,9 +650,9 @@
     "agility"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun"
@@ -685,9 +685,9 @@
     "problem solving"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun",
@@ -721,8 +721,8 @@
     "problem solving"
    ],
    "ages": [
-    "BC",
-    "AC"
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun"
@@ -755,10 +755,10 @@
     "listening"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "fun"
@@ -768,8 +768,8 @@
     "Mushroom: pull it taut low, then all lift on a signal so it balloons up.",
     "Matching Colors: give each child a color; when you call it, they run under to the other side before it comes down."
    ],
-   "why": "Shared rhythm and turn-taking for the youngest groups; great for a Find your Fun day.",
-   "variations": "Parent & Me: parents hold the edge with the child.",
+   "why": "Shared rhythm and turn-taking for the youngest groups; great for a Review & Play day.",
+   "variations": "Parent & Child (ages 2–3): parents hold the edge with the child.",
    "risk": "Only one color crossing at a time to avoid collisions.",
    "sources": [
     "MOMW"
@@ -790,10 +790,10 @@
     "body tension"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "str",
@@ -806,7 +806,7 @@
     "Balance board version: try to solve the ball puzzle in the center."
    ],
    "why": "Trains the balance and core control used to stay over the feet on the wall; also a good belay-line activity.",
-   "variations": "Pebbles: hold a coach's hand. Older: catch while balancing on one foot.",
+   "variations": "Ages 4–6: hold a coach's hand. Older: catch while balancing on one foot.",
    "risk": "On a mat, away from the wall and its fall zones; a spotter beside the Bosu.",
    "sources": [
     "MOMW",
@@ -826,8 +826,8 @@
     "strategy"
    ],
    "ages": [
-    "LR",
-    "BC"
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun",
@@ -857,10 +857,10 @@
     "agility"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR",
-    "BC"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun"
@@ -889,10 +889,10 @@
     "agility"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR",
-    "BC"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun"
@@ -922,9 +922,9 @@
     "teamwork"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun"
@@ -955,9 +955,9 @@
     "listening"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun"
@@ -987,9 +987,9 @@
     "agility"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun"
@@ -1020,9 +1020,9 @@
     "agility"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun"
@@ -1051,9 +1051,9 @@
     "memory"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "rope",
@@ -1085,10 +1085,10 @@
     "memory"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope",
@@ -1119,9 +1119,9 @@
     "agility"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "rope",
@@ -1151,9 +1151,9 @@
     "teamwork"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope",
@@ -1182,9 +1182,9 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "rope",
@@ -1216,10 +1216,10 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope",
@@ -1252,9 +1252,9 @@
     "communication"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -1285,9 +1285,9 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "rope",
@@ -1316,9 +1316,9 @@
     "communication"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun"
@@ -1352,10 +1352,10 @@
     "coordination"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR",
-    "BC"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun",
@@ -1368,7 +1368,7 @@
     "Time it for a variation."
    ],
    "why": "Mixes balance, crawling and low climbing in one flow.",
-   "variations": "Tots: coach walks beside. Base: timed laps to beat their own time.",
+   "variations": "Ages 3–4: coach walks beside. Ages 9–12: timed laps to beat their own time.",
    "risk": "Keep volumes low, pads butted together with no gaps, one-way traffic.",
    "sources": [
     "B4C"
@@ -1390,10 +1390,10 @@
     "listening"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR",
-    "BC"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun",
@@ -1406,7 +1406,7 @@
     "Mark ‘islands’ where tired climbers can step down."
    ],
    "why": "Short, playful traverse time with a clear signal to follow.",
-   "variations": "Tots: islands every few steps. Little Rockers: stay on for longer counts.",
+   "variations": "Ages 3–4: islands every few steps. Ages 6–9: stay on for longer counts.",
    "risk": "Feet below about knee height for the youngest; step down, don't jump.",
    "sources": [
     "MOMG"
@@ -1429,12 +1429,12 @@
     "resting"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "rope",
@@ -1448,7 +1448,7 @@
     "Hold the freeze, then move again."
    ],
    "why": "Freezing in odd positions teaches balance and finding rest stances.",
-   "variations": "Tots: Red Light, Green Light story. Little Rockers: freeze with straight arms. Ascent: freeze then shake out each hand.",
+   "variations": "Ages 3–4: Red Light, Green Light story. Ages 6–9: freeze with straight arms. Ages 12+ (training): freeze then shake out each hand.",
    "risk": "Space climbers so nobody is directly above or below another.",
    "sources": [
     "MOMT",
@@ -1471,9 +1471,9 @@
     "endurance"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "tech",
@@ -1509,10 +1509,10 @@
     "footwork"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -1525,7 +1525,7 @@
     "Last climber on wins."
    ],
    "why": "Reviews technique words under light pressure; kids show you what they know.",
-   "variations": "Pebbles: simple calls (touch a blue hold). Base and Ascent: technique calls (drop knee, gaston).",
+   "variations": "Ages 4–6: simple calls (touch a blue hold). Ages 9–12 and Ages 12+ (training): technique calls (drop knee, gaston).",
    "risk": "Low wall; spread climbers so falls land clear of each other.",
    "sources": [
     "MOMG",
@@ -1546,9 +1546,9 @@
     "footwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -1583,10 +1583,10 @@
     "footwork"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "tech"
@@ -1598,7 +1598,7 @@
     "Next climber picks a new animal."
    ],
    "why": "Animal images give young kids a movement idea without technical words.",
-   "variations": "Parent & Me: parent and child pick together. Little Rockers: guess the animal from the movement.",
+   "variations": "Parent & Child (ages 2–3): parent and child pick together. Ages 6–9: guess the animal from the movement.",
    "risk": "Frog jumps only on the mat, not off the wall.",
    "sources": [
     "MOMG"
@@ -1616,9 +1616,9 @@
     "endurance"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "fun",
@@ -1651,10 +1651,10 @@
     "focus"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "fun",
@@ -1667,7 +1667,7 @@
     "Each child climbs to an animal and brings it down."
    ],
    "why": "A clear, kind goal pulls nervous kids up the wall a little higher each time.",
-   "variations": "Parent & Me: parent spots and cheers. Lil' Pebbles: on top rope. Whole-group version for a celebration day.",
+   "variations": "Parent & Child (ages 2–3): parent spots and cheers. Ages 4–6: on top rope. Whole-group version for a celebration day.",
    "risk": "Place animals at a height that fits each child; climb down or lower, no jumping holding the toy.",
    "sources": [
     "B4C"
@@ -1689,10 +1689,10 @@
     "fear & confidence"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "fun",
@@ -1726,10 +1726,10 @@
     "teamwork"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR",
-    "BC"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun",
@@ -1741,7 +1741,7 @@
     "The group assembles the puzzle together."
    ],
    "why": "A shared goal motivates kids to climb higher without ranking anyone.",
-   "variations": "Fewer, bigger pieces for little ones; hard pieces up high for Base.",
+   "variations": "Fewer, bigger pieces for little ones; hard pieces up high for Ages 9–12.",
    "risk": "High pieces only on top rope.",
    "sources": [
     "MOMG",
@@ -1762,9 +1762,9 @@
     "route finding"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun"
@@ -1795,9 +1795,9 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun"
@@ -1830,9 +1830,9 @@
     "one-handed balance"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun"
@@ -1863,9 +1863,9 @@
     "endurance"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun"
@@ -1894,10 +1894,10 @@
     "endurance"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR",
-    "BC"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "tech",
@@ -1927,9 +1927,9 @@
     "flexibility"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun",
@@ -1959,9 +1959,9 @@
     "reaction"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "fun"
@@ -1992,9 +1992,9 @@
     "agility"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "fun"
@@ -2023,9 +2023,9 @@
     "endurance"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "tech",
@@ -2060,9 +2060,9 @@
     "endurance"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6"
    ],
    "themes": [
     "fun",
@@ -2075,7 +2075,7 @@
     "Move it a little higher only if the child wants."
    ],
    "why": "A visible, chosen target gives young kids control over how brave to be.",
-   "variations": "Parent & Me: parent places the star. Pebbles: bell on top rope.",
+   "variations": "Parent & Child (ages 2–3): parent places the star. Ages 4–6: bell on top rope.",
    "risk": "Bouldering targets stay within a short step of the mat for under-4s.",
    "sources": [
     "CP"
@@ -2095,8 +2095,8 @@
     "route finding"
    ],
    "ages": [
-    "RT",
-    "LP"
+    "ages-3-4",
+    "ages-4-6"
    ],
    "themes": [
     "tech"
@@ -2107,7 +2107,7 @@
     "Then hands only on that color for a short climb."
    ],
    "why": "Color-following is the first step to climbing a set route.",
-   "variations": "Add a foot rule (feet anywhere) for Pebbles.",
+   "variations": "Add a foot rule (feet anywhere) for Ages 4–6.",
    "risk": "Keep climbs low; one child per section.",
    "sources": [
     "CP"
@@ -2127,9 +2127,9 @@
     "one-handed balance"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "fun",
@@ -2141,7 +2141,7 @@
     "Count how many passes the team makes; try to beat it."
    ],
    "why": "Letting go with one hand teaches balance; the team total motivates without ranking.",
-   "variations": "Little Rockers: pass while on top rope next to each other.",
+   "variations": "Ages 6–9: pass while on top rope next to each other.",
    "risk": "Kids stay low and spaced so a fall doesn't land on someone.",
    "sources": [
     "CP"
@@ -2165,13 +2165,13 @@
     "movement variety"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -2183,7 +2183,7 @@
     "Add a harder move each round; swap leaders."
    ],
    "why": "Watching and copying builds a movement library; Momentum's Mirror Match adds watching a partner closely and repeating their beta.",
-   "variations": "Parent & Me: the child copies the parent, then leads. Base and up: elimination rounds.",
+   "variations": "Parent & Child (ages 2–3): the child copies the parent, then leads. Ages 9–12 and older: elimination rounds.",
    "risk": "Copy only moves the copier can reverse or step down from.",
    "sources": [
     "FLOW",
@@ -2207,10 +2207,10 @@
     "body position"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR",
-    "BC"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "tech",
@@ -2247,9 +2247,9 @@
     "endurance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "str",
@@ -2288,9 +2288,9 @@
     "body awareness"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope",
@@ -2325,9 +2325,9 @@
     "teamwork"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope",
@@ -2361,9 +2361,9 @@
     "vocabulary"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -2393,8 +2393,8 @@
     "communication"
    ],
    "ages": [
-    "BC",
-    "AC"
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun"
@@ -2426,9 +2426,9 @@
     "endurance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "str",
@@ -2463,9 +2463,9 @@
     "speed"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "rope",
@@ -2499,9 +2499,9 @@
     "agility"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun",
@@ -2533,9 +2533,9 @@
     "coordination"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun"
@@ -2572,10 +2572,10 @@
     "body tension"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -2609,9 +2609,9 @@
     "teamwork"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -2623,7 +2623,7 @@
     "Continue until they're first in line."
    ],
    "why": "Passing on the wall needs body awareness and careful hold choice.",
-   "variations": "Pairs only, on big holds, for Base.",
+   "variations": "Pairs only, on big holds, for Ages 9–12.",
    "risk": "Only on low, overhang-free terrain; climbers agree out loud before a pass.",
    "sources": [
     "MOMT"
@@ -2642,9 +2642,9 @@
     "teamwork"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -2657,7 +2657,7 @@
     "The third goes over the first and under the second (between wall and climber); keep alternating until everyone has gone."
    ],
    "why": "Endurance, footwork and balance while moving around another body.",
-   "variations": "Base: over only, on big holds.",
+   "variations": "Ages 9–12: over only, on big holds.",
    "risk": "Low, vertical terrain only; the stopped climber holds still on good holds and calls “ready” before anyone passes.",
    "sources": [
     "MOMT"
@@ -2675,9 +2675,9 @@
     "endurance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun"
@@ -2712,10 +2712,10 @@
     "creativity"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -2758,10 +2758,10 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -2775,7 +2775,7 @@
     "Forget or fall and you get a letter (H-O-R-S-E or C-L-I-M-B)."
    ],
    "why": "Memory, creativity and route-setting thinking; it gets harder naturally as the sequence grows.",
-   "variations": "Little Rockers: team version with no letters. Pointer version: a partner points to holds. Lucky Draw: pick a move type from a hat. Board and Dyno versions for teens; Limit Add-On for Summit power days.",
+   "variations": "Ages 6–9: team version with no letters. Pointer version: a partner points to holds. Lucky Draw: pick a move type from a hat. Board and Dyno versions for teens; Limit Add-On for Ages 14+ (competitive) power days.",
    "risk": "Keep sequences on low holds for young groups; teens on boards end before form breaks down.",
    "sources": [
     "MOMG",
@@ -2799,9 +2799,9 @@
     "listening"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -2813,7 +2813,7 @@
     "Climb a problem, or make up a sequence, that uses both moves rolled."
    ],
    "why": "Random calls make kids review moves they'd usually avoid.",
-   "variations": "Little Rockers: one die with simpler moves (match, high step).",
+   "variations": "Ages 6–9: one die with simpler moves (match, high step).",
    "risk": "Low wall.",
    "sources": [
     "MOMG"
@@ -2834,10 +2834,10 @@
     "route finding"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -2849,7 +2849,7 @@
     "Mark the square when done; first line wins."
    ],
    "why": "Turns vocabulary into a scavenger goal across the session.",
-   "variations": "Pictures for Pebbles; techniques and grades for Ascent.",
+   "variations": "Pictures for Ages 4–6; techniques and grades for Ages 12+ (training).",
    "risk": "Spread kids across walls to avoid crowding.",
    "sources": [
     "MOMG"
@@ -2867,9 +2867,9 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -2902,9 +2902,9 @@
     "endurance"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "tech",
@@ -2916,7 +2916,7 @@
     "Check off each color when done."
    ],
    "why": "Builds volume and gets kids trying new colors and styles.",
-   "variations": "Pebbles: any holds of the color. Base: a grade limit per color.",
+   "variations": "Ages 4–6: any holds of the color. Ages 9–12: a grade limit per color.",
    "risk": "Climbers wait for a clear wall before starting.",
    "sources": [
     "MOMG"
@@ -2936,9 +2936,9 @@
     "endurance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun",
@@ -2968,9 +2968,9 @@
     "endurance"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "fun",
@@ -3001,9 +3001,9 @@
     "endurance"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "fun",
@@ -3035,9 +3035,9 @@
     "endurance"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "event",
@@ -3067,9 +3067,9 @@
     "endurance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -3102,9 +3102,9 @@
     "hold types"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -3117,7 +3117,7 @@
     "A solid match earns a point; a turn lasts until you touch the ground, up to 5 minutes."
    ],
    "why": "Creative problem-solving on one hold, with lots of contact-skill practice.",
-   "variations": "Little Rockers: big holds and hand matches only.",
+   "variations": "Ages 6–9: big holds and hand matches only.",
    "risk": "Climb down rather than drop from awkward positions.",
    "sources": [
     "MOMG"
@@ -3137,9 +3137,9 @@
     "endurance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "str",
@@ -3170,8 +3170,8 @@
     "power"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -3184,7 +3184,7 @@
     "When you fall, the next climber goes; most consecutive dynos wins."
    ],
    "why": "Practises dynamic movement and power in short, motivated bursts.",
-   "variations": "Ascent: short sideways dynos. Summit: bigger, vertical ones.",
+   "variations": "Ages 12+ (training): short sideways dynos. Ages 14+ (competitive): bigger, vertical ones.",
    "risk": "Spotter ready; clear mat; limit attempts to protect shoulders.",
    "sources": [
     "MOMG"
@@ -3202,9 +3202,9 @@
     "power"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -3235,9 +3235,9 @@
     "falling"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -3270,9 +3270,9 @@
     "coordination"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -3303,9 +3303,9 @@
     "trust"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun",
@@ -3336,8 +3336,8 @@
     "strategy"
    ],
    "ages": [
-    "BC",
-    "AC"
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun"
@@ -3367,8 +3367,8 @@
     "onsight"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -3398,9 +3398,9 @@
     "communication"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun",
@@ -3432,8 +3432,8 @@
     "movement variety"
    ],
    "ages": [
-    "LR",
-    "BC"
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "fun",
@@ -3464,8 +3464,8 @@
     "composure"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "event",
@@ -3478,7 +3478,7 @@
     "Rest about 15 minutes, then try to beat it in round 2."
    ],
    "why": "Physical and mental endurance; teaches pacing against a clock, like a comp round.",
-   "variations": "Ascent: three boulders and a looser limit.",
+   "variations": "Ages 12+ (training): three boulders and a looser limit.",
    "risk": "Rest is part of the plan; stop if form breaks down.",
    "sources": [
     "MOMG"
@@ -3498,9 +3498,9 @@
     "route finding"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -3512,7 +3512,7 @@
     "Lowest score wins."
    ],
    "why": "Rewards reading the sequence and moving dynamically to skip holds.",
-   "variations": "Base: count holds only, no fall penalty.",
+   "variations": "Ages 9–12: count holds only, no fall penalty.",
    "risk": "Skipping holds means bigger moves: easy terrain, spotters or top rope.",
    "sources": [
     "MOMF",
@@ -3533,9 +3533,9 @@
     "body position"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -3567,9 +3567,9 @@
     "control"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun",
@@ -3601,9 +3601,9 @@
     "body tension"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun"
@@ -3634,8 +3634,8 @@
     "pacing"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str"
@@ -3646,7 +3646,7 @@
     "Coach calls changes."
    ],
    "why": "Varying intensity trains endurance and recovery on the wall.",
-   "variations": "Shorter sets for Ascent.",
+   "variations": "Shorter sets for Ages 12+ (training).",
    "risk": "Stop if form breaks down.",
    "sources": [
     "ELDO"
@@ -3664,9 +3664,9 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "rope",
@@ -3679,7 +3679,7 @@
     "Relay until all draws are moved; a fall or drop sends you back to the end."
    ],
    "why": "Endurance and one-handed balance with a team goal; kids also get used to handling gear.",
-   "variations": "Ascent: clip the draw onto the finish bolt correctly.",
+   "variations": "Ages 12+ (training): clip the draw onto the finish bolt correctly.",
    "risk": "Low traverse; no passing on one wall without a plan; check any dropped draw.",
    "sources": [
     "MOMG"
@@ -3699,9 +3699,9 @@
     "efficiency"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "event",
@@ -3738,12 +3738,12 @@
     "precise feet"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -3755,7 +3755,7 @@
     "If a foot thuds or scrapes, redo that placement."
    ],
    "why": "Silence is only possible when eyes guide the foot and the weight moves smoothly, so it trains precise, controlled feet; it's the most common footwork drill in climbing coaching.",
-   "variations": "Pebbles: sneaky ninja or mouse feet. Little Rockers: Jingle Feet (bells on shoes; keep them quiet). Ascent and Summit: silent feet on harder warm-up circuits.",
+   "variations": "Ages 4–6: sneaky ninja or mouse feet. Ages 6–9: Jingle Feet (bells on shoes; keep them quiet). Ages 12+ (training) and Ages 14+ (competitive): silent feet on harder warm-up circuits.",
    "risk": "Low traverse or top rope; everyone else quiet so the climber can hear.",
    "sources": [
     "B4C",
@@ -3780,13 +3780,13 @@
     "precise feet"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -3798,7 +3798,7 @@
     "Speed up as accuracy improves."
    ],
    "why": "No readjusting forces careful first placements, so feet become accurate and trustworthy.",
-   "variations": "Pebbles: glue feet story. Base: count readjustments and try for zero. Summit: on small holds.",
+   "variations": "Ages 4–6: glue feet story. Ages 9–12: count readjustments and try for zero. Ages 14+ (competitive): on small holds.",
    "risk": "Low or roped terrain.",
    "sources": [
     "PRG",
@@ -3819,9 +3819,9 @@
     "eye-to-foot contact"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -3856,9 +3856,9 @@
     "eye-to-foot contact"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -3888,9 +3888,9 @@
     "balance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -3902,7 +3902,7 @@
     "Choose trickier targets to increase difficulty."
    ],
    "why": "Off-the-wall accuracy and balance practice before climbing.",
-   "variations": "Little Rockers: big colorful holds as targets.",
+   "variations": "Ages 6–9: big colorful holds as targets.",
    "risk": "Low risk.",
    "sources": [
     "MOMF"
@@ -3922,10 +3922,10 @@
     "footwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -3956,9 +3956,9 @@
     "footwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -3990,10 +3990,10 @@
     "balance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -4004,7 +4004,7 @@
     "Lightly tap the next handhold with a foot before moving the hands."
    ],
    "why": "Opens the hips and builds balance and high-step mobility.",
-   "variations": "Little Rockers: tap only low holds.",
+   "variations": "Ages 6–9: tap only low holds.",
    "risk": "Easy problems only.",
    "sources": [
     "MOMO"
@@ -4024,9 +4024,9 @@
     "body position"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -4037,7 +4037,7 @@
     "Then climb on tiptoes with hands and feet stretched as far as possible."
    ],
    "why": "Feeling both extremes helps climbers find the efficient middle.",
-   "variations": "Base: alternate every three moves.",
+   "variations": "Ages 9–12: alternate every three moves.",
    "risk": "Low traverse.",
    "sources": [
     "MOMC"
@@ -4057,10 +4057,10 @@
     "movement pattern"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -4071,7 +4071,7 @@
     "Say it out loud: step, step, reach."
    ],
    "why": "Builds the habit of climbing with the legs first.",
-   "variations": "Pebbles: chant it together. Older: step, step, reach on vertical and slab.",
+   "variations": "Ages 4–6: chant it together. Older: step, step, reach on vertical and slab.",
    "risk": "Easy terrain.",
    "sources": [
     "MOMM"
@@ -4092,9 +4092,9 @@
     "footwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -4125,9 +4125,9 @@
     "body tension"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -4140,7 +4140,7 @@
     "Repeat on different footholds."
    ],
    "why": "Teaches active toeing in, which keeps feet on steep walls.",
-   "variations": "Ascent: on vertical. Summit: on overhang.",
+   "variations": "Ages 12+ (training): on vertical. Ages 14+ (competitive): on overhang.",
    "risk": "Low holds.",
    "sources": [
     "MOMC"
@@ -4161,9 +4161,9 @@
     "balance"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -4193,8 +4193,8 @@
     "body tension"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -4226,10 +4226,10 @@
     "smearing"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -4240,7 +4240,7 @@
     "Walk your feet up as high as possible, then back down, without footholds."
    ],
    "why": "Feeling friction on blank wall builds trust in smears.",
-   "variations": "Little Rockers: smear while a coach spots.",
+   "variations": "Ages 6–9: smear while a coach spots.",
    "risk": "Low jug; step off to the mat.",
    "sources": [
     "MOMC"
@@ -4258,9 +4258,9 @@
     "footwork"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -4293,10 +4293,10 @@
     "opposition"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -4307,7 +4307,7 @@
     "Use opposition in a corner if needed."
    ],
    "why": "Makes the legs and balance do the work.",
-   "variations": "Little Rockers: one hand only.",
+   "variations": "Ages 6–9: one hand only.",
    "risk": "Low slab or top rope; step down when stuck.",
    "sources": [
     "MOMC"
@@ -4328,10 +4328,10 @@
     "precise feet"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -4343,7 +4343,7 @@
     "Try different sizes and types of footholds."
    ],
    "why": "Teaches the hop and slide switches needed on small holds.",
-   "variations": "Little Rockers: a big foothold.",
+   "variations": "Ages 6–9: a big foothold.",
    "risk": "Low holds.",
    "sources": [
     "MOMM"
@@ -4362,9 +4362,9 @@
     "listening"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -4376,7 +4376,7 @@
     "Climbers change foot positions on each call."
    ],
    "why": "Fast practice of the three foot positions.",
-   "variations": "Base: one call at a time.",
+   "variations": "Ages 9–12: one call at a time.",
    "risk": "Low holds.",
    "sources": [
     "MOMC"
@@ -4397,13 +4397,13 @@
     "endurance"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -4416,7 +4416,7 @@
     "The belayer gives enough slack that the climber is never hanging on the rope."
    ],
    "why": "Looking down at footholds builds eye-to-foot contact; downclimbing boulders is the best way to reduce landing impacts.",
-   "variations": "Pebbles: downclimb the last two holds. Base: whole route. Summit: downclimb warm-up laps.",
+   "variations": "Ages 4–6: downclimb the last two holds. Ages 9–12: whole route. Ages 14+ (competitive): downclimb warm-up laps.",
    "risk": "Belayer keeps the rope just snug, not tight; boulderers downclimb to a low height, then step off.",
    "sources": [
     "MOMF",
@@ -4437,9 +4437,9 @@
     "endurance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -4472,9 +4472,9 @@
     "downclimbing"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -4487,7 +4487,7 @@
     "Climb to the second bolt, downclimb, and repeat until the top."
    ],
    "why": "Builds endurance and downclimbing confidence.",
-   "variations": "Base: up to the third bolt only.",
+   "variations": "Ages 9–12: up to the third bolt only.",
    "risk": "On top rope for anyone not yet lead-certified; belayer keeps up with slack.",
    "sources": [
     "MOMO"
@@ -4505,9 +4505,9 @@
     "rock over"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -4518,7 +4518,7 @@
     "After lowering, climb again skipping at least one foothold each time."
    ],
    "why": "Forces high steps and rock-overs.",
-   "variations": "Skip handholds too for Summit.",
+   "variations": "Skip handholds too for Ages 14+ (competitive).",
    "risk": "Top rope.",
    "sources": [
     "MOMM"
@@ -4538,10 +4538,10 @@
     "efficiency"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -4570,9 +4570,9 @@
     "endurance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -4585,7 +4585,7 @@
     "Hang with straight arms and compare."
    ],
    "why": "Kids feel how much easier straight arms are.",
-   "variations": "Little Rockers: big jugs and short counts.",
+   "variations": "Ages 6–9: big jugs and short counts.",
    "risk": "Feet stay near the mat; low holds.",
    "sources": [
     "MOMC"
@@ -4603,10 +4603,10 @@
     "efficiency"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -4639,10 +4639,10 @@
     "precise hands"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -4655,7 +4655,7 @@
     "The belayer and coach can count out loud."
    ],
    "why": "Builds controlled, static movement and lock-off strength.",
-   "variations": "Little Rockers: hover for one second. Summit: hover on steeper terrain.",
+   "variations": "Ages 6–9: hover for one second. Ages 14+ (competitive): hover on steeper terrain.",
    "risk": "Top rope or low; stop when form breaks.",
    "sources": [
     "MOMO"
@@ -4677,9 +4677,9 @@
     "core"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -4691,7 +4691,7 @@
     "Move your hands up the wall one or two holds at a time and back down while holding body tension."
    ],
    "why": "Teaches holding the feet on through core and body tension.",
-   "variations": "Summit: on overhangs.",
+   "variations": "Ages 14+ (competitive): on overhangs.",
    "risk": "Low holds.",
    "sources": [
     "MOMO",
@@ -4710,9 +4710,9 @@
     "body awareness"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -4745,9 +4745,9 @@
     "body position"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -4758,7 +4758,7 @@
     "Check the triangle at each stance before the next move."
    ],
    "why": "A simple, fundamental balance builder kids can picture.",
-   "variations": "Draw the triangle on a whiteboard first; Base: notice when an upside-down triangle (hands wide, feet together) works better.",
+   "variations": "Draw the triangle on a whiteboard first; Ages 9–12: notice when an upside-down triangle (hands wide, feet together) works better.",
    "risk": "Low holds.",
    "sources": [
     "B4C"
@@ -4780,9 +4780,9 @@
     "deadpointing"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -4814,9 +4814,9 @@
     "coordination"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -4847,7 +4847,7 @@
     "dynamic control"
    ],
    "ages": [
-    "SC"
+    "ages-14-plus"
    ],
    "themes": [
     "str"
@@ -4880,8 +4880,8 @@
     "shoulder control"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str"
@@ -4914,9 +4914,9 @@
     "reach"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -4927,7 +4927,7 @@
     "Then stay on the holds and pivot the feet (turn in or out) and reach again."
    ],
    "why": "Shows how turning the hips adds reach.",
-   "variations": "Base: big holds.",
+   "variations": "Ages 9–12: big holds.",
    "risk": "Low holds.",
    "sources": [
     "MOMM"
@@ -4947,9 +4947,9 @@
     "body position"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -4960,7 +4960,7 @@
     "Hold Recycler: set a problem that forces using one hold several ways."
    ],
    "why": "Practises reading hold direction and moving the body to match it.",
-   "variations": "On a spray wall for Summit.",
+   "variations": "On a spray wall for Ages 14+ (competitive).",
    "risk": "Low hold.",
    "sources": [
     "MOMC",
@@ -4980,9 +4980,9 @@
     "balance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -5010,9 +5010,9 @@
     "flagging"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -5023,7 +5023,7 @@
     "Flag when your foot has no hold."
    ],
    "why": "Forces flagging decisions.",
-   "variations": "Fewer taped holds for Summit.",
+   "variations": "Fewer taped holds for Ages 14+ (competitive).",
    "risk": "Low problems.",
    "sources": [
     "MOMM"
@@ -5042,8 +5042,8 @@
     "flagging"
    ],
    "ages": [
-    "BC",
-    "AC"
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -5071,9 +5071,9 @@
     "balance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -5106,9 +5106,9 @@
     "reach"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -5141,10 +5141,10 @@
     "toe hook"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -5177,12 +5177,12 @@
     "dynamic movement"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -5194,7 +5194,7 @@
     "Then as dynamically as possible."
    ],
    "why": "Contrasts the two styles so climbers can choose.",
-   "variations": "Little Rockers: slow sloth vs quick frog.",
+   "variations": "Ages 6–9: slow sloth vs quick frog.",
    "risk": "Rest 2 minutes between problems.",
    "sources": [
     "MOMM"
@@ -5216,10 +5216,10 @@
     "movement variety"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -5232,7 +5232,7 @@
     "Tape the Movement: coaches pre-tape holds to force high steps, rock-overs or flags."
    ],
    "why": "Setting teaches how holds force movement.",
-   "variations": "Little Rockers: four-move problems.",
+   "variations": "Ages 6–9: four-move problems.",
    "risk": "Low problems only.",
    "sources": [
     "MOMM"
@@ -5252,8 +5252,8 @@
     "footwork"
    ],
    "ages": [
-    "LR",
-    "BC"
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "tech"
@@ -5265,7 +5265,7 @@
     "Progress to feet-follow-hands."
    ],
    "why": "A stepping stone to following a full route.",
-   "variations": "Little Rockers: big holds.",
+   "variations": "Ages 6–9: big holds.",
    "risk": "Low problems.",
    "sources": [
     "BMC"
@@ -5286,8 +5286,8 @@
     "hold types"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str"
@@ -5299,7 +5299,7 @@
     "Speed version: matching holds, feet fixed."
    ],
    "why": "Structured hold-type and movement practice.",
-   "variations": "Ascent: bumping only.",
+   "variations": "Ages 12+ (training): bumping only.",
    "risk": "Teens only, short sets, stop when form breaks.",
    "sources": [
     "MOMM"
@@ -5322,11 +5322,11 @@
     "visualization"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -5339,7 +5339,7 @@
     "Afterwards, say what matched your plan and what changed."
    ],
    "why": "Reading first saves energy and builds the onsight skill used in competitions.",
-   "variations": "Little Rockers: point to the next three holds only. Summit: visualize with eyes closed and time the read like a comp observation period.",
+   "variations": "Ages 6–9: point to the next three holds only. Ages 14+ (competitive): visualize with eyes closed and time the read like a comp observation period.",
    "risk": "Read from outside the fall zone of other climbers.",
    "sources": [
     "CP"
@@ -5360,9 +5360,9 @@
     "memory"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -5375,7 +5375,7 @@
     "Compare drawings to the wall, then climb."
    ],
    "why": "Sequence reading and memory; prepares climbers for comp observation.",
-   "variations": "Base: draw only the hand holds.",
+   "variations": "Ages 9–12: draw only the hand holds.",
    "risk": "Low risk.",
    "sources": [
     "MOMF"
@@ -5396,9 +5396,9 @@
     "grades"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -5428,9 +5428,9 @@
     "creativity"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -5443,7 +5443,7 @@
     "Climb it using right-hand holds with the left hand and vice versa."
    ],
    "why": "Reading hand sequences and solving a familiar problem in a new way.",
-   "variations": "Little Rockers: three or four holds.",
+   "variations": "Ages 6–9: three or four holds.",
    "risk": "Easy boulder.",
    "sources": [
     "MOMF"
@@ -5464,9 +5464,9 @@
     "movement variety"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -5477,7 +5477,7 @@
     "Climbers find a completely different way to do it."
    ],
    "why": "Easiest isn't the goal: exploring new movement grows the toolbox.",
-   "variations": "Ascent: change only one section.",
+   "variations": "Ages 12+ (training): change only one section.",
    "risk": "Stay on terrain well within ability.",
    "sources": [
     "MOMF"
@@ -5499,9 +5499,9 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -5534,9 +5534,9 @@
     "communication"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -5548,7 +5548,7 @@
     "Try your partner's beta and pick the best parts of each."
    ],
    "why": "Height and style change the best beta; sharing builds problem-solving and respect.",
-   "variations": "Summit: film both and compare.",
+   "variations": "Ages 14+ (competitive): film both and compare.",
    "risk": "Partners spot each other.",
    "sources": [
     "CP"
@@ -5568,9 +5568,9 @@
     "footwork"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -5583,7 +5583,7 @@
     "Or watch World Cup videos for footwork details."
    ],
    "why": "Watching skilled climbers gives a model to copy.",
-   "variations": "Ascent: write one footwork detail to try.",
+   "variations": "Ages 12+ (training): write one footwork detail to try.",
    "risk": "Watch from outside fall zones.",
    "sources": [
     "MOMF"
@@ -5603,8 +5603,8 @@
     "technique"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -5637,9 +5637,9 @@
     "self-assessment"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -5651,7 +5651,7 @@
     "Climb at least one route or 2–3 boulders featuring each."
    ],
    "why": "Kids name and practise weaknesses, not just strengths.",
-   "variations": "Little Rockers: pictures of holds.",
+   "variations": "Ages 6–9: pictures of holds.",
    "risk": "Low risk.",
    "sources": [
     "MOMC"
@@ -5671,9 +5671,9 @@
     "wall types"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -5705,10 +5705,10 @@
     "memory"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -5741,9 +5741,9 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -5778,9 +5778,9 @@
     "hold types"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -5812,9 +5812,9 @@
     "wall types"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -5846,9 +5846,9 @@
     "grades"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech"
@@ -5880,9 +5880,9 @@
     "teamwork"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -5895,7 +5895,7 @@
     "Most correct boxes wins."
    ],
    "why": "Fast vocabulary review.",
-   "variations": "Pebbles and Little Rockers: coach writes, kids say.",
+   "variations": "Ages 4–6 and Ages 6–9: coach writes, kids say.",
    "risk": "Low risk.",
    "sources": [
     "MOMW"
@@ -5916,9 +5916,9 @@
     "memory"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "fun"
@@ -5952,13 +5952,13 @@
     "composure"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -5971,7 +5971,7 @@
     "Talk about how it felt."
    ],
    "why": "Calm breathing relaxes the grip and helps with nerves.",
-   "variations": "Parent & Me: balloon belly. Ascent: count 4 in, 4 out at rests. Summit: compare breathing on onsight vs redpoint grades.",
+   "variations": "Parent & Child (ages 2–3): balloon belly. Ages 12+ (training): count 4 in, 4 out at rests. Ages 14+ (competitive): compare breathing on onsight vs redpoint grades.",
    "risk": "Low risk.",
    "sources": [
     "MOMF"
@@ -5992,8 +5992,8 @@
     "efficiency"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -6025,9 +6025,9 @@
     "one-handed balance"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -6058,9 +6058,9 @@
     "focus"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "event",
@@ -6074,7 +6074,7 @@
     "Say a cue word, then go."
    ],
    "why": "A repeatable routine lowers nerves and builds consistency, especially at comps.",
-   "variations": "Base: three steps. Summit: individual routines.",
+   "variations": "Ages 9–12: three steps. Ages 14+ (competitive): individual routines.",
    "risk": "The check comes first, every time.",
    "sources": [
     "CP"
@@ -6096,9 +6096,9 @@
     "goal setting"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -6111,7 +6111,7 @@
     "Review monthly."
    ],
    "why": "Tracking effort and learning supports a mastery mindset.",
-   "variations": "Base: sticker chart. Summit: training block notes.",
+   "variations": "Ages 9–12: sticker chart. Ages 14+ (competitive): training block notes.",
    "risk": "Log pain or soreness too, and tell a coach.",
    "sources": [
     "CP"
@@ -6131,11 +6131,11 @@
     "precise feet"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -6167,9 +6167,9 @@
     "endurance"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "tech",
@@ -6202,9 +6202,9 @@
     "understanding"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech"
@@ -6237,8 +6237,8 @@
     "leadership"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -6250,7 +6250,7 @@
     "Swap."
    ],
    "why": "Teaching is the best test of understanding.",
-   "variations": "Summit teaches a skill to a younger group with a coach present.",
+   "variations": "Ages 14+ (competitive) teaches a skill to a younger group with a coach present.",
    "risk": "Coaches verify anything involving ropes or systems.",
    "sources": [
     "CP"
@@ -6270,9 +6270,9 @@
     "endurance"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "event",
@@ -6305,8 +6305,8 @@
     "speed"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -6338,9 +6338,9 @@
     "composure"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "event"
@@ -6351,7 +6351,7 @@
     "Debrief afterwards."
    ],
    "why": "Familiarity with the format reduces comp nerves.",
-   "variations": "Base: friendly, short format. Summit: full rules.",
+   "variations": "Ages 9–12: friendly, short format. Ages 14+ (competitive): full rules.",
    "risk": "Warm-up time is part of the plan.",
    "sources": [
     "CP"
@@ -6372,8 +6372,8 @@
     "strategy"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -6386,7 +6386,7 @@
     "Plan rests and clips; go for the redpoint."
    ],
    "why": "Teaches the process of working a hard climb.",
-   "variations": "Ascent on boulders.",
+   "variations": "Ages 12+ (training) on boulders.",
    "risk": "Rest between attempts; watch fingers.",
    "sources": [
     "CP"
@@ -6406,7 +6406,7 @@
     "projecting"
    ],
    "ages": [
-    "SC"
+    "ages-14-plus"
    ],
    "themes": [
     "str"
@@ -6439,8 +6439,8 @@
     "power endurance"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str"
@@ -6452,7 +6452,7 @@
     "Repeat for 4 sets."
    ],
    "why": "Classic power-endurance circuit.",
-   "variations": "Ascent: 3x3 or easier problems.",
+   "variations": "Ages 12+ (training): 3x3 or easier problems.",
    "risk": "Problems well below max; stop if form breaks down.",
    "sources": [
     "MOMO"
@@ -6472,9 +6472,9 @@
     "endurance"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -6505,9 +6505,9 @@
     "energy management"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str",
@@ -6540,9 +6540,9 @@
     "goal setting"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str"
@@ -6553,7 +6553,7 @@
     "Climb six climbs: start bottom left, go up, then down the right side."
    ],
    "why": "Structured volume and a clear plan.",
-   "variations": "Bigger pyramid for Summit.",
+   "variations": "Bigger pyramid for Ages 14+ (competitive).",
    "risk": "End on easy climbs.",
    "sources": [
     "MOMO"
@@ -6575,9 +6575,9 @@
     "resting"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "str"
@@ -6588,7 +6588,7 @@
     "Shake out on good holds."
    ],
    "why": "Low-intensity volume builds aerobic endurance.",
-   "variations": "Ascent: 3–5 minutes. Summit: longer.",
+   "variations": "Ages 12+ (training): 3–5 minutes. Ages 14+ (competitive): longer.",
    "risk": "Very easy terrain only.",
    "sources": [
     "CP"
@@ -6607,7 +6607,7 @@
     "power endurance"
    ],
    "ages": [
-    "SC"
+    "ages-14-plus"
    ],
    "themes": [
     "str"
@@ -6617,7 +6617,7 @@
     "Climb the circuit, rest equal time, repeat."
    ],
    "why": "Trains the pump of a hard route.",
-   "variations": "Fewer moves for Ascent.",
+   "variations": "Fewer moves for Ages 12+ (training).",
    "risk": "Older teens only; stop when form breaks.",
    "sources": [
     "CP",
@@ -6639,10 +6639,10 @@
     "systems check"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "rope"
@@ -6654,7 +6654,7 @@
     "Points for correct, not just fast."
    ],
    "why": "Makes the harness routine automatic; accuracy beats speed.",
-   "variations": "Pebbles: coach helps, kid names each part. Ascent: check a partner's harness too.",
+   "variations": "Ages 4–6: coach helps, kid names each part. Ages 12+ (training): check a partner's harness too.",
    "risk": "A coach checks every harness before anyone leaves the ground.",
    "sources": [
     "CP"
@@ -6676,10 +6676,10 @@
     "communication"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -6690,7 +6690,7 @@
     "Say it out loud and point at each item."
    ],
    "why": "A spoken, pointed check is the habit that catches mistakes.",
-   "variations": "Little Rockers: coach-led check song. Summit: lead-specific additions.",
+   "variations": "Ages 6–9: coach-led check song. Ages 14+ (competitive): lead-specific additions.",
    "risk": "No check, no climb, every time.",
    "sources": [
     "CP"
@@ -6711,9 +6711,9 @@
     "knots"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -6746,10 +6746,10 @@
     "systems check"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus"
    ],
    "themes": [
     "rope"
@@ -6760,7 +6760,7 @@
     "Explain what's wrong in each."
    ],
    "why": "Recognizing a correct knot is the first step to checking one.",
-   "variations": "Little Rockers: count the five pairs of strands.",
+   "variations": "Ages 6–9: count the five pairs of strands.",
    "risk": "Practice ropes only.",
    "sources": [
     "CP"
@@ -6780,9 +6780,9 @@
     "rope handling"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -6814,10 +6814,10 @@
     "gear"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -6849,11 +6849,11 @@
     "communication"
    ],
    "ages": [
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -6864,7 +6864,7 @@
     "Mix up the order; whoever answers wrong leads the next round."
    ],
    "why": "Clear, standard commands manage risk on every climb.",
-   "variations": "Pebbles: “Ready?” – “Ready!” Summit: add lead calls like “slack” and “clipping”.",
+   "variations": "Ages 4–6: “Ready?” – “Ready!” Ages 14+ (competitive): add lead calls like “slack” and “clipping”.",
    "risk": "Always use the gym's standard commands.",
    "sources": [
     "CP"
@@ -6884,10 +6884,10 @@
     "belaying"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -6921,10 +6921,10 @@
     "trusting the rope"
    ],
    "ages": [
-    "RT",
-    "LP",
-    "LR",
-    "BC"
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12"
    ],
    "themes": [
     "rope",
@@ -6958,10 +6958,10 @@
     "fear & confidence"
    ],
    "ages": [
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -6973,7 +6973,7 @@
     "Climber chooses when to progress."
    ],
    "why": "Gradual exposure builds trust in the rope.",
-   "variations": "Little Rockers: “sit in the chair” version.",
+   "variations": "Ages 6–9: “sit in the chair” version.",
    "risk": "Belayer keeps the rope snug; check the fall line is clear.",
    "sources": [
     "RS",
@@ -6995,8 +6995,8 @@
     "lead climbing"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -7032,9 +7032,9 @@
     "lead climbing"
    ],
    "ages": [
-    "BC",
-    "AC",
-    "SC"
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -7068,8 +7068,8 @@
     "lead climbing"
    ],
    "ages": [
-    "AC",
-    "SC"
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -7099,11 +7099,11 @@
     "spotting"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "BC",
-    "AC",
-    "SC"
+    "parent-child",
+    "ages-3-4",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope",
@@ -7115,7 +7115,7 @@
     "Guide the fall toward the mat; don't catch."
    ],
    "why": "Spotting directs falls to manage risk on boulders.",
-   "variations": "Parent & Me: parent spotting hands.",
+   "variations": "Parent & Child (ages 2–3): parent spotting hands.",
    "risk": "Spot only low problems.",
    "sources": [
     "MT",
@@ -7137,13 +7137,13 @@
     "gym rules"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "rope"
@@ -7155,7 +7155,7 @@
     "Teach three golden rules: look up, stay off mats under climbers, listen to coaches."
    ],
    "why": "Kids learn where risk is in the gym.",
-   "variations": "Pebbles: ‘wiggle zone’ vs ‘fall zone’.",
+   "variations": "Ages 4–6: ‘wiggle zone’ vs ‘fall zone’.",
    "risk": "Ongoing coach supervision.",
    "sources": [
     "CBJ",
@@ -7177,13 +7177,13 @@
     "reflection"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR",
-    "BC",
-    "AC",
-    "SC"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9",
+    "ages-9-12",
+    "ages-12-plus",
+    "ages-14-plus"
    ],
    "themes": [
     "tech",
@@ -7196,7 +7196,7 @@
     "End with a team cheer."
    ],
    "why": "Calm finish, reflection supports a growth mindset.",
-   "variations": "Parent & Me: parent and child stretch together.",
+   "variations": "Parent & Child (ages 2–3): parent and child stretch together.",
    "risk": "Gentle stretches only.",
    "sources": [
     "CP"
@@ -7216,10 +7216,10 @@
     "listening"
    ],
    "ages": [
-    "PM",
-    "RT",
-    "LP",
-    "LR"
+    "parent-child",
+    "ages-3-4",
+    "ages-4-6",
+    "ages-6-9"
    ],
    "themes": [
     "fun"

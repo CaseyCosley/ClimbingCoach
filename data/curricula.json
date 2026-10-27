@@ -1,36 +1,36 @@
 {
  "categories": {
   "rope": {
-   "fill": "#F5A623",
-   "ink": "#1A1A1A",
+   "fill": "#FBF8F2",
+   "ink": "#2A2622",
    "label": "Endurance, ropes and risk management"
   },
   "tech": {
-   "fill": "#7DC46B",
-   "ink": "#1A1A1A",
+   "fill": "#FBF8F2",
+   "ink": "#2A2622",
    "label": "Technique and movement"
   },
   "str": {
-   "fill": "#4FA3E0",
-   "ink": "#1A1A1A",
+   "fill": "#FBF8F2",
+   "ink": "#2A2622",
    "label": "Strength, speed and body control"
   },
   "event": {
-   "fill": "#F2DC3A",
-   "ink": "#1A1A1A",
+   "fill": "#FBF8F2",
+   "ink": "#2A2622",
    "label": "March event"
   },
   "fun": {
-   "fill": "#8E4FB8",
-   "ink": "#FFFFFF",
-   "label": "Find your Fun!"
+   "fill": "#E7EFE4",
+   "ink": "#24362A",
+   "label": "Review & Play"
   }
  },
  "groups": [
   {
-   "id": "pm",
-   "ageId": "PM",
-   "name": "Parent & Me (2–3)",
+   "id": "parent-child",
+   "ageId": "parent-child",
+   "name": "Parent & Child (ages 2–3)",
    "minutes": 60,
    "types": [
     "Explore & Play",
@@ -100,7 +100,7 @@
     },
     {
      "m": "Dec",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -208,7 +208,7 @@
     },
     {
      "m": "Jun",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -633,7 +633,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Welcome & Wall Rules favorites",
      "type": "Practice Skills & FUN!",
@@ -653,7 +653,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Moving Like Animals 101 favorites",
      "type": "FUN!",
@@ -672,7 +672,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Strong Little Bodies 101 favorites",
      "type": "FUN!",
@@ -692,7 +692,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Holiday fun day: kids' choice",
      "type": "FUN!",
@@ -1070,7 +1070,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Feet First 201 favorites",
      "type": "Practice Skills & FUN!",
@@ -1088,7 +1088,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Balance & Body 201 favorites",
      "type": "FUN!",
@@ -1108,7 +1108,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: New Shapes 301 favorites",
      "type": "FUN!",
@@ -1128,7 +1128,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "End-of-year send party: kids' choice",
      "type": "FUN!",
@@ -1144,9 +1144,9 @@
    ]
   },
   {
-   "id": "rt",
-   "ageId": "RT",
-   "name": "Rockin' Tots (3–4)",
+   "id": "ages-3-4",
+   "ageId": "ages-3-4",
+   "name": "Ages 3–4",
    "minutes": 60,
    "types": [
     "Guided Play",
@@ -1216,7 +1216,7 @@
     },
     {
      "m": "Dec",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -1324,7 +1324,7 @@
     },
     {
      "m": "Jun",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -1754,7 +1754,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Wall Rules & Stamina 101 favorites",
      "type": "Practice Skills & FUN!",
@@ -1774,7 +1774,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Movement 101 favorites",
      "type": "FUN!",
@@ -1794,7 +1794,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Strong Bodies 101 favorites",
      "type": "FUN!",
@@ -1814,7 +1814,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Holiday fun day: kids' choice",
      "type": "FUN!",
@@ -2193,7 +2193,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Feet 201 favorites",
      "type": "Practice Skills & FUN!",
@@ -2212,7 +2212,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Strong Bodies 201 favorites",
      "type": "FUN!",
@@ -2232,7 +2232,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Shapes 301 favorites",
      "type": "FUN!",
@@ -2252,7 +2252,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "End-of-year send party: kids' choice",
      "type": "FUN!",
@@ -2268,9 +2268,9 @@
    ]
   },
   {
-   "id": "lp",
-   "ageId": "LP",
-   "name": "Lil' Pebbles (4–6)",
+   "id": "ages-4-6",
+   "ageId": "ages-4-6",
+   "name": "Ages 4–6",
    "minutes": 60,
    "types": [
     "Guided Play",
@@ -2340,7 +2340,7 @@
     },
     {
      "m": "Dec",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -2448,7 +2448,7 @@
     },
     {
      "m": "Jun",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -2869,7 +2869,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Ropes & Rules 101 favorites",
      "type": "Practice Skills & FUN!",
@@ -2889,7 +2889,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 101 favorites",
      "type": "FUN!",
@@ -2909,7 +2909,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Body Control 101 favorites",
      "type": "FUN!",
@@ -2929,7 +2929,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Holiday fun day: kids' choice",
      "type": "FUN!",
@@ -3312,7 +3312,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 201 favorites",
      "type": "Practice Skills & FUN!",
@@ -3332,7 +3332,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Body Control 201 favorites",
      "type": "FUN!",
@@ -3352,7 +3352,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 301 favorites",
      "type": "FUN!",
@@ -3372,7 +3372,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "End-of-year send party: kids' choice",
      "type": "FUN!",
@@ -3388,9 +3388,9 @@
    ]
   },
   {
-   "id": "lr",
-   "ageId": "LR",
-   "name": "Little Rockers (6–9)",
+   "id": "ages-6-9",
+   "ageId": "ages-6-9",
+   "name": "Ages 6–9",
    "minutes": 90,
    "types": [
     "Structured Climbing",
@@ -3460,7 +3460,7 @@
     },
     {
      "m": "Dec",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -3567,7 +3567,7 @@
     },
     {
      "m": "Jun",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -4001,7 +4001,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Endurance 101 & Knots favorites",
      "type": "Practice Skills & FUN!",
@@ -4021,7 +4021,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 101 favorites",
      "type": "FUN!",
@@ -4041,7 +4041,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Strength & Speed 101 favorites",
      "type": "FUN!",
@@ -4061,7 +4061,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Holiday fun day: kids' choice",
      "type": "FUN!",
@@ -4442,7 +4442,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 201 favorites",
      "type": "Practice Skills & FUN!",
@@ -4462,7 +4462,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Strength & Speed 201 favorites",
      "type": "FUN!",
@@ -4482,7 +4482,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 301 favorites",
      "type": "FUN!",
@@ -4502,7 +4502,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "End-of-year send party: kids' choice",
      "type": "FUN!",
@@ -4518,9 +4518,9 @@
    ]
   },
   {
-   "id": "bc",
-   "ageId": "BC",
-   "name": "Base Club (9–12)",
+   "id": "ages-9-12",
+   "ageId": "ages-9-12",
+   "name": "Ages 9–12",
    "minutes": 120,
    "types": [
     "Structured Climbing",
@@ -4590,7 +4590,7 @@
     },
     {
      "m": "Dec",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -4697,7 +4697,7 @@
     },
     {
      "m": "Jun",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -5135,7 +5135,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Endurance 101 & Knots, Belaying favorites",
      "type": "Practice Skills & FUN!",
@@ -5155,7 +5155,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 101 favorites",
      "type": "FUN!",
@@ -5175,7 +5175,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Strength & Speed 101 favorites",
      "type": "FUN!",
@@ -5195,7 +5195,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Holiday fun day: kids' choice",
      "type": "FUN!",
@@ -5581,7 +5581,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 201 favorites",
      "type": "Practice Skills & FUN!",
@@ -5601,7 +5601,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Strength & Speed 201 favorites",
      "type": "FUN!",
@@ -5621,7 +5621,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 301 favorites",
      "type": "FUN!",
@@ -5641,7 +5641,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "End-of-year send party: kids' choice",
      "type": "FUN!",
@@ -5657,9 +5657,9 @@
    ]
   },
   {
-   "id": "ac",
-   "ageId": "AC",
-   "name": "Ascent Club (12+)",
+   "id": "ages-12-plus",
+   "ageId": "ages-12-plus",
+   "name": "Ages 12+ (training)",
    "minutes": 120,
    "types": [
     "Structured Climbing (climber-led warm-up)",
@@ -5729,7 +5729,7 @@
     },
     {
      "m": "Dec",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -5836,7 +5836,7 @@
     },
     {
      "m": "Jun",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -6264,7 +6264,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Endurance 101 & Belay Check-off favorites",
      "type": "Practice Skills & FUN!",
@@ -6284,7 +6284,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 101 favorites",
      "type": "FUN!",
@@ -6304,7 +6304,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Strength & Speed 101 favorites",
      "type": "FUN!",
@@ -6324,7 +6324,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Holiday fun day: kids' choice",
      "type": "FUN!",
@@ -6710,7 +6710,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 201 favorites",
      "type": "Practice Skills & FUN!",
@@ -6730,7 +6730,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Strength & Speed 201 favorites",
      "type": "FUN!",
@@ -6750,7 +6750,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 301 favorites",
      "type": "FUN!",
@@ -6770,7 +6770,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "End-of-year send party: kids' choice",
      "type": "FUN!",
@@ -6786,9 +6786,9 @@
    ]
   },
   {
-   "id": "sc",
-   "ageId": "SC",
-   "name": "Summit Club (14+)",
+   "id": "ages-14-plus",
+   "ageId": "ages-14-plus",
+   "name": "Ages 14+ (competitive)",
    "minutes": 120,
    "types": [
     "Structured Training",
@@ -6796,7 +6796,7 @@
     "Hard Workout (Grade Pushing)",
     "Comp Sim / Game"
    ],
-   "intro": "Periodized around the USA Climbing youth season as it ran in 2025–26 (qualifiers Oct–Feb, Regionals in March, Divisionals Apr–May, Nationals June 26–July 3). Check this year's schedule before you lock dates. Dec and Jun stay as Find your Fun, which also gives planned rest weeks.",
+   "intro": "Periodized around the USA Climbing youth season as it ran in 2025–26 (qualifiers Oct–Feb, Regionals in March, Divisionals Apr–May, Nationals June 26–July 3). Check this year's schedule before you lock dates. Dec and Jun stay as Review & Play, which also gives planned rest weeks.",
    "months": [
     {
      "m": "Sept",
@@ -6858,7 +6858,7 @@
     },
     {
      "m": "Dec",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -6965,7 +6965,7 @@
     },
     {
      "m": "Jun",
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "c": "fun",
      "w": [
       [
@@ -6995,7 +6995,7 @@
    ],
    "notes": [
     "No campus, hangboard or weighted hangs before about 16–17, and only after growth has finished; strength comes from the wall.",
-    "Athletes going to Nationals get an individual June plan; everyone else gets Find your Fun.",
+    "Athletes going to Nationals get an individual June plan; everyone else gets Review & Play.",
     "Watch for under-fueling and body-image pressure, and keep pain reporting normal."
    ],
    "blocks": [
@@ -7392,7 +7392,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Base Building & Systems (general prep) favorites",
      "type": "Practice Skills & FUN!",
@@ -7412,7 +7412,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique & Onsight (qualifiers) favorites",
      "type": "FUN!",
@@ -7432,7 +7432,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Strength & Power (in season) favorites",
      "type": "FUN!",
@@ -7452,7 +7452,7 @@
      "month": "Dec",
      "monthIndex": 3,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Holiday fun day: kids' choice",
      "type": "FUN!",
@@ -7842,7 +7842,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 1,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 201 & Mental Skills favorites",
      "type": "Practice Skills & FUN!",
@@ -7862,7 +7862,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 2,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Strength & Speed 201 (Divisionals build) favorites",
      "type": "FUN!",
@@ -7882,7 +7882,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 3,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "Review: Technique 301 & Divisionals favorites",
      "type": "FUN!",
@@ -7902,7 +7902,7 @@
      "month": "Jun",
      "monthIndex": 9,
      "week": 4,
-     "theme": "Find your Fun!",
+     "theme": "Review & Play",
      "cat": "fun",
      "skill": "End-of-year send party: kids' choice",
      "type": "FUN!",

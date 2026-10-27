@@ -25,7 +25,9 @@
     document.getElementById("intro").innerHTML = '<p class="lead">' + esc(P.summary) + "</p>";
     document.getElementById("how").innerHTML = "<ul>" + P.how.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" +
       '<div class="callout"><strong>' + esc(P.callout.lead) + "</strong>" + esc(P.callout.text) + "</div>" +
-      '<div class="legend">' + Object.keys(CAT).map(function (k) { return '<span><span class="swatch bg-' + k + '"></span>' + esc(CAT[k].label) + "</span>"; }).join("") + "</div>";
+      '<ul class="theme-key">' + Object.keys(CAT).map(function (k) {
+        return '<li' + (k === "fun" ? ' class="review-key"' : "") + ">" + esc(CAT[k].label) + "</li>";
+      }).join("") + "</ul>";
 
     var gsel = document.getElementById("group");
     gsel.innerHTML = cur.groups.map(function (g) { return '<option value="' + g.id + '">' + esc(g.name) + "</option>"; }).join("");
@@ -47,9 +49,9 @@
       var h = '<div class="h">Month</div><div class="h">Theme</div><div class="h">Skill Progression</div><div class="h">Weekly Structure</div>';
       var row = 2;
       g.months.forEach(function (m, mi) {
-        var span = m.w.length, cls = "c bg-" + m.c + (m.c === "fun" ? " fun" : "");
+        var span = m.w.length, review = m.c === "fun", cls = "c" + (review ? " review" : "");
         var sel = mi === state.m ? " sel" : "";
-        h += '<div class="' + cls + ' m' + sel + '" style="grid-column:1;grid-row:' + row + " / span " + span + '" data-m="' + mi + '" data-w="0" title="Open ' + esc(m.m) + ' week plans">' + esc(m.m) + "</div>";
+        h += '<div class="' + cls + ' m' + sel + '" style="grid-column:1;grid-row:' + row + " / span " + span + '" data-m="' + mi + '" data-w="0" title="Open ' + esc(m.m) + ' week plans">' + esc(m.m) + (review ? '<span class="review-tag">Review & Play</span>' : "") + "</div>";
         h += '<div class="' + cls + ' t" style="grid-column:2;grid-row:' + row + " / span " + span + '" data-m="' + mi + '" data-w="0">' + esc(m.theme) + "</div>";
         m.w.forEach(function (w, i) {
           var attrs = ' data-m="' + mi + '" data-w="' + i + '" style="grid-column:COL;grid-row:' + (row + i) + '"';
@@ -98,7 +100,7 @@
       var total = g.blocks.reduce(function (s, b) { return s + b.min; }, 0);
       var act = function (b) { return { W: r.warm, D: r.drill, G: r.game, C: r.cool }[b.slot]; };
       var h = '<div class="print-only"><strong>' + esc(H.SITE_TITLE) + "</strong> · " + esc(g.name) + " · " + g.minutes + " min class</div>";
-      h += '<div class="banner bg-' + m.c + (m.c === "fun" ? " fun" : "") + '"><div class="k">' + esc(m.m + " · Week " + (state.w + 1) + " · " + m.theme + " · school-year week " + r.n + " of 40") + '</div><div class="s">' + esc(r.skill) + '</div><div class="k">Session type: ' + esc(r.type) + "</div></div>";
+      h += '<div class="banner' + (m.c === "fun" ? " review" : "") + '"><div class="k">' + esc(m.m + " · Week " + (state.w + 1) + " · " + m.theme + " · school-year week " + r.n + " of 40") + '</div><div class="s">' + esc(r.skill) + '</div><div class="k">Session type: ' + esc(r.type) + "</div></div>";
       h += "<h3>Vocabulary this week</h3>" + H.table(["Term", "What it means (for you)", lvl === 2 ? "Say it like this (ages 2–6)" : "Say it like this (kid or teen version)"],
         r.vocab.map(function (v) { var x = cur.weekVocab[v] || ["", "", ""]; return [lv(v), esc(x[0]), esc(x[lvl])]; }), { raw: true });
       h += "<h3>Activities (" + total + " min)</h3>" + H.table(["Block", "Minutes", "Activity (Library name)", "Focus"],

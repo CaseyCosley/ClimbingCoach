@@ -2,66 +2,66 @@
  "lastUpdated": "2026-10-27",
  "ages": [
   {
-   "id": "PM",
-   "label": "Parent & Me (2–3)",
-   "short": "Parent & Me"
+   "id": "parent-child",
+   "label": "Parent & Child (ages 2–3)",
+   "short": "Ages 2–3"
   },
   {
-   "id": "RT",
-   "label": "Rockin' Tots (3–4)",
-   "short": "Rockin' Tots"
+   "id": "ages-3-4",
+   "label": "Ages 3–4",
+   "short": "Ages 3–4"
   },
   {
-   "id": "LP",
-   "label": "Lil' Pebbles (4–6)",
-   "short": "Lil' Pebbles"
+   "id": "ages-4-6",
+   "label": "Ages 4–6",
+   "short": "Ages 4–6"
   },
   {
-   "id": "LR",
-   "label": "Little Rockers (6–9)",
-   "short": "Little Rockers"
+   "id": "ages-6-9",
+   "label": "Ages 6–9",
+   "short": "Ages 6–9"
   },
   {
-   "id": "BC",
-   "label": "Base Club (9–12)",
-   "short": "Base"
+   "id": "ages-9-12",
+   "label": "Ages 9–12",
+   "short": "Ages 9–12"
   },
   {
-   "id": "AC",
-   "label": "Ascent Club (12+)",
-   "short": "Ascent"
+   "id": "ages-12-plus",
+   "label": "Ages 12+ (training)",
+   "short": "Ages 12+"
   },
   {
-   "id": "SC",
-   "label": "Summit Club (14+)",
-   "short": "Summit"
+   "id": "ages-14-plus",
+   "label": "Ages 14+ (competitive)",
+   "short": "Ages 14+"
   }
  ],
  "themes": [
   {
    "id": "rope",
    "label": "Ropes, endurance and risk management (Sept, Jan)",
-   "fill": "#F5A623"
+   "fill": "#FBF8F2"
   },
   {
    "id": "tech",
    "label": "Technique and movement (Oct, Feb, May)",
-   "fill": "#7DC46B"
+   "fill": "#FBF8F2"
   },
   {
    "id": "str",
    "label": "Strength, speed and body control (Nov, Apr)",
-   "fill": "#4FA3E0"
+   "fill": "#FBF8F2"
   },
   {
    "id": "event",
    "label": "March event",
-   "fill": "#F2DC3A"
+   "fill": "#FBF8F2"
   },
   {
    "id": "fun",
-   "label": "Find your Fun (Dec, Jun)",
-   "fill": "#8E4FB8"
+   "label": "Review & Play (Dec, Jun)",
+   "fill": "#E7EFE4"
   }
  ],
  "types": [

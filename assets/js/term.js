@@ -23,9 +23,9 @@
         '<article class="card"><h1>' + esc(v.name) + "</h1>" +
         '<p><a class="pill" href="vocabulary.html?category=' + encodeURIComponent(v.category) + '">' + esc(v.category) + "</a></p>" +
         (v.aka.length ? '<p class="muted">Also called: ' + esc(v.aka.join(", ")) + "</p>" : "") +
-        "<dl><dt>Plain definition (Ascent, Summit, coaches)</dt><dd>" + esc(v.definition) + "</dd>" +
-        "<dt>Kid version (Little Rockers, Base)</dt><dd>" + esc(v.kid) + "</dd>" +
-        "<dt>Little-kid version (Parent &amp; Me, Rockin' Tots, Lil' Pebbles)</dt><dd>" + esc(v.little) + "</dd>" +
+        "<dl><dt>Plain definition (ages 12+ and 14+, coaches)</dt><dd>" + esc(v.definition) + "</dd>" +
+        "<dt>Kid version (ages 6–9 and 9–12)</dt><dd>" + esc(v.kid) + "</dd>" +
+        "<dt>Little-kid version (Parent &amp; Child, ages 3–4 and 4–6)</dt><dd>" + esc(v.little) + "</dd>" +
         "<dt>How to teach or demo it</dt><dd>" + esc(v.demo) + "</dd>" +
         "<dt>Weeks where it is a focus term (" + uses.length + ")</dt><dd>" + useHtml + "</dd></dl></article>" +
         '<div class="pager no-print"><a class="btn ghost" href="' + H.termHref(prev) + '">← ' + esc(prev.name) + '</a><a class="btn ghost" href="' + H.termHref(next) + '">' + esc(next.name) + " →</a></div>";

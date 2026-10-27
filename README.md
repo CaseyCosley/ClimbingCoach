@@ -28,7 +28,7 @@ Pages then serves this site at `https://caseycosley.github.io/ClimbingCoach/`. A
 | Path | What it is |
 |---|---|
 | `index.html` | Home: what this is, who it's for, the key principles, links to each age group |
-| `curricula.html` | Group dropdown, color-coded year chart, month and week pickers, vocabulary and timed activity plan for each week, Print this week |
+| `curricula.html` | Group dropdown, school-year chart, month and week pickers, vocabulary and timed activity plan for each week, Print this week |
 | `library.html` / `activity.html#<id>` | Activity search and filters / one activity's page (shareable URL) |
 | `vocabulary.html` / `term.html#<id>` | Glossary search and category filter / one term's page |
 | `playbook.html` | Research by age group, comparison table, game-theory section, sources |
@@ -48,7 +48,7 @@ The HTML holds no content. Change the JSON files and the site updates.
   - `aka`: also-called aliases
   - `types`: session types; ids are listed in `meta.json`
   - `skills`: free-text skill tags
-  - `ages`: `PM RT LP LR BC AC SC`
+  - `ages`: `parent-child ages-3-4 ages-4-6 ages-6-9 ages-9-12 ages-12-plus ages-14-plus`
   - `themes`: `rope tech str event fun`
   - `setup`
   - `steps`: an array
@@ -62,8 +62,8 @@ The HTML holds no content. Change the JSON files and the site updates.
   - `aka`
   - `category`
   - `definition`: the plain definition, for coaches and teens
-  - `kid`: for Little Rockers and Base
-  - `little`: for Parent & Me, Rockin' Tots and Lil' Pebbles
+  - `kid`: for Ages 6–9 and Ages 9–12
+  - `little`: for Parent & Child (ages 2–3), Ages 3–4 and Ages 4–6
   - `demo`: how to teach it
 - **`data/curricula.json`** has three parts:
   - `categories`: chart colors and legend labels
@@ -123,13 +123,13 @@ Names are compared after lowercasing and removing everything except letters and 
   "listening"
  ],
  "ages": [
-  "PM",
-  "RT",
-  "LP",
-  "LR",
-  "BC",
-  "AC",
-  "SC"
+  "parent-child",
+  "ages-3-4",
+  "ages-4-6",
+  "ages-6-9",
+  "ages-9-12",
+  "ages-12-plus",
+  "ages-14-plus"
  ],
  "themes": [
   "rope",
@@ -145,7 +145,7 @@ Names are compared after lowercasing and removing everything except letters and 
   "Finish standing still so the group is ready to listen."
  ],
  "why": "BMC's FUNdamentals notes build a climbing warm-up in three parts: pulse raiser, joint rotation, then easy climbing. Raising heart rate and body temperature first prepares muscles and gets attention on you.",
- "variations": "Parent & Me to Lil' Pebbles: tell a story (run from the rain, jump the puddles). Little Rockers and Base: follow-the-leader or a tag game. Ascent and Summit: athlete-led.",
+ "variations": "Parent & Child (ages 2–3) to Ages 4–6: tell a story (run from the rain, jump the puddles). Ages 6–9 and Ages 9–12: follow-the-leader or a tag game. Ages 12+ (training) and Ages 14+ (competitive): athlete-led.",
  "risk": "Keep running lanes clear of bags, ropes and the landing zones under climbers.",
  "sources": [
   "BMC",
