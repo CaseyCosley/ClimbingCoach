@@ -1,0 +1,1446 @@
+{
+ "lastUpdated": "2026-10-27",
+ "count": 122,
+ "items": [
+  {
+   "id": "hold",
+   "name": "Hold",
+   "aka": [
+    "Climbing Hold"
+   ],
+   "category": "Holds",
+   "definition": "Any shaped grip bolted to the wall for hands or feet.",
+   "kid": "The bumps on the wall you grab or stand on.",
+   "little": "The wall's handles and steps.",
+   "demo": "Touch three holds and name their colors."
+  },
+  {
+   "id": "jug",
+   "name": "Jug",
+   "aka": [
+    "Bucket"
+   ],
+   "category": "Holds",
+   "definition": "A large, deep, positive hold that is easy to grip.",
+   "kid": "A big hold shaped like a jug handle.",
+   "little": "A big handle hold.",
+   "demo": "Hang from a jug and from a small hold; compare."
+  },
+  {
+   "id": "crimp",
+   "name": "Crimp",
+   "aka": [
+    "Edge",
+    "Crimper"
+   ],
+   "category": "Holds",
+   "definition": "A small, thin edge held with the fingertips; also the grip used on it.",
+   "kid": "A tiny ledge you hold with your fingertips.",
+   "little": "A skinny little hold.",
+   "demo": "Show open-hand vs half-crimp on a big edge; no full crimp for young kids."
+  },
+  {
+   "id": "sloper",
+   "name": "Sloper",
+   "aka": [],
+   "category": "Holds",
+   "definition": "A rounded hold with no edge; it relies on friction and body position.",
+   "kid": "A round, smooth hold you hug with your whole hand.",
+   "little": "The ball hold.",
+   "demo": "Hold it with straight arms and hips low vs pulled in high."
+  },
+  {
+   "id": "pinch",
+   "name": "Pinch",
+   "aka": [],
+   "category": "Holds",
+   "definition": "A hold squeezed between thumb and fingers.",
+   "kid": "A hold you pinch like a crab claw.",
+   "little": "Crab-claw hold.",
+   "demo": "Squeeze a pinch with and without the thumb."
+  },
+  {
+   "id": "pocket",
+   "name": "Pocket",
+   "aka": [
+    "Mono"
+   ],
+   "category": "Holds",
+   "definition": "A hole in a hold for one or more fingers (one-finger pockets, monos, are not for youth).",
+   "kid": "A hole you poke fingers into.",
+   "little": "A finger hole.",
+   "demo": "Count how many fingers fit."
+  },
+  {
+   "id": "sidepull",
+   "name": "Sidepull",
+   "aka": [],
+   "category": "Holds",
+   "definition": "A hold facing sideways, pulled toward the body's midline.",
+   "kid": "A hold you pull sideways, like opening a sliding door.",
+   "little": "The sideways hold.",
+   "demo": "Lean away from a sidepull to make it work."
+  },
+  {
+   "id": "undercling",
+   "name": "Undercling",
+   "aka": [
+    "Undercut"
+   ],
+   "category": "Holds",
+   "definition": "A hold facing down, gripped palm-up with feet high.",
+   "kid": "A hold you grab from underneath, like lifting a box.",
+   "little": "The upside-down hold.",
+   "demo": "Grip palm-up and walk feet higher."
+  },
+  {
+   "id": "gaston",
+   "name": "Gaston",
+   "aka": [],
+   "category": "Holds",
+   "definition": "A hold pushed outward with the elbow out, thumb down.",
+   "kid": "A hold you push open, like opening elevator doors.",
+   "little": "Push the doors open.",
+   "demo": "Mime opening elevator doors, then on the wall."
+  },
+  {
+   "id": "volume",
+   "name": "Volume",
+   "aka": [],
+   "category": "Holds",
+   "definition": "A large hollow feature bolted to the wall, often with holds on it.",
+   "kid": "A giant shape on the wall you can stand or grab on.",
+   "little": "The big block.",
+   "demo": "Climb onto a volume and stand on it."
+  },
+  {
+   "id": "foothold",
+   "name": "Foothold",
+   "aka": [
+    "Foot Chip",
+    "Jib"
+   ],
+   "category": "Holds",
+   "definition": "A hold used for feet; small ones are called chips or jibs.",
+   "kid": "A hold for your feet.",
+   "little": "A step.",
+   "demo": "Find the smallest foothold in reach."
+  },
+  {
+   "id": "hold-direction",
+   "name": "Hold Direction",
+   "aka": [
+    "Positive",
+    "Negative"
+   ],
+   "category": "Holds",
+   "definition": "Which way a hold's best surface faces; it decides how to pull. Positive holds are incut; negative ones slope away.",
+   "kid": "Which way the hold's grab side points.",
+   "little": "Which way the hold smiles.",
+   "demo": "Find the 'smile' of a hold before grabbing."
+  },
+  {
+   "id": "smear",
+   "name": "Smear",
+   "aka": [
+    "Smearing"
+   ],
+   "category": "Footwork",
+   "definition": "Pressing the sole flat on the wall with no foothold, using friction.",
+   "kid": "Pressing your shoe flat on the wall to stick.",
+   "little": "Sticky shoe.",
+   "demo": "Walk feet up blank wall while holding a jug."
+  },
+  {
+   "id": "edging",
+   "name": "Edging",
+   "aka": [
+    "Inside Edge",
+    "Outside Edge"
+   ],
+   "category": "Footwork",
+   "definition": "Standing on a hold with the inside or outside edge of the shoe.",
+   "kid": "Standing on the side of your shoe.",
+   "little": "Side of the shoe.",
+   "demo": "Inside edge, then outside edge, on the same hold."
+  },
+  {
+   "id": "toeing-in",
+   "name": "Toeing In",
+   "aka": [
+    "Toe In"
+   ],
+   "category": "Footwork",
+   "definition": "Pulling with the toes to keep feet on steep terrain.",
+   "kid": "Pulling the hold toward you with your toes.",
+   "little": "Toe grab.",
+   "demo": "See Drag a Hold."
+  },
+  {
+   "id": "heel-hook",
+   "name": "Heel Hook",
+   "aka": [],
+   "category": "Footwork",
+   "definition": "Placing the heel on a hold and pulling with the hamstring.",
+   "kid": "Hooking your heel on a hold like a hand.",
+   "little": "Heel hand.",
+   "demo": "Heel hook a big hold at waist height."
+  },
+  {
+   "id": "toe-hook",
+   "name": "Toe Hook",
+   "aka": [],
+   "category": "Footwork",
+   "definition": "Hooking the top of the toes behind a hold.",
+   "kid": "Hooking the top of your toes on a hold.",
+   "little": "Toe hook.",
+   "demo": "Toe hook a volume edge."
+  },
+  {
+   "id": "foot-swap",
+   "name": "Foot Swap",
+   "aka": [
+    "Foot Switch",
+    "Switch Feet"
+   ],
+   "category": "Footwork",
+   "definition": "Replacing one foot with the other on the same hold.",
+   "kid": "Swapping feet on one hold.",
+   "little": "Trade feet.",
+   "demo": "See Foot Switching."
+  },
+  {
+   "id": "frontstep",
+   "name": "Frontstep",
+   "aka": [],
+   "category": "Footwork",
+   "definition": "Standing on the inside edge, hips square to the wall.",
+   "kid": "Standing facing the wall on your big toe side.",
+   "little": "Tummy to the wall.",
+   "demo": "See Quick Step."
+  },
+  {
+   "id": "backstep",
+   "name": "Backstep",
+   "aka": [],
+   "category": "Footwork",
+   "definition": "Standing on the outside edge with the hip turned in.",
+   "kid": "Standing on your pinky-toe side, hip turned to the wall.",
+   "little": "Side to the wall.",
+   "demo": "See Quick Step."
+  },
+  {
+   "id": "high-step",
+   "name": "High Step",
+   "aka": [],
+   "category": "Footwork",
+   "definition": "Placing a foot high, near the hip or hand.",
+   "kid": "A big step way up high.",
+   "little": "Big step.",
+   "demo": "High step and stand up."
+  },
+  {
+   "id": "rock-over",
+   "name": "Rock Over",
+   "aka": [],
+   "category": "Footwork",
+   "definition": "Shifting weight over a high foot to stand on it.",
+   "kid": "Moving your body over a high foot and standing up.",
+   "little": "Climb onto your foot.",
+   "demo": "See Skipping Holds."
+  },
+  {
+   "id": "quiet-feet",
+   "name": "Quiet Feet",
+   "aka": [
+    "Silent Feet"
+   ],
+   "category": "Footwork",
+   "definition": "Placing feet without noise, which signals precision.",
+   "kid": "Putting your feet down so quietly nobody hears.",
+   "little": "Ninja feet.",
+   "demo": "See Silent Feet."
+  },
+  {
+   "id": "drop-knee",
+   "name": "Drop Knee",
+   "aka": [
+    "Egyptian"
+   ],
+   "category": "Movement",
+   "definition": "Turning one knee down and in to bring the hip to the wall.",
+   "kid": "Twisting your knee down so your hip touches the wall.",
+   "little": "Knee down.",
+   "demo": "Drop knee on two footholds at the same height."
+  },
+  {
+   "id": "flagging",
+   "name": "Flagging",
+   "aka": [
+    "Flag",
+    "Inside Flag",
+    "Outside Flag"
+   ],
+   "category": "Movement",
+   "definition": "Placing a leg against the wall without a hold to balance.",
+   "kid": "Sticking a leg out like a tail to keep balance.",
+   "little": "Monkey tail.",
+   "demo": "See Monkey Tails."
+  },
+  {
+   "id": "straight-arms",
+   "name": "Straight Arms",
+   "aka": [
+    "Monkey Arms"
+   ],
+   "category": "Movement",
+   "definition": "Hanging on extended arms so the skeleton holds weight.",
+   "kid": "Hanging like a monkey with long arms.",
+   "little": "Long monkey arms.",
+   "demo": "See Robot Arms."
+  },
+  {
+   "id": "lock-off",
+   "name": "Lock-Off",
+   "aka": [],
+   "category": "Movement",
+   "definition": "Holding a bent arm still while the other hand reaches.",
+   "kid": "Freezing one arm bent while you reach.",
+   "little": "Statue arm.",
+   "demo": "See Hover Hands."
+  },
+  {
+   "id": "dyno",
+   "name": "Dyno",
+   "aka": [],
+   "category": "Movement",
+   "definition": "A jump where the body leaves contact to catch a hold.",
+   "kid": "A jump to a hold.",
+   "little": "Big jump.",
+   "demo": "See Dyno Dash."
+  },
+  {
+   "id": "deadpoint",
+   "name": "Deadpoint",
+   "aka": [],
+   "category": "Movement",
+   "definition": "A dynamic move catching a hold at the top of the body's movement.",
+   "kid": "A quick reach at the floaty moment.",
+   "little": "Float and grab.",
+   "demo": "Deadpoint on a big hold."
+  },
+  {
+   "id": "static",
+   "name": "Static",
+   "aka": [
+    "Static Movement"
+   ],
+   "category": "Movement",
+   "definition": "Slow, controlled movement keeping three points on.",
+   "kid": "Moving slow and smooth like a sloth.",
+   "little": "Sloth moves.",
+   "demo": "See Static and Dynamic."
+  },
+  {
+   "id": "dynamic",
+   "name": "Dynamic",
+   "aka": [
+    "Dynamic Movement"
+   ],
+   "category": "Movement",
+   "definition": "Movement using momentum.",
+   "kid": "Moving fast with a swing or jump.",
+   "little": "Frog moves.",
+   "demo": "See Static and Dynamic."
+  },
+  {
+   "id": "match",
+   "name": "Match",
+   "aka": [
+    "Matching"
+   ],
+   "category": "Movement",
+   "definition": "Putting both hands (or feet) on the same hold.",
+   "kid": "Both hands on one hold.",
+   "little": "Hands share.",
+   "demo": "Match on a jug."
+  },
+  {
+   "id": "bump",
+   "name": "Bump",
+   "aka": [
+    "Bumping"
+   ],
+   "category": "Movement",
+   "definition": "Moving one hand twice in a row to reach a better hold.",
+   "kid": "Moving the same hand again.",
+   "little": "Hop the hand.",
+   "demo": "See Systems Wall Drills."
+  },
+  {
+   "id": "cross-through",
+   "name": "Cross Through",
+   "aka": [
+    "Crossover"
+   ],
+   "category": "Movement",
+   "definition": "Reaching one hand over or under the other.",
+   "kid": "Crossing your arms to reach.",
+   "little": "Cross arms.",
+   "demo": "Cross through on a traverse."
+  },
+  {
+   "id": "mantle",
+   "name": "Mantle",
+   "aka": [
+    "Mantel"
+   ],
+   "category": "Movement",
+   "definition": "Pressing down on a ledge to climb on top of it.",
+   "kid": "Pushing down like getting out of a pool.",
+   "little": "Pool push.",
+   "demo": "Mantle a volume."
+  },
+  {
+   "id": "layback",
+   "name": "Layback",
+   "aka": [
+    "Lieback"
+   ],
+   "category": "Movement",
+   "definition": "Pulling on a side edge while pushing feet the opposite way.",
+   "kid": "Pulling and pushing opposite ways on an edge.",
+   "little": "Pull and push.",
+   "demo": "Layback an arete."
+  },
+  {
+   "id": "stemming",
+   "name": "Stemming",
+   "aka": [
+    "Stem",
+    "Opposition"
+   ],
+   "category": "Movement",
+   "definition": "Pushing feet and hands against opposing walls.",
+   "kid": "Pushing out on both sides of a corner.",
+   "little": "Spider legs.",
+   "demo": "Stem in a corner."
+  },
+  {
+   "id": "knee-bar",
+   "name": "Knee Bar",
+   "aka": [],
+   "category": "Movement",
+   "definition": "Wedging the knee and foot between holds to rest.",
+   "kid": "Wedging your knee to rest your arms.",
+   "little": "Knee lock.",
+   "demo": "Find a knee bar on a volume."
+  },
+  {
+   "id": "cut-feet",
+   "name": "Cut Feet",
+   "aka": [
+    "Cutting Feet",
+    "Feet Cut"
+   ],
+   "category": "Movement",
+   "definition": "Feet coming off the wall, usually on steep terrain.",
+   "kid": "When your feet swing off the wall.",
+   "little": "Feet fly.",
+   "demo": "Show controlled foot return."
+  },
+  {
+   "id": "center-of-gravity",
+   "name": "Center of Gravity",
+   "aka": [
+    "Hips",
+    "Weight Over Feet"
+   ],
+   "category": "Body Position",
+   "definition": "The body's balance point; climbers keep it over the feet.",
+   "kid": "Your body's balance spot, near your belly button.",
+   "little": "Belly over toes.",
+   "demo": "Stand on one foot and lean."
+  },
+  {
+   "id": "hips-to-the-wall",
+   "name": "Hips to the Wall",
+   "aka": [
+    "Hips In"
+   ],
+   "category": "Body Position",
+   "definition": "Bringing hips close to the wall to shift weight onto feet.",
+   "kid": "Pull your belly or hip toward the wall.",
+   "little": "Hug the wall.",
+   "demo": "Compare hips out vs in."
+  },
+  {
+   "id": "three-points-of-contact",
+   "name": "Three Points of Contact",
+   "aka": [
+    "Three Points"
+   ],
+   "category": "Body Position",
+   "definition": "Keeping three limbs on while one moves.",
+   "kid": "Three on, one moves.",
+   "little": "Three stay, one goes.",
+   "demo": "Count limbs on the wall each move."
+  },
+  {
+   "id": "body-tension",
+   "name": "Body Tension",
+   "aka": [
+    "Core Tension"
+   ],
+   "category": "Body Position",
+   "definition": "Engaging the core to keep feet on and body controlled.",
+   "kid": "Squeezing your middle so you stay stuck.",
+   "little": "Strong tummy.",
+   "demo": "See Keep the Tension."
+  },
+  {
+   "id": "turning-in",
+   "name": "Turning In",
+   "aka": [
+    "Twist",
+    "Pivot"
+   ],
+   "category": "Body Position",
+   "definition": "Rotating the hips so one side faces the wall, adding reach.",
+   "kid": "Twisting your hip to the wall to reach higher.",
+   "little": "Turn sideways.",
+   "demo": "See Pivot Practice."
+  },
+  {
+   "id": "rest-position",
+   "name": "Rest Position",
+   "aka": [
+    "Shake Out"
+   ],
+   "category": "Body Position",
+   "definition": "A low-effort stance on the wall to recover, often with straight arms, shaking out each hand.",
+   "kid": "A comfy spot on the wall to rest your arms.",
+   "little": "Rest spot.",
+   "demo": "See Freeze Traverse."
+  },
+  {
+   "id": "harness",
+   "name": "Harness",
+   "aka": [],
+   "category": "Equipment",
+   "definition": "Waist belt and leg loops that connect a climber to the rope.",
+   "kid": "The seat you wear to tie into the rope.",
+   "little": "Climbing pants.",
+   "demo": "See Harness Check Race."
+  },
+  {
+   "id": "belay-loop",
+   "name": "Belay Loop",
+   "aka": [],
+   "category": "Equipment",
+   "definition": "The strong loop on a harness for the belay device.",
+   "kid": "The strongest loop on the front of your harness.",
+   "little": "Front loop.",
+   "demo": "Point to it on a harness."
+  },
+  {
+   "id": "tie-in-points",
+   "name": "Tie-In Points",
+   "aka": [
+    "Tie-In Loops"
+   ],
+   "category": "Equipment",
+   "definition": "The two harness points the rope goes through to tie in.",
+   "kid": "The two loops your rope goes through.",
+   "little": "Rope loops.",
+   "demo": "Thread a rope through both."
+  },
+  {
+   "id": "climbing-shoes",
+   "name": "Climbing Shoes",
+   "aka": [
+    "Rock Shoes"
+   ],
+   "category": "Equipment",
+   "definition": "Snug, sticky rubber shoes for climbing.",
+   "kid": "Special sticky shoes.",
+   "little": "Sticky shoes.",
+   "demo": "Feel the rubber."
+  },
+  {
+   "id": "chalk",
+   "name": "Chalk",
+   "aka": [
+    "Chalk Bag"
+   ],
+   "category": "Equipment",
+   "definition": "Magnesium carbonate that dries hands; worn in a bag on the waist.",
+   "kid": "Powder that dries your hands.",
+   "little": "Hand powder.",
+   "demo": "Chalk up properly."
+  },
+  {
+   "id": "carabiner",
+   "name": "Carabiner",
+   "aka": [
+    "Biner",
+    "Locking Carabiner"
+   ],
+   "category": "Equipment",
+   "definition": "A metal clip with a gate; lockers have a sleeve that closes the gate.",
+   "kid": "A metal clip; lockers screw shut.",
+   "little": "The clip.",
+   "demo": "Lock and unlock."
+  },
+  {
+   "id": "belay-device",
+   "name": "Belay Device",
+   "aka": [
+    "ATC",
+    "Grigri"
+   ],
+   "category": "Equipment",
+   "definition": "A device that adds friction so the belayer can hold and lower the climber.",
+   "kid": "The tool that helps the belayer hold the rope.",
+   "little": "Rope helper.",
+   "demo": "Show the brake position."
+  },
+  {
+   "id": "quickdraw",
+   "name": "Quickdraw",
+   "aka": [
+    "Draw"
+   ],
+   "category": "Equipment",
+   "definition": "Two carabiners joined by a sling, used to clip the rope to bolts when leading.",
+   "kid": "Two clips on a strap for lead climbing.",
+   "little": "Clip strap.",
+   "demo": "See Ground Clipping Practice."
+  },
+  {
+   "id": "crash-pad",
+   "name": "Crash Pad",
+   "aka": [
+    "Mat"
+   ],
+   "category": "Equipment",
+   "definition": "Foam padding below boulders to reduce landing impact.",
+   "kid": "The squishy floor that cushions falls.",
+   "little": "Squishy floor.",
+   "demo": "See Fall Zones Tour."
+  },
+  {
+   "id": "auto-belay",
+   "name": "Auto Belay",
+   "aka": [],
+   "category": "Equipment",
+   "definition": "A device at the top of a wall that takes in rope and lowers the climber.",
+   "kid": "A machine that belays you.",
+   "little": "Robot belay.",
+   "demo": "Clip-in check demo."
+  },
+  {
+   "id": "rope",
+   "name": "Rope",
+   "aka": [
+    "Dynamic Rope"
+   ],
+   "category": "Ropes & Knots",
+   "definition": "A stretchy dynamic rope that absorbs fall energy.",
+   "kid": "The stretchy rope that catches you.",
+   "little": "The rope.",
+   "demo": "Pull to feel the stretch."
+  },
+  {
+   "id": "figure-8-follow-through",
+   "name": "Figure-8 Follow-Through",
+   "aka": [
+    "Figure 8",
+    "Figure Eight"
+   ],
+   "category": "Ropes & Knots",
+   "definition": "The standard tie-in knot; finish with a tail.",
+   "kid": "The knot that ties you to the rope.",
+   "little": "The 8 knot.",
+   "demo": "See Spot the Figure 8."
+  },
+  {
+   "id": "stopper-knot",
+   "name": "Stopper Knot",
+   "aka": [
+    "Barrel Knot",
+    "Double Overhand"
+   ],
+   "category": "Ropes & Knots",
+   "definition": "A knot tied in the rope end so it can't pass through the device.",
+   "kid": "A knot at the rope end.",
+   "little": "End knot.",
+   "demo": "Tie on the end of a practice rope."
+  },
+  {
+   "id": "tail",
+   "name": "Tail",
+   "aka": [],
+   "category": "Ropes & Knots",
+   "definition": "The extra rope past a knot.",
+   "kid": "The extra bit of rope left over.",
+   "little": "Rope tail.",
+   "demo": "Measure a fist-length tail."
+  },
+  {
+   "id": "flaking",
+   "name": "Flaking",
+   "aka": [
+    "Flake"
+   ],
+   "category": "Ropes & Knots",
+   "definition": "Running through a rope into a loose pile so it feeds without tangles.",
+   "kid": "Piling the rope so it doesn't tangle.",
+   "little": "Rope pile.",
+   "demo": "See Flake and Coil Races."
+  },
+  {
+   "id": "anchor",
+   "name": "Anchor",
+   "aka": [
+    "Top Anchor"
+   ],
+   "category": "Ropes & Knots",
+   "definition": "The fixed point the rope runs through at the top.",
+   "kid": "The strong point at the top.",
+   "little": "Top hook.",
+   "demo": "Point to the anchors."
+  },
+  {
+   "id": "top-rope",
+   "name": "Top Rope",
+   "aka": [
+    "Top-Roping",
+    "TR"
+   ],
+   "category": "Ropes & Knots",
+   "definition": "Climbing with the rope already running through an anchor above.",
+   "kid": "Climbing with the rope already at the top.",
+   "little": "Rope from the top.",
+   "demo": "Trace the rope from climber to anchor to belayer."
+  },
+  {
+   "id": "lead-climbing",
+   "name": "Lead Climbing",
+   "aka": [
+    "Lead",
+    "Sport Climbing"
+   ],
+   "category": "Ropes & Knots",
+   "definition": "Climbing with the rope from below, clipping quickdraws on the way; falls are longer.",
+   "kid": "Bringing the rope up with you and clipping it as you go.",
+   "little": "Take the rope up.",
+   "demo": "See Mock Lead."
+  },
+  {
+   "id": "back-clip",
+   "name": "Back-Clip",
+   "aka": [],
+   "category": "Ropes & Knots",
+   "definition": "Clipping a quickdraw so the rope runs from the wall side out toward the climber the wrong way, which can unclip in a fall.",
+   "kid": "Clipping the rope in backward.",
+   "little": "Backward clip.",
+   "demo": "See What Is Wrong?"
+  },
+  {
+   "id": "z-clip",
+   "name": "Z-Clip",
+   "aka": [],
+   "category": "Ropes & Knots",
+   "definition": "Clipping rope from below the previous draw into the next, creating a Z and heavy drag.",
+   "kid": "Grabbing rope from the wrong spot so it zigzags.",
+   "little": "Zigzag rope.",
+   "demo": "Show on a ground clipping board."
+  },
+  {
+   "id": "belay",
+   "name": "Belay",
+   "aka": [
+    "Belaying",
+    "Belayer"
+   ],
+   "category": "Belaying & Commands",
+   "definition": "Managing the rope to catch and lower a climber.",
+   "kid": "Holding the rope for your climber.",
+   "little": "Rope holder.",
+   "demo": "See Ground School Belay."
+  },
+  {
+   "id": "brake-hand",
+   "name": "Brake Hand",
+   "aka": [
+    "Brake Strand"
+   ],
+   "category": "Belaying & Commands",
+   "definition": "The hand that never leaves the brake strand.",
+   "kid": "The hand that never lets go.",
+   "little": "Never-let-go hand.",
+   "demo": "Shout 'brake hand!' and freeze to check."
+  },
+  {
+   "id": "pbus",
+   "name": "PBUS",
+   "aka": [
+    "Pull, Brake, Under, Slide"
+   ],
+   "category": "Belaying & Commands",
+   "definition": "A tube-device belay sequence: pull, brake, under, slide.",
+   "kid": "Pull, brake, under, slide.",
+   "little": "Pull-brake song.",
+   "demo": "Chant and do it slowly."
+  },
+  {
+   "id": "slack",
+   "name": "Slack",
+   "aka": [],
+   "category": "Belaying & Commands",
+   "definition": "Loose rope; also a call for more rope.",
+   "kid": "Loose rope.",
+   "little": "Floppy rope.",
+   "demo": "Show tight vs slack."
+  },
+  {
+   "id": "take",
+   "name": "Take",
+   "aka": [
+    "Tension"
+   ],
+   "category": "Belaying & Commands",
+   "definition": "A call to pull rope tight and hold the climber.",
+   "kid": "Say 'take' to have your belayer hold you.",
+   "little": "Hold me.",
+   "demo": "Sit back on a tight rope at the first bolt."
+  },
+  {
+   "id": "on-belay",
+   "name": "On Belay?",
+   "aka": [
+    "Belay On",
+    "Climbing",
+    "Climb On"
+   ],
+   "category": "Belaying & Commands",
+   "definition": "Start-up commands: 'On belay?' / 'Belay on.' / 'Climbing.' / 'Climb on.'",
+   "kid": "The question-and-answer before you climb.",
+   "little": "Ready? Ready!",
+   "demo": "See Climbing Commands Call-and-Response."
+  },
+  {
+   "id": "lower",
+   "name": "Lower",
+   "aka": [
+    "Lowering",
+    "Off Belay"
+   ],
+   "category": "Belaying & Commands",
+   "definition": "Commands for coming down and ending the belay.",
+   "kid": "Coming down; feet out, sit back.",
+   "little": "Sit and walk down.",
+   "demo": "See Astronaut Lowering."
+  },
+  {
+   "id": "falling",
+   "name": "Falling!",
+   "aka": [
+    "Rock!"
+   ],
+   "category": "Belaying & Commands",
+   "definition": "Warning calls: 'Falling!' for the belayer, 'Rock!' for anything dropped.",
+   "kid": "Shout it to warn people.",
+   "little": "Uh-oh shout.",
+   "demo": "Practice shouting loud."
+  },
+  {
+   "id": "partner-check",
+   "name": "Partner Check",
+   "aka": [
+    "Buddy Check"
+   ],
+   "category": "Belaying & Commands",
+   "definition": "Checking each other's harness, knot, device and carabiner before every climb.",
+   "kid": "Checking your buddy's gear before climbing.",
+   "little": "Check check.",
+   "demo": "See Partner Check."
+  },
+  {
+   "id": "soft-catch",
+   "name": "Soft Catch",
+   "aka": [
+    "Dynamic Belay"
+   ],
+   "category": "Belaying & Commands",
+   "definition": "Letting a little rope give during a lead fall so the climber swings in gently.",
+   "kid": "Making a fall feel gentle.",
+   "little": "Soft stop.",
+   "demo": "Coach-led lead fall demo."
+  },
+  {
+   "id": "bouldering",
+   "name": "Bouldering",
+   "aka": [
+    "Boulder"
+   ],
+   "category": "Bouldering & Falling",
+   "definition": "Climbing short walls without ropes over mats.",
+   "kid": "Climbing low walls with no rope over the mats.",
+   "little": "Low climbing.",
+   "demo": "Point out the bouldering area."
+  },
+  {
+   "id": "problem",
+   "name": "Problem",
+   "aka": [
+    "Boulder Problem"
+   ],
+   "category": "Bouldering & Falling",
+   "definition": "A set boulder route.",
+   "kid": "A puzzle route on the boulder.",
+   "little": "Puzzle climb.",
+   "demo": "Find a problem's start tag."
+  },
+  {
+   "id": "route",
+   "name": "Route",
+   "aka": [
+    "Climb",
+    "Line"
+   ],
+   "category": "Grades & Routes",
+   "definition": "A designated path of holds, usually one color.",
+   "kid": "The holds you're allowed to use, all one color.",
+   "little": "Color path.",
+   "demo": "See Climb the Rainbow."
+  },
+  {
+   "id": "start-holds",
+   "name": "Start Holds",
+   "aka": [
+    "Start",
+    "Sit Start"
+   ],
+   "category": "Grades & Routes",
+   "definition": "The tagged holds a route starts on.",
+   "kid": "The hold with the tape where you start.",
+   "little": "Start sticker.",
+   "demo": "Find the start tape."
+  },
+  {
+   "id": "top-out",
+   "name": "Top Out",
+   "aka": [
+    "Finish Hold",
+    "Topping Out"
+   ],
+   "category": "Grades & Routes",
+   "definition": "The finish of a problem: matching the last hold or climbing onto the top.",
+   "kid": "The end of the climb.",
+   "little": "The top.",
+   "demo": "Match the finish hold."
+  },
+  {
+   "id": "downclimb",
+   "name": "Downclimb",
+   "aka": [],
+   "category": "Bouldering & Falling",
+   "definition": "Climbing back down instead of dropping.",
+   "kid": "Climbing down instead of jumping.",
+   "little": "Climb down.",
+   "demo": "See Downclimbing."
+  },
+  {
+   "id": "fall-zone",
+   "name": "Fall Zone",
+   "aka": [
+    "Landing Zone"
+   ],
+   "category": "Bouldering & Falling",
+   "definition": "The area under and around a climber where they might land; keep it clear.",
+   "kid": "The mat space where a climber could fall; stay out.",
+   "little": "No-sit zone.",
+   "demo": "See Fall Zones Tour."
+  },
+  {
+   "id": "spotting",
+   "name": "Spotting",
+   "aka": [
+    "Spot",
+    "Spotter"
+   ],
+   "category": "Bouldering & Falling",
+   "definition": "Guiding a falling boulderer's hips and head toward the mat.",
+   "kid": "Helping a climber land on the mat.",
+   "little": "Helper hands.",
+   "demo": "See Spotting Practice."
+  },
+  {
+   "id": "landing-position",
+   "name": "Landing Position",
+   "aka": [
+    "Turtle",
+    "Roll"
+   ],
+   "category": "Bouldering & Falling",
+   "definition": "Landing on feet with bent knees, then rolling back, arms in.",
+   "kid": "Bend knees, land, roll back like a turtle.",
+   "little": "Turtle roll.",
+   "demo": "See Learn to Fall."
+  },
+  {
+   "id": "send",
+   "name": "Send",
+   "aka": [
+    "Sent",
+    "Tick"
+   ],
+   "category": "Grades & Routes",
+   "definition": "Completing a route from start to finish without falling.",
+   "kid": "Finishing a climb without falling.",
+   "little": "Did it!",
+   "demo": "Celebrate on the Team Send Board."
+  },
+  {
+   "id": "flash",
+   "name": "Flash",
+   "aka": [],
+   "category": "Grades & Routes",
+   "definition": "Sending on the first try with prior beta.",
+   "kid": "Finishing on your first try.",
+   "little": "First try!",
+   "demo": "See Flash or Fail."
+  },
+  {
+   "id": "onsight",
+   "name": "Onsight",
+   "aka": [],
+   "category": "Grades & Routes",
+   "definition": "Sending on the first try with no beta.",
+   "kid": "First-try send with no hints.",
+   "little": "No-hint send.",
+   "demo": "Onsight route in a comp sim."
+  },
+  {
+   "id": "redpoint",
+   "name": "Redpoint",
+   "aka": [],
+   "category": "Grades & Routes",
+   "definition": "Sending after practicing the route.",
+   "kid": "Finishing after practicing it.",
+   "little": "Practice send.",
+   "demo": "See Redpoint Tactics."
+  },
+  {
+   "id": "project",
+   "name": "Project",
+   "aka": [
+    "Projecting"
+   ],
+   "category": "Grades & Routes",
+   "definition": "A route worked over multiple sessions.",
+   "kid": "A hard climb you keep practicing.",
+   "little": "Big goal climb.",
+   "demo": "Pick a project and log tries."
+  },
+  {
+   "id": "beta",
+   "name": "Beta",
+   "aka": [
+    "Spray"
+   ],
+   "category": "Grades & Routes",
+   "definition": "Information on how to do a route; unrequested beta is 'spray'.",
+   "kid": "The secret plan for a climb.",
+   "little": "The plan.",
+   "demo": "See Beta Swap."
+  },
+  {
+   "id": "crux",
+   "name": "Crux",
+   "aka": [],
+   "category": "Grades & Routes",
+   "definition": "The hardest move or section.",
+   "kid": "The hardest part.",
+   "little": "Tricky part.",
+   "demo": "Point to the crux."
+  },
+  {
+   "id": "route-reading",
+   "name": "Route Reading",
+   "aka": [
+    "Reading",
+    "Preview"
+   ],
+   "category": "Grades & Routes",
+   "definition": "Planning a sequence from the ground.",
+   "kid": "Planning your moves before climbing.",
+   "little": "Look first.",
+   "demo": "See Read and Point."
+  },
+  {
+   "id": "v-scale",
+   "name": "V-Scale",
+   "aka": [
+    "V Grade",
+    "Bouldering Grade"
+   ],
+   "category": "Grades & Routes",
+   "definition": "The bouldering difficulty scale, VB/V0 upward.",
+   "kid": "Numbers for how hard a boulder is.",
+   "little": "Hard number.",
+   "demo": "See Learn the Grades."
+  },
+  {
+   "id": "yds",
+   "name": "YDS",
+   "aka": [
+    "Yosemite Decimal System",
+    "5.10"
+   ],
+   "category": "Grades & Routes",
+   "definition": "The North American roped grade scale (5.5, 5.10a…).",
+   "kid": "Numbers for rope climb difficulty.",
+   "little": "Rope numbers.",
+   "demo": "See Guess the Grade."
+  },
+  {
+   "id": "slab",
+   "name": "Slab",
+   "aka": [],
+   "category": "Grades & Routes",
+   "definition": "Wall less than vertical; balance and footwork terrain.",
+   "kid": "A wall that leans back toward you.",
+   "little": "Leaning wall.",
+   "demo": "See Wall Types."
+  },
+  {
+   "id": "vertical",
+   "name": "Vertical",
+   "aka": [
+    "Vert"
+   ],
+   "category": "Grades & Routes",
+   "definition": "Wall straight up and down.",
+   "kid": "A straight-up wall.",
+   "little": "Straight wall.",
+   "demo": "See Wall Types."
+  },
+  {
+   "id": "overhang",
+   "name": "Overhang",
+   "aka": [
+    "Steep",
+    "Roof"
+   ],
+   "category": "Grades & Routes",
+   "definition": "Wall steeper than vertical; a roof is horizontal.",
+   "kid": "A wall that leans over you.",
+   "little": "Leaning-over wall.",
+   "demo": "See Wall Types."
+  },
+  {
+   "id": "arete",
+   "name": "Arete",
+   "aka": [
+    "Arête"
+   ],
+   "category": "Grades & Routes",
+   "definition": "An outside corner edge of the wall.",
+   "kid": "The corner edge that sticks out.",
+   "little": "Corner edge.",
+   "demo": "Layback an arete."
+  },
+  {
+   "id": "dihedral",
+   "name": "Dihedral",
+   "aka": [
+    "Corner",
+    "Open Book"
+   ],
+   "category": "Grades & Routes",
+   "definition": "An inside corner.",
+   "kid": "An inside corner like an open book.",
+   "little": "Book corner.",
+   "demo": "Stem in it."
+  },
+  {
+   "id": "traverse",
+   "name": "Traverse",
+   "aka": [
+    "Traversing"
+   ],
+   "category": "Grades & Routes",
+   "definition": "Climbing sideways near the ground.",
+   "kid": "Climbing sideways.",
+   "little": "Crab climb.",
+   "demo": "See Freeze Traverse."
+  },
+  {
+   "id": "warm-up",
+   "name": "Warm-Up",
+   "aka": [],
+   "category": "Training & Body Care",
+   "definition": "Raising heart rate and mobility before hard climbing to reduce injury risk.",
+   "kid": "Getting your body ready.",
+   "little": "Wiggle time.",
+   "demo": "See Pulse Raiser."
+  },
+  {
+   "id": "cool-down",
+   "name": "Cool-Down",
+   "aka": [],
+   "category": "Training & Body Care",
+   "definition": "Easy movement and stretching after climbing.",
+   "kid": "Slowing down your body at the end.",
+   "little": "Calm time.",
+   "demo": "See Cool-Down Stretch & Reflect."
+  },
+  {
+   "id": "pump",
+   "name": "Pump",
+   "aka": [
+    "Pumped",
+    "Forearm Pump"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Forearm fatigue from sustained gripping.",
+   "kid": "When your arms feel tight and tired.",
+   "little": "Tired arms.",
+   "demo": "Shake out and feel it fade."
+  },
+  {
+   "id": "endurance",
+   "name": "Endurance",
+   "aka": [
+    "Stamina"
+   ],
+   "category": "Training & Body Care",
+   "definition": "The ability to keep climbing a long time.",
+   "kid": "Climbing a long time without getting tired.",
+   "little": "Long climbing.",
+   "demo": "See Easy Continuous Laps."
+  },
+  {
+   "id": "power-endurance",
+   "name": "Power Endurance",
+   "aka": [
+    "Anaerobic Capacity"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Repeating hard moves without much rest.",
+   "kid": "Doing hard moves again and again.",
+   "little": "Strong-again power.",
+   "demo": "See Power Endurance Circuits."
+  },
+  {
+   "id": "strength",
+   "name": "Strength",
+   "aka": [
+    "Power"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Maximum force for single hard moves.",
+   "kid": "How hard you can pull.",
+   "little": "Strong muscles.",
+   "demo": "See Limit Bouldering."
+  },
+  {
+   "id": "mobility",
+   "name": "Mobility",
+   "aka": [
+    "Flexibility"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Range of motion in hips and shoulders for climbing positions.",
+   "kid": "How far your body can bend.",
+   "little": "Bendy body.",
+   "demo": "Frog stretch."
+  },
+  {
+   "id": "growth-plate",
+   "name": "Growth Plate",
+   "aka": [
+    "Finger Injury"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Growing bone ends in kids' fingers; hangboarding and full crimping are deferred for youth to manage injury risk.",
+   "kid": "The growing part of your finger bones that needs care.",
+   "little": "Growing fingers.",
+   "demo": "Show open-hand grip."
+  },
+  {
+   "id": "rest",
+   "name": "Rest",
+   "aka": [
+    "Recovery"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Time off the wall between attempts or sessions.",
+   "kid": "Resting so you can climb strong again.",
+   "little": "Break time.",
+   "demo": "Time a 3-minute rest."
+  },
+  {
+   "id": "hydration",
+   "name": "Hydration",
+   "aka": [
+    "Water Break"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Drinking water during sessions.",
+   "kid": "Drinking water.",
+   "little": "Water time.",
+   "demo": "Water break."
+  },
+  {
+   "id": "training-log",
+   "name": "Training Log",
+   "aka": [
+    "Climbing Journal",
+    "Debrief Journal"
+   ],
+   "category": "Competition & Mental",
+   "definition": "A record of climbs, attempts and lessons.",
+   "kid": "A notebook of your climbs.",
+   "little": "Climb diary.",
+   "demo": "See Goal Setting & Training Log."
+  },
+  {
+   "id": "visualization",
+   "name": "Visualization",
+   "aka": [
+    "Onsight Visualization"
+   ],
+   "category": "Competition & Mental",
+   "definition": "Mentally rehearsing moves before climbing.",
+   "kid": "Picturing yourself doing the moves.",
+   "little": "Movie in your head.",
+   "demo": "Eyes closed, mime the route."
+  },
+  {
+   "id": "breathing",
+   "name": "Breathing",
+   "aka": [
+    "Belly Breathing"
+   ],
+   "category": "Competition & Mental",
+   "definition": "Slow breathing to calm nerves and recover.",
+   "kid": "Slow breaths to calm down.",
+   "little": "Balloon breaths.",
+   "demo": "See Belly Breathing."
+  },
+  {
+   "id": "commitment",
+   "name": "Commitment",
+   "aka": [
+    "Commit"
+   ],
+   "category": "Competition & Mental",
+   "definition": "Fully attempting a move once you've decided it is a reasonable risk.",
+   "kid": "Going for the move all the way.",
+   "little": "Go for it.",
+   "demo": "See Dyno Dash."
+  },
+  {
+   "id": "fear-of-falling",
+   "name": "Fear of Falling",
+   "aka": [
+    "Fall Fear"
+   ],
+   "category": "Competition & Mental",
+   "definition": "Normal fear managed by gradual exposure and practiced falls.",
+   "kid": "Feeling scared to fall, which is normal.",
+   "little": "Scared is OK.",
+   "demo": "See Top-Rope Fall Practice."
+  },
+  {
+   "id": "growth-mindset",
+   "name": "Growth Mindset",
+   "aka": [
+    "Effort Praise"
+   ],
+   "category": "Competition & Mental",
+   "definition": "The belief that ability grows with practice; coaches praise effort and strategy.",
+   "kid": "Your brain grows when you try hard.",
+   "little": "Keep trying.",
+   "demo": "Praise tries on the Team Send Board."
+  },
+  {
+   "id": "isolation",
+   "name": "Isolation",
+   "aka": [
+    "Iso",
+    "Isolation Zone"
+   ],
+   "category": "Competition & Mental",
+   "definition": "Waiting area at comps where climbers can't see routes.",
+   "kid": "The waiting room at comps.",
+   "little": "Waiting room.",
+   "demo": "See Comp Simulation."
+  },
+  {
+   "id": "observation-period",
+   "name": "Observation Period",
+   "aka": [
+    "Preview Time"
+   ],
+   "category": "Competition & Mental",
+   "definition": "Comp time to read routes before climbing.",
+   "kid": "Time to look at the route at comps.",
+   "little": "Look time.",
+   "demo": "See Comp Simulation."
+  },
+  {
+   "id": "zone",
+   "name": "Zone",
+   "aka": [
+    "Bonus Hold"
+   ],
+   "category": "Competition & Mental",
+   "definition": "A mid-problem hold scoring partial points in comps.",
+   "kid": "The halfway points hold.",
+   "little": "Halfway hold.",
+   "demo": "Tape a zone on a problem."
+  },
+  {
+   "id": "attempt",
+   "name": "Attempt",
+   "aka": [
+    "Try",
+    "Burn"
+   ],
+   "category": "Competition & Mental",
+   "definition": "One go at a route; comps count them.",
+   "kid": "One try.",
+   "little": "One go.",
+   "demo": "Count attempts in V-Point Comp."
+  },
+  {
+   "id": "speed-climbing",
+   "name": "Speed Climbing",
+   "aka": [
+    "Speed"
+   ],
+   "category": "Competition & Mental",
+   "definition": "Racing up a standardized route on auto belay or top rope.",
+   "kid": "Racing up the wall.",
+   "little": "Race climb.",
+   "demo": "See Precision Speed."
+  },
+  {
+   "id": "sportsmanship",
+   "name": "Sportsmanship",
+   "aka": [
+    "Climbing Etiquette"
+   ],
+   "category": "Competition & Mental",
+   "definition": "Respecting others: taking turns, cheering, not spraying beta.",
+   "kid": "Being a good teammate and taking turns.",
+   "little": "Take turns.",
+   "demo": "Cheer every climber."
+  }
+ ]
+}

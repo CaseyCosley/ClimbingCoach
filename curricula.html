@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Curricula by Age Group · Youth Climbing Coaching Hub</title>
+<meta name="description" content="September–June youth climbing curricula for seven age groups, with week-by-week vocabulary and timed activity plans.">
+<meta name="theme-color" content="#0f6e6e">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+<main id="main" tabindex="-1">
+<noscript><p class="noscript">This site needs JavaScript to load its data files.</p></noscript>
+
+<h1>Youth Curricula by Age Group</h1>
+<div id="intro"></div>
+<section class="no-print"><h2>How these curricula work</h2><div id="how"></div></section>
+<section class="card no-print" style="margin-top:16px"><label class="field" for="group">Age group<select id="group"></select></label></section>
+<section id="chart-section" class="no-print"><h2><span data-gname></span>: school-year chart</h2><p id="group-intro"></p><p class="muted small">Tap any cell to open that month's week plans.</p><div class="chart" id="chart" role="grid" aria-label="School-year chart"></div></section>
+<section id="week-section"><h2><span data-gname></span>: week-by-week plan</h2>
+  <p id="week-intro" class="no-print"></p>
+  <div class="week-head no-print"><label class="field" for="month" style="flex:1;min-width:220px">Month<select id="month"></select></label>
+  <div><div class="seg" id="weeks" role="group" aria-label="Week"></div></div>
+  <button type="button" class="btn" id="print-week">Print this week</button></div>
+  <div id="week-plan" aria-live="polite"></div>
+</section>
+<section class="no-print"><h2>Typical session (<span id="session-min"></span> min)</h2><div id="session"></div></section>
+<section class="no-print"><h2>Games each month (Library names)</h2><div id="games"></div></section>
+<section class="no-print"><h2>Coach notes</h2><div id="notes"></div></section>
+<section class="no-print"><h2>Related</h2><div id="related"></div></section>
+
+</main>
+<footer id="site-footer"></footer>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/curricula.js"></script>
+</body>
+</html>

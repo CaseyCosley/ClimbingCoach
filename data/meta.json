@@ -1,0 +1,101 @@
+{
+ "lastUpdated": "2026-10-27",
+ "ages": [
+  {
+   "id": "PM",
+   "label": "Parent & Me (2–3)",
+   "short": "Parent & Me"
+  },
+  {
+   "id": "RT",
+   "label": "Rockin' Tots (3–4)",
+   "short": "Rockin' Tots"
+  },
+  {
+   "id": "LP",
+   "label": "Lil' Pebbles (4–6)",
+   "short": "Lil' Pebbles"
+  },
+  {
+   "id": "LR",
+   "label": "Little Rockers (6–9)",
+   "short": "Little Rockers"
+  },
+  {
+   "id": "BC",
+   "label": "Base Club (9–12)",
+   "short": "Base"
+  },
+  {
+   "id": "AC",
+   "label": "Ascent Club (12+)",
+   "short": "Ascent"
+  },
+  {
+   "id": "SC",
+   "label": "Summit Club (14+)",
+   "short": "Summit"
+  }
+ ],
+ "themes": [
+  {
+   "id": "rope",
+   "label": "Ropes, endurance and risk management (Sept, Jan)",
+   "fill": "#F5A623"
+  },
+  {
+   "id": "tech",
+   "label": "Technique and movement (Oct, Feb, May)",
+   "fill": "#7DC46B"
+  },
+  {
+   "id": "str",
+   "label": "Strength, speed and body control (Nov, Apr)",
+   "fill": "#4FA3E0"
+  },
+  {
+   "id": "event",
+   "label": "March event",
+   "fill": "#F2DC3A"
+  },
+  {
+   "id": "fun",
+   "label": "Find your Fun (Dec, Jun)",
+   "fill": "#8E4FB8"
+  }
+ ],
+ "types": [
+  {
+   "id": "warm-up",
+   "label": "Warm-up"
+  },
+  {
+   "id": "drill",
+   "label": "Skill drill"
+  },
+  {
+   "id": "game",
+   "label": "Game"
+  },
+  {
+   "id": "off-wall",
+   "label": "Off-wall / floor"
+  },
+  {
+   "id": "ropes",
+   "label": "Ropes and systems"
+  },
+  {
+   "id": "mental",
+   "label": "Mental skills and reading"
+  },
+  {
+   "id": "training",
+   "label": "Training block"
+  },
+  {
+   "id": "cool-down",
+   "label": "Cool-down"
+  }
+ ]
+}

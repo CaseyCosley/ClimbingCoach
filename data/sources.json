@@ -1,0 +1,292 @@
+{
+ "coachingPractice": "Coaching practice (no published source; based on common youth-coaching practice)",
+ "library": {
+  "MOMG": {
+   "title": "Climbing Games",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/climbing-games/"
+  },
+  "MOMT": {
+   "title": "Traversing Drills",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/traversing-drills/"
+  },
+  "MOMF": {
+   "title": "Focus Drills",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/focus-drills/"
+  },
+  "MOMC": {
+   "title": "Contact Drills",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/contact-drills/"
+  },
+  "MOMM": {
+   "title": "Momentum Drills",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/momentum-drills/"
+  },
+  "MOMO": {
+   "title": "Other Drills",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/other-drills/"
+  },
+  "MOMW": {
+   "title": "Off the Wall Games",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/off-the-wall-games/"
+  },
+  "MOMB": {
+   "title": "Belay Games",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/belay-games/"
+  },
+  "MOMK": {
+   "title": "Get to Know You Games",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/get-to-know-you-games/"
+  },
+  "MOME": {
+   "title": "Energizers",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/energizers/"
+  },
+  "MOMTAG": {
+   "title": "Tag",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/tag/"
+  },
+  "B4C": {
+   "title": "Explore the games and drills",
+   "site": "Beta for Coaches",
+   "href": "https://www.betaforcoaches.com/games"
+  },
+  "ELDO": {
+   "title": "10 Climbing Games for Kids",
+   "site": "Eldorado Climbing Walls",
+   "href": "https://www.eldowalls.com/post/10-climbing-games-for-kids"
+  },
+  "FLOW": {
+   "title": "12 Climbing Games to Try at the Gym",
+   "site": "Flowstone Climbing",
+   "href": "https://www.flowstoneclimbing.com/climbing-games-to-try-at-the-gym.html"
+  },
+  "PRG": {
+   "title": "Climbing footwork drills",
+   "site": "Philadelphia Rock Gyms",
+   "href": "https://philarockgym.com/climbing-footwork-drills/"
+  },
+  "LAT": {
+   "title": "Footwork drills (silent feet, sticky feet, tension) video",
+   "site": "Lattice Training (YouTube)",
+   "href": "https://www.youtube.com/watch?v=PmKmT9_Um78"
+  },
+  "CBJ": {
+   "title": "101 Climbing Games and Activities – CBJ Podcast with Hailey Caissie",
+   "site": "Climbing Business Journal",
+   "href": "https://climbingbusinessjournal.com/101-climbing-games-and-activities-cbj-podcast-with-hailey-caissie/"
+  },
+  "RS": {
+   "title": "A fresh look at fall practice",
+   "site": "Rock and Sun",
+   "href": "https://rockandsun.com/2021/05/25/a-fresh-look-at-fall-practice/"
+  },
+  "CLIM": {
+   "title": "A Beginner's Guide to Lead Climbing",
+   "site": "Climbing",
+   "href": "https://www.climbing.com/skills/how-to-lead-climb/"
+  },
+  "PROW": {
+   "title": "Drill: Lead Fall Practice (Episode 1)",
+   "site": "Prowess Climbing Coaching",
+   "href": "https://prowesscoaching.co.uk/courses-2/coaching/drills/drill-lead-fall-practice-episode-1/"
+  },
+  "TCG": {
+   "title": "Lead climbing course syllabus",
+   "site": "The Climb Gyms",
+   "href": "https://theclimbgyms.com/wp-content/uploads/2023/01/LeadSyllabus_links.pdf"
+  },
+  "MT": {
+   "title": "Bouldering: guidance on session delivery and supervision",
+   "site": "Mountain Training",
+   "href": "http://www.mountain-training.org/media/npvf1vux/bouldering-guidance-on-session-delivery-and-supervision.pdf"
+  },
+  "BMC": {
+   "title": "FUNdamentals of Climbing guidance notes",
+   "site": "British Mountaineering Council",
+   "href": "https://services.thebmc.co.uk/media/files/Skills/FUNdamentals%20Docs/FUNdamentals%201,%202%20and%203%20-%20Guidance%20Notes.pdf"
+  },
+  "CEC": {
+   "title": "LTAD for Sport Climbing",
+   "site": "Climbing Escalade Canada",
+   "href": "https://climbingcanada.ca/wp-content/uploads/2019/03/LTAD-RockClimbing-EN-Final-VER2-1.pdf"
+  },
+  "CWA": {
+   "title": "Timing Is Everything: Age-appropriate Training for Kids",
+   "site": "Climbing Wall Association",
+   "href": "https://www.cwapro.org/blog/timing-is-everything-age-appropriate-training-for-kids"
+  },
+  "BMCGP": {
+   "title": "Growth plate stress fractures in teenage climbers",
+   "site": "British Mountaineering Council",
+   "href": "https://services.thebmc.co.uk/media/files/Comps/Development%20Squad/Growth%20Plate%20Stress%20Fractures%20in%20Teenage%20Climbers.pdf"
+  }
+ },
+ "playbook": [
+  {
+   "title": "Vertical World youth programs (age groups)",
+   "site": "verticalworld.com",
+   "href": "https://north.verticalworld.com/youth-programs/"
+  },
+  {
+   "title": "LTAD for Sport Climbing",
+   "site": "Climbing Escalade Canada",
+   "href": "https://climbingcanada.ca/wp-content/uploads/2019/03/LTAD-RockClimbing-EN-Final-VER2-1.pdf"
+  },
+  {
+   "title": "Long-Term Development framework",
+   "site": "Sport for Life",
+   "href": "https://sportforlife.ca/long-term-development/"
+  },
+  {
+   "title": "Timing Is Everything: Age-appropriate Training for Kids (Reynolds, 2021)",
+   "site": "Climbing Wall Association",
+   "href": "https://www.cwapro.org/blog/timing-is-everything-age-appropriate-training-for-kids"
+  },
+  {
+   "title": "FUNdamentals of Climbing guidance notes",
+   "site": "British Mountaineering Council",
+   "href": "https://services.thebmc.co.uk/media/files/Skills/FUNdamentals%20Docs/FUNdamentals%201,%202%20and%203%20-%20Guidance%20Notes.pdf"
+  },
+  {
+   "title": "Contextual Fit: American Development Model (coach education chapter)",
+   "site": "USA Climbing / USOPC",
+   "href": "https://usaclimbing.org/wp-content/uploads/2021/07/Chapter-4.pdf"
+  },
+  {
+   "title": "Côté et al., Developmental Model of Sport Participation: 15 years on (2014)",
+   "site": "Science & Sports",
+   "href": "https://doi.org/10.1016/j.scispo.2014.08.133"
+  },
+  {
+   "title": "Harwood et al., Correlates of motivational climate perceptions (2015)",
+   "site": "Psychology of Sport and Exercise",
+   "href": "https://doi.org/10.1016/j.psychsport.2014.11.005"
+  },
+  {
+   "title": "Mageau & Vallerand, The coach–athlete relationship: a motivational model (2003)",
+   "site": "Journal of Sports Sciences",
+   "href": "https://doi.org/10.1080/0264041031000140374"
+  },
+  {
+   "title": "Deci, Koestner & Ryan, Extrinsic rewards and intrinsic motivation meta-analysis (1999)",
+   "site": "Psychological Bulletin",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/10589297/"
+  },
+  {
+   "title": "Skene et al., Can guidance during play enhance learning? Meta-analysis (2022)",
+   "site": "Child Development",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9545698/"
+  },
+  {
+   "title": "Logan et al., Meta-analysis of motor skill interventions in children (2012)",
+   "site": "Child: Care, Health and Development",
+   "href": "https://doi.org/10.1111/j.1365-2214.2011.01307.x"
+  },
+  {
+   "title": "Renshaw et al., A constraints-led perspective on skill acquisition and game play (2010)",
+   "site": "Physical Education and Sport Pedagogy",
+   "href": "https://doi.org/10.1080/17408980902791586"
+  },
+  {
+   "title": "Seifert et al., Environmental design shapes exploration, learning and transfer in climbing (2015)",
+   "site": "Frontiers in Psychology",
+   "href": "https://doi.org/10.3389/fpsyg.2015.01819"
+  },
+  {
+   "title": "TGfU systematic review and meta-analysis of RCTs (2023)",
+   "site": "Children (MDPI)",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10047062/"
+  },
+  {
+   "title": "Benefits of gamified learning in PE: systematic review (2023)",
+   "site": "Apunts",
+   "href": "https://revista-apunts.com/en/benefits-of-gamified-learning-in-physical-education-students-a-systematic-review/"
+  },
+  {
+   "title": "Fehr, Bernhard & Rockenbach, Egalitarianism in young children (2008)",
+   "site": "Nature",
+   "href": "https://www.nature.com/articles/nature07155"
+  },
+  {
+   "title": "Roseth, Johnson & Johnson, Cooperative, competitive and individualistic goal structures (2008)",
+   "site": "Psychological Bulletin",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/18298270/"
+  },
+  {
+   "title": "Chein et al., Peers increase adolescent risk taking (2011)",
+   "site": "Developmental Science",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3075496/"
+  },
+  {
+   "title": "Sandseter & Kennair, Anti-phobic effects of risky play (2011)",
+   "site": "Evolutionary Psychology",
+   "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10630584/"
+  },
+  {
+   "title": "Ceciliani et al., PE climbing program and children's attitudes and emotions (2008)",
+   "site": "Perceptual and Motor Skills",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/18712199/"
+  },
+  {
+   "title": "Milestones by 2 years",
+   "site": "CDC",
+   "href": "https://www.cdc.gov/act-early/milestones/2-years.html"
+  },
+  {
+   "title": "Milestones by 3 years",
+   "site": "CDC",
+   "href": "https://www.cdc.gov/act-early/milestones/3-years.html"
+  },
+  {
+   "title": "UIAA Medical Commission: sport climbing advice incl. young climbers",
+   "site": "UIAA",
+   "href": "https://theuiaa.org/documents/safety/UIAA_Medical_SportClimbing.pdf"
+  },
+  {
+   "title": "Growth plate stress fractures in teenage climbers",
+   "site": "British Mountaineering Council",
+   "href": "https://services.thebmc.co.uk/media/files/Comps/Development%20Squad/Growth%20Plate%20Stress%20Fractures%20in%20Teenage%20Climbers.pdf"
+  },
+  {
+   "title": "Schöffl et al., Finger growth plate stress injuries algorithm (2021)",
+   "site": "American Journal of Sports Medicine",
+   "href": "https://doi.org/10.1177/03635465211056956"
+  },
+  {
+   "title": "Woollings et al., Injury in youth rock climbers (2015)",
+   "site": "British Journal of Sports Medicine",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/25385168/"
+  },
+  {
+   "title": "Low energy availability in competitive adolescent climbers (2022)",
+   "site": "Kinesiology",
+   "href": "https://doi.org/10.26582/k.54.2.8"
+  },
+  {
+   "title": "Garrido-Palomino & España-Romero, Fear of falling intervention in women climbers (2023)",
+   "site": "Journal of Sports Sciences",
+   "href": "https://pubmed.ncbi.nlm.nih.gov/37965818/"
+  },
+  {
+   "title": "Worth, Psychologically-informed bouldering for children with ADHD-related differences (2024 pilot)",
+   "site": "UCL thesis",
+   "href": "https://discovery.ucl.ac.uk/id/eprint/10195317"
+  },
+  {
+   "title": "Ruble et al., Social comparison in children's self-evaluation (1980)",
+   "site": "Developmental Psychology",
+   "href": "https://psycnet.apa.org/doiLanding?doi=10.1037%2F0012-1649.16.2.105"
+  }
+ ]
+}
