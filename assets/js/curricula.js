@@ -23,19 +23,39 @@
     var aIdx = H.indexByName(d.activities.items), vIdx = H.indexByName(d.vocabulary.items);
     var la = function (n) { return H.linkName(n, aIdx, H.actHref); };
     var lv = function (n) { return H.linkName(n, vIdx, H.termHref); };
-    var q = new URLSearchParams(location.search);
-    var view0 = VIEWS[q.get("view")] ? q.get("view") : "lesson";
-    var state = {
-      g: cur.groups.some(function (g) { return g.id === q.get("group"); }) ? q.get("group") : cur.groups[0].id,
-      view: view0,
-      m: Math.min(9, Math.max(0, parseInt(q.get("month"), 10) || 0)),
-      w: Math.min(3, Math.max(0, (parseInt(q.get("week"), 10) || 1) - 1)),
-      road: null,
-      tabs: {},
-      date: "",
-      dateNote: ""
-    };
+    function weekInSeason(dt) {
+      if (!(dt.getMonth() in CAL)) return null;
+      var day = dt.getDate();
+      return { m: CAL[dt.getMonth()], w: day <= 7 ? 0 : day <= 14 ? 1 : day <= 21 ? 2 : 3 };
+    }
+    function readParams(search) {
+      var params = new URLSearchParams(search);
+      var named = cur.groups.some(function (g) { return g.id === params.get("group"); });
+      var m, w;
+      if (params.has("month") || params.has("week")) {
+        m = parseInt(params.get("month"), 10);
+        w = parseInt(params.get("week"), 10);
+        if (isNaN(m)) m = 0;
+        if (isNaN(w)) w = 1;
+        m = Math.min(9, Math.max(0, m));
+        w = Math.min(3, Math.max(0, w - 1));
+      } else {
+        var now = weekInSeason(new Date());
+        m = now ? now.m : 0;
+        w = now ? now.w : 0;
+      }
+      return {
+        g: named ? params.get("group") : cur.groups[0].id,
+        view: VIEWS[params.get("view")] ? params.get("view") : "lesson",
+        m: m,
+        w: w
+      };
+    }
+    var state = readParams(location.search);
     state.road = state.m;
+    state.tabs = {};
+    state.date = "";
+    state.dateNote = "";
     if (location.hash === "#week-section") state.view = "lesson";
 
     document.getElementById("intro").innerHTML = '<p class="lead">' + esc(P.summary) + "</p>";
@@ -50,7 +70,7 @@
     var blurb = document.getElementById("view-blurb");
     gsel.innerHTML = cur.groups.map(function (g) { return '<option value="' + g.id + '">' + esc(g.name) + "</option>"; }).join("");
     gsel.addEventListener("change", function () {
-      state.g = gsel.value; state.m = 0; state.w = 0; state.road = 0; state.tabs = {}; state.date = "";
+      state.g = gsel.value; state.tabs = {}; state.date = ""; state.dateNote = "";
       render();
     });
     document.getElementById("view-switch").addEventListener("click", function (e) {
@@ -95,9 +115,22 @@
       arr.forEach(function (n) { var k = H.nz(n); if (k && !seen[k]) { seen[k] = 1; out.push(n); } });
       return out;
     }
-    function sync() {
-      history.replaceState(null, "", "?group=" + state.g + "&view=" + state.view + "&month=" + state.m + "&week=" + (state.w + 1));
+    function urlFor() {
+      return "?group=" + state.g + "&view=" + state.view + "&month=" + state.m + "&week=" + (state.w + 1);
     }
+    function sync(mode) {
+      var next = urlFor();
+      if (location.search === next) return;
+      var data = { g: state.g, view: state.view, m: state.m, w: state.w };
+      if (mode === "replace") history.replaceState(data, "", next);
+      else history.pushState(data, "", next);
+    }
+    window.addEventListener("popstate", function () {
+      var next = readParams(location.search);
+      state.g = next.g; state.view = next.view; state.m = next.m; state.w = next.w;
+      state.road = state.m; state.date = ""; state.dateNote = "";
+      render("replace");
+    });
     function goLesson(m, w) { state.m = m; state.w = w; state.view = "lesson"; state.road = m; render(); }
 
     function onClick(e) {
@@ -117,15 +150,15 @@
         state.date = t.value;
         if (!t.value) { state.dateNote = ""; render(); return; }
         var dt = new Date(t.value + "T12:00:00");
-        if (!(dt.getMonth() in CAL)) {
+        var picked = weekInSeason(dt);
+        if (!picked) {
           state.dateNote = "July and August sit outside this September–June plan.";
           render();
           return;
         }
         state.dateNote = "";
-        state.m = CAL[dt.getMonth()];
-        var day = dt.getDate();
-        state.w = day <= 7 ? 0 : day <= 14 ? 1 : day <= 21 ? 2 : 3;
+        state.m = picked.m;
+        state.w = picked.w;
         state.road = state.m;
         render();
       }
@@ -133,7 +166,7 @@
     }
     window.addEventListener("afterprint", function () { document.body.classList.remove("print-week"); });
 
-    function render() {
+    function render(mode) {
       var g = G();
       gsel.value = g.id;
       document.getElementById("group-intro").textContent = g.intro;
@@ -163,7 +196,7 @@
       }
       var notes = document.getElementById("notes");
       if (notes) notes.innerHTML = "<ul>" + g.notes.map(function (n) { return "<li>" + esc(n) + "</li>"; }).join("") + "</ul>";
-      sync();
+      sync(mode || "push");
     }
 
     function lesson(g) {
@@ -292,6 +325,6 @@
       return h;
     }
 
-      render();
+      render("replace");
   }).catch(H.fail);
 })();
