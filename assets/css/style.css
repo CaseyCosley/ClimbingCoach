@@ -122,6 +122,76 @@ select,input[type=search]{font:inherit;font-size:16px;padding:10px 12px;border-r
 .sources li{margin:6px 0}
 sup a,a.cite{text-decoration:none;font-size:.85em}
 section.group{border-top:1px solid var(--line);margin-top:28px}
+/* view switcher and the four curriculum prototypes */
+.view-switch{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.view-switch button{font:inherit;font-weight:600;min-height:44px;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--text);cursor:pointer}
+.view-switch button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.view-blurb{margin:8px 0 0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.chip{display:inline-block;padding:4px 9px;border-radius:999px;background:var(--surface2);border:1px solid var(--line);font-size:.82rem;color:var(--text);text-decoration:none}
+a.chip:hover{border-color:var(--accent)}
+/* roadmap */
+.roadmap{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-direction:column}
+.road-card{position:relative;margin:0 0 0 14px;padding:0 0 12px 16px;border-left:3px solid var(--line)}
+.road-card.review{border-left-color:var(--sage)}
+.road-card::before{content:"";position:absolute;left:-7px;top:16px;width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid var(--bg)}
+.road-card.review::before{background:var(--sage)}
+.road-body{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px}
+.road-card.review .road-body{background:var(--review)}
+.road-k{font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0}
+.road-body h3{margin:.15em 0 .35em;font-size:1.15rem}
+.road-focus{margin:0;color:var(--text);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.road-open{margin-top:8px}
+.road-weeks{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:6px}
+.road-weeks button{width:100%;text-align:left;font:inherit;color:var(--text);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;cursor:pointer;min-height:44px}
+.road-weeks button b{display:block}
+.road-weeks button:hover{border-color:var(--accent)}
+@media (min-width:860px){
+  .roadmap{flex-direction:row;gap:12px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+  .road-card{flex:0 0 260px;margin:0;padding:0;border-left:0;scroll-snap-align:start}
+  .road-card::before{display:none}
+  .road-body{min-height:100%}
+}
+/* month cards */
+.month-grid{display:grid;gap:12px;grid-template-columns:1fr}
+@media (min-width:760px){.month-grid{grid-template-columns:1fr 1fr}}
+.month-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px}
+.month-card.review{background:var(--review)}
+.month-card h3{margin:.1em 0 .4em;font-size:1.2rem}
+.month-card .skills{margin:.2em 0 .6em;padding-left:1.1em}
+.month-card .skills li{margin:.15em 0}
+.mini-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.mini-tabs button{font:inherit;font-weight:600;min-height:40px;padding:6px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text);cursor:pointer}
+.mini-tabs button[aria-pressed="true"]{background:var(--header);color:var(--header-ink);border-color:var(--header)}
+.month-detail{margin-top:8px}
+.month-detail p{margin:.25em 0}
+/* lesson card */
+.lesson-sheet{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 16px 8px;max-width:740px;box-shadow:var(--shadow)}
+.lesson-sheet.review{background:var(--review)}
+.lesson-kicker{margin:0;font-size:.85rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--muted)}
+.lesson-sheet h2{font-size:1.65rem;margin:.15em 0 .15em}
+.lesson-skill{font-size:1.2rem;margin:.2em 0 .6em}
+.lesson-tools{display:grid;grid-template-columns:1fr;gap:10px;margin:8px 0 4px}
+@media (min-width:640px){.lesson-tools{grid-template-columns:1fr 1fr auto}}
+.lesson-nav{display:flex;gap:8px;align-items:end}
+.block-list{list-style:none;margin:12px 0;padding:0}
+.block-row{display:grid;grid-template-columns:72px 1fr;gap:10px;padding:12px 0;border-top:1px solid var(--line)}
+.mins{font-size:1.35rem;font-weight:700;line-height:1;color:var(--accent)}
+.mins span{display:block;margin-top:3px;font-size:.72rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--muted)}
+.block-row h3{margin:0 0 2px;font-size:1rem}
+.cue{margin:.2em 0 0;color:var(--muted);font-size:.92rem}
+/* skill ladder */
+.lane{margin:0 0 18px}
+.lane h3{margin:0 0 8px;font-size:1.05rem}
+.lane-track{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+.lane-stop{flex:0 0 200px;scroll-snap-align:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:10px 12px}
+.lane.review .lane-stop{background:var(--review)}
+.lane-stop ol{list-style:none;margin:8px 0 0;padding:0}
+.lane-stop button{display:block;width:100%;text-align:left;font:inherit;color:var(--text);background:none;border:0;border-top:1px solid var(--line);padding:8px 0;cursor:pointer;min-height:44px}
+.lane-stop button:first-child{border-top:0}
+.lane-stop button:hover{color:var(--accent)}
+.lane-stop .wk{display:block;font-size:.75rem;font-weight:700;color:var(--muted)}
+.table-tools{margin-bottom:10px}
 /* footer */
 .site-footer{border-top:1px solid var(--line);background:var(--surface);color:var(--muted);font-size:.88rem}
 .site-footer .bar{max-width:1100px;margin:0 auto;padding:18px 16px;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between}
@@ -139,8 +209,10 @@ section.group{border-top:1px solid var(--line);margin-top:28px}
   table{font-size:10pt}th,td{padding:5px 7px}
   tr,.banner,.item{break-inside:avoid}
   .banner,.chart .c,.chart .c.review,.swatch{-webkit-print-color-adjust:exact;print-color-adjust:exact}
-  body.print-week main>*:not(#week-section){display:none!important}
-  body.print-week #week-section>*:not(#week-plan){display:none!important}
+  body.print-week main>*:not(#view-host){display:none!important}
+  body.print-week #view-host>*:not(.lesson-sheet){display:none!important}
+  body.print-week .lesson-tools{display:none!important}
   body.print-week .print-only{display:block}
+  body.print-week .lesson-sheet{border:0;box-shadow:none;max-width:none;padding:0}
   h2{break-after:avoid}
 }
