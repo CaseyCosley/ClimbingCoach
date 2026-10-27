@@ -2,7 +2,7 @@
   "use strict";
   var H = window.Hub, esc = H.esc, cite = H.cite;
   H.init("playbook.html");
-  H.loadAll(["playbook", "activities"]).then(function (d) {
+  H.loadAll(["playbook", "activities", "curricula"]).then(function (d) {
     var P = d.playbook, aIdx = H.indexByName(d.activities.items);
     var ul = function (items) {
       return "<ul>" + items.map(function (x) {
@@ -17,8 +17,11 @@
     h += '<section id="principles"><h2>' + esc(P.principles.heading) + '</h2><div class="callout"><strong>' + esc(P.principles.callout.lead) + "</strong>" + esc(P.principles.callout.text) + "</div>" + ul(P.principles.bullets) + "<p>" + cite(P.principles.text) + "</p></section>";
     h += '<section id="game-theory"><h2>' + esc(P.gameTheory.heading) + "</h2><p>" + cite(P.gameTheory.intro) + "</p>" + ul(P.gameTheory.bullets) + "</section>";
     h += '<section id="comparison"><h2>Comparison across age groups</h2>' + H.table(P.comparison.columns, P.comparison.rows) + "</section>";
+    var byGroup = {};
+    d.curricula.groups.forEach(function (g) { byGroup[g.id] = g; });
     P.groups.forEach(function (g) {
-      h += '<section class="group" id="' + esc(g.id) + '"><h2>' + esc(g.name) + '</h2><dl class="props">' + g.props.map(function (p) { return "<dt>" + esc(p.label) + "</dt><dd>" + cite(p.value) + "</dd>"; }).join("") + "</dl>" +
+      var card = byGroup[g.id] ? H.lessonCard(byGroup[g.id]) : "";
+      h += '<section class="group" id="' + esc(g.id) + '">' + card + '<h2>' + esc(g.name) + '</h2><dl class="props">' + g.props.map(function (p) { return "<dt>" + esc(p.label) + "</dt><dd>" + cite(p.value) + "</dd>"; }).join("") + "</dl>" +
         "<h3>How they learn</h3>" + ul(g.learn) + "<h3>What motivates them</h3>" + ul(g.motivate) +
         "<h3>Game-based approach that fits</h3><p>" + cite(g.approach) + "</p>" +
         "<h3>Games and drills</h3>" + H.table(["Game", "How it works"], g.games.map(function (r) { return [lib(r[0]), cite(r[1])]; }), { raw: true }) +

@@ -53,6 +53,26 @@ for g in cur["groups"]:
         for t in w["vocab"]:
             if nz(t) not in V: errors.append(f"{g['name']} week {w['n']}: term '{t}' not in vocabulary")
             if t not in cur["weekVocab"]: errors.append(f"{g['name']} week {w['n']}: term '{t}' missing from weekVocab")
+# Climber-vs-climber and contact games. Harmless hits are route-card tags and
+# contrasts between movement styles, not a game of tag, chase, or versus.
+game_flag = re.compile(r"\b(tag\w*|chase\w*|race\w*|dodge\w*|eliminat\w*|king of the hill|versus|vs\.?)\b", re.I)
+game_allow = re.compile("|".join([
+    r"grade tags",
+    r"tagged routes",
+    r"paper tags",
+    r"all tags",
+    r"tags keep",
+    r"tag by theme",
+    r"no tag, no problem",
+    r"slow sloth vs\.? quick frog",
+    r"onsight vs\.? redpoint",
+    r"[‘']wiggle zone[’'] vs [‘']fall zone[’']",
+]), re.I)
+for a in acts["items"]:
+    blob = "\n".join([a["name"], *a.get("aka", []), a.get("setup", ""), a.get("why", ""),
+                      a.get("variations", ""), a.get("risk", ""), *a.get("steps", [])])
+    for m in game_flag.finditer(game_allow.sub(" ", blob)):
+        errors.append(f"activity {a['name']}: competitive or contact wording '{m.group(0)}' (allowlist only harmless uses)")
 banned = re.compile(r"\b(safe|safety|safely)\b", re.I)
 for n in ("activities", "vocabulary", "curricula", "playbook", "pages", "meta"):
     for m in banned.finditer((D / f"{n}.json").read_text(encoding="utf-8")):
@@ -60,4 +80,4 @@ for n in ("activities", "vocabulary", "curricula", "playbook", "pages", "meta"):
 print(f"{len(acts['items'])} activities, {len(voc['items'])} terms, {weeks} weekly plans, {len(src['library'])} library sources")
 if errors:
     print(f"{len(errors)} problem(s):"); [print(" -", e) for e in errors]; sys.exit(1)
-print("OK: no duplicates, all references resolve, no banned words.")
+print("OK: no duplicates, all references resolve, no banned words, no competitive game wording.")

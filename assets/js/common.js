@@ -61,8 +61,35 @@
     });
     return { acts: acts, terms: terms };
   }
+  /* September = month index 0. July and August fall back to week 1. */
+  var SEASON = { 8: 0, 9: 1, 10: 2, 11: 3, 0: 4, 1: 5, 2: 6, 3: 7, 4: 8, 5: 9 };
+  function seasonWeek(dt) {
+    dt = dt || new Date();
+    if (!(dt.getMonth() in SEASON)) return { m: 0, w: 0, outside: true };
+    var day = dt.getDate();
+    return { m: SEASON[dt.getMonth()], w: day <= 7 ? 0 : day <= 14 ? 1 : day <= 21 ? 2 : 3, outside: false };
+  }
+  function lessonHref(gid, monthIndex, week) {
+    if (monthIndex == null || week == null) {
+      var s = seasonWeek();
+      monthIndex = s.m;
+      week = s.w + 1;
+    }
+    return "curricula.html?group=" + gid + "&view=lesson&month=" + monthIndex + "&week=" + week;
+  }
   function weekHref(gid, monthIndex, week) {
-    return "curricula.html?group=" + gid + "&month=" + monthIndex + "&week=" + week + "#week-section";
+    return lessonHref(gid, monthIndex, week);
+  }
+  function lessonCard(group) {
+    var s = seasonWeek();
+    var month = group.months[s.m];
+    var plan = group.weeks[s.m * 4 + s.w];
+    if (!month || !plan) return "";
+    return '<a class="this-week" href="' + lessonHref(group.id) + '">' +
+      '<span class="kicker">This week\'s lesson</span>' +
+      "<strong>" + esc(plan.skill) + "</strong>" +
+      '<span class="muted">' + esc(group.name) + " · " + esc(month.m) + " · Week " + (s.w + 1) + " · " + esc(month.theme) + "</span>" +
+      '<span class="more">Open the full card</span></a>';
   }
 
   /* "[5][2]" citations -> links to the numbered source list */
@@ -130,6 +157,7 @@
   window.Hub = {
     SITE_TITLE: SITE_TITLE, esc: esc, nz: nz, load: load, loadAll: loadAll, indexByName: indexByName,
     actHref: actHref, termHref: termHref, linkName: linkName, usageIndex: usageIndex, weekHref: weekHref,
+    seasonWeek: seasonWeek, lessonHref: lessonHref, lessonCard: lessonCard,
     cite: cite, table: table, init: init, fail: fail
   };
 })();

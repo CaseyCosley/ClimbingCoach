@@ -13,7 +13,12 @@
     var cmp = {}; d.playbook.comparison.rows.forEach(function (r) { cmp[H.nz(r[0])] = r; });
     document.getElementById("ages").innerHTML = d.curricula.groups.map(function (g) {
       var r = cmp[H.nz(g.name)];
-      return '<a class="card age-card" href="curricula.html?group=' + g.id + '"><b>' + esc(g.name) + '</b><span class="muted small">' + g.minutes + " min class" + (r ? " · " + esc(r[1]) + " · " + esc(r[2]) : "") + "</span></a>";
+      var s = H.seasonWeek(), month = g.months[s.m], plan = g.weeks[s.m * 4 + s.w];
+      return '<a class="card age-card" href="' + H.lessonHref(g.id) + '">' +
+        '<span class="kicker">This week\'s lesson · ' + esc(month.m) + " · Week " + (s.w + 1) + "</span>" +
+        "<b>" + esc(plan.skill) + "</b>" +
+        '<span class="muted small">' + esc(g.name) + " · " + esc(month.theme) + "</span>" +
+        '<span class="muted small">' + g.minutes + " min class" + (r ? " · " + esc(r[1]) + " · " + esc(r[2]) : "") + "</span></a>";
     }).join("");
   }).catch(H.fail);
 })();

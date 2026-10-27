@@ -224,15 +224,11 @@
      "detail": "Free explore on mats, then a crawl-and-step path to the wall."
     },
     {
-     "title": "Station rotation, 20 min",
+     "title": "Station rotation, 23 min",
      "detail": "Four 5-minute stations families rotate through: the themed skill (coach shows parent, parent shows child), a free climb, a crawl or balance path, and a calm corner for anyone who needs a pause."
     },
     {
-     "title": "Water and song break, 5 min",
-     "detail": "Sit together, drink water, a short movement song."
-    },
-    {
-     "title": "Story game, 15 min",
+     "title": "Story game, 17 min",
      "detail": "The week's story game, played in parallel by each family, restarting often with small changes."
     },
     {
@@ -252,17 +248,12 @@
     },
     {
      "label": "Skill stations",
-     "min": 20,
+     "min": 23,
      "slot": "D"
     },
     {
-     "label": "Water and song break",
-     "min": 5,
-     "slot": "B"
-    },
-    {
      "label": "Story game",
-     "min": 15,
+     "min": 17,
      "slot": "G"
     },
     {
@@ -1340,15 +1331,11 @@
      "detail": "Story warm-up on the floor: animal walks, jumps, reaching for the sky."
     },
     {
-     "title": "Station rotation, 20 min",
+     "title": "Station rotation, 23 min",
      "detail": "Four 5-minute stations on low walls and mats: the skill of the week as guided play, a free climb, a floor balance or crawl game, and a coach-led \"brave\" climb."
     },
     {
-     "title": "Water break, 5 min",
-     "detail": "Sit in a circle, drink water, retell the story so far."
-    },
-    {
-     "title": "Game, 15 min",
+     "title": "Game, 17 min",
      "detail": "Game Day or the month's game, one rule only, adding a twist each round."
     },
     {
@@ -1368,17 +1355,12 @@
     },
     {
      "label": "Skill stations",
-     "min": 20,
+     "min": 23,
      "slot": "D"
     },
     {
-     "label": "Water break",
-     "min": 5,
-     "slot": "B"
-    },
-    {
      "label": "Game",
-     "min": 15,
+     "min": 17,
      "slot": "G"
     },
     {
@@ -1417,7 +1399,7 @@
     [
      "Feb",
      "Color Detective",
-     "Pass the Animal"
+     "High-Five the Star"
     ],
     [
      "Mar",
@@ -1494,7 +1476,7 @@
      ],
      [
       "Color Detective",
-      "Pass the Animal"
+      "High-Five the Star"
      ],
      [
       "Fuzz-Ball Search",
@@ -1511,11 +1493,11 @@
     ],
     "warm": [
      "Animal Walks",
-     "Freeze Tag",
+     "Freeze Traverse",
      "Joe and the Button Factory",
      "Pulse Raiser",
-     "Sneak Up on Granny",
-     "Banana Tag"
+     "Freeze Traverse",
+     "Animal Walks"
     ],
     "cool": [
      "Learn to Fall",
@@ -1564,7 +1546,7 @@
       "Landing Position",
       "Crash Pad"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Freeze Traverse",
      "drill": "Learn to Fall",
      "game": "Hot Lava",
      "cool": "Story Stretch"
@@ -1618,7 +1600,7 @@
       "Hold",
       "Foothold"
      ],
-     "warm": "Sneak Up on Granny",
+     "warm": "Freeze Traverse",
      "drill": "Animal Crossing",
      "game": "Animal Crossing",
      "cool": "Learn to Fall"
@@ -1636,7 +1618,7 @@
       "Quiet Feet",
       "Foothold"
      ],
-     "warm": "Banana Tag",
+     "warm": "Animal Walks",
      "drill": "Silent Feet",
      "game": "Octopus",
      "cool": "Story Stretch"
@@ -1672,7 +1654,7 @@
       "Static",
       "Dynamic"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Freeze Traverse",
      "drill": "Static and Dynamic",
      "game": "Octopus",
      "cool": "Cool-Down Stretch & Reflect"
@@ -1726,7 +1708,7 @@
       "Straight Arms",
       "Jug"
      ],
-     "warm": "Sneak Up on Granny",
+     "warm": "Freeze Traverse",
      "drill": "Swinging Monkeys",
      "game": "Fuzz-Ball Search",
      "cool": "Belly Breathing"
@@ -1744,7 +1726,7 @@
       "Static",
       "Quiet Feet"
      ],
-     "warm": "Banana Tag",
+     "warm": "Animal Walks",
      "drill": "Static and Dynamic",
      "game": "Shark Attack",
      "cool": "Cool-Down Stretch & Reflect"
@@ -1784,7 +1766,7 @@
       "Match",
       "Static"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Freeze Traverse",
      "drill": "Static and Dynamic",
      "game": "Hot Lava",
      "cool": "Story Stretch"
@@ -1840,7 +1822,7 @@
       "Landing Position",
       "Fall Zone"
      ],
-     "warm": "Sneak Up on Granny",
+     "warm": "Freeze Traverse",
      "drill": "Learn to Fall",
      "game": "Hot Lava",
      "cool": "Learn to Fall"
@@ -1858,7 +1840,7 @@
       "Traverse",
       "Endurance"
      ],
-     "warm": "Banana Tag",
+     "warm": "Animal Walks",
      "drill": "Hula Hoop Traverse",
      "game": "Freeze Traverse",
      "cool": "Story Stretch"
@@ -1894,7 +1876,7 @@
       "Traverse",
       "Crash Pad"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Animal Walks",
      "drill": "Hot Lava",
      "game": "Freeze Traverse",
      "cool": "Cool-Down Stretch & Reflect"
@@ -1932,7 +1914,7 @@
      ],
      "warm": "Pulse Raiser",
      "drill": "Mirror Me",
-     "game": "Pass the Animal",
+     "game": "High-Five the Star",
      "cool": "Story Stretch"
     },
     {
@@ -1948,7 +1930,7 @@
       "Foothold",
       "Smear"
      ],
-     "warm": "Sneak Up on Granny",
+     "warm": "Freeze Traverse",
      "drill": "Sticky Feet",
      "game": "Color Detective",
      "cool": "Belly Breathing"
@@ -1966,9 +1948,9 @@
       "Route",
       "Hold"
      ],
-     "warm": "Banana Tag",
+     "warm": "Animal Walks",
      "drill": "Color Detective",
-     "game": "Pass the Animal",
+     "game": "High-Five the Star",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -2002,7 +1984,7 @@
       "Send",
       "Sportsmanship"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Freeze Traverse",
      "drill": "Puzzle Hunt",
      "game": "Animal Habitats",
      "cool": "Story Stretch"
@@ -2057,7 +2039,7 @@
       "Hold",
       "Top Out"
      ],
-     "warm": "Sneak Up on Granny",
+     "warm": "Animal Walks",
      "drill": "High-Five the Star",
      "game": "Freeze Traverse",
      "cool": "Learn to Fall"
@@ -2075,7 +2057,7 @@
       "Body Tension",
       "Sloper"
      ],
-     "warm": "Banana Tag",
+     "warm": "Animal Walks",
      "drill": "Freeze Traverse",
      "game": "Swinging Monkeys",
      "cool": "Story Stretch"
@@ -2111,7 +2093,7 @@
       "Static",
       "Quiet Feet"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Freeze Traverse",
      "drill": "Static and Dynamic",
      "game": "Swinging Monkeys",
      "cool": "Cool-Down Stretch & Reflect"
@@ -2165,7 +2147,7 @@
       "Traverse",
       "Sidepull"
      ],
-     "warm": "Sneak Up on Granny",
+     "warm": "Animal Walks",
      "drill": "Freeze Traverse",
      "game": "Animal Crossing",
      "cool": "Belly Breathing"
@@ -2183,7 +2165,7 @@
       "Downclimb",
       "Landing Position"
      ],
-     "warm": "Banana Tag",
+     "warm": "Animal Walks",
      "drill": "Downclimbing",
      "game": "Shark Attack",
      "cool": "Cool-Down Stretch & Reflect"
@@ -2222,7 +2204,7 @@
       "Top Out",
       "Static"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Freeze Traverse",
      "drill": "Static and Dynamic",
      "game": "Animal Habitats",
      "cool": "Story Stretch"
@@ -2365,7 +2347,7 @@
        "Climbing words review"
       ],
       [
-       "Pass the Animal"
+       "High-Five the Star"
       ]
      ]
     },
@@ -2526,8 +2508,8 @@
     ],
     [
      "Jan",
-     "Pass the Animal",
-     "Harness Check Race"
+     "High-Five the Star",
+     "Harness Check"
     ],
     [
      "Feb",
@@ -2536,7 +2518,7 @@
     ],
     [
      "Mar",
-     "Pass the Animal",
+     "High-Five the Star",
      "Climb the Rainbow"
     ],
     [
@@ -2557,7 +2539,7 @@
    ],
    "plan": {
     "w": [
-     "Harness Check Race|Harness;Belay Loop",
+     "Harness Check|Harness;Belay Loop",
      "Spot the Figure 8|Figure-8 Follow-Through;Tail",
      "Astronaut Lowering|Lower;Rope",
      "Climbing Commands Call-and-Response|On Belay?;Belay",
@@ -2572,7 +2554,7 @@
      "Spot the Figure 8|Harness;Figure-8 Follow-Through;Partner Check",
      "Astronaut Lowering|Top Rope;Belay;Lower",
      "Climbing Commands Call-and-Response|On Belay?;Take;Falling!",
-     "Pass the Animal|Traverse;Sportsmanship",
+     "High-Five the Star|Traverse;Sportsmanship",
      "Sticky Feet|Foothold;Quiet Feet",
      "Smearing Drill|Smear;Climbing Shoes",
      "Step Step Reach|Edging;Foothold",
@@ -2604,15 +2586,15 @@
       "Climbing Limbo"
      ],
      [
-      "Pass the Animal",
-      "Harness Check Race"
+      "High-Five the Star",
+      "Harness Check"
      ],
      [
       "Sticky Feet",
       "Climbing Bingo"
      ],
      [
-      "Pass the Animal",
+      "High-Five the Star",
       "Climb the Rainbow"
      ],
      [
@@ -2627,9 +2609,9 @@
     "warm": [
      "Simon Says",
      "Animal Walks",
-     "Snake Tag",
+     "Animal Walks",
      "Joe and the Button Factory",
-     "Freeze Tag",
+     "Freeze Traverse",
      "Bosu Balance",
      "Easy Climbing Build-Up"
     ],
@@ -2662,7 +2644,7 @@
       "Belay Loop"
      ],
      "warm": "Simon Says",
-     "drill": "Harness Check Race",
+     "drill": "Harness Check",
      "game": "Simon Says",
      "cool": "Story Stretch"
     },
@@ -2697,7 +2679,7 @@
       "Lower",
       "Rope"
      ],
-     "warm": "Snake Tag",
+     "warm": "Animal Walks",
      "drill": "Astronaut Lowering",
      "game": "Simon Says",
      "cool": "Cool-Down Stretch & Reflect"
@@ -2733,7 +2715,7 @@
       "Straight Arms",
       "Jug"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Freeze Traverse",
      "drill": "Robot Arms",
      "game": "Silent Feet",
      "cool": "Story Stretch"
@@ -2823,7 +2805,7 @@
       "Hold",
       "Foothold"
      ],
-     "warm": "Snake Tag",
+     "warm": "Animal Walks",
      "drill": "High-Five the Star",
      "game": "Climbing Limbo",
      "cool": "Learn to Fall"
@@ -2859,7 +2841,7 @@
       "Quiet Feet",
       "Send"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Freeze Traverse",
      "drill": "Smooth Repeat",
      "game": "Climbing Limbo",
      "cool": "Belly Breathing"
@@ -2938,7 +2920,7 @@
       "Sportsmanship"
      ],
      "warm": "Animal Walks",
-     "drill": "Pass the Animal",
+     "drill": "High-Five the Star",
      "game": "Dress-Up",
      "cool": "Belly Breathing"
     },
@@ -2956,9 +2938,9 @@
       "Figure-8 Follow-Through",
       "Partner Check"
      ],
-     "warm": "Snake Tag",
+     "warm": "Animal Walks",
      "drill": "Spot the Figure 8",
-     "game": "Pass the Animal",
+     "game": "High-Five the Star",
      "cool": "Story Stretch"
     },
     {
@@ -2977,7 +2959,7 @@
      ],
      "warm": "Joe and the Button Factory",
      "drill": "Astronaut Lowering",
-     "game": "Harness Check Race",
+     "game": "Harness Check",
      "cool": "Learn to Fall"
     },
     {
@@ -2994,9 +2976,9 @@
       "Take",
       "Falling!"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Freeze Traverse",
      "drill": "Climbing Commands Call-and-Response",
-     "game": "Pass the Animal",
+     "game": "High-Five the Star",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -3006,15 +2988,15 @@
      "week": 4,
      "theme": "Ropes & Rules 201",
      "cat": "rope",
-     "skill": "Pass the Animal",
+     "skill": "One-hand balance",
      "type": "Game Day",
      "vocab": [
       "Traverse",
       "Sportsmanship"
      ],
      "warm": "Bosu Balance",
-     "drill": "Pass the Animal",
-     "game": "Harness Check Race",
+     "drill": "High-Five the Star",
+     "game": "Harness Check",
      "cool": "Belly Breathing"
     },
     {
@@ -3085,7 +3067,7 @@
       "Jug",
       "Crimp"
      ],
-     "warm": "Snake Tag",
+     "warm": "Animal Walks",
      "drill": "Climbing Bingo",
      "game": "Climbing Bingo",
      "cool": "Belly Breathing"
@@ -3105,7 +3087,7 @@
      ],
      "warm": "Joe and the Button Factory",
      "drill": "Read and Point",
-     "game": "Pass the Animal",
+     "game": "High-Five the Star",
      "cool": "Story Stretch"
     },
     {
@@ -3121,7 +3103,7 @@
       "Route",
       "Send"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Freeze Traverse",
      "drill": "Climb the Rainbow",
      "game": "Climb the Rainbow",
      "cool": "Learn to Fall"
@@ -3141,7 +3123,7 @@
      ],
      "warm": "Bosu Balance",
      "drill": "Astronaut Lowering",
-     "game": "Pass the Animal",
+     "game": "High-Five the Star",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -3211,7 +3193,7 @@
       "Landing Position",
       "Dynamic"
      ],
-     "warm": "Snake Tag",
+     "warm": "Animal Walks",
      "drill": "Learn to Fall",
      "game": "Simon Says",
      "cool": "Cool-Down Stretch & Reflect"
@@ -3247,7 +3229,7 @@
       "Mantle",
       "Volume"
      ],
-     "warm": "Freeze Tag",
+     "warm": "Freeze Traverse",
      "drill": "Animal Crossing",
      "game": "Climbing Bingo",
      "cool": "Story Stretch"
@@ -3342,7 +3324,7 @@
       "Landing Position",
       "Straight Arms"
      ],
-     "warm": "Snake Tag",
+     "warm": "Animal Walks",
      "drill": "Robot Arms",
      "game": "Monkeys and Bananas",
      "cool": "Learn to Fall"
@@ -3380,8 +3362,8 @@
       "Send",
       "Sportsmanship"
      ],
-     "warm": "Freeze Tag",
-     "drill": "Pass the Animal",
+     "warm": "Freeze Traverse",
+     "drill": "High-Five the Star",
      "game": "Hot Lava",
      "cool": "Belly Breathing"
     }
@@ -3580,18 +3562,14 @@
    "session": [
     {
      "title": "Warm-up, 15 min",
-     "detail": "Tag-style pulse raiser, joint circles, easy climbing."
+     "detail": "Pulse raiser, joint circles, easy climbing."
     },
     {
-     "title": "Main, 40 min",
+     "title": "Main, 43 min",
      "detail": "Skill in short steps (about 15 min), then lots of easy varied climbing in pairs (one climbs, one watches for one thing), switching every few climbs."
     },
     {
-     "title": "Water break, 5 min",
-     "detail": "Drink, sit, and a quick \"show me\" of the skill."
-    },
-    {
-     "title": "Game, 20 min",
+     "title": "Game, 22 min",
      "detail": "The month's game, scored for the skill being taught."
     },
     {
@@ -3611,17 +3589,12 @@
     },
     {
      "label": "Skill block, then varied climbing",
-     "min": 40,
+     "min": 43,
      "slot": "D"
     },
     {
-     "label": "Water break",
-     "min": 5,
-     "slot": "B"
-    },
-    {
      "label": "Game",
-     "min": 20,
+     "min": 22,
      "slot": "G"
     },
     {
@@ -3640,7 +3613,7 @@
     [
      "Oct",
      "Silent Feet",
-     "Climbing Wall Tag"
+     "Add-On"
     ],
     [
      "Nov",
@@ -3650,12 +3623,12 @@
     [
      "Dec",
      "Fun rotation",
-     "Climbing Twister, Shark Attack, Yarn Ball Traverse, Capture the Flag, Train Wreck"
+     "Add-On, Shark Attack, Fuzz-Ball Search, Scavenger Hunt, Climbing Bingo"
     ],
     [
      "Jan",
      "I Went to the Wall…",
-     "Train Wreck"
+     "Add-On"
     ],
     [
      "Feb",
@@ -3675,17 +3648,17 @@
     [
      "May",
      "I Went to the Wall…",
-     "Climbing Twister"
+     "Add-On"
     ],
     [
      "Jun",
      "Fun rotation",
-     "Climbing Twister, Shark Attack, Yarn Ball Traverse, Capture the Flag, Train Wreck"
+     "Add-On, Shark Attack, Fuzz-Ball Search, Scavenger Hunt, Climbing Bingo"
     ]
    ],
    "plan": {
     "w": [
-     "Harness Check Race|Harness;Belay Loop;Tie-In Points",
+     "Harness Check|Harness;Belay Loop;Tie-In Points",
      "Partner Check|Figure-8 Follow-Through;Partner Check;Tail",
      "Climbing Commands Call-and-Response|On Belay?;Take;Lower",
      "Add-On|Route;Endurance",
@@ -3725,7 +3698,7 @@
      ],
      [
       "Silent Feet",
-      "Climbing Wall Tag"
+      "Add-On"
      ],
      [
       "Robot Arms",
@@ -3733,7 +3706,7 @@
      ],
      [
       "I Went to the Wall…",
-      "Train Wreck"
+      "Add-On"
      ],
      [
       "Any Feet One Color Hands",
@@ -3749,17 +3722,17 @@
      ],
      [
       "I Went to the Wall…",
-      "Climbing Twister"
+      "Add-On"
      ]
     ],
     "warm": [
-     "Banana Tag",
+     "Animal Walks",
      "Pulse Raiser",
      "Look Up, Look Down",
-     "Bear, Salmon, Hunter",
-     "Traverse Tag",
+     "Animal Walks",
+     "Easy Climbing Build-Up",
      "Workout Dice",
-     "Sumo",
+     "Bosu Balance",
      "Easy Climbing Build-Up"
     ],
     "cool": [
@@ -3769,11 +3742,11 @@
      "Duck Hunt"
     ],
     "fun": [
-     "Climbing Twister",
+     "Add-On",
      "Shark Attack",
-     "Yarn Ball Traverse",
-     "Capture the Flag",
-     "Train Wreck"
+     "Fuzz-Ball Search",
+     "Scavenger Hunt",
+     "Add-On"
     ]
    },
    "weeks": [
@@ -3791,8 +3764,8 @@
       "Belay Loop",
       "Tie-In Points"
      ],
-     "warm": "Banana Tag",
-     "drill": "Harness Check Race",
+     "warm": "Animal Walks",
+     "drill": "Harness Check",
      "game": "Add-On",
      "cool": "Cool-Down Stretch & Reflect"
     },
@@ -3847,7 +3820,7 @@
       "Route",
       "Endurance"
      ],
-     "warm": "Bear, Salmon, Hunter",
+     "warm": "Animal Walks",
      "drill": "Add-On",
      "game": "Spot the Figure 8",
      "cool": "Duck Hunt"
@@ -3865,7 +3838,7 @@
       "Straight Arms",
       "Pump"
      ],
-     "warm": "Traverse Tag",
+     "warm": "Easy Climbing Build-Up",
      "drill": "Robot Arms",
      "game": "Silent Feet",
      "cool": "Cool-Down Stretch & Reflect"
@@ -3885,7 +3858,7 @@
      ],
      "warm": "Workout Dice",
      "drill": "Silent Feet",
-     "game": "Climbing Wall Tag",
+     "game": "Add-On",
      "cool": "Learn to Fall"
     },
     {
@@ -3901,7 +3874,7 @@
       "Match",
       "Bump"
      ],
-     "warm": "Sumo",
+     "warm": "Bosu Balance",
      "drill": "Mirror Me",
      "game": "Silent Feet",
      "cool": "Belly Breathing"
@@ -3921,7 +3894,7 @@
      ],
      "warm": "Easy Climbing Build-Up",
      "drill": "Hover Hands",
-     "game": "Climbing Wall Tag",
+     "game": "Add-On",
      "cool": "Duck Hunt"
     },
     {
@@ -3937,7 +3910,7 @@
       "Body Tension",
       "Three Points of Contact"
      ],
-     "warm": "Banana Tag",
+     "warm": "Animal Walks",
      "drill": "Freeze Traverse",
      "game": "Robot Arms",
      "cool": "Cool-Down Stretch & Reflect"
@@ -3991,7 +3964,7 @@
       "Straight Arms",
       "Rest Position"
      ],
-     "warm": "Bear, Salmon, Hunter",
+     "warm": "Animal Walks",
      "drill": "Smooth Repeat",
      "game": "Beat the Clock",
      "cool": "Duck Hunt"
@@ -4011,9 +3984,9 @@
       "On Belay?",
       "Route"
      ],
-     "warm": "Traverse Tag",
+     "warm": "Easy Climbing Build-Up",
      "drill": "Partner Check",
-     "game": "Yarn Ball Traverse",
+     "game": "Fuzz-Ball Search",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -4033,7 +4006,7 @@
      ],
      "warm": "Workout Dice",
      "drill": "Hover Hands",
-     "game": "Capture the Flag",
+     "game": "Scavenger Hunt",
      "cool": "Learn to Fall"
     },
     {
@@ -4051,9 +4024,9 @@
       "High Step",
       "Straight Arms"
      ],
-     "warm": "Sumo",
+     "warm": "Bosu Balance",
      "drill": "Foot Stab",
-     "game": "Train Wreck",
+     "game": "Add-On",
      "cool": "Belly Breathing"
     },
     {
@@ -4071,7 +4044,7 @@
      ],
      "warm": "Easy Climbing Build-Up",
      "drill": "Add-On",
-     "game": "Climbing Twister",
+     "game": "Climber Dice",
      "cool": "Duck Hunt"
     },
     {
@@ -4087,7 +4060,7 @@
       "Figure-8 Follow-Through",
       "Partner Check"
      ],
-     "warm": "Banana Tag",
+     "warm": "Animal Walks",
      "drill": "Spot the Figure 8",
      "game": "I Went to the Wall…",
      "cool": "Cool-Down Stretch & Reflect"
@@ -4107,7 +4080,7 @@
      ],
      "warm": "Pulse Raiser",
      "drill": "Climber Up–Climber Down",
-     "game": "Train Wreck",
+     "game": "Add-On",
      "cool": "Learn to Fall"
     },
     {
@@ -4142,9 +4115,9 @@
       "Route",
       "Rest"
      ],
-     "warm": "Bear, Salmon, Hunter",
+     "warm": "Animal Walks",
      "drill": "Take Away",
-     "game": "Train Wreck",
+     "game": "Add-On",
      "cool": "Duck Hunt"
     },
     {
@@ -4160,7 +4133,7 @@
       "Flagging",
       "Center of Gravity"
      ],
-     "warm": "Traverse Tag",
+     "warm": "Easy Climbing Build-Up",
      "drill": "Monkey Tails",
      "game": "Any Feet One Color Hands",
      "cool": "Cool-Down Stretch & Reflect"
@@ -4196,7 +4169,7 @@
       "Edging",
       "Frontstep"
      ],
-     "warm": "Sumo",
+     "warm": "Bosu Balance",
      "drill": "Foot Placement Focus",
      "game": "Any Feet One Color Hands",
      "cool": "Belly Breathing"
@@ -4233,7 +4206,7 @@
       "Beta",
       "Start Holds"
      ],
-     "warm": "Banana Tag",
+     "warm": "Animal Walks",
      "drill": "Read and Point",
      "game": "Add-On",
      "cool": "Cool-Down Stretch & Reflect"
@@ -4287,7 +4260,7 @@
       "Sportsmanship",
       "Send"
      ],
-     "warm": "Bear, Salmon, Hunter",
+     "warm": "Animal Walks",
      "drill": "Team Reach Challenge",
      "game": "Trivia Traverse",
      "cool": "Duck Hunt"
@@ -4305,7 +4278,7 @@
       "Foothold",
       "Quiet Feet"
      ],
-     "warm": "Traverse Tag",
+     "warm": "Easy Climbing Build-Up",
      "drill": "Connect the Dots",
      "game": "Hover Hands",
      "cool": "Cool-Down Stretch & Reflect"
@@ -4342,7 +4315,7 @@
       "Dynamic",
       "Deadpoint"
      ],
-     "warm": "Sumo",
+     "warm": "Bosu Balance",
      "drill": "Static and Dynamic",
      "game": "Hover Hands",
      "cool": "Belly Breathing"
@@ -4378,7 +4351,7 @@
       "Layback",
       "Mantle"
      ],
-     "warm": "Banana Tag",
+     "warm": "Animal Walks",
      "drill": "Mirror Me",
      "game": "I Went to the Wall…",
      "cool": "Cool-Down Stretch & Reflect"
@@ -4398,7 +4371,7 @@
      ],
      "warm": "Pulse Raiser",
      "drill": "Octopus",
-     "game": "Climbing Twister",
+     "game": "Add-On",
      "cool": "Learn to Fall"
     },
     {
@@ -4432,9 +4405,9 @@
       "Heel Hook",
       "Toe Hook"
      ],
-     "warm": "Bear, Salmon, Hunter",
+     "warm": "Animal Walks",
      "drill": "Heel and Toe",
-     "game": "Climbing Twister",
+     "game": "Add-On",
      "cool": "Duck Hunt"
     },
     {
@@ -4452,7 +4425,7 @@
       "Edging",
       "Route"
      ],
-     "warm": "Traverse Tag",
+     "warm": "Easy Climbing Build-Up",
      "drill": "Smearing Drill",
      "game": "Shark Attack",
      "cool": "Cool-Down Stretch & Reflect"
@@ -4474,7 +4447,7 @@
      ],
      "warm": "Workout Dice",
      "drill": "High/Low Feet",
-     "game": "Yarn Ball Traverse",
+     "game": "Fuzz-Ball Search",
      "cool": "Learn to Fall"
     },
     {
@@ -4492,9 +4465,9 @@
       "Frontstep",
       "Heel Hook"
      ],
-     "warm": "Sumo",
+     "warm": "Bosu Balance",
      "drill": "Octopus",
-     "game": "Capture the Flag",
+     "game": "Scavenger Hunt",
      "cool": "Belly Breathing"
     },
     {
@@ -4512,7 +4485,7 @@
      ],
      "warm": "Easy Climbing Build-Up",
      "drill": "Add-On",
-     "game": "Train Wreck",
+     "game": "Climbing Bingo",
      "cool": "Duck Hunt"
     }
    ]
@@ -4528,7 +4501,7 @@
     "Project Push (personal grade)",
     "Game/Engaging"
    ],
-   "intro": "My chart fits this group best. It's the prime skill-learning window and kids are ready for friendly competition, so the structure stays close to the original. The changes are a mock comp in March and bodyweight-only strength.",
+   "intro": "My chart fits this group best. It's the prime skill-learning window, so the structure stays close to the original. March is a personal-best block, and strength work stays bodyweight-only.",
    "months": [
     {
      "m": "Sept",
@@ -4640,14 +4613,14 @@
     },
     {
      "m": "Mar",
-     "theme": "March Madness Mock Comp",
+     "theme": "March Personal Bests",
      "c": "event",
      "w": [
       [
-       "Comp formats & route reading"
+       "Route reading and a personal best"
       ],
       [
-       "Mock comp (private scorecards or team totals)"
+       "Personal bests: read, try, note one improvement"
       ],
       [
        "Clipping practice on the ground"
@@ -4713,16 +4686,12 @@
      "detail": "Pulse raiser, joint mobility, easy climbing building up."
     },
     {
-     "title": "Main, 55 min",
+     "title": "Main, 58 min",
      "detail": "Technique block as a game (about 20 min), then applied on routes or boulders, with ropes and belay practice on rope weeks."
     },
     {
-     "title": "Water and snack break, 5 min",
-     "detail": "Refuel and rest the fingers."
-    },
-    {
-     "title": "Game, 25 min",
-     "detail": "The month's game; competitive games are fine if they reward the skill, not just tops."
+     "title": "Game, 27 min",
+     "detail": "The month's game, scored against each climber's own last try on the skill being taught."
     },
     {
      "title": "Cool-down, 15 min",
@@ -4741,17 +4710,12 @@
     },
     {
      "label": "Skill drill, then apply on routes",
-     "min": 55,
+     "min": 58,
      "slot": "D"
     },
     {
-     "label": "Water and snack break",
-     "min": 5,
-     "slot": "B"
-    },
-    {
      "label": "Game",
-     "min": 25,
+     "min": 27,
      "slot": "G"
     },
     {
@@ -4780,7 +4744,7 @@
     [
      "Dec",
      "Fun rotation",
-     "Marco Polo, King of the Volume, Climbing Twister, Climber Dice, Nitro Crossing"
+     "Blindfold Climbing, Volume Stay, Add-On, Climber Dice, Nitro Crossing"
     ],
     [
      "Jan",
@@ -4794,8 +4758,8 @@
     ],
     [
      "Mar",
-     "Comp Simulation",
-     "V-Point Comp"
+     "Choose-Your-Level Ladder",
+     "Send Tally"
     ],
     [
      "Apr",
@@ -4805,17 +4769,17 @@
     [
      "May",
      "Step Flag Reach",
-     "King of the Volume"
+     "Volume Stay"
     ],
     [
      "Jun",
      "Fun rotation",
-     "Marco Polo, King of the Volume, Climbing Twister, Climber Dice, Nitro Crossing"
+     "Blindfold Climbing, Volume Stay, Add-On, Climber Dice, Nitro Crossing"
     ]
    ],
    "plan": {
     "w": [
-     "Harness Check Race|Harness;Belay Loop;Tie-In Points",
+     "Harness Check|Harness;Belay Loop;Tie-In Points",
      "Knot Practice|Figure-8 Follow-Through;Stopper Knot;Partner Check",
      "Ground School Belay|Belay Device;Brake Hand;PBUS",
      "Climbing Commands Call-and-Response|On Belay?;Take;Lower;Falling!",
@@ -4836,7 +4800,7 @@
      "Small Feet|Edging;Foothold",
      "Keep the Tension|Cut Feet;Body Tension",
      "Read and Point|Zone;Observation Period;Route Reading",
-     "Comp Simulation|Attempt;Zone;Isolation",
+     "Choose-Your-Level Ladder|Attempt;Zone;Isolation",
      "Ground Clipping Practice|Quickdraw;Back-Clip;Z-Clip",
      "Ground Clipping Practice|Lead Climbing;Quickdraw",
      "Connect the Dots|Foothold;Quiet Feet",
@@ -4870,8 +4834,8 @@
       "Flag Boxes"
      ],
      [
-      "Comp Simulation",
-      "V-Point Comp"
+      "Choose-Your-Level Ladder",
+      "Send Tally"
      ],
      [
       "Add-On",
@@ -4879,17 +4843,17 @@
      ],
      [
       "Step Flag Reach",
-      "King of the Volume"
+      "Volume Stay"
      ]
     ],
     "warm": [
      "Easy Climbing Build-Up",
-     "Traverse Tag",
+     "Easy Climbing Build-Up",
      "Workout Dice",
-     "Elbow Tag",
+     "Pulse Raiser",
      "Joint Circles",
      "Alphabet Exercise",
-     "Fastest Tag in the West",
+     "Pulse Raiser",
      "Climber-Led Warm-Up"
     ],
     "cool": [
@@ -4899,9 +4863,9 @@
      "Learn to Fall"
     ],
     "fun": [
-     "Marco Polo",
-     "King of the Volume",
-     "Climbing Twister",
+     "Blindfold Climbing",
+     "Volume Stay",
+     "Add-On",
      "Climber Dice",
      "Nitro Crossing"
     ]
@@ -4922,7 +4886,7 @@
       "Tie-In Points"
      ],
      "warm": "Easy Climbing Build-Up",
-     "drill": "Harness Check Race",
+     "drill": "Harness Check",
      "game": "Read and Point",
      "cool": "Cool-Down Stretch & Reflect"
     },
@@ -4940,7 +4904,7 @@
       "Stopper Knot",
       "Partner Check"
      ],
-     "warm": "Traverse Tag",
+     "warm": "Easy Climbing Build-Up",
      "drill": "Knot Practice",
      "game": "What Is Wrong?",
      "cool": "Belly Breathing"
@@ -4979,7 +4943,7 @@
       "Lower",
       "Falling!"
      ],
-     "warm": "Elbow Tag",
+     "warm": "Pulse Raiser",
      "drill": "Climbing Commands Call-and-Response",
      "game": "What Is Wrong?",
      "cool": "Learn to Fall"
@@ -5033,7 +4997,7 @@
       "Match",
       "Bump"
      ],
-     "warm": "Fastest Tag in the West",
+     "warm": "Pulse Raiser",
      "drill": "Match",
      "game": "Smooth Repeat",
      "cool": "Goal Setting & Training Log"
@@ -5088,7 +5052,7 @@
       "Foothold",
       "Edging"
      ],
-     "warm": "Traverse Tag",
+     "warm": "Easy Climbing Build-Up",
      "drill": "Foot Stab",
      "game": "Golf",
      "cool": "Belly Breathing"
@@ -5125,7 +5089,7 @@
       "Rest Position",
       "Straight Arms"
      ],
-     "warm": "Elbow Tag",
+     "warm": "Pulse Raiser",
      "drill": "Smooth Repeat",
      "game": "Golf",
      "cool": "Learn to Fall"
@@ -5147,7 +5111,7 @@
      ],
      "warm": "Joint Circles",
      "drill": "Knot Practice",
-     "game": "Climbing Twister",
+     "game": "Add-On",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -5185,7 +5149,7 @@
       "Strength",
       "Rest Position"
      ],
-     "warm": "Fastest Tag in the West",
+     "warm": "Pulse Raiser",
      "drill": "Foot Stab",
      "game": "Nitro Crossing",
      "cool": "Goal Setting & Training Log"
@@ -5204,8 +5168,8 @@
       "Sportsmanship"
      ],
      "warm": "Climber-Led Warm-Up",
-     "drill": "Comp Simulation",
-     "game": "Marco Polo",
+     "drill": "Choose-Your-Level Ladder",
+     "game": "Blindfold Climbing",
      "cool": "Learn to Fall"
     },
     {
@@ -5241,7 +5205,7 @@
       "Pump",
       "Rest"
      ],
-     "warm": "Traverse Tag",
+     "warm": "Easy Climbing Build-Up",
      "drill": "Easy Continuous Laps",
      "game": "Take Away",
      "cool": "Belly Breathing"
@@ -5277,7 +5241,7 @@
       "Endurance",
       "Send"
      ],
-     "warm": "Elbow Tag",
+     "warm": "Pulse Raiser",
      "drill": "Climb Your Age",
      "game": "Take Away",
      "cool": "Learn to Fall"
@@ -5331,7 +5295,7 @@
       "Edging",
       "Foothold"
      ],
-     "warm": "Fastest Tag in the West",
+     "warm": "Pulse Raiser",
      "drill": "Small Feet",
      "game": "Step Flag Reach",
      "cool": "Goal Setting & Training Log"
@@ -5359,9 +5323,9 @@
      "month": "Mar",
      "monthIndex": 6,
      "week": 1,
-     "theme": "March Madness Mock Comp",
+     "theme": "March Personal Bests",
      "cat": "event",
-     "skill": "Comp formats & route reading",
+     "skill": "Route reading and a personal best",
      "type": "Structured Climbing",
      "vocab": [
       "Zone",
@@ -5370,7 +5334,7 @@
      ],
      "warm": "Easy Climbing Build-Up",
      "drill": "Read and Point",
-     "game": "Comp Simulation",
+     "game": "Choose-Your-Level Ladder",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -5378,18 +5342,18 @@
      "month": "Mar",
      "monthIndex": 6,
      "week": 2,
-     "theme": "March Madness Mock Comp",
+     "theme": "March Personal Bests",
      "cat": "event",
-     "skill": "Mock comp (private scorecards or team totals)",
+     "skill": "Personal bests: read, try, note one improvement",
      "type": "Educational",
      "vocab": [
       "Attempt",
       "Zone",
       "Isolation"
      ],
-     "warm": "Traverse Tag",
-     "drill": "Comp Simulation",
-     "game": "V-Point Comp",
+     "warm": "Easy Climbing Build-Up",
+     "drill": "Choose-Your-Level Ladder",
+     "game": "Send Tally",
      "cool": "Belly Breathing"
     },
     {
@@ -5397,7 +5361,7 @@
      "month": "Mar",
      "monthIndex": 6,
      "week": 3,
-     "theme": "March Madness Mock Comp",
+     "theme": "March Personal Bests",
      "cat": "event",
      "skill": "Clipping practice on the ground",
      "type": "Project Push (personal grade)",
@@ -5408,7 +5372,7 @@
      ],
      "warm": "Workout Dice",
      "drill": "Ground Clipping Practice",
-     "game": "Comp Simulation",
+     "game": "Choose-Your-Level Ladder",
      "cool": "Goal Setting & Training Log"
     },
     {
@@ -5416,7 +5380,7 @@
      "month": "Mar",
      "monthIndex": 6,
      "week": 4,
-     "theme": "March Madness Mock Comp",
+     "theme": "March Personal Bests",
      "cat": "event",
      "skill": "Clipping stance and feet",
      "type": "Game/Engaging",
@@ -5424,9 +5388,9 @@
       "Lead Climbing",
       "Quickdraw"
      ],
-     "warm": "Elbow Tag",
+     "warm": "Pulse Raiser",
      "drill": "Ground Clipping Practice",
-     "game": "V-Point Comp",
+     "game": "Send Tally",
      "cool": "Learn to Fall"
     },
     {
@@ -5479,7 +5443,7 @@
       "Landing Position",
       "Commitment"
      ],
-     "warm": "Fastest Tag in the West",
+     "warm": "Pulse Raiser",
      "drill": "Dyno Dash",
      "game": "Add-On",
      "cool": "Goal Setting & Training Log"
@@ -5534,9 +5498,9 @@
       "Stemming",
       "Drop Knee"
      ],
-     "warm": "Traverse Tag",
+     "warm": "Easy Climbing Build-Up",
      "drill": "Pivot Practice",
-     "game": "King of the Volume",
+     "game": "Volume Stay",
      "cool": "Belly Breathing"
     },
     {
@@ -5571,9 +5535,9 @@
       "Heel Hook",
       "Toe Hook"
      ],
-     "warm": "Elbow Tag",
+     "warm": "Pulse Raiser",
      "drill": "Heel and Toe",
-     "game": "King of the Volume",
+     "game": "Volume Stay",
      "cool": "Learn to Fall"
     },
     {
@@ -5593,7 +5557,7 @@
      ],
      "warm": "Joint Circles",
      "drill": "Smearing Drill",
-     "game": "King of the Volume",
+     "game": "Volume Stay",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -5613,7 +5577,7 @@
      ],
      "warm": "Alphabet Exercise",
      "drill": "Two in a Row",
-     "game": "Climbing Twister",
+     "game": "Add-On",
      "cool": "Belly Breathing"
     },
     {
@@ -5631,7 +5595,7 @@
       "Frontstep",
       "Heel Hook"
      ],
-     "warm": "Fastest Tag in the West",
+     "warm": "Pulse Raiser",
      "drill": "Pivot Practice",
      "game": "Climber Dice",
      "cool": "Goal Setting & Training Log"
@@ -5650,7 +5614,7 @@
       "Sportsmanship"
      ],
      "warm": "Climber-Led Warm-Up",
-     "drill": "Comp Simulation",
+     "drill": "Choose-Your-Level Ladder",
      "game": "Nitro Crossing",
      "cool": "Learn to Fall"
     }
@@ -5900,17 +5864,17 @@
     [
      "Oct",
      "Video Self-Review",
-     "Lose-a-Limb Traverse"
+     "One Arm, One Foot"
     ],
     [
      "Nov",
      "Precision Speed",
-     "Climbing Chess"
+     "Add-On"
     ],
     [
      "Dec",
      "Fun rotation",
-     "Climbing Chess, Marco Polo, Ready, Set, GO!, Flash or Fail, King of the Volume"
+     "Add-On, Blindfold Climbing, Ready, Set, GO!, Flash or Fail, Volume Stay"
     ],
     [
      "Jan",
@@ -5935,12 +5899,12 @@
     [
      "May",
      "Beta Swap",
-     "Climbing Chess"
+     "Add-On"
     ],
     [
      "Jun",
      "Fun rotation",
-     "Climbing Chess, Marco Polo, Ready, Set, GO!, Flash or Fail, King of the Volume"
+     "Add-On, Blindfold Climbing, Ready, Set, GO!, Flash or Fail, Volume Stay"
     ]
    ],
    "plan": {
@@ -5966,12 +5930,12 @@
      "Small Feet|Edging;Frontstep",
      "Keep the Tension|Cut Feet;Body Tension",
      "Read and Point|Observation Period;Route Reading;Zone",
-     "Comp Simulation|Isolation;Attempt;Zone",
+     "Choose-Your-Level Ladder|Isolation;Attempt;Zone",
      "Mock Lead|Lead Climbing;Quickdraw",
      "Lead Fall Progression|Soft Catch;Fear of Falling;Lead Climbing",
      "Precision Speed|Foothold;Speed Climbing",
      "One Arm, One Foot|Body Tension;Overhang",
-     "Dyno War|Dyno;Deadpoint;Commitment",
+     "Dyno Count|Dyno;Deadpoint;Commitment",
      "Climbing Pyramid|Strength;Crux;Project",
      "Wall Types|Layback;Mantle;Arete",
      "Pivot Practice|Drop Knee;Stemming",
@@ -5985,11 +5949,11 @@
      ],
      [
       "Video Self-Review",
-      "Lose-a-Limb Traverse"
+      "One Arm, One Foot"
      ],
      [
       "Precision Speed",
-      "Climbing Chess"
+      "Add-On"
      ],
      [
       "Team Send Board",
@@ -6009,7 +5973,7 @@
      ],
      [
       "Beta Swap",
-      "Climbing Chess"
+      "Add-On"
      ]
     ],
     "warm": [
@@ -6017,7 +5981,7 @@
      "Easy Climbing Build-Up",
      "Workout Dice",
      "Easy Continuous Laps",
-     "Elbow Tag",
+     "Pulse Raiser",
      "Joint Circles"
     ],
     "cool": [
@@ -6026,11 +5990,11 @@
      "Belly Breathing"
     ],
     "fun": [
-     "Climbing Chess",
-     "Marco Polo",
+     "Add-On",
+     "Blindfold Climbing",
      "Ready, Set, GO!",
      "Flash or Fail",
-     "King of the Volume"
+     "Volume Stay"
     ]
    },
    "weeks": [
@@ -6123,7 +6087,7 @@
       "Straight Arms",
       "Pump"
      ],
-     "warm": "Elbow Tag",
+     "warm": "Pulse Raiser",
      "drill": "Robot Arms",
      "game": "Video Self-Review",
      "cool": "Goal Setting & Training Log"
@@ -6143,7 +6107,7 @@
      ],
      "warm": "Joint Circles",
      "drill": "Silent Feet",
-     "game": "Lose-a-Limb Traverse",
+     "game": "One Arm, One Foot",
      "cool": "Belly Breathing"
     },
     {
@@ -6181,7 +6145,7 @@
      ],
      "warm": "Easy Climbing Build-Up",
      "drill": "Static and Dynamic",
-     "game": "Lose-a-Limb Traverse",
+     "game": "One Arm, One Foot",
      "cool": "Goal Setting & Training Log"
     },
     {
@@ -6218,7 +6182,7 @@
      ],
      "warm": "Easy Continuous Laps",
      "drill": "Sticky Foot Throws",
-     "game": "Climbing Chess",
+     "game": "Add-On",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -6235,7 +6199,7 @@
       "Growth Plate",
       "Crimp"
      ],
-     "warm": "Elbow Tag",
+     "warm": "Pulse Raiser",
      "drill": "Climbing Pyramid",
      "game": "Precision Speed",
      "cool": "Goal Setting & Training Log"
@@ -6256,7 +6220,7 @@
      ],
      "warm": "Joint Circles",
      "drill": "Smooth Repeat",
-     "game": "Climbing Chess",
+     "game": "Add-On",
      "cool": "Belly Breathing"
     },
     {
@@ -6316,7 +6280,7 @@
      ],
      "warm": "Workout Dice",
      "drill": "Sticky Foot Throws",
-     "game": "King of the Volume",
+     "game": "Volume Stay",
      "cool": "Belly Breathing"
     },
     {
@@ -6334,7 +6298,7 @@
      ],
      "warm": "Easy Continuous Laps",
      "drill": "Under Pressure",
-     "game": "Climbing Chess",
+     "game": "Add-On",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -6350,7 +6314,7 @@
       "Belay",
       "Brake Hand"
      ],
-     "warm": "Elbow Tag",
+     "warm": "Pulse Raiser",
      "drill": "Ground School Belay",
      "game": "Team Send Board",
      "cool": "Goal Setting & Training Log"
@@ -6459,7 +6423,7 @@
       "Edging",
       "Frontstep"
      ],
-     "warm": "Elbow Tag",
+     "warm": "Pulse Raiser",
      "drill": "Small Feet",
      "game": "Beta Swap",
      "cool": "Goal Setting & Training Log"
@@ -6508,7 +6472,7 @@
      "week": 2,
      "theme": "March Madness / Lead",
      "cat": "event",
-     "skill": "March Madness (team or level brackets)",
+     "skill": "Team send goal",
      "type": "Educational (video & beta swap)",
      "vocab": [
       "Isolation",
@@ -6516,7 +6480,7 @@
       "Zone"
      ],
      "warm": "Easy Climbing Build-Up",
-     "drill": "Comp Simulation",
+     "drill": "Choose-Your-Level Ladder",
      "game": "Speed Climbing: Bouldering",
      "cool": "Goal Setting & Training Log"
     },
@@ -6570,7 +6534,7 @@
       "Foothold",
       "Speed Climbing"
      ],
-     "warm": "Elbow Tag",
+     "warm": "Pulse Raiser",
      "drill": "Precision Speed",
      "game": "Team Send Board",
      "cool": "Goal Setting & Training Log"
@@ -6608,7 +6572,7 @@
       "Commitment"
      ],
      "warm": "Climber-Led Warm-Up",
-     "drill": "Dyno War",
+     "drill": "Dyno Count",
      "game": "Team Send Board",
      "cool": "Cool-Down Stretch & Reflect"
     },
@@ -6665,7 +6629,7 @@
      ],
      "warm": "Easy Continuous Laps",
      "drill": "Pivot Practice",
-     "game": "Climbing Chess",
+     "game": "Add-On",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -6681,7 +6645,7 @@
       "Backstep",
       "Foot Swap"
      ],
-     "warm": "Elbow Tag",
+     "warm": "Pulse Raiser",
      "drill": "Quick Step",
      "game": "Beta Swap",
      "cool": "Goal Setting & Training Log"
@@ -6702,7 +6666,7 @@
      ],
      "warm": "Joint Circles",
      "drill": "Heel and Toe",
-     "game": "Climbing Chess",
+     "game": "Add-On",
      "cool": "Belly Breathing"
     },
     {
@@ -6722,7 +6686,7 @@
      ],
      "warm": "Climber-Led Warm-Up",
      "drill": "Single Leg Smear",
-     "game": "Marco Polo",
+     "game": "Blindfold Climbing",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -6780,7 +6744,7 @@
      ],
      "warm": "Easy Continuous Laps",
      "drill": "Under Pressure",
-     "game": "King of the Volume",
+     "game": "Volume Stay",
      "cool": "Cool-Down Stretch & Reflect"
     }
    ]
@@ -6794,7 +6758,7 @@
     "Structured Training",
     "Educational / Mental Skills",
     "Hard Workout (Grade Pushing)",
-    "Comp Sim / Game"
+    "Personal-best block"
    ],
    "intro": "Periodized around the USA Climbing youth season as it ran in 2025–26 (qualifiers Oct–Feb, Regionals in March, Divisionals Apr–May, Nationals June 26–July 3). Check this year's schedule before you lock dates. Dec and Jun stay as Review & Play, which also gives planned rest weeks.",
    "months": [
@@ -6833,7 +6797,7 @@
        "Grade pushing on varied styles"
       ],
       [
-       "Comp Simulation"
+       "Choose-Your-Level Ladder"
       ]
      ]
     },
@@ -6852,7 +6816,7 @@
        "Limit bouldering"
       ],
       [
-       "Comp Simulation"
+       "Choose-Your-Level Ladder"
       ]
      ]
     },
@@ -6902,7 +6866,7 @@
        "Slab and smear comp styles"
       ],
       [
-       "Comp Simulation"
+       "Choose-Your-Level Ladder"
       ]
      ]
     },
@@ -6985,8 +6949,8 @@
      "detail": "The planned training block for the week."
     },
     {
-     "title": "Comp sim or game, 25 min",
-     "detail": "Isolation, preview and four-minute rotations, or the month's game."
+     "title": "Personal-best block or game, 25 min",
+     "detail": "A personal-best block or the month's game: read, try, and note one improvement."
     },
     {
      "title": "Cool-down, 15 min",
@@ -7010,7 +6974,7 @@
      "slot": "D"
     },
     {
-     "label": "Comp sim or game",
+     "label": "Personal-best block or game",
      "min": 25,
      "slot": "G"
     },
@@ -7025,7 +6989,7 @@
     [
      "Sept",
      "Add-On",
-     "Over and Under"
+     "Team Send Board"
     ],
     [
      "Oct",
@@ -7034,13 +6998,13 @@
     ],
     [
      "Nov",
-     "Comp Simulation",
+     "Under Pressure",
      "Under Pressure"
     ],
     [
      "Dec",
      "Fun rotation",
-     "Climbing Chess, Wimbledon, Ready, Set, GO!, Flash or Fail, Golf"
+     "Add-On, Wimbledon, Ready, Set, GO!, Flash or Fail, Golf"
     ],
     [
      "Jan",
@@ -7064,13 +7028,13 @@
     ],
     [
      "May",
-     "Comp Simulation",
+     "Under Pressure",
      "Golf"
     ],
     [
      "Jun",
      "Fun rotation",
-     "Climbing Chess, Wimbledon, Ready, Set, GO!, Flash or Fail, Golf"
+     "Add-On, Wimbledon, Ready, Set, GO!, Flash or Fail, Golf"
     ]
    ],
    "plan": {
@@ -7082,11 +7046,11 @@
      "Foot Placement Focus|Foothold;Edging;Quiet Feet",
      "Read and Point|Onsight;Visualization;Observation Period",
      "Wall Types|Slab;Vertical;Overhang;V-Scale",
-     "Comp Simulation|Isolation;Zone;Attempt",
+     "Choose-Your-Level Ladder|Isolation;Zone;Attempt",
      "Keep the Tension|Body Tension;Cut Feet;Overhang",
      "Precision Speed|Speed Climbing;Pump",
      "Limit Bouldering|Strength;Project;Growth Plate",
-     "Comp Simulation|Isolation;Observation Period",
+     "Choose-Your-Level Ladder|Isolation;Observation Period",
      "Ground Clipping Practice|Quickdraw;Z-Clip;Back-Clip",
      "Redpoint Tactics|Redpoint;Project;Beta",
      "Power Endurance Circuits|Power Endurance;Pump;Rest",
@@ -7094,31 +7058,31 @@
      "Flag Boxes|Flagging;Drop Knee;Backstep",
      "Pre-Climb Routine|Breathing;Visualization;Commitment",
      "Single Leg Smear|Smear;Slab",
-     "Comp Simulation|Zone;Attempt",
+     "Choose-Your-Level Ladder|Zone;Attempt",
      "Read and Point|Observation Period;Onsight;Rest",
-     "Comp Simulation|Isolation;Zone;Sportsmanship",
+     "Choose-Your-Level Ladder|Isolation;Zone;Sportsmanship",
      "Mock Lead|Lead Climbing;Quickdraw;Z-Clip",
      "Goal Setting & Training Log|Training Log;Growth Mindset",
      "Precision Speed|Speed Climbing;Foothold",
      "One Arm, One Foot|Body Tension;Center of Gravity",
-     "Dyno War|Dyno;Deadpoint;Commitment",
+     "Dyno Count|Dyno;Deadpoint;Commitment",
      "Limit Bouldering|Strength;Crux",
      "Wall Types|Layback;Mantle;Arete",
      "Pivot Practice|Stemming;Drop Knee",
      "Heel and Toe|Heel Hook;Toe Hook;Knee Bar",
-     "Comp Simulation|Observation Period;Isolation;Rest"
+     "Choose-Your-Level Ladder|Observation Period;Isolation;Rest"
     ],
     "g": [
      [
       "Add-On",
-      "Over and Under"
+      "Add-On"
      ],
      [
       "Read and Point",
       "Flash or Fail"
      ],
      [
-      "Comp Simulation",
+      "Choose-Your-Level Ladder",
       "Under Pressure"
      ],
      [
@@ -7138,7 +7102,7 @@
       "Dyno Dash"
      ],
      [
-      "Comp Simulation",
+      "Choose-Your-Level Ladder",
       "Golf"
      ]
     ],
@@ -7154,7 +7118,7 @@
      "Belly Breathing"
     ],
     "fun": [
-     "Climbing Chess",
+     "Add-On",
      "Wimbledon",
      "Ready, Set, GO!",
      "Flash or Fail",
@@ -7197,7 +7161,7 @@
      ],
      "warm": "Easy Continuous Laps",
      "drill": "Goal Setting & Training Log",
-     "game": "Over and Under",
+     "game": "Add-On",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -7226,14 +7190,14 @@
      "theme": "Base Building & Systems (general prep)",
      "cat": "rope",
      "skill": "Limit Add-On",
-     "type": "Comp Sim / Game",
+     "type": "Personal-best block",
      "vocab": [
       "Crux",
       "Strength"
      ],
      "warm": "Joint Circles",
      "drill": "Add-On",
-     "game": "Over and Under",
+     "game": "Team Send Board",
      "cool": "Goal Setting & Training Log"
     },
     {
@@ -7301,15 +7265,15 @@
      "week": 4,
      "theme": "Technique & Onsight (qualifiers)",
      "cat": "tech",
-     "skill": "Comp Simulation",
-     "type": "Comp Sim / Game",
+     "skill": "Personal-best round",
+     "type": "Personal-best block",
      "vocab": [
       "Isolation",
       "Zone",
       "Attempt"
      ],
      "warm": "Joint Circles",
-     "drill": "Comp Simulation",
+     "drill": "Under Pressure",
      "game": "Flash or Fail",
      "cool": "Cool-Down Stretch & Reflect"
     },
@@ -7329,7 +7293,7 @@
      ],
      "warm": "Climber-Led Warm-Up",
      "drill": "Keep the Tension",
-     "game": "Comp Simulation",
+     "game": "Under Pressure",
      "cool": "Belly Breathing"
     },
     {
@@ -7366,7 +7330,7 @@
      ],
      "warm": "Easy Climbing Build-Up",
      "drill": "Limit Bouldering",
-     "game": "Comp Simulation",
+     "game": "Under Pressure",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -7376,14 +7340,14 @@
      "week": 4,
      "theme": "Strength & Power (in season)",
      "cat": "str",
-     "skill": "Comp Simulation",
-     "type": "Comp Sim / Game",
+     "skill": "Personal-best round",
+     "type": "Personal-best block",
      "vocab": [
       "Isolation",
       "Observation Period"
      ],
      "warm": "Joint Circles",
-     "drill": "Comp Simulation",
+     "drill": "Read and Point",
      "game": "Under Pressure",
      "cool": "Belly Breathing"
     },
@@ -7423,7 +7387,7 @@
       "Isolation"
      ],
      "warm": "Easy Continuous Laps",
-     "drill": "Comp Simulation",
+     "drill": "Under Pressure",
      "game": "Flash or Fail",
      "cool": "Cool-Down Stretch & Reflect"
     },
@@ -7462,7 +7426,7 @@
      ],
      "warm": "Joint Circles",
      "drill": "Redpoint Tactics",
-     "game": "Climbing Chess",
+     "game": "Add-On",
      "cool": "Goal Setting & Training Log"
     },
     {
@@ -7530,7 +7494,7 @@
      "theme": "Endurance 201 & Lead Tactics",
      "cat": "rope",
      "skill": "Lead Fall Progression",
-     "type": "Comp Sim / Game",
+     "type": "Personal-best block",
      "vocab": [
       "Soft Catch",
       "Fear of Falling"
@@ -7603,14 +7567,14 @@
      "week": 4,
      "theme": "Technique 201 & Mental Skills",
      "cat": "tech",
-     "skill": "Comp Simulation",
-     "type": "Comp Sim / Game",
+     "skill": "Personal-best round",
+     "type": "Personal-best block",
      "vocab": [
       "Zone",
       "Attempt"
      ],
      "warm": "Joint Circles",
-     "drill": "Comp Simulation",
+     "drill": "Under Pressure",
      "game": "Wimbledon",
      "cool": "Belly Breathing"
     },
@@ -7640,7 +7604,7 @@
      "week": 2,
      "theme": "Regionals Peak (March Madness)",
      "cat": "event",
-     "skill": "Regionals / in-house March Madness",
+     "skill": "Personal-best round",
      "type": "Educational / Mental Skills",
      "vocab": [
       "Isolation",
@@ -7648,7 +7612,7 @@
       "Sportsmanship"
      ],
      "warm": "Easy Continuous Laps",
-     "drill": "Comp Simulation",
+     "drill": "Under Pressure",
      "game": "Flash or Fail",
      "cool": "Cool-Down Stretch & Reflect"
     },
@@ -7679,7 +7643,7 @@
      "theme": "Regionals Peak (March Madness)",
      "cat": "event",
      "skill": "Debrief & reset",
-     "type": "Comp Sim / Game",
+     "type": "Personal-best block",
      "vocab": [
       "Training Log",
       "Growth Mindset"
@@ -7740,7 +7704,7 @@
       "Commitment"
      ],
      "warm": "Easy Climbing Build-Up",
-     "drill": "Dyno War",
+     "drill": "Dyno Count",
      "game": "Add-On",
      "cool": "Goal Setting & Training Log"
     },
@@ -7752,7 +7716,7 @@
      "theme": "Strength & Speed 201 (Divisionals build)",
      "cat": "str",
      "skill": "Pulling hard (limit bouldering)",
-     "type": "Comp Sim / Game",
+     "type": "Personal-best block",
      "vocab": [
       "Strength",
       "Crux"
@@ -7778,7 +7742,7 @@
      ],
      "warm": "Climber-Led Warm-Up",
      "drill": "Wall Types",
-     "game": "Comp Simulation",
+     "game": "Under Pressure",
      "cool": "Belly Breathing"
     },
     {
@@ -7815,7 +7779,7 @@
      ],
      "warm": "Easy Climbing Build-Up",
      "drill": "Heel and Toe",
-     "game": "Comp Simulation",
+     "game": "Under Pressure",
      "cool": "Cool-Down Stretch & Reflect"
     },
     {
@@ -7825,15 +7789,15 @@
      "week": 4,
      "theme": "Technique 301 & Divisionals",
      "cat": "tech",
-     "skill": "Divisionals taper / comp sim",
-     "type": "Comp Sim / Game",
+     "skill": "Taper: easy volume and a personal best",
+     "type": "Personal-best block",
      "vocab": [
       "Observation Period",
       "Isolation",
       "Rest"
      ],
      "warm": "Joint Circles",
-     "drill": "Comp Simulation",
+     "drill": "Under Pressure",
      "game": "Golf",
      "cool": "Belly Breathing"
     },
@@ -7925,7 +7889,7 @@
    "Corner edge."
   ],
   "Attempt": [
-   "One go at a route; comps count them.",
+   "One go at a route.",
    "One try.",
    "One go."
   ],
@@ -8135,8 +8099,8 @@
    "The wall's handles and steps."
   ],
   "Isolation": [
-   "Waiting area at comps where climbers can't see routes.",
-   "The waiting room at comps.",
+   "A quiet spot to wait and read before an attempt.",
+   "The quiet spot where you wait and read.",
    "Waiting room."
   ],
   "Jug": [
@@ -8185,8 +8149,8 @@
    "Hands share."
   ],
   "Observation Period": [
-   "Comp time to read routes before climbing.",
-   "Time to look at the route at comps.",
+   "Time set aside to read a route before climbing.",
+   "Time to look at the route.",
    "Look time."
   ],
   "On Belay?": [
@@ -8315,9 +8279,9 @@
    "Soft stop."
   ],
   "Speed Climbing": [
-   "Racing up a standardized route on auto belay or top rope.",
-   "Racing up the wall.",
-   "Race climb."
+   "Moving quickly on easy, familiar terrain and comparing the result with your own time.",
+   "A timed climb you compare with your own best.",
+   "Timed climb."
   ],
   "Sportsmanship": [
    "Respecting others: taking turns, cheering, not spraying beta.",
@@ -8435,7 +8399,7 @@
    "Zigzag rope."
   ],
   "Zone": [
-   "A mid-problem hold scoring partial points in comps.",
+   "A marked hold partway up a problem.",
    "The halfway points hold.",
    "Halfway hold."
   ]

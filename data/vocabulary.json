@@ -1,6 +1,6 @@
 {
  "lastUpdated": "2026-10-27",
- "count": 122,
+ "count": 121,
  "items": [
   {
    "id": "hold",
@@ -531,7 +531,7 @@
    "definition": "Waist belt and leg loops that connect a climber to the rope.",
    "kid": "The seat you wear to tie into the rope.",
    "little": "Climbing pants.",
-   "demo": "See Harness Check Race."
+   "demo": "See Harness Check."
   },
   {
    "id": "belay-loop",
@@ -697,7 +697,7 @@
    "definition": "Running through a rope into a loose pile so it feeds without tangles.",
    "kid": "Piling the rope so it doesn't tangle.",
    "little": "Rope pile.",
-   "demo": "See Flake and Coil Races."
+   "demo": "See Flake and Coil."
   },
   {
    "id": "anchor",
@@ -1284,18 +1284,6 @@
    "demo": "Time a 3-minute rest."
   },
   {
-   "id": "hydration",
-   "name": "Hydration",
-   "aka": [
-    "Water Break"
-   ],
-   "category": "Training & Body Care",
-   "definition": "Drinking water during sessions.",
-   "kid": "Drinking water.",
-   "little": "Water time.",
-   "demo": "Water break."
-  },
-  {
    "id": "training-log",
    "name": "Training Log",
    "aka": [
@@ -1376,10 +1364,10 @@
     "Isolation Zone"
    ],
    "category": "Competition & Mental",
-   "definition": "Waiting area at comps where climbers can't see routes.",
-   "kid": "The waiting room at comps.",
+   "definition": "A quiet spot to wait and read before an attempt.",
+   "kid": "The quiet spot where you wait and read.",
    "little": "Waiting room.",
-   "demo": "See Comp Simulation."
+   "demo": "See Pre-Climb Routine."
   },
   {
    "id": "observation-period",
@@ -1388,10 +1376,10 @@
     "Preview Time"
    ],
    "category": "Competition & Mental",
-   "definition": "Comp time to read routes before climbing.",
-   "kid": "Time to look at the route at comps.",
+   "definition": "Time set aside to read a route before climbing.",
+   "kid": "Time to look at the route.",
    "little": "Look time.",
-   "demo": "See Comp Simulation."
+   "demo": "See Pre-Climb Routine."
   },
   {
    "id": "zone",
@@ -1400,7 +1388,7 @@
     "Bonus Hold"
    ],
    "category": "Competition & Mental",
-   "definition": "A mid-problem hold scoring partial points in comps.",
+   "definition": "A marked hold partway up a problem.",
    "kid": "The halfway points hold.",
    "little": "Halfway hold.",
    "demo": "Tape a zone on a problem."
@@ -1413,10 +1401,10 @@
     "Burn"
    ],
    "category": "Competition & Mental",
-   "definition": "One go at a route; comps count them.",
+   "definition": "One go at a route.",
    "kid": "One try.",
    "little": "One go.",
-   "demo": "Count attempts in V-Point Comp."
+   "demo": "Count your own attempts on one problem."
   },
   {
    "id": "speed-climbing",
@@ -1425,9 +1413,9 @@
     "Speed"
    ],
    "category": "Competition & Mental",
-   "definition": "Racing up a standardized route on auto belay or top rope.",
-   "kid": "Racing up the wall.",
-   "little": "Race climb.",
+   "definition": "Moving quickly on easy, familiar terrain and comparing the result with your own time.",
+   "kid": "A timed climb you compare with your own best.",
+   "little": "Timed climb.",
    "demo": "See Precision Speed."
   },
   {
