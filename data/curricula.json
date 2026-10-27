@@ -28,9 +28,9 @@
  },
  "groups": [
   {
-   "id": "pm",
-   "ageId": "PM",
-   "name": "Parent & Me (2–3)",
+   "id": "parent-child",
+   "ageId": "parent-child",
+   "name": "Parent & Child (ages 2–3)",
    "minutes": 60,
    "types": [
     "Explore & Play",
@@ -1144,9 +1144,9 @@
    ]
   },
   {
-   "id": "rt",
-   "ageId": "RT",
-   "name": "Rockin' Tots (3–4)",
+   "id": "ages-3-4",
+   "ageId": "ages-3-4",
+   "name": "Ages 3–4",
    "minutes": 60,
    "types": [
     "Guided Play",
@@ -2268,9 +2268,9 @@
    ]
   },
   {
-   "id": "lp",
-   "ageId": "LP",
-   "name": "Lil' Pebbles (4–6)",
+   "id": "ages-4-6",
+   "ageId": "ages-4-6",
+   "name": "Ages 4–6",
    "minutes": 60,
    "types": [
     "Guided Play",
@@ -3388,9 +3388,9 @@
    ]
   },
   {
-   "id": "lr",
-   "ageId": "LR",
-   "name": "Little Rockers (6–9)",
+   "id": "ages-6-9",
+   "ageId": "ages-6-9",
+   "name": "Ages 6–9",
    "minutes": 90,
    "types": [
     "Structured Climbing",
@@ -4518,9 +4518,9 @@
    ]
   },
   {
-   "id": "bc",
-   "ageId": "BC",
-   "name": "Base Club (9–12)",
+   "id": "ages-9-12",
+   "ageId": "ages-9-12",
+   "name": "Ages 9–12",
    "minutes": 120,
    "types": [
     "Structured Climbing",
@@ -5657,9 +5657,9 @@
    ]
   },
   {
-   "id": "ac",
-   "ageId": "AC",
-   "name": "Ascent Club (12+)",
+   "id": "ages-12-plus",
+   "ageId": "ages-12-plus",
+   "name": "Ages 12+ (training)",
    "minutes": 120,
    "types": [
     "Structured Climbing (climber-led warm-up)",
@@ -6786,9 +6786,9 @@
    ]
   },
   {
-   "id": "sc",
-   "ageId": "SC",
-   "name": "Summit Club (14+)",
+   "id": "ages-14-plus",
+   "ageId": "ages-14-plus",
+   "name": "Ages 14+ (competitive)",
    "minutes": 120,
    "types": [
     "Structured Training",

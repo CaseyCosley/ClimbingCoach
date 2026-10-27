@@ -8,17 +8,17 @@
    "text": "Broad, playful movement before specialization; a climate about getting better, not about rank; real choices for kids; and protecting growing fingers."
   },
   "bullets": [
-   "Climbing is a late-specialization sport: early years should build general movement and technique, not strength and power [5][2]. Sampling several sports with plenty of informal play through about age 12 supports long-term engagement [7].",
-   "Mastery climates beat ego climates. Coach-created climates focused on effort and improvement are linked with more enjoyment and competence and less anxiety [8].",
-   "Support the three needs from self-determination theory: autonomy (choice within limits), competence (right-sized challenges), relatedness (belonging) [9].",
-   "Guided play beats free play alone for young kids. Planned movement programs improve fundamental skills, while free-play controls did not improve significantly [12][11].",
-   "Shape the wall, not the child. The constraints-led approach changes holds, rules and goals so kids discover solutions [13]; climbing studies show hold design shapes exploration and transfer to new routes [14].",
-   "Teach in games, one skill per game, with high activity and little waiting [5][2].",
-   "Use praise that informs, not prizes that pay. Expected tangible rewards undermined children's intrinsic motivation in a large meta-analysis, while informational positive feedback helped [10].",
-   "Fear is part of the sport. Thrilling exposure to heights, with the risk managed, may help children master natural fears (a theory with supporting observations, not a trial) [20], and a 10-lesson school climbing program reduced avoidance and increased positive emotions in 10–11-year-olds [21].",
-   "Landing and falling technique should be taught at every stage [2]."
+   "Climbing is a late-specialization sport: early years should build general movement and technique, not strength and power [4][1]. Sampling several sports with plenty of informal play through about age 12 supports long-term engagement [6].",
+   "Mastery climates beat ego climates. Coach-created climates focused on effort and improvement are linked with more enjoyment and competence and less anxiety [7].",
+   "Support the three needs from self-determination theory: autonomy (choice within limits), competence (right-sized challenges), relatedness (belonging) [8].",
+   "Guided play beats free play alone for young kids. Planned movement programs improve fundamental skills, while free-play controls did not improve significantly [11][10].",
+   "Shape the wall, not the child. The constraints-led approach changes holds, rules and goals so kids discover solutions [12]; climbing studies show hold design shapes exploration and transfer to new routes [13].",
+   "Teach in games, one skill per game, with high activity and little waiting [4][1].",
+   "Use praise that informs, not prizes that pay. Expected tangible rewards undermined children's intrinsic motivation in a large meta-analysis, while informational positive feedback helped [9].",
+   "Fear is part of the sport. Thrilling exposure to heights, with the risk managed, may help children master natural fears (a theory with supporting observations, not a trial) [19], and a 10-lesson school climbing program reduced avoidance and increased positive emotions in 10–11-year-olds [20].",
+   "Landing and falling technique should be taught at every stage [1]."
   ],
-  "text": "On game-based teaching models: Teaching Games for Understanding was built for invasion, net and field games and shows strong gains in decision-making [15]. Climbing has no opponent to read, so the constraints-led approach and guided play transfer more directly; the TGfU habit worth borrowing is asking questions (“why did your foot slip?”) instead of giving answers. Reviews of gamification in PE report gains in motivation and engagement, though most studies are short and with school-age kids [16]."
+  "text": "On game-based teaching models: Teaching Games for Understanding was built for invasion, net and field games and shows strong gains in decision-making [14]. Climbing has no opponent to read, so the constraints-led approach and guided play transfer more directly; the TGfU habit worth borrowing is asking questions (“why did your foot slip?”) instead of giving answers. Reviews of gamification in PE report gains in motivation and engagement, though most studies are short and with school-age kids [15]."
  },
  "gameTheory": {
   "heading": "Game theory, applied to a climbing group",
@@ -27,7 +27,7 @@
    {
     "text": "Cooperation versus competition",
     "items": [
-     "Across 148 studies of early adolescents, cooperative goal structures led to higher achievement and better peer relationships than competitive or individualistic ones [18].",
+     "Across 148 studies of early adolescents, cooperative goal structures led to higher achievement and better peer relationships than competitive or individualistic ones [17].",
      "Practical form: a shared team goal plus individual accountability (everyone's sends count, and everyone must contribute one)."
     ]
    },
@@ -35,14 +35,14 @@
     "text": "Incentive design",
     "items": [
      "Kids optimize whatever you score. If points only go to tops, they will thrash to the top; score quiet feet, controlled downclimbs or new holds tried.",
-     "Use surprise and informational rewards (\"that was your smoothest climb\") rather than promised prizes [10].",
+     "Use surprise and informational rewards (\"that was your smoothest climb\") rather than promised prizes [9].",
      "When kids find a loophole in a game rule, treat it as problem solving and then tweak the rule."
     ]
    },
    {
     "text": "Fairness",
     "items": [
-     "At 3–4, children mostly choose selfish splits; by 7–8, most strongly prefer equal outcomes and favor their own group [17].",
+     "At 3–4, children mostly choose selfish splits; by 7–8, most strongly prefer equal outcomes and favor their own group [16].",
      "From about 7, unfair-feeling rules will derail a game: use handicaps by level, rotate teams, and avoid fixed in-groups."
     ]
    },
@@ -63,43 +63,43 @@
   ],
   "rows": [
    [
-    "Parent & Me (2–3)",
+    "Parent & Child (ages 2–3)",
     "Active Start",
     "Parent co-play, copying",
     "None"
    ],
    [
-    "Rockin' Tots (3–4)",
+    "Ages 3–4",
     "Active Start",
     "Pretend play, one rule",
     "None"
    ],
    [
-    "Lil' Pebbles (4–6)",
+    "Ages 4–6",
     "Active Start",
     "Guided play, simple rules",
     "Whole-group goals"
    ],
    [
-    "Little Rockers (6–9)",
+    "Ages 6–9",
     "FUNdamentals",
     "Fair rules, personal bests",
     "Self vs. self"
    ],
    [
-    "Base Club (9–12)",
+    "Ages 9–12",
     "Learn to Train",
     "Skill games, mock comps",
     "Friendly, mastery-framed"
    ],
    [
-    "Ascent Club (12+)",
+    "Ages 12+ (training)",
     "Train to Train",
     "Choice, peers, projects",
     "70% practice / 30% comp"
    ],
    [
-    "Summit Club (14+)",
+    "Ages 14+ (competitive)",
     "Train to Compete",
     "Co-planned training",
     "Real comps, simulated in training"
@@ -108,12 +108,12 @@
  },
  "groups": [
   {
-   "id": "parent-me",
-   "name": "Parent & Me (ages 2–3)",
+   "id": "parent-child",
+   "name": "Parent & Child (ages 2–3)",
    "props": [
     {
      "label": "LTAD stage",
-     "value": "Active Start (0–6) [2][3]"
+     "value": "Active Start (0–6) [1][2]"
     },
     {
      "label": "Evidence base",
@@ -125,7 +125,7 @@
     }
    ],
    "learn": [
-    "By 2, children typically run, kick a ball and walk up a few stairs; by 3 they jump forward, balance better and start joining other kids in play [22][23].",
+    "By 2, children typically run, kick a ball and walk up a few stairs; by 3 they jump forward, balance better and start joining other kids in play [21][22].",
     "Play is mostly side by side (parallel), not cooperative. Toddlers learn by copying a trusted adult and by repeating the same thing many times.",
     "Bodies are top-heavy, so balance and landings are wobbly; attention moves fast, so instructions need to be one short action."
    ],
@@ -134,7 +134,7 @@
     "Discovery and doing it themselves (\"me do it!\"), plus simple cause and effect: ring a bell, grab a toy, slide down.",
     "Pretend play and familiar stories, not points or rules."
    ],
-   "approach": "Guided play is the fit: the coach sets up the space and the goal, the child keeps the choice of how to play [11]. Competition and scorekeeping have no place here; LTAD guidance for this stage calls for non-competitive, participation-focused games [2].",
+   "approach": "Guided play is the fit: the coach sets up the space and the goal, the child keeps the choice of how to play [10]. Competition and scorekeeping have no place here; LTAD guidance for this stage calls for non-competitive, participation-focused games [1].",
    "games": [
     [
      "Animal Rescue",
@@ -170,12 +170,12 @@
    ]
   },
   {
-   "id": "rockin-tots",
-   "name": "Rockin' Tots (ages 3–4)",
+   "id": "ages-3-4",
+   "name": "Ages 3–4",
    "props": [
     {
      "label": "LTAD stage",
-     "value": "Active Start (0–6) [2][3]"
+     "value": "Active Start (0–6) [1][2]"
     },
     {
      "label": "Evidence base",
@@ -187,16 +187,16 @@
     }
    ],
    "learn": [
-    "Play is shifting from side by side to playing with others, and pretend play is at its peak [23].",
-    "Planned, taught movement programs improve fundamental skills; children left to free play alone in control groups did not improve significantly [12].",
-    "At 3–4, children's sharing choices are mostly self-interested in fairness experiments, so taking turns needs gentle structure rather than appeals to fairness [17]."
+    "Play is shifting from side by side to playing with others, and pretend play is at its peak [22].",
+    "Planned, taught movement programs improve fundamental skills; children left to free play alone in control groups did not improve significantly [11].",
+    "At 3–4, children's sharing choices are mostly self-interested in fairness experiments, so taking turns needs gentle structure rather than appeals to fairness [16]."
    ],
    "motivate": [
     "Make-believe: being a monkey, spider or firefighter is the reason to climb.",
     "Feeling big and capable; preschoolers tend to rate their own abilities very highly, which is an asset to protect.",
     "Short, visible wins: a treasure in the bucket, a bell rung."
    ],
-   "approach": "Guided play with a story wrapper. Use one rule at a time (\"only blue holds\") and keep the whole group moving. Rules exist to make the game fun, not to sort winners from losers [2].",
+   "approach": "Guided play with a story wrapper. Use one rule at a time (\"only blue holds\") and keep the whole group moving. Rules exist to make the game fun, not to sort winners from losers [1].",
    "games": [
     [
      "Animal Climbs",
@@ -225,7 +225,7 @@
    ],
    "dos": [
     "Give one-step instructions and demonstrate; most learning here is by copying.",
-    "Keep high activity and low waiting; LTAD climbing guidance stresses a high ratio of activity to rest [2].",
+    "Keep high activity and low waiting; LTAD climbing guidance stresses a high ratio of activity to rest [1].",
     "Praise specific effort (\"you used your feet!\") rather than \"good job\"."
    ],
    "donts": [
@@ -235,12 +235,12 @@
    ]
   },
   {
-   "id": "lil-pebbles",
-   "name": "Lil' Pebbles (ages 4–6)",
+   "id": "ages-4-6",
+   "name": "Ages 4–6",
    "props": [
     {
      "label": "LTAD stage",
-     "value": "Active Start moving into FUNdamentals [2][3]"
+     "value": "Active Start moving into FUNdamentals [1][2]"
     },
     {
      "label": "Evidence base",
@@ -252,16 +252,16 @@
     }
    ],
    "learn": [
-    "Children can now follow simple rules and enjoy games with structure, but still learn best by doing and copying [4].",
-    "In a meta-analysis of 39 studies, guided play beat direct instruction on several early-learning outcomes and matched it on others [11].",
-    "Self-judgments are still mostly about \"did I do it\" rather than comparing with peers; comparison with others becomes important around 7–8 [31]."
+    "Children can now follow simple rules and enjoy games with structure, but still learn best by doing and copying [3].",
+    "In a meta-analysis of 39 studies, guided play beat direct instruction on several early-learning outcomes and matched it on others [10].",
+    "Self-judgments are still mostly about \"did I do it\" rather than comparing with peers; comparison with others becomes important around 7–8 [30]."
    ],
    "motivate": [
     "\"Again!\": mastering a problem they could not do last week.",
     "Simple roles: being line leader, the hold-picker, the cheer captain.",
     "Silly challenges and the coach pretending it is too hard for them."
    ],
-   "approach": "Introduce simple game rules and the first cooperative goals (a whole-group target), with each child working at their own level. Pick one skill per game; the BMC's FUNdamentals material recommends each game target a single skill [5].",
+   "approach": "Introduce simple game rules and the first cooperative goals (a whole-group target), with each child working at their own level. Pick one skill per game; the BMC's FUNdamentals material recommends each game target a single skill [4].",
    "games": [
     [
      "Simon Says on the Wall",
@@ -291,21 +291,21 @@
    "dos": [
     "Use whole-group goals (\"can the team rescue 20 animals?\") to build cooperation.",
     "Keep feedback positive and about the move, not the child.",
-    "Let them choose between two options; choice within limits supports motivation [9]."
+    "Let them choose between two options; choice within limits supports motivation [8]."
    ],
    "donts": [
     "Elimination games where kids sit out.",
     "Lecturing technique; show it in a game instead.",
-    "Expected prize-for-climb deals; expected tangible rewards undermine kids' later free-choice interest [10]."
+    "Expected prize-for-climb deals; expected tangible rewards undermine kids' later free-choice interest [9]."
    ]
   },
   {
-   "id": "little-rockers",
-   "name": "Little Rockers (ages 6–9)",
+   "id": "ages-6-9",
+   "name": "Ages 6–9",
    "props": [
     {
      "label": "LTAD stage",
-     "value": "FUNdamentals (girls 6–8, boys 6–9) [2][3]"
+     "value": "FUNdamentals (girls 6–8, boys 6–9) [1][2]"
     },
     {
      "label": "Evidence base",
@@ -313,20 +313,20 @@
     },
     {
      "label": "Session shape",
-     "value": "LTAD suggests 30–60 min of real activity at this stage; the Little Rockers class runs 90 min, so plan a water break and plenty of easy climbing. Keep it volume-based, low-intensity, varied and high-success [2]."
+     "value": "LTAD suggests 30–60 min of real activity at this stage; the ages 6–9 class runs 90 min, so plan a water break and plenty of easy climbing. Keep it volume-based, low-intensity, varied and high-success [1]."
     }
    ],
    "learn": [
-    "Learns best by doing; short step-by-step instructions, small groups and working in pairs help focus [4].",
-    "Kids this age struggle with criticism and failure, so positive feedback, repetition and building on success matter [4].",
-    "Around 7–8, children become strongly averse to unequal outcomes and start comparing themselves with peers, so fairness of game rules suddenly matters a lot [17][31]."
+    "Learns best by doing; short step-by-step instructions, small groups and working in pairs help focus [3].",
+    "Kids this age struggle with criticism and failure, so positive feedback, repetition and building on success matter [3].",
+    "Around 7–8, children become strongly averse to unequal outcomes and start comparing themselves with peers, so fairness of game rules suddenly matters a lot [16][30]."
    ],
    "motivate": [
     "Being good at things (competence) and being part of the crew (relatedness).",
     "Rules and fairness: they will argue about the rules, which is a sign they care.",
     "Personal records: \"beat your own number from last week\"."
    ],
-   "approach": "Climbing Canada advises no formal competition at this stage: social events, personal improvement, and no naming of top or bottom performers [2]. Use self-referenced challenges and team totals. Skills to aim for: precise light footwork, inside and outside edges, 2- and 3-point balance, hold types, and open-hand gripping that avoids over-crimping [2].",
+   "approach": "Climbing Canada advises no formal competition at this stage: social events, personal improvement, and no naming of top or bottom performers [1]. Use self-referenced challenges and team totals. Skills to aim for: precise light footwork, inside and outside edges, 2- and 3-point balance, hold types, and open-hand gripping that avoids over-crimping [1].",
    "games": [
     [
      "Team Add-On",
@@ -346,7 +346,7 @@
     ],
     [
      "Any Feet, One Color Hands",
-     "Set-color handholds with free choice of feet; climbers explore body positions [5]."
+     "Set-color handholds with free choice of feet; climbers explore body positions [4]."
     ],
     [
      "Hold Hunt Traverse",
@@ -360,17 +360,17 @@
    ],
    "donts": [
     "Public rankings or leaderboards.",
-    "Pushing competition; the CWA notes it is wise not to push the competitive side at this age [4].",
+    "Pushing competition; the CWA notes it is wise not to push the competitive side at this age [3].",
     "Dynos and big moves on poor holds; keep movement static and controlled."
    ]
   },
   {
-   "id": "base-club",
-   "name": "Base Club (ages 9–12)",
+   "id": "ages-9-12",
+   "name": "Ages 9–12",
    "props": [
     {
      "label": "LTAD stage",
-     "value": "Learn to Train (girls 8–11, boys 9–12) [2][3]"
+     "value": "Learn to Train (girls 8–11, boys 9–12) [1][2]"
     },
     {
      "label": "Evidence base",
@@ -378,20 +378,20 @@
     },
     {
      "label": "Session shape",
-     "value": "Warm-up (pulse, joint mobility, easy climbing) [5], technique block as a game, application on routes or a mock comp, cool-down and goal check."
+     "value": "Warm-up (pulse, joint mobility, easy climbing) [4], technique block as a game, application on routes or a mock comp, cool-down and goal check."
     }
    ],
    "learn": [
-    "Climbing Canada calls this a prime period for rapid skill learning, with growing capacity for abstract ideas like tactics [2].",
-    "Interest in competition grows, along with frustration when things do not go to plan [4].",
-    "Growth spurts can start (typically girls 7–12, boys 10–14), and finger growth plates are vulnerable to repetitive strain [2]."
+    "Climbing Canada calls this a prime period for rapid skill learning, with growing capacity for abstract ideas like tactics [1].",
+    "Interest in competition grows, along with frustration when things do not go to plan [3].",
+    "Growth spurts can start (typically girls 7–12, boys 10–14), and finger growth plates are vulnerable to repetitive strain [1]."
    ],
    "motivate": [
     "Getting better at real climbing skills and knowing the vocabulary (flash, onsight, redpoint).",
     "Friendly competition and testing themselves, when the climate stays about improvement.",
     "Having a say: picking projects, setting goals."
    ],
-   "approach": "Introduce competition as a learning tool: mock comps, timed onsights, and simple rules and tactics in a fun setting [2]. Keep the motivational climate mastery-focused; mastery climates are linked with more enjoyment and competence and less anxiety than ego-focused ones [8]. Skills to aim for: heel and toe hooks, flagging (at least 3 types), pivots, controlled versus dynamic movement, and reading sequences in advance [2].",
+   "approach": "Introduce competition as a learning tool: mock comps, timed onsights, and simple rules and tactics in a fun setting [1]. Keep the motivational climate mastery-focused; mastery climates are linked with more enjoyment and competence and less anxiety than ego-focused ones [7]. Skills to aim for: heel and toe hooks, flagging (at least 3 types), pivots, controlled versus dynamic movement, and reading sequences in advance [1].",
    "games": [
     [
      "Add-On with Letters",
@@ -419,23 +419,23 @@
     ]
    ],
    "dos": [
-    "Teach open-hand grip and warn against over-crimping and monos [2].",
-    "Teach landing and falling technique; Climbing Canada says it matters at every stage [2].",
-    "Praise effort and strategy, and explain the link between practice and outcome [2]."
+    "Teach open-hand grip and warn against over-crimping and monos [1].",
+    "Teach landing and falling technique; Climbing Canada says it matters at every stage [1].",
+    "Praise effort and strategy, and explain the link between practice and outcome [1]."
    ],
    "donts": [
-    "Campus boards, hangboard dead-hangs, or added weight; federation guidance says wait until skeletal maturity [2][24].",
-    "Letting kids climb through finger pain at the middle knuckle; stop and refer [25].",
-    "Early specialization: encourage other sports alongside climbing [2][7]."
+    "Campus boards, hangboard dead-hangs, or added weight; federation guidance says wait until skeletal maturity [1][23].",
+    "Letting kids climb through finger pain at the middle knuckle; stop and refer [24].",
+    "Early specialization: encourage other sports alongside climbing [1][6]."
    ]
   },
   {
-   "id": "ascent-club",
-   "name": "Ascent Club (ages 12+)",
+   "id": "ages-12-plus",
+   "name": "Ages 12+ (training)",
    "props": [
     {
      "label": "LTAD stage",
-     "value": "Train to Train (girls 11–14, boys 12–15 in Climbing Canada's model) [2]"
+     "value": "Train to Train (girls 11–14, boys 12–15 in Climbing Canada's model) [1]"
     },
     {
      "label": "Evidence base",
@@ -447,16 +447,16 @@
     }
    ],
    "learn": [
-    "The growth spurt changes limb length and center of gravity; temporary clumsiness and dips in performance are normal and expectations must be managed [2][4].",
-    "Peer presence boosts reward-related brain activity and risk-taking in adolescents, but not adults [19].",
-    "This is a peak period for dropping out of sport, with shifting interests and growing social and school pressure [2]."
+    "The growth spurt changes limb length and center of gravity; temporary clumsiness and dips in performance are normal and expectations must be managed [1][3].",
+    "Peer presence boosts reward-related brain activity and risk-taking in adolescents, but not adults [18].",
+    "This is a peak period for dropping out of sport, with shifting interests and growing social and school pressure [1]."
    ],
    "motivate": [
     "Autonomy: real choices about what to work on.",
     "Belonging to a crew and being seen as competent by peers.",
     "Clear, personal goals and visible progress."
    ],
-   "approach": "Lean on self-determination theory: offer choice within limits, explain the why, acknowledge feelings, and avoid controlling pressure [9]. Use the peer effect on purpose with team challenges and shared projects rather than letting it drive risky showing-off [19]. Climbing Canada suggests about 70% practice, 30% competition for this stage [2].",
+   "approach": "Lean on self-determination theory: offer choice within limits, explain the why, acknowledge feelings, and avoid controlling pressure [8]. Use the peer effect on purpose with team challenges and shared projects rather than letting it drive risky showing-off [18]. Climbing Canada suggests about 70% practice, 30% competition for this stage [1].",
    "games": [
     [
      "Team Send Board",
@@ -485,22 +485,22 @@
    ],
    "dos": [
     "Check in about growth: knees, heels, fingers, and how they feel in their changing body.",
-    "Keep finger loading modest and varied; growth plate injuries peak around 12–13 in girls and 13–15 in boys [25].",
-    "Offer both recreational and team tracks, so non-competitors stay [4]."
+    "Keep finger loading modest and varied; growth plate injuries peak around 12–13 in girls and 13–15 in boys [24].",
+    "Offer both recreational and team tracks, so non-competitors stay [3]."
    ],
    "donts": [
     "Comparing kids who matured early with those who have not; it rewards timing, not skill.",
-    "Campus boarding and weighted hangs [2][24].",
+    "Campus boarding and weighted hangs [1][23].",
     "Public critique; adolescents are highly sensitive to how they look to peers."
    ]
   },
   {
-   "id": "summit-club",
-   "name": "Summit Club (ages 14+, advanced and competitive)",
+   "id": "ages-14-plus",
+   "name": "Ages 14+ (competitive)",
    "props": [
     {
      "label": "LTAD stage",
-     "value": "Late Train to Train into Train to Compete [2]"
+     "value": "Late Train to Train into Train to Compete [1]"
     },
     {
      "label": "Evidence base",
@@ -512,16 +512,16 @@
     }
    ],
    "learn": [
-    "Near the end of puberty, athletes can handle more dynamic movement and joint loading, but climbing with added weight is still not advised [4].",
-    "Fingers stop growing around 16–17, so training intensity should respect still-growing fingers [24].",
-    "In 116 Alberta climbers aged 11–19, injury risk was 4.44 per 1,000 climbing hours, overuse was the main cause, and 15–19-year-olds had much higher odds of injury than 11–14-year-olds [27]."
+    "Near the end of puberty, athletes can handle more dynamic movement and joint loading, but climbing with added weight is still not advised [3].",
+    "Fingers stop growing around 16–17, so training intensity should respect still-growing fingers [23].",
+    "In 116 Alberta climbers aged 11–19, injury risk was 4.44 per 1,000 climbing hours, overuse was the main cause, and 15–19-year-olds had much higher odds of injury than 11–14-year-olds [26]."
    ],
    "motivate": [
     "Competence and performance goals, especially when they own the plan.",
     "Identity as a climber and team member.",
-    "Mastery climate still matters at this level: focus on improvement over rank [8]."
+    "Mastery climate still matters at this level: focus on improvement over rank [7]."
    ],
-   "approach": "Treat the athlete as a co-designer: shared goal-setting, season planning, and training logs. Model all aspects of competition in training: isolation, timed rotations, preview, onsight tactics [2]. Mental skills (visualization, pre-climb routines, emotion regulation) belong here; a program built on emotion regulation reduced anxiety in adult women climbers with fear of falling [29], though youth trials are lacking.",
+   "approach": "Treat the athlete as a co-designer: shared goal-setting, season planning, and training logs. Model all aspects of competition in training: isolation, timed rotations, preview, onsight tactics [1]. Mental skills (visualization, pre-climb routines, emotion regulation) belong here; a program built on emotion regulation reduced anxiety in adult women climbers with fear of falling [28], though youth trials are lacking.",
    "games": [
     [
      "Comp Simulation",
@@ -549,12 +549,12 @@
     ]
    ],
    "dos": [
-    "Watch for under-fueling and body-image pressure; 63% of a small sample of competitive adolescent climbers had low energy availability [28][4].",
-    "Make pain reporting normal; growth plate stress injuries are the most common sport-specific injury in adolescent climbers [26].",
-    "Offer paths beyond competing (setting, coaching younger kids) to keep teens in the sport [4]."
+    "Watch for under-fueling and body-image pressure; 63% of a small sample of competitive adolescent climbers had low energy availability [27][3].",
+    "Make pain reporting normal; growth plate stress injuries are the most common sport-specific injury in adolescent climbers [25].",
+    "Offer paths beyond competing (setting, coaching younger kids) to keep teens in the sport [3]."
    ],
    "donts": [
-    "Campus training before skeletal maturity; UIAA advises against it up to about 16–17, and the BMC says under about 18–20 [24][25].",
+    "Campus training before skeletal maturity; UIAA advises against it up to about 16–17, and the BMC says under about 18–20 [23][24].",
     "Weight talk or encouraging weight loss for performance.",
     "Year-round max effort with no planned rest."
    ]
@@ -567,9 +567,9 @@
    "text": "The named games come from coach and federation resources and common gym practice, not controlled trials. There is very little peer-reviewed research on climbing instruction for children under 9."
   },
   "bullets": [
-   "Parent & Me and Rockin' Tots: no studies found on toddler or preschool climbing classes; advice rests on milestones, LTAD and guided-play research.",
-   "Fear of falling: the one intervention trial found was in adult women [29]; we found no trials of fall-practice methods with kids or teens.",
-   "Climbing for attention and self-regulation: a 12-child pilot in boys 11–13 with ADHD-related difficulties found improvements, but it was a pre/post design with no control group and is early-stage [30].",
+   "Parent & Child (ages 2–3) and Ages 3–4: no studies found on toddler or preschool climbing classes; advice rests on milestones, LTAD and guided-play research.",
+   "Fear of falling: the one intervention trial found was in adult women [28]; we found no trials of fall-practice methods with kids or teens.",
+   "Climbing for attention and self-regulation: a 12-child pilot in boys 11–13 with ADHD-related difficulties found improvements, but it was a pre/post design with no control group and is early-stage [29].",
    "Attention-span rules of thumb (such as minutes per year of age) are widely repeated but we did not find solid research behind them; watch the kids instead."
   ]
  }
