@@ -56,13 +56,6 @@
     state.dateNote = "";
     if (location.hash === "#week-section") state.view = "lesson";
 
-    document.getElementById("intro").innerHTML = '<p class="lead">' + esc(P.summary) + "</p>";
-    document.getElementById("how").innerHTML = "<ul>" + P.how.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" +
-      '<div class="callout"><strong>' + esc(P.callout.lead) + "</strong>" + esc(P.callout.text) + "</div>" +
-      '<ul class="theme-key">' + Object.keys(CAT).map(function (k) {
-        return '<li' + (k === "fun" ? ' class="review-key"' : "") + ">" + esc(CAT[k].label) + "</li>";
-      }).join("") + "</ul>";
-
     var gsel = document.getElementById("group");
     var host = document.getElementById("view-host");
     var blurb = document.getElementById("view-blurb");

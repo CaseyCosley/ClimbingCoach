@@ -2,8 +2,30 @@
   "use strict";
   var H = window.Hub, esc = H.esc;
   H.init("about.html");
-  H.loadAll(["pages", "sources", "activities", "vocabulary"]).then(function (d) {
-    var L = d.pages.library, S = d.sources;
+  H.loadAll(["pages", "sources", "activities", "vocabulary", "playbook", "curricula"]).then(function (d) {
+    var L = d.pages.library, C = d.pages.curricula, S = d.sources, PB = d.playbook;
+    var cite = function (t) { return H.cite(t, "playbook.html#src-"); };
+    var ul = function (items) {
+      return "<ul>" + items.map(function (x) {
+        return typeof x === "string" ? "<li>" + cite(x) + "</li>" : "<li><b>" + cite(x.text) + "</b>" + ul(x.items) + "</li>";
+      }).join("") + "</ul>";
+    };
+    var CAT = d.curricula.categories;
+    document.getElementById("curricula-how").innerHTML = "<p>" + esc(C.summary) + "</p><ul>" +
+      C.how.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" +
+      '<div class="callout"><strong>' + esc(C.callout.lead) + "</strong>" + esc(C.callout.text) + "</div>" +
+      '<ul class="theme-key">' + Object.keys(CAT).map(function (k) {
+        return '<li' + (k === "fun" ? ' class="review-key"' : "") + ">" + esc(CAT[k].label) + "</li>";
+      }).join("") + "</ul>";
+    document.getElementById("library-how").innerHTML = "<p>" + esc(L.summary) + "</p>";
+    document.getElementById("playbook-how").innerHTML = "<p>" + cite(PB.summary) + "</p>" +
+      "<h3>" + esc(PB.principles.heading) + "</h3>" +
+      '<div class="callout"><strong>' + esc(PB.principles.callout.lead) + "</strong>" + esc(PB.principles.callout.text) + "</div>" +
+      ul(PB.principles.bullets) + "<p>" + cite(PB.principles.text) + "</p>" +
+      "<h3>" + esc(PB.gameTheory.heading) + "</h3><p>" + cite(PB.gameTheory.intro) + "</p>" + ul(PB.gameTheory.bullets) +
+      "<h3>" + esc(PB.gaps.heading) + "</h3>" +
+      '<div class="callout"><strong>' + esc(PB.gaps.callout.lead) + "</strong>" + esc(PB.gaps.callout.text) + "</div>" +
+      ul(PB.gaps.bullets);
     var cp = d.activities.items.filter(function (a) { return a.sources.some(function (k) { return !S.library[k]; }); }).length;
     var count = {}; d.activities.items.forEach(function (a) { a.sources.forEach(function (k) { count[k] = (count[k] || 0) + 1; }); });
     document.getElementById("lib-about").innerHTML = '<div class="callout"><strong>' + esc(L.callout.lead) + "</strong>" + esc(L.callout.text) + "</div><p>" + esc(L.text) + "</p>" +
