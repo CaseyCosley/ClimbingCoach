@@ -68,6 +68,14 @@ main{max-width:1100px;margin:0 auto;padding:12px 16px 48px}
 .age-card .kicker{display:block;margin-bottom:4px;font-size:.75rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
 .age-card b{display:block;font-size:1.2rem;line-height:1.25}
 .this-week{display:flex;flex-direction:column;gap:4px;margin:12px 0 0;padding:14px 16px;background:var(--accent-soft);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:var(--radius);text-decoration:none;color:var(--text)}
+@media (min-width:900px){
+  .tool-bar{display:grid;grid-template-columns:minmax(220px,280px) minmax(0,1fr);gap:12px 16px;align-items:start}
+  .tool-bar>.view-switch{grid-column:1 / -1;margin-top:2px}
+  .tool-bar .this-week{margin:0}
+  .tool-bar:not(:has(.this-week)){display:block}
+  .tool-bar:not(:has(.this-week))>.field{max-width:320px}
+}
+.span-row{grid-column:1 / -1}
 details.card{margin-top:16px}
 details.card summary{cursor:pointer}
 details.card summary h2{margin:0}
@@ -94,6 +102,7 @@ td.num{text-align:right;white-space:nowrap}
 }
 /* forms */
 .controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:12px 0}
+@media (min-width:900px){.controls{grid-template-columns:repeat(3,minmax(0,1fr))}}
 label.field{display:flex;flex-direction:column;gap:4px;font-size:.85rem;font-weight:600;color:var(--muted)}
 select,input[type=search]{font:inherit;font-size:16px;padding:10px 12px;border-radius:9px;border:1px solid var(--line);background:var(--surface);color:var(--text);width:100%}
 .seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
@@ -190,7 +199,7 @@ a.chip:hover{border-color:var(--accent)}
 .month-detail{margin-top:8px}
 .month-detail p{margin:.25em 0}
 /* lesson card */
-.lesson-sheet{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 16px 8px;max-width:740px;box-shadow:var(--shadow)}
+.lesson-sheet{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 16px 8px;max-width:none;box-shadow:var(--shadow)}
 .lesson-sheet.review{background:var(--review)}
 .lesson-kicker{margin:0;font-size:.85rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--muted)}
 .lesson-sheet h2{font-size:1.65rem;margin:.15em 0 .15em}

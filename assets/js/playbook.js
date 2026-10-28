@@ -20,7 +20,7 @@
 
     var root = document.getElementById("playbook");
     root.innerHTML = '<div class="page-head"><h1>Playbook</h1><a class="how-link" href="about.html#playbook">How this works</a></div>' +
-      '<section class="card no-print" id="picker"><label class="field" for="pb-group">Age group<select id="pb-group">' +
+      '<section class="card no-print tool-bar" id="picker"><label class="field" for="pb-group">Age group<select id="pb-group">' +
       P.groups.map(function (g) { return '<option value="' + esc(g.id) + '">' + esc(g.name) + "</option>"; }).join("") +
       '</select></label><div id="this-week"></div></section><div id="pb-host"></div>' +
       '<details class="card" id="comparison"><summary><h2 style="display:inline;font-size:1.05rem">Compare age groups</h2></summary>' +
