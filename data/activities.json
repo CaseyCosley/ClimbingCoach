@@ -1,6 +1,6 @@
 {
  "lastUpdated": "2026-10-27",
- "count": 207,
+ "count": 181,
  "items": [
   {
    "id": "pulse-raiser",
@@ -39,7 +39,7 @@
     "Finish standing still so the group is ready to listen."
    ],
    "why": "BMC's FUNdamentals notes build a climbing warm-up in three parts: pulse raiser, joint rotation, then easy climbing. Raising heart rate and body temperature first prepares muscles and gets attention on you.",
-   "variations": "Parent & Child (ages 2–3) to Ages 4–6: tell a story (run from the rain, jump the puddles). Ages 6–9 and Ages 9–12: follow-the-leader or a tag game. Ages 12+ (training) and Ages 14+ (competitive): athlete-led.",
+   "variations": "Parent & Child (ages 2–3) to Ages 4–6: tell a story (run from the rain, jump the puddles). Ages 6–9 and Ages 9–12: follow-the-leader on separate lanes. Ages 12+ (training) and Ages 14+ (competitive): athlete-led.",
    "risk": "Keep running lanes clear of bags, ropes and the landing zones under climbers.",
    "sources": [
     "BMC",
@@ -165,7 +165,7 @@
     "Change the animal each lap."
    ],
    "why": "Crawling and quadruped movement build shoulder and core strength and coordination the wall will use, while feeling like play.",
-   "variations": "Parent & Child (ages 2–3): parent crawls beside the child. Ages 3–4 and Ages 4–6: kids pick the next animal. Ages 6–9: race to beat their own time.",
+   "variations": "Parent & Child (ages 2–3): parent crawls beside the child. Ages 3–4 and Ages 4–6: kids pick the next animal. Ages 6–9: try to beat their own time.",
    "risk": "One direction of travel to avoid head bumps; keep the path off the landing zones.",
    "sources": [
     "CP"
@@ -346,45 +346,6 @@
    ]
   },
   {
-   "id": "sumo",
-   "name": "Sumo",
-   "aka": [
-    "Palm Sumo"
-   ],
-   "types": [
-    "off-wall",
-    "warm-up"
-   ],
-   "skills": [
-    "balance",
-    "body tension"
-   ],
-   "ages": [
-    "ages-4-6",
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus",
-    "ages-14-plus"
-   ],
-   "themes": [
-    "str",
-    "fun"
-   ],
-   "setup": "Pairs facing each other a step apart on the mats.",
-   "steps": [
-    "Palms up, fingers together; only palms may touch.",
-    "Push against each other's palms to knock the partner off balance.",
-    "Whoever moves a foot first loses the round."
-   ],
-   "why": "Teaches center of gravity and pressure through the feet; Hailey Caissie uses it as an adaptive-friendly warm-up and icebreaker.",
-   "variations": "Ages 4–6: kneeling version. Kids: stand on one foot. Teens: stand on a low volume.",
-   "risk": "No grabbing or interlocking fingers; pair by size.",
-   "sources": [
-    "B4C",
-    "CBJ"
-   ]
-  },
-  {
    "id": "nailed-it",
    "name": "Nailed It",
    "aka": [
@@ -416,7 +377,7 @@
    "steps": [
     "Jump to the line and sink into bent knees to absorb the landing.",
     "Hold the balance for a second.",
-    "Each round start one step farther back; a wobble or step means out."
+    "Each round start one step farther back. A wobble means reset and try that distance again."
    ],
    "why": "Practising soft, bent-knee landings on the floor prepares for bouldering falls and for dynamic moves.",
    "variations": "Ages 4–6: frog jumps onto a mat spot. Ages 6–9: add a turn in the air. Teens: jump from a low box.",
@@ -472,38 +433,6 @@
    ]
   },
   {
-   "id": "bear-salmon-hunter",
-   "name": "Bear, Salmon, Hunter",
-   "aka": [],
-   "types": [
-    "off-wall",
-    "warm-up"
-   ],
-   "skills": [
-    "teamwork",
-    "listening"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Pairs back to back; teach three poses (bear, salmon, hunter).",
-   "steps": [
-    "Count to three; on 3 partners jump to face each other in a pose.",
-    "Bear eats salmon, salmon swims past the hunter, hunter beats bear.",
-    "Winners find a new partner."
-   ],
-   "why": "Rock-paper-scissors with the whole body: an energizer and partner mixer.",
-   "variations": "Use climbing poses (flag, heel hook, dyno) for older kids.",
-   "risk": "Jump in place; give pairs space.",
-   "sources": [
-    "MOMW"
-   ]
-  },
-  {
    "id": "buddies-up",
    "name": "Buddies Up",
    "aka": [],
@@ -538,106 +467,6 @@
    ]
   },
   {
-   "id": "sneak-up-on-granny",
-   "name": "Sneak Up on Granny",
-   "aka": [
-    "Red Light, Green Light (floor)"
-   ],
-   "types": [
-    "off-wall",
-    "warm-up"
-   ],
-   "skills": [
-    "listening",
-    "body tension"
-   ],
-   "ages": [
-    "ages-3-4",
-    "ages-4-6",
-    "ages-6-9"
-   ],
-   "themes": [
-    "fun",
-    "rope"
-   ],
-   "setup": "Start line; one player is Granny at the far end, back turned.",
-   "steps": [
-    "Players creep toward Granny.",
-    "When Granny turns, everyone freezes; anyone moving goes back to the start.",
-    "First to tag Granny becomes the next Granny."
-   ],
-   "why": "Practises stop-and-go control and listening for a signal, the same skill as freezing when a coach calls.",
-   "variations": "Ages 3–4: you are Granny. Ages 4–6: freeze in a climbing shape.",
-   "risk": "Keep the playing area clear of the wall's landing zones.",
-   "sources": [
-    "MOMW"
-   ]
-  },
-  {
-   "id": "what-time-is-it-mr-fox",
-   "name": "What Time Is It, Mr. Fox?",
-   "aka": [],
-   "types": [
-    "off-wall"
-   ],
-   "skills": [
-    "listening",
-    "counting"
-   ],
-   "ages": [
-    "ages-3-4",
-    "ages-4-6",
-    "ages-6-9"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "The fox on one side, everyone else on the other.",
-   "steps": [
-    "Players ask “What time is it, Mr. Fox?”",
-    "The fox answers a number and players take that many steps.",
-    "On “Dinner time!” the fox chases players back to their side."
-   ],
-   "why": "Counting, listening and a burst of running: a classic early-years PE game for energy release.",
-   "variations": "Make the steps climbing moves (bear steps, crab steps).",
-   "risk": "Chase on open floor only, never under climbers.",
-   "sources": [
-    "MOMW"
-   ]
-  },
-  {
-   "id": "swim-fishy-swim",
-   "name": "Swim Fishy Swim",
-   "aka": [],
-   "types": [
-    "off-wall"
-   ],
-   "skills": [
-    "agility",
-    "listening"
-   ],
-   "ages": [
-    "ages-4-6",
-    "ages-6-9",
-    "ages-9-12"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Two boundary lines; the shark stands between them.",
-   "steps": [
-    "Players wait behind one line.",
-    "When the shark calls “swim fishy swim,” everyone runs to the other line.",
-    "Tagged fish become seaweed who can tag from where they stand."
-   ],
-   "why": "A high-energy chase that burns off energy before focused wall work.",
-   "variations": "Change how fish travel (hop, crab walk).",
-   "risk": "Clear floor; no running past bouldering walls in use.",
-   "sources": [
-    "MOMW"
-   ]
-  },
-  {
    "id": "o-captain-my-captain",
    "name": "O Captain, My Captain",
    "aka": [],
@@ -660,8 +489,8 @@
    "setup": "Large area; one end is the bow, the other the stern.",
    "steps": [
     "The captain calls commands: bow, stern, hit the deck, man overboard.",
-    "Players act them out fast.",
-    "Slowest or wrong player helps call the next round."
+    "Players act them out.",
+    "If the group misses a call, practise that one again."
    ],
    "why": "Command-and-response games train listening, which you need for climbing commands.",
    "variations": "Add climbing commands as ship orders (“On belay!”).",
@@ -730,8 +559,8 @@
    "setup": "Two pads as islands and a hanging rope swing between them (only where your gym has a rigged swing).",
    "steps": [
     "Everyone starts on one island.",
-    "Use the swing to move everyone to the other island without touching the floor.",
-    "Optional: carry a cup of water across too."
+    "Use the swing to move everyone to the other island without touching the floor. One person on the swing at a time.",
+    "Optional: carry a bean bag across too."
    ],
    "why": "A classic adventure-education team challenge: planning, trust and encouragement.",
    "variations": "Add a time limit or a no-talking round.",
@@ -843,200 +672,6 @@
    "risk": "Throw toward the buckets only, away from climbers.",
    "sources": [
     "MOMW"
-   ]
-  },
-  {
-   "id": "banana-tag",
-   "name": "Banana Tag",
-   "aka": [],
-   "types": [
-    "off-wall",
-    "warm-up"
-   ],
-   "skills": [
-    "agility"
-   ],
-   "ages": [
-    "ages-3-4",
-    "ages-4-6",
-    "ages-6-9",
-    "ages-9-12"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Bounded open area; one monkey is it.",
-   "steps": [
-    "Tagged players become bananas, arms together overhead.",
-    "Two free players free a banana by peeling its arms down."
-   ],
-   "why": "Tag with built-in teamwork; a quick pulse raiser.",
-   "variations": "More monkeys for bigger groups.",
-   "risk": "Clear boundaries away from the wall and its landing zones.",
-   "sources": [
-    "MOMTAG"
-   ]
-  },
-  {
-   "id": "freeze-tag",
-   "name": "Freeze Tag",
-   "aka": [],
-   "types": [
-    "off-wall",
-    "warm-up"
-   ],
-   "skills": [
-    "agility"
-   ],
-   "ages": [
-    "ages-3-4",
-    "ages-4-6",
-    "ages-6-9",
-    "ages-9-12"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Bounded open area; one tagger.",
-   "steps": [
-    "Tagged players freeze with legs apart.",
-    "Another player unfreezes them by crawling between their legs."
-   ],
-   "why": "Fast pulse raiser that includes crawling.",
-   "variations": "Unfreeze with a climbing shape instead of crawling.",
-   "risk": "Open floor only; no tackling.",
-   "sources": [
-    "MOMTAG"
-   ]
-  },
-  {
-   "id": "snake-tag",
-   "name": "Snake Tag",
-   "aka": [],
-   "types": [
-    "off-wall",
-    "warm-up"
-   ],
-   "skills": [
-    "agility",
-    "teamwork"
-   ],
-   "ages": [
-    "ages-4-6",
-    "ages-6-9",
-    "ages-9-12"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Bounded open area; one starter snake.",
-   "steps": [
-    "Tagged players link arms with the snake.",
-    "Only free hands at the ends of the snake can tag.",
-    "Last free player starts the next snake."
-   ],
-   "why": "The snake has to cooperate to move, which brings teamwork into tag.",
-   "variations": "Walk-only round for a calmer version.",
-   "risk": "Snakes of more than five split in two to avoid pulling falls.",
-   "sources": [
-    "MOMTAG"
-   ]
-  },
-  {
-   "id": "elbow-tag",
-   "name": "Elbow Tag",
-   "aka": [],
-   "types": [
-    "off-wall",
-    "warm-up"
-   ],
-   "skills": [
-    "agility",
-    "listening"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Pairs link elbows and spread out; one chaser and one runner.",
-   "steps": [
-    "The runner is free by linking onto a pair.",
-    "The person on the other end of that pair becomes the new runner.",
-    "If the chaser tags the runner, they swap."
-   ],
-   "why": "Keeps everyone alert because any pair can suddenly be in play.",
-   "variations": "Walking only for younger groups.",
-   "risk": "Big spacing between pairs.",
-   "sources": [
-    "MOMTAG"
-   ]
-  },
-  {
-   "id": "toilet-tag",
-   "name": "Toilet Tag",
-   "aka": [],
-   "types": [
-    "off-wall",
-    "warm-up"
-   ],
-   "skills": [
-    "agility"
-   ],
-   "ages": [
-    "ages-4-6",
-    "ages-6-9",
-    "ages-9-12"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Bounded area; one clogger is it, everyone else is a plumber.",
-   "steps": [
-    "Tagged players kneel on one knee with an arm out as the handle.",
-    "Another player sits on the knee and pulls the handle to flush them free."
-   ],
-   "why": "Kids find it hilarious, which buys focus for the climbing that follows.",
-   "variations": "Add a second clogger for big groups.",
-   "risk": "Open floor; gentle sitting.",
-   "sources": [
-    "MOMTAG"
-   ]
-  },
-  {
-   "id": "fastest-tag-in-the-west",
-   "name": "Fastest Tag in the West",
-   "aka": [
-    "Everyone's It"
-   ],
-   "types": [
-    "off-wall",
-    "warm-up"
-   ],
-   "skills": [
-    "agility"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Small bounded area.",
-   "steps": [
-    "Count 3, 2, 1, go: everyone is it.",
-    "Tagged players sit down at the edge; last one standing wins."
-   ],
-   "why": "Short, all-in pulse raiser.",
-   "variations": "Tagged players do 5 squats and rejoin.",
-   "risk": "Walking pace in small spaces.",
-   "sources": [
-    "MOMTAG"
    ]
   },
   {
@@ -1272,40 +907,6 @@
    ]
   },
   {
-   "id": "showdown",
-   "name": "Showdown",
-   "aka": [
-    "Name Drop"
-   ],
-   "types": [
-    "off-wall"
-   ],
-   "skills": [
-    "memory",
-    "teamwork"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus"
-   ],
-   "themes": [
-    "rope",
-    "fun"
-   ],
-   "setup": "Two coaches hold a sheet up as a curtain between two teams.",
-   "steps": [
-    "Each team sends one person to the sheet.",
-    "Drop the sheet; the first to say the other's name wins them for their team."
-   ],
-   "why": "Makes learning names a fast, funny contest.",
-   "variations": "Use climbing terms instead of names later in the year.",
-   "risk": "Low risk.",
-   "sources": [
-    "MOMK"
-   ]
-  },
-  {
    "id": "20-questions",
    "name": "20 Questions",
    "aka": [],
@@ -1521,10 +1122,10 @@
    "setup": "Bouldering wall with lots of holds; kids start with hands and feet on.",
    "steps": [
     "Simon calls moves: “Simon says outside flag with your left foot.”",
-    "Move only when Simon says; a wrong move or a fall means a point or out.",
-    "Last climber on wins."
+    "Move only when Simon says.",
+    "A missed call means try that move again. Everyone stays on the wall."
    ],
-   "why": "Reviews technique words under light pressure; kids show you what they know.",
+   "why": "Reviews technique words under light pressure; kids show you what they know, each on their own holds.",
    "variations": "Ages 4–6: simple calls (touch a blue hold). Ages 9–12 and Ages 12+ (training): technique calls (drop knee, gaston).",
    "risk": "Low wall; spread climbers so falls land clear of each other.",
    "sources": [
@@ -1558,9 +1159,9 @@
    "steps": [
     "Only when you say “Squish” do climbers go to the wall.",
     "Call techniques: match on a jug, switch feet, smear, sidepull, backstep, drop knee.",
-    "A fall means out (or two lives); last climber on wins."
+    "A missed call means try it again. Nobody is out."
    ],
-   "why": "Hailey Caissie's favourite first-day game: a listening check and a quick read of what each climber already knows.",
+   "why": "A listening check and a quick read of what each climber already knows.",
    "variations": "Fewer calls and big holds for younger kids; heel hooks and drop knees for older.",
    "risk": "Wait for “Squish” so nobody runs into the wall; spacing between climbers.",
    "sources": [
@@ -1771,9 +1372,9 @@
    ],
    "setup": "Slips of paper hidden high enough that players must climb to see them.",
    "steps": [
-    "Players look and climb to find the papers.",
-    "Each finder brings one down.",
-    "Rounds get fewer papers than players, like musical chairs."
+    "Players look and climb to find the papers, each on their own part of the wall.",
+    "Each finder brings one down and reads the word.",
+    "Keep going until the papers are found."
    ],
    "why": "Gets kids scanning the wall, a first step toward reading routes.",
    "variations": "Put a climbing word on each slip to teach vocabulary.",
@@ -1968,10 +1569,10 @@
    ],
    "setup": "Climbers lie on the mat, heads near the wall, an arm's length apart.",
    "steps": [
-    "Tell a story; on the trigger word (shark!) everyone jumps onto the wall.",
-    "Last one on helps tell the next story."
+    "Tell a story; on the trigger word (shark!) everyone jumps onto their own part of the wall.",
+    "The group adds one sentence, then climbs again."
    ],
-   "why": "Story-driven reaction game that holds young kids' attention.",
+   "why": "Story-driven reaction game that holds young kids' attention, each climber on their own lane.",
    "variations": "Change the trigger word each round.",
    "risk": "Arm's-length spacing; only low holds.",
    "sources": [
@@ -2001,12 +1602,13 @@
    ],
    "setup": "Kids on a low wall as monkeys; the coach is Mr. Alligator.",
    "steps": [
-    "Sing: “Five little monkeys climbing on the wall, teasing Mr. Alligator…”",
-    "When the alligator comes, monkeys who are touching the ground can be caught."
+    "Sing: “Five little monkeys climbing on the wall…”",
+    "Everyone tries to stay on for the verse.",
+    "Come down when you need to, rest, and cheer the next verse."
    ],
-   "why": "Song plus a reason to stay on the wall; endurance for little ones.",
+   "why": "A song plus a reason to stay on the wall; endurance for little ones, with no catching.",
    "variations": "Count the monkeys down each verse.",
-   "risk": "The alligator tags gently and only on the ground.",
+   "risk": "Feet stay low. Step down when tired; do not jump.",
    "sources": [
     "MOMG"
    ]
@@ -2033,9 +1635,9 @@
    ],
    "setup": "Climbers sit in a group; whoever is it is blindfolded on the floor.",
    "steps": [
-    "On “Monkeys get on the wall!” everyone finds a spot to hang.",
-    "The blindfolded player calls “Monkeys!” and everyone answers “Bananas!”",
-    "On “Monkeys off the wall!” anyone with a foot on the ground (or tagged) is out and sits quietly."
+    "On “Monkeys get on the wall!” everyone finds their own spot to hang.",
+    "The caller says “Monkeys!” and everyone answers “Bananas!”",
+    "On “Monkeys off the wall!” everyone steps down, rests, and gets back on for the next call."
    ],
    "why": "Rewards relaxed straight-arm hanging and quiet movement.",
    "variations": "No blindfold for younger kids: the caller closes eyes.",
@@ -2114,40 +1716,6 @@
    ]
   },
   {
-   "id": "pass-the-animal",
-   "name": "Pass the Animal",
-   "aka": [
-    "Pass the Toy"
-   ],
-   "types": [
-    "game"
-   ],
-   "skills": [
-    "teamwork",
-    "one-handed balance"
-   ],
-   "ages": [
-    "ages-3-4",
-    "ages-4-6",
-    "ages-6-9"
-   ],
-   "themes": [
-    "fun",
-    "rope"
-   ],
-   "setup": "A soft toy; kids spaced along a low traverse.",
-   "steps": [
-    "Climbers pass the toy along the line while staying on the wall.",
-    "Count how many passes the team makes; try to beat it."
-   ],
-   "why": "Letting go with one hand teaches balance; the team total motivates without ranking.",
-   "variations": "Ages 6–9: pass while on top rope next to each other.",
-   "risk": "Kids stay low and spaced so a fall doesn't land on someone.",
-   "sources": [
-    "CP"
-   ]
-  },
-  {
    "id": "mirror-me",
    "name": "Mirror Me",
    "aka": [
@@ -2183,7 +1751,7 @@
     "Add a harder move each round; swap leaders."
    ],
    "why": "Watching and copying builds a movement library; Momentum's Mirror Match adds watching a partner closely and repeating their beta.",
-   "variations": "Parent & Child (ages 2–3): the child copies the parent, then leads. Ages 9–12 and older: elimination rounds.",
+   "variations": "Parent & Child (ages 2–3): the child copies the parent, then leads. Ages 9–12 and older: add one harder move each round and swap leaders.",
    "risk": "Copy only moves the copier can reverse or step down from.",
    "sources": [
     "FLOW",
@@ -2232,45 +1800,6 @@
    ]
   },
   {
-   "id": "climbing-twister",
-   "name": "Climbing Twister",
-   "aka": [
-    "Gym Twister",
-    "Wall Twister"
-   ],
-   "types": [
-    "game"
-   ],
-   "skills": [
-    "flexibility",
-    "body tension",
-    "endurance"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus"
-   ],
-   "themes": [
-    "str",
-    "fun"
-   ],
-   "setup": "Twister spinner or two hats of slips: limbs and hold colors.",
-   "steps": [
-    "Climbers start with a limb on a hold.",
-    "Call a limb and a color; everyone moves that limb.",
-    "Fall off and you're out."
-   ],
-   "why": "Forces unusual positions and body tension.",
-   "variations": "Add hold types (red crimper) or play on an overhang for older climbers.",
-   "risk": "Spread climbers out; low holds only.",
-   "sources": [
-    "MOMG",
-    "ELDO",
-    "FLOW"
-   ]
-  },
-  {
    "id": "blindfold-climbing",
    "name": "Blindfold Climbing",
    "aka": [
@@ -2303,7 +1832,7 @@
     "Switch roles."
    ],
    "why": "Teaches climbing by feel, clear communication and trust.",
-   "variations": "Traverse: mark how far each climber gets. Teams race for the fastest pair.",
+   "variations": "Mark how far each pair gets, then try to pass their own mark. The guide stays on the ground.",
    "risk": "On top rope or very low; partner calls holds clearly and stops the climb if the climber drifts.",
    "sources": [
     "MOMG",
@@ -2382,326 +1911,9 @@
    ]
   },
   {
-   "id": "marco-polo",
-   "name": "Marco Polo",
-   "aka": [],
-   "types": [
-    "game"
-   ],
-   "skills": [
-    "strategy",
-    "communication"
-   ],
-   "ages": [
-    "ages-9-12",
-    "ages-12-plus"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Traverse; the blindfolded Marco starts in the middle with bandanas tucked in the harness.",
-   "steps": [
-    "Marco calls “Marco”; others answer “Polo.”",
-    "Marco tries to tag someone; others try to steal bandanas."
-   ],
-   "why": "Strategy, stealthy movement and listening.",
-   "variations": "No blindfold: Marco keeps eyes closed and can open them to check footing.",
-   "risk": "Low traverse with no climbers above others; Marco moves slowly.",
-   "sources": [
-    "B4C"
-   ]
-  },
-  {
-   "id": "capture-the-flag",
-   "name": "Capture the Flag",
-   "aka": [
-    "Bandana Race"
-   ],
-   "types": [
-    "warm-up",
-    "game"
-   ],
-   "skills": [
-    "coordination",
-    "endurance"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus"
-   ],
-   "themes": [
-    "str",
-    "fun"
-   ],
-   "setup": "A bandana between two climbers at opposite ends of a traverse.",
-   "steps": [
-    "Both race along the wall toward the bandana.",
-    "A fall sends you back to the start hold.",
-    "First to grab it wins; swap sides."
-   ],
-   "why": "Burns energy fast and gets kids ready to listen.",
-   "variations": "Team relay version for larger groups.",
-   "risk": "Climbers can't pass over each other; low traverse.",
-   "sources": [
-    "B4C",
-    "CBJ"
-   ]
-  },
-  {
-   "id": "traverse-tag",
-   "name": "Traverse Tag",
-   "aka": [
-    "Tag (traverse head start)"
-   ],
-   "types": [
-    "warm-up",
-    "game"
-   ],
-   "skills": [
-    "endurance",
-    "speed"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus"
-   ],
-   "themes": [
-    "rope",
-    "str"
-   ],
-   "setup": "Line at one end of a traverse; a go-mark a few moves along.",
-   "steps": [
-    "The first climber gets a head start; they are it.",
-    "The next climber chases once the first passes the go-mark.",
-    "Tagged or finished climbers go to the back of the line."
-   ],
-   "why": "Endurance with a chase element; keeps the line moving.",
-   "variations": "Add a hold rule (no blue holds).",
-   "risk": "No passing; one climber in each section.",
-   "sources": [
-    "MOMT",
-    "B4C"
-   ]
-  },
-  {
-   "id": "climbing-wall-tag",
-   "name": "Climbing Wall Tag",
-   "aka": [
-    "On the Wall Tag"
-   ],
-   "types": [
-    "game"
-   ],
-   "skills": [
-    "endurance",
-    "agility"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus"
-   ],
-   "themes": [
-    "fun",
-    "str"
-   ],
-   "setup": "Several climbers on a bouldering wall; one is it.",
-   "steps": [
-    "It climbs to tag someone.",
-    "The tagged climber is it but can't tag back the one who tagged them.",
-    "Touch the floor and you're out for a round."
-   ],
-   "why": "Lots of climbing time and movement in all directions.",
-   "variations": "Fewer climbers on smaller walls.",
-   "risk": "Limit numbers so nobody climbs above or below another; falls land on clear mat.",
-   "sources": [
-    "MOMO",
-    "MOMTAG"
-   ]
-  },
-  {
-   "id": "yarn-ball-traverse",
-   "name": "Yarn Ball Traverse",
-   "aka": [],
-   "types": [
-    "game"
-   ],
-   "skills": [
-    "speed",
-    "coordination"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Soft, weightless balls (yarn balls, puffballs, small beach balls); one climber on a traverse, throwers on the mat.",
-   "steps": [
-    "One climber traverses as far as they can.",
-    "Classmates try to tag them with a soft ball, dodgeball-style.",
-    "When the ball touches the climber, they come down and the thrower gets on the wall where the last climber stopped."
-   ],
-   "why": "Quick movement and coordination: climbers have to move and react at the same time.",
-   "variations": "Older kids throw from farther away.",
-   "risk": "Weightless balls only, aimed below the shoulders; play on a quiet day so no other climbers are in the way.",
-   "sources": [
-    "MOMT"
-   ]
-  },
-  {
-   "id": "lose-a-limb-traverse",
-   "name": "Lose-a-Limb Traverse",
-   "aka": [
-    "Amputee",
-    "The Black Knight",
-    "Three-Limb Traverse"
-   ],
-   "types": [
-    "game",
-    "drill"
-   ],
-   "skills": [
-    "speed",
-    "accuracy",
-    "balance",
-    "body tension"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus",
-    "ages-14-plus"
-   ],
-   "themes": [
-    "tech",
-    "fun"
-   ],
-   "setup": "A traverse with a set start and finish; 3–4 soft balls or bean bags.",
-   "steps": [
-    "One player traverses at a time while a coach throws soft balls at their arms and legs.",
-    "Any limb that's hit is lost: finish without it (head hits don't count).",
-    "Lose every limb or fall off and you're out; reach the finish and you win."
-   ],
-   "why": "Speed and accuracy, plus balance on fewer points of contact.",
-   "variations": "Waiting kids fetch balls or help throw. Calmer version: the coach calls a limb to climb without (see One Arm, One Foot).",
-   "risk": "Soft balls only, thrown underhand at limbs; low traverse.",
-   "sources": [
-    "MOMT"
-   ]
-  },
-  {
-   "id": "leap-frog",
-   "name": "Leap Frog",
-   "aka": [
-    "Pass Over"
-   ],
-   "types": [
-    "game",
-    "drill"
-   ],
-   "skills": [
-    "body position",
-    "teamwork"
-   ],
-   "ages": [
-    "ages-9-12",
-    "ages-12-plus",
-    "ages-14-plus"
-   ],
-   "themes": [
-    "tech",
-    "fun"
-   ],
-   "setup": "Climbers spread along a traverse.",
-   "steps": [
-    "The last climber moves past the climber in front, going over or around without touching the ground.",
-    "Continue until they're first in line."
-   ],
-   "why": "Passing on the wall needs body awareness and careful hold choice.",
-   "variations": "Pairs only, on big holds, for Ages 9–12.",
-   "risk": "Only on low, overhang-free terrain; climbers agree out loud before a pass.",
-   "sources": [
-    "MOMT"
-   ]
-  },
-  {
-   "id": "over-and-under",
-   "name": "Over and Under",
-   "aka": [],
-   "types": [
-    "game",
-    "drill"
-   ],
-   "skills": [
-    "body position",
-    "teamwork"
-   ],
-   "ages": [
-    "ages-9-12",
-    "ages-12-plus",
-    "ages-14-plus"
-   ],
-   "themes": [
-    "tech",
-    "fun"
-   ],
-   "setup": "A long traverse with set start holds.",
-   "steps": [
-    "The first climber traverses about five moves and stops.",
-    "The next goes the same way, passes over them (around their back), goes about five moves and stops.",
-    "The third goes over the first and under the second (between wall and climber); keep alternating until everyone has gone."
-   ],
-   "why": "Endurance, footwork and balance while moving around another body.",
-   "variations": "Ages 9–12: over only, on big holds.",
-   "risk": "Low, vertical terrain only; the stopped climber holds still on good holds and calls “ready” before anyone passes.",
-   "sources": [
-    "MOMT"
-   ]
-  },
-  {
-   "id": "train-wreck",
-   "name": "Train Wreck",
-   "aka": [],
-   "types": [
-    "game"
-   ],
-   "skills": [
-    "teamwork",
-    "endurance"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Two teams; each team's start holds are the other team's finish holds.",
-   "steps": [
-    "One climber from each team traverses at the same time toward the other team's start holds.",
-    "They have to pass each other on the wall without touching the floor.",
-    "Fall off and you start over; the first team to get everyone across wins."
-   ],
-   "why": "Speed and endurance plus a passing problem to solve in real time.",
-   "variations": "Fewer players per team on short walls.",
-   "risk": "Low terrain only; coach stands in the meeting zone.",
-   "sources": [
-    "MOMT"
-   ]
-  },
-  {
    "id": "take-away",
    "name": "Take Away",
-   "aka": [
-    "Elimination",
-    "Eliminate Traverse"
-   ],
+   "aka": [],
    "types": [
     "game",
     "drill"
@@ -2740,8 +1952,6 @@
    "name": "Add-On",
    "aka": [
     "Team Add-On",
-    "Add-On HORSE",
-    "Add-On with Letters",
     "Add-On Pointer",
     "Add-On Lucky Draw",
     "Board Add-On",
@@ -2770,12 +1980,12 @@
    ],
    "setup": "A bouldering wall and a group of 2 to 6.",
    "steps": [
-    "The first climber makes up a start and one move.",
-    "Each climber repeats the sequence and adds one move.",
-    "Forget or fall and you get a letter (H-O-R-S-E or C-L-I-M-B)."
+    "The coach adds the first move on an open lane.",
+    "Every climber repeats the sequence on their own holds, then the coach adds one move.",
+    "A miss means watch the sequence and try again next round. Nobody is out."
    ],
-   "why": "Memory, creativity and route-setting thinking; it gets harder naturally as the sequence grows.",
-   "variations": "Ages 6–9: team version with no letters. Pointer version: a partner points to holds. Lucky Draw: pick a move type from a hat. Board and Dyno versions for teens; Limit Add-On for Ages 14+ (competitive) power days.",
+   "why": "Memory and route-reading. The sequence grows, and the group tries to beat its own longest chain.",
+   "variations": "Ages 6–9: the team suggests the next move and the coach adds it. Pointer version: a partner on the ground points to the next hold. Lucky Draw: pick a move type from a hat. Board and Dyno versions for teens; Limit Add-On for Ages 14+ (competitive) power days, still one climber on the sequence at a time.",
    "risk": "Keep sequences on low holds for young groups; teens on boards end before form breaks down.",
    "sources": [
     "MOMG",
@@ -2845,8 +2055,9 @@
    ],
    "setup": "Bingo cards with hold types, moves or routes.",
    "steps": [
-    "Kids climb to use or find each item.",
-    "Mark the square when done; first line wins."
+    "Kids climb to use or find each item on their own card.",
+    "Mark the square when done.",
+    "The goal is to finish the card, not to finish before someone else."
    ],
    "why": "Turns vocabulary into a scavenger goal across the session.",
    "variations": "Pictures for Ages 4–6; techniques and grades for Ages 12+ (training).",
@@ -2891,9 +2102,7 @@
   {
    "id": "climb-the-rainbow",
    "name": "Climb the Rainbow",
-   "aka": [
-    "Color Race"
-   ],
+   "aka": [],
    "types": [
     "game"
    ],
@@ -2957,39 +2166,6 @@
    ]
   },
   {
-   "id": "climbing-chess",
-   "name": "Climbing Chess",
-   "aka": [],
-   "types": [
-    "game"
-   ],
-   "skills": [
-    "strategy",
-    "endurance"
-   ],
-   "ages": [
-    "ages-9-12",
-    "ages-12-plus",
-    "ages-14-plus"
-   ],
-   "themes": [
-    "fun",
-    "str"
-   ],
-   "setup": "A chess board for each pair, set up near the bouldering area.",
-   "steps": [
-    "Play chess.",
-    "To capture a piece, climb a boulder of its grade: pawn V1, bishop or knight V2, rook V3, queen V4, checkmate V5.",
-    "Adjust grades to the group, or swap grades for hold or movement types."
-   ],
-   "why": "Lots of climbing volume with natural rest between turns.",
-   "variations": "Even out a mismatch by making one side's pieces worth more.",
-   "risk": "Set the board up clear of landing zones.",
-   "sources": [
-    "MOMG"
-   ]
-  },
-  {
    "id": "ready-set-go",
    "name": "Ready, Set, GO!",
    "aka": [],
@@ -3011,22 +2187,21 @@
    ],
    "setup": "Teams of 2–4; 4 routes (or 6–8 boulders) per team that everyone can flash or nearly flash.",
    "steps": [
-    "On go, each team works through its list.",
-    "The first team to finish every climb wins."
+    "Each small group works through its list, one climber at a time on a climb.",
+    "The goal is for every climber to finish their climbs.",
+    "Note the group total and try to beat that total next time."
    ],
-   "why": "Teamwork and planning who climbs what, with lots of volume.",
-   "variations": "Older kids: a fall means lower and restart (or a few push-ups on boulders).",
-   "risk": "Racing never skips partner checks; boulderers check the fall zone before starting.",
+   "why": "Teamwork and planning who climbs what, with lots of volume and no ranking.",
+   "variations": "Older kids: a fall means lower and restart that climb.",
+   "risk": "Moving on never skips partner checks; boulderers check the fall zone before starting.",
    "sources": [
     "MOMG"
    ]
   },
   {
    "id": "v-point-comp",
-   "name": "V-Point Comp",
-   "aka": [
-    "Points Comp"
-   ],
+   "name": "Send Tally",
+   "aka": [],
    "types": [
     "game"
    ],
@@ -3045,11 +2220,12 @@
    ],
    "setup": "Bouldering area; a points list by grade.",
    "steps": [
-    "Climbers have a set time to send problems.",
-    "Each send earns the grade as points; tally at the end."
+    "Climbers have a set time to try problems, one person on a problem at a time.",
+    "Each send goes on your own tally, or on a shared team total.",
+    "Celebrate the total. Do not rank climbers."
    ],
-   "why": "Teaches choosing climbs wisely and pacing a session.",
-   "variations": "Team totals for a mastery focus.",
+   "why": "Teaches choosing climbs wisely and pacing a session, with a team total instead of a winner.",
+   "variations": "The group sets a send total and tries to beat it next session.",
    "risk": "Remind climbers to check the fall zone before starting.",
    "sources": [
     "MOMG"
@@ -3077,8 +2253,9 @@
    ],
    "setup": "Trivia cards; a traverse wall.",
    "steps": [
-    "Ask a trivia question; a right answer earns a move along the wall.",
-    "First to the end wins."
+    "Ask a trivia question; a right answer earns the next move along the wall.",
+    "Each climber finishes the traverse at their own pace.",
+    "A miss means another try on the next turn."
    ],
    "why": "Mixes vocabulary review with climbing.",
    "variations": "Climbing vocabulary questions.",
@@ -3112,11 +2289,11 @@
    ],
    "setup": "Bouldering room; players take turns.",
    "steps": [
-    "Someone picks a hold on the wall.",
+    "Someone on the ground picks a hold.",
     "The climber gets on and finds a way to match it: both hands, or a heel hook, toe hook or knee bar.",
-    "A solid match earns a point; a turn lasts until you touch the ground, up to 5 minutes."
+    "Count your own solid matches and try to beat that count."
    ],
-   "why": "Creative problem-solving on one hold, with lots of contact-skill practice.",
+   "why": "Creative problem-solving on one hold: heel hooks, toe hooks and hand matches.",
    "variations": "Ages 6–9: big holds and hand matches only.",
    "risk": "Climb down rather than drop from awkward positions.",
    "sources": [
@@ -3149,10 +2326,10 @@
    "steps": [
     "Each climber starts with hands and feet on.",
     "On go, get as far across as you can in 10 seconds; stop on “time”.",
-    "Try to get farther than the climber before you; add time in later rounds."
+    "Mark your own distance and try to pass it. Add time in later rounds."
    ],
-   "why": "Fluid, dynamic movement with a clear, short goal.",
-   "variations": "Harder: repeat the exact same holds. Time's Up: on top rope, climb as high as you can in 10 seconds.",
+   "why": "Fluid movement with a short personal goal.",
+   "variations": "Harder: repeat the exact same holds. On top rope, climb as high as you can in 10 seconds and note your own high hold.",
    "risk": "Low traverse; on Time's Up the belayer keeps pace with fast climbers.",
    "sources": [
     "MOMG"
@@ -3160,7 +2337,7 @@
   },
   {
    "id": "dyno-war",
-   "name": "Dyno War",
+   "name": "Dyno Count",
    "aka": [],
    "types": [
     "game"
@@ -3179,11 +2356,11 @@
    ],
    "setup": "Bouldering wall with plenty of jugs.",
    "steps": [
-    "Start matched on a jug and dyno to a hold of your choice (any direction).",
-    "From there dyno again, without coming off, as many times as you can.",
-    "When you fall, the next climber goes; most consecutive dynos wins."
+    "Start matched on a jug and dyno to a hold of your choice.",
+    "Dyno again, without coming off, and count your own links.",
+    "Rest, then try to beat your own count."
    ],
-   "why": "Practises dynamic movement and power in short, motivated bursts.",
+   "why": "Practises dynamic movement and power against your own mark.",
    "variations": "Ages 12+ (training): short sideways dynos. Ages 14+ (competitive): bigger, vertical ones.",
    "risk": "Spotter ready; clear mat; limit attempts to protect shoulders.",
    "sources": [
@@ -3213,11 +2390,11 @@
    "setup": "Two holds a reachable jump apart.",
    "steps": [
     "Dyno from one hold to the other.",
-    "Increase the gap each round.",
-    "With several players, keep extending until only one can stick it."
+    "Increase the gap only when you stick the current one.",
+    "Mark your own best distance and try to pass it."
    ],
-   "why": "Explosive power, accuracy, and trust that the feet will land where they should.",
-   "variations": "Solo: beat your own best distance.",
+   "why": "Explosive power and accuracy, scored against your own best distance.",
+   "variations": "Ages 12+ (training): short sideways dynos. Ages 14+ (competitive): bigger, vertical ones, still against your own mark.",
    "risk": "Land on feet on a clear mat; spotter in place.",
    "sources": [
     "FLOW"
@@ -3326,7 +2503,7 @@
   },
   {
    "id": "king-of-the-volume",
-   "name": "King of the Volume",
+   "name": "Volume Stay",
    "aka": [],
    "types": [
     "game"
@@ -3344,12 +2521,12 @@
    ],
    "setup": "A large volume on a low wall.",
    "steps": [
-    "Everyone starts on the ground.",
-    "Each climber gets one attempt to reach the top of a big volume and stay on it as long as possible.",
-    "The longest stay wins the title."
+    "Each climber gets one attempt at a time to reach the top of a big volume.",
+    "Time how long you can stay on it with quiet feet.",
+    "Rest, then try to beat your own time."
    ],
-   "why": "Balance, body tension and grip strength.",
-   "variations": "Time each climber and try to beat your own.",
+   "why": "Balance, body tension and grip strength, scored against your own stay.",
+   "variations": "Note the time and try again after a rest.",
    "risk": "One climber at a time; clear mat below.",
    "sources": [
     "FLOW"
@@ -3408,9 +2585,9 @@
    ],
    "setup": "Teams of 3–4, one per coach; a designated route or wall.",
    "steps": [
-    "Each team sends one climber up.",
-    "At the top the climber silently holds a pose for a shape (square, star, animal, object).",
-    "The team guesses within a time limit; most correct guesses wins."
+    "One climber at a time goes up and holds a pose for a shape (square, star, animal).",
+    "The group guesses the shape.",
+    "Swap climbers. There is no winning team."
    ],
    "why": "Balance and endurance: holding a pose means finding good holds and body position.",
    "variations": "Younger kids: simple shapes on a low boulder.",
@@ -3507,11 +2684,11 @@
    ],
    "setup": "Several routes well within everyone's ability; each is a hole.",
    "steps": [
-    "Players take turns, one go per route each round.",
-    "Every handhold used is a stroke; a fall adds three strokes.",
-    "Lowest score wins."
+    "Climb the route and count every handhold you use.",
+    "A fall adds three to your own count.",
+    "Rest, then try to lower your own score."
    ],
-   "why": "Rewards reading the sequence and moving dynamically to skip holds.",
+   "why": "Rewards reading the sequence and moving with intent, scored against your own count.",
    "variations": "Ages 9–12: count holds only, no fall penalty.",
    "risk": "Skipping holds means bigger moves: easy terrain, spotters or top rope.",
    "sources": [
@@ -3577,47 +2754,15 @@
    ],
    "setup": "A balloon and a traverse.",
    "steps": [
-    "One at a time, traverse with quiet feet and straight arms while bouncing the balloon along the wall.",
-    "Fastest time wins, or run it as a relay."
+    "One at a time, traverse with quiet feet and straight arms while bouncing a balloon along the wall.",
+    "Finish the traverse without dropping it.",
+    "Try again to make your own feet quieter."
    ],
    "why": "Freeing a hand for the balloon forces straight arms and quiet, precise feet.",
-   "variations": "Team relay for younger kids.",
+   "variations": "A bigger balloon for younger kids.",
    "risk": "Check for latex allergies; low traverse.",
    "sources": [
     "MOMC"
-   ]
-  },
-  {
-   "id": "thumb-war",
-   "name": "Thumb War",
-   "aka": [
-    "Climbing Thumb War"
-   ],
-   "types": [
-    "game"
-   ],
-   "skills": [
-    "one-handed balance",
-    "body tension"
-   ],
-   "ages": [
-    "ages-6-9",
-    "ages-9-12",
-    "ages-12-plus"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Two climbers side by side on a low traverse.",
-   "steps": [
-    "Each holds on with one hand and thumb-wrestles with the other.",
-    "Whoever pins the other's thumb or stays on longest wins."
-   ],
-   "why": "One-handed balance with silly competition.",
-   "variations": "Feet only on smears for older kids.",
-   "risk": "Low wall only.",
-   "sources": [
-    "B4C"
    ]
   },
   {
@@ -3654,7 +2799,7 @@
   },
   {
    "id": "quickdraw-relay",
-   "name": "Quickdraw Relay",
+   "name": "Quickdraw Carry",
    "aka": [],
    "types": [
     "game"
@@ -3674,11 +2819,11 @@
    ],
    "setup": "Two traverses, each with a bolt at the start and the end; 4–5 quickdraws clipped at each bolt.",
    "steps": [
-    "Split into two teams.",
-    "One climber per team starts at the other team's end, traverses to the draws, grabs one and traverses back without falling or dropping it.",
-    "Relay until all draws are moved; a fall or drop sends you back to the end."
+    "One climber at a time traverses to a draw, clips it on their harness, and traverses to the finish.",
+    "The group moves every draw.",
+    "A drop means rest and try that carry again."
    ],
-   "why": "Endurance and one-handed balance with a team goal; kids also get used to handling gear.",
+   "why": "Endurance and one-handed balance, plus practice handling gear, with one climber on the wall.",
    "variations": "Ages 12+ (training): clip the draw onto the finish bolt correctly.",
    "risk": "Low traverse; no passing on one wall without a plan; check any dropped draw.",
    "sources": [
@@ -3709,11 +2854,11 @@
    ],
    "setup": "1–2 problems well below the group's max flash grade; a timer; groups of 5–6.",
    "steps": [
-    "Set an order of climbers.",
-    "For 5 minutes, climbers take turns climbing the problem as fast as possible and hopping off at the top.",
-    "Rest 2 minutes, then move to the next problem."
+    "Set an order so only one climber is on the problem.",
+    "For 5 minutes, take turns climbing it smoothly and hopping off at the top. Count your own clean laps.",
+    "Rest 2 minutes. The group adds the laps and tries to beat its own total on the next problem."
    ],
-   "why": "Explosive, dynamic movement and speed.",
+   "why": "Smooth, intentional movement and a group lap total to beat next time.",
    "variations": "Count the group's total laps and try to beat it.",
    "risk": "The next climber starts only after the last has landed and cleared the mat; downclimb when possible.",
    "sources": [
@@ -3834,7 +2979,7 @@
     "Mark how far each climber gets."
    ],
    "why": "Feet that slap or swing drop the bags, so kids learn to place feet gently.",
-   "variations": "Competition for distance with one or both bags.",
+   "variations": "Mark how far you got, then try to pass your own mark.",
    "risk": "Low traverse.",
    "sources": [
     "MOMF"
@@ -4080,9 +3225,7 @@
   {
    "id": "drag-a-hold",
    "name": "Drag a Hold",
-   "aka": [
-    "Toeing In Foot Race"
-   ],
+   "aka": [],
    "types": [
     "drill",
     "game"
@@ -4103,11 +3246,11 @@
    "setup": "Small and medium handholds on the floor within reach of the climber's feet.",
    "steps": [
     "The climber stays on the wall, facing mostly in.",
-    "Use only the feet to drag the holds to a target spot.",
-    "Race version: teams or pairs move holds from a start to an end spot."
+    "Use only the feet to drag a hold to a target spot.",
+    "Count your own successful drags and try to beat that count."
    ],
    "why": "Toeing in and pulling with the foot builds steep-wall foot strength and control.",
-   "variations": "Foot Race between teams.",
+   "variations": "Ages 12+ (training): smaller holds. Ages 14+ (competitive): steeper wall.",
    "risk": "Stay low; clear the dragged holds from the landing zone after.",
    "sources": [
     "MOMC"
@@ -4281,8 +3424,7 @@
    "id": "no-hands-slab",
    "name": "No Hands Slab",
    "aka": [
-    "No Hands Allowed",
-    "Slab Eliminates"
+    "No Hands Allowed"
    ],
    "types": [
     "drill"
@@ -5116,11 +4258,12 @@
    ],
    "setup": "Groups of two or three of similar height; set start hand and foot holds.",
    "steps": [
-    "The first person starts on the holds and reaches as far as possible using a flag.",
-    "Mark the farthest hold; the next tries to beat it."
+    "Start on the holds and reach as far as you can using a flag.",
+    "Mark your own farthest hold.",
+    "Rest, then try to pass your own mark."
    ],
-   "why": "Shows how far a good flag extends reach.",
-   "variations": "Both directions.",
+   "why": "Shows how far a good flag extends reach, scored against your own mark.",
+   "variations": "Try both directions and keep the better of your own two marks.",
    "risk": "Low holds.",
    "sources": [
     "MOMM"
@@ -5406,7 +4549,7 @@
    "setup": "An unfamiliar section of wall; sticky notes over the grade tags.",
    "steps": [
     "Each kid guesses the grade after reading and/or climbing.",
-    "Reveal; closest or most correct wins."
+    "Reveal the grade and talk about what you noticed. There is no winner."
    ],
    "why": "Builds reading and stops grades from deciding whether kids try a climb.",
    "variations": "No Tag, No Problem: pick climbs from too far back to see grades.",
@@ -5892,7 +5035,7 @@
    "steps": [
     "Set an 8–10 minute timer.",
     "Fill in a climbing word for each letter.",
-    "Most correct boxes wins."
+    "See how many you can fill, then try to beat your own list next time."
    ],
    "why": "Fast vocabulary review.",
    "variations": "Ages 4–6 and Ages 6–9: coach writes, kids say.",
@@ -6325,39 +5468,6 @@
    ]
   },
   {
-   "id": "comp-simulation",
-   "name": "Comp Simulation",
-   "aka": [
-    "Mock Comp"
-   ],
-   "types": [
-    "game"
-   ],
-   "skills": [
-    "competition skills",
-    "composure"
-   ],
-   "ages": [
-    "ages-9-12",
-    "ages-12-plus",
-    "ages-14-plus"
-   ],
-   "themes": [
-    "event"
-   ],
-   "setup": "A few problems or routes; an isolation area; a timer.",
-   "steps": [
-    "Run it like a comp: isolation, observation, timed attempts, scorecards.",
-    "Debrief afterwards."
-   ],
-   "why": "Familiarity with the format reduces comp nerves.",
-   "variations": "Ages 9–12: friendly, short format. Ages 14+ (competitive): full rules.",
-   "risk": "Warm-up time is part of the plan.",
-   "sources": [
-    "CP"
-   ]
-  },
-  {
    "id": "redpoint-tactics",
    "name": "Redpoint Tactics",
    "aka": [
@@ -6521,7 +5631,7 @@
    ],
    "why": "Endurance and energy management over many climbs.",
    "variations": "Older kids: half their age.",
-   "risk": "Water and rest breaks; belay checks every climb.",
+   "risk": "Rest between pitches whenever you need it; belay checks every climb.",
    "sources": [
     "MOMO"
    ]
@@ -6626,7 +5736,7 @@
   },
   {
    "id": "harness-check-race",
-   "name": "Harness Check Race",
+   "name": "Harness Check",
    "aka": [
     "Harness On"
    ],
@@ -6649,11 +5759,11 @@
    ],
    "setup": "Harnesses laid out on the mat.",
    "steps": [
-    "On go, step in: leg loops not twisted, waist above the hips, buckles doubled back or locked.",
-    "Freeze for a coach check.",
-    "Points for correct, not just fast."
+    "Step in: leg loops not twisted, waist above the hips, buckles doubled back or locked.",
+    "Freeze for a coach check and name each part you checked.",
+    "Accuracy is the goal. Try again until the check is complete."
    ],
-   "why": "Makes the harness routine automatic; accuracy beats speed.",
+   "why": "Makes the harness routine automatic. A complete check matters more than speed.",
    "variations": "Ages 4–6: coach helps, kid names each part. Ages 12+ (training): check a partner's harness too.",
    "risk": "A coach checks every harness before anyone leaves the ground.",
    "sources": [
@@ -6700,8 +5810,7 @@
    "id": "knot-practice",
    "name": "Knot Practice",
    "aka": [
-    "Knots",
-    "Knot Races"
+    "Knots"
    ],
    "types": [
     "ropes",
@@ -6722,9 +5831,9 @@
    "steps": [
     "Teach or review a knot.",
     "Kids help teach each other.",
-    "Once solid, race."
+    "Each climber ties it until it is complete and dressed, then checks a partner's knot."
    ],
-   "why": "Keeps waiting climbers engaged while building the most important skill in roped climbing.",
+   "why": "Keeps waiting climbers engaged while building an essential roped-climbing skill.",
    "variations": "Teach new knots to interested climbers.",
    "risk": "Practice knots never replace a coach check on a real tie-in.",
    "sources": [
@@ -6768,7 +5877,7 @@
   },
   {
    "id": "flake-and-coil-races",
-   "name": "Flake and Coil Races",
+   "name": "Flake and Coil",
    "aka": [
     "Rope Flaking"
    ],
@@ -6790,10 +5899,10 @@
    "setup": "Spare rope sections.",
    "steps": [
     "Show how to flake a rope and why, and how to coil it.",
-    "Practise, then race."
+    "Each climber practises until the rope feeds without a tangle."
    ],
    "why": "Rope handling for future lead and outdoor climbing.",
-   "variations": "Solo practice for one kid.",
+   "variations": "One climber practises while a partner watches the pile.",
    "risk": "Low risk.",
    "sources": [
     "MOMB"

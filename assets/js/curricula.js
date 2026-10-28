@@ -9,13 +9,12 @@
     ladder: "Each theme is a lane. Read across the year to see how the skills step up, then open any week.",
     table: "The full grid: month, theme, skill progression, and weekly structure, with the week plan underneath."
   };
-  var CAL = { 8: 0, 9: 1, 10: 2, 11: 3, 0: 4, 1: 5, 2: 6, 3: 7, 4: 8, 5: 9 };
   var FOCUS = {
     W: function () { return "Raise heart rate and loosen joints before climbing."; },
     D: function (r) { return "Teach: " + r.skill + "."; },
     G: function () { return "Reward this week's skill, not just reaching the top."; },
     C: function () { return "Recover, then each climber names one thing they got better at."; },
-    B: function () { return "Drink, rest fingers, and a quick show-me of the skill."; }
+    B: function () { return "Rest fingers, then a quick show-me of the skill."; }
   };
 
   H.loadAll(["curricula", "activities", "vocabulary", "pages"]).then(function (d) {
@@ -24,9 +23,8 @@
     var la = function (n) { return H.linkName(n, aIdx, H.actHref); };
     var lv = function (n) { return H.linkName(n, vIdx, H.termHref); };
     function weekInSeason(dt) {
-      if (!(dt.getMonth() in CAL)) return null;
-      var day = dt.getDate();
-      return { m: CAL[dt.getMonth()], w: day <= 7 ? 0 : day <= 14 ? 1 : day <= 21 ? 2 : 3 };
+      var s = H.seasonWeek(dt);
+      return s.outside ? null : s;
     }
     function readParams(search) {
       var params = new URLSearchParams(search);
@@ -88,6 +86,18 @@
         return '<li><a href="' + esc(l.href) + '" rel="noopener">' + esc(l.title) + "</a> <span class=\"muted small\">(" + esc(l.site) + ")</span></li>";
       }).join("") + "</ul>";
 
+    function linkList(cell) {
+      var parts = cell.split(", "), out = [], i = 0;
+      while (i < parts.length) {
+        var found = -1, j;
+        for (j = parts.length; j > i; j--) {
+          if (aIdx[H.nz(parts.slice(i, j).join(", "))]) { found = j; break; }
+        }
+        if (found < 0) { out.push(esc(parts[i])); i += 1; }
+        else { out.push(la(parts.slice(i, found).join(", "))); i = found; }
+      }
+      return out.join(", ");
+    }
     function G() { return cur.groups.filter(function (g) { return g.id === state.g; })[0]; }
     function monthWeeks(g, mi) { return g.weeks.filter(function (w) { return w.monthIndex === mi; }); }
     function weekAt(g) { return g.weeks[state.m * 4 + state.w]; }
@@ -169,6 +179,8 @@
     function render(mode) {
       var g = G();
       gsel.value = g.id;
+      var tw = document.getElementById("this-week");
+      if (tw) tw.innerHTML = H.lessonCard(g);
       document.getElementById("group-intro").textContent = g.intro;
       blurb.textContent = VIEWS[state.view];
       document.querySelectorAll("#view-switch [data-view]").forEach(function (b) {
@@ -184,7 +196,7 @@
       host.innerHTML = html;
       var games = document.getElementById("games");
       if (games) games.innerHTML = H.table(["Month", "Weeks 1 and 3", "Weeks 2 and 4"], g.gamesByMonth.map(function (r) {
-        if (r[1] === "Fun rotation") return [esc(r[0]), "Fun rotation", r[2].split(", ").map(la).join(", ")];
+        if (r[1] === "Fun rotation") return [esc(r[0]), "Fun rotation", linkList(r[2])];
         return [esc(r[0]), la(r[1]), la(r[2])];
       }), { raw: true });
       var session = document.getElementById("session");
@@ -318,7 +330,7 @@
       h += "<h3>Activities (" + total + " min)</h3>" + H.table(["Block", "Minutes", "Activity (Library name)", "Focus"],
         g.blocks.map(function (b) {
           var name = { W: r.warm, D: r.drill, G: r.game, C: r.cool }[b.slot];
-          return [esc(b.label), String(b.min), name ? la(name) : "Water break", esc(FOCUS[b.slot](r))];
+          return [esc(b.label), String(b.min), name ? la(name) : esc(b.label), esc((FOCUS[b.slot] || FOCUS.W)(r))];
         }), { raw: true, num: [1] });
       h += "<h3>This month at a glance</h3>" + H.table(["Week", "Skill", "Skill drill", "Game", "Vocabulary"],
         month.map(function (x) { return [String(x.week), esc(x.skill), la(x.drill), la(x.game), x.vocab.map(lv).join(", ")]; }), { raw: true });

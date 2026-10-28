@@ -5,11 +5,12 @@
   "heading": "Principles for every age",
   "callout": {
    "lead": "The short version",
-   "text": "Broad, playful movement before specialization; a climate about getting better, not about rank; real choices for kids; and protecting growing fingers."
+   "text": "Broad, playful movement before specialization; a climate about getting better, not about rank; real choices for kids; and protecting growing fingers. No climber-vs-climber games, and no tag, chase, or avoidance games."
   },
   "bullets": [
    "Climbing is a late-specialization sport: early years should build general movement and technique, not strength and power [4][1]. Sampling several sports with plenty of informal play through about age 12 supports long-term engagement [6].",
    "Mastery climates beat ego climates. Coach-created climates focused on effort and improvement are linked with more enjoyment and competence and less anxiety [7].",
+   "This site leaves out climber-vs-climber competition and contact or avoidance games: tag, chase, dodge, races between climbers, elimination, and climbing on the same holds as someone else. Those games split attention off a climber's own movement and raise the risk of falls. Mastery and personal-best framing stays: beat your own mark, follow a move the coach adds, or contribute to a team total.",
    "Support the three needs from self-determination theory: autonomy (choice within limits), competence (right-sized challenges), relatedness (belonging) [8].",
    "Guided play beats free play alone for young kids. Planned movement programs improve fundamental skills, while free-play controls did not improve significantly [11][10].",
    "Shape the wall, not the child. The constraints-led approach changes holds, rules and goals so kids discover solutions [12]; climbing studies show hold design shapes exploration and transfer to new routes [13].",
@@ -89,20 +90,20 @@
    [
     "Ages 9–12",
     "Learn to Train",
-    "Skill games, mock comps",
-    "Friendly, mastery-framed"
+    "Skill games, personal bests",
+    "Mastery, self vs. self"
    ],
    [
     "Ages 12+ (training)",
     "Train to Train",
     "Choice, peers, projects",
-    "70% practice / 30% comp"
+    "Personal bests and team totals"
    ],
    [
     "Ages 14+ (competitive)",
     "Train to Compete",
     "Co-planned training",
-    "Real comps, simulated in training"
+    "Personal bests in training"
    ]
   ]
  },
@@ -166,7 +167,8 @@
    "donts": [
     "Long explanations or lining up to wait for turns.",
     "Parents lifting kids up the wall; it skips the learning and makes falls more likely.",
-    "Stickers or prizes as the main reason to climb."
+    "Stickers or prizes as the main reason to climb.",
+    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -211,7 +213,7 @@
      "Touch only one color of hold to cross a short traverse."
     ],
     [
-     "Red Light, Green Light",
+     "Freeze Traverse",
      "Climb on green, freeze holding on at red; builds listening and static control."
     ],
     [
@@ -231,7 +233,8 @@
    "donts": [
     "Races or \"who got highest\": it turns the session into comparison before kids can handle it.",
     "Forcing a hesitant child up; let them climb one hold and come down.",
-    "Rules that need remembering three steps."
+    "Rules that need remembering three steps.",
+    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -276,8 +279,8 @@
      "Once a foot touches a hold it stays until the next move; teaches deliberate foot placement."
     ],
     [
-     "Pass the Animal",
-     "Kids on a traverse pass a stuffed animal down the line without stepping off; cooperative goal."
+     "High-Five the Star",
+     "A target just above reach. Each child climbs on their own holds, moves one hand at a time, and steps down when they need to."
     ],
     [
      "Hold Bingo",
@@ -296,7 +299,8 @@
    "donts": [
     "Elimination games where kids sit out.",
     "Lecturing technique; show it in a game instead.",
-    "Expected prize-for-climb deals; expected tangible rewards undermine kids' later free-choice interest [9]."
+    "Expected prize-for-climb deals; expected tangible rewards undermine kids' later free-choice interest [9].",
+    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -313,7 +317,7 @@
     },
     {
      "label": "Session shape",
-     "value": "LTAD suggests 30–60 min of real activity at this stage; the ages 6–9 class runs 90 min, so plan a water break and plenty of easy climbing. Keep it volume-based, low-intensity, varied and high-success [1]."
+     "value": "The ages 6–9 class runs 90 min of varied, low-intensity climbing with a high success rate. Water is available whenever someone needs it, so it is not a timed block. Keep the plan volume-based [1]."
     }
    ],
    "learn": [
@@ -345,7 +349,7 @@
      "Traverse keeping arms as straight as possible, moving with the legs."
     ],
     [
-     "Any Feet, One Color Hands",
+     "Any Feet One Color Hands",
      "Set-color handholds with free choice of feet; climbers explore body positions [4]."
     ],
     [
@@ -361,7 +365,8 @@
    "donts": [
     "Public rankings or leaderboards.",
     "Pushing competition; the CWA notes it is wise not to push the competitive side at this age [3].",
-    "Dynos and big moves on poor holds; keep movement static and controlled."
+    "Dynos and big moves on poor holds; keep movement static and controlled.",
+    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -378,7 +383,7 @@
     },
     {
      "label": "Session shape",
-     "value": "Warm-up (pulse, joint mobility, easy climbing) [4], technique block as a game, application on routes or a mock comp, cool-down and goal check."
+     "value": "Warm-up (pulse, joint mobility, easy climbing) [4], technique block as a game, application on routes or a personal-best block, cool-down and goal check."
     }
    ],
    "learn": [
@@ -388,14 +393,14 @@
    ],
    "motivate": [
     "Getting better at real climbing skills and knowing the vocabulary (flash, onsight, redpoint).",
-    "Friendly competition and testing themselves, when the climate stays about improvement.",
+    "Testing themselves against last week's mark, when the climate stays about improvement.",
     "Having a say: picking projects, setting goals."
    ],
-   "approach": "Introduce competition as a learning tool: mock comps, timed onsights, and simple rules and tactics in a fun setting [1]. Keep the motivational climate mastery-focused; mastery climates are linked with more enjoyment and competence and less anxiety than ego-focused ones [7]. Skills to aim for: heel and toe hooks, flagging (at least 3 types), pivots, controlled versus dynamic movement, and reading sequences in advance [1].",
+   "approach": "Keep the work mastery-focused: personal bests, a read from the ground, and simple tactics, not climber-vs-climber scoring. Mastery climates are linked with more enjoyment and competence and less anxiety than ego-focused ones [7]. Skills to aim for: heel and toe hooks, flagging (at least 3 types), pivots, controlled versus dynamic movement, and reading sequences in advance [1].",
    "games": [
     [
-     "Add-On with Letters",
-     "Classic add-on like H-O-R-S-E; miss the sequence, earn a letter."
+     "Add-On",
+     "The coach adds one move. Everyone climbs the sequence on their own lane and tries again if they miss. The group tries to beat its longest chain from last week."
     ],
     [
      "Flag Climb",
@@ -410,8 +415,8 @@
      "Climb up and down the same problem with control; builds footwork and controlled exits that lower landing risk."
     ],
     [
-     "Mock Comp",
-     "Four-minute rotations on fresh problems with points for flashes; results kept private or team-totaled."
+     "Choose-Your-Level Ladder",
+     "Each climber picks a level, reads the climb from the ground, and tries to send it. Move up after a send, down after two falls. No ranking."
     ],
     [
      "Smooth Repeat",
@@ -426,7 +431,8 @@
    "donts": [
     "Campus boards, hangboard dead-hangs, or added weight; federation guidance says wait until skeletal maturity [1][23].",
     "Letting kids climb through finger pain at the middle knuckle; stop and refer [24].",
-    "Early specialization: encourage other sports alongside climbing [1][6]."
+    "Early specialization: encourage other sports alongside climbing [1][6].",
+    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -456,7 +462,7 @@
     "Belonging to a crew and being seen as competent by peers.",
     "Clear, personal goals and visible progress."
    ],
-   "approach": "Lean on self-determination theory: offer choice within limits, explain the why, acknowledge feelings, and avoid controlling pressure [8]. Use the peer effect on purpose with team challenges and shared projects rather than letting it drive risky showing-off [18]. Climbing Canada suggests about 70% practice, 30% competition for this stage [1].",
+   "approach": "Lean on self-determination theory: offer choice within limits, explain the why, acknowledge feelings, and avoid controlling pressure [8]. Use the peer effect on purpose with team challenges and shared projects rather than letting it drive risky showing-off [18]. Climbing Canada suggests about 70% practice, 30% competition for this stage [1]. On this site that slice is personal bests and shared team totals, not climber-vs-climber games, because those split attention and raise the risk of falls.",
    "games": [
     [
      "Team Send Board",
@@ -491,7 +497,8 @@
    "donts": [
     "Comparing kids who matured early with those who have not; it rewards timing, not skill.",
     "Campus boarding and weighted hangs [1][23].",
-    "Public critique; adolescents are highly sensitive to how they look to peers."
+    "Public critique; adolescents are highly sensitive to how they look to peers.",
+    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -508,7 +515,7 @@
     },
     {
      "label": "Session shape",
-     "value": "Specific warm-up, planned training block (periodized), comp simulation or projecting, mental-skills or recovery piece, training log."
+     "value": "Specific warm-up, planned training block (periodized), personal-best attempts or projecting, mental-skills or recovery piece, training log."
     }
    ],
    "learn": [
@@ -521,11 +528,11 @@
     "Identity as a climber and team member.",
     "Mastery climate still matters at this level: focus on improvement over rank [7]."
    ],
-   "approach": "Treat the athlete as a co-designer: shared goal-setting, season planning, and training logs. Model all aspects of competition in training: isolation, timed rotations, preview, onsight tactics [1]. Mental skills (visualization, pre-climb routines, emotion regulation) belong here; a program built on emotion regulation reduced anxiety in adult women climbers with fear of falling [28], though youth trials are lacking.",
+   "approach": "Treat the athlete as a co-designer: shared goal-setting, season planning, and training logs. Model onsight tactics in training: preview from the ground, one focused attempt, and a debrief against the athlete's own plan [1]. Mental skills (visualization, pre-climb routines, emotion regulation) belong here; a program built on emotion regulation reduced anxiety in adult women climbers with fear of falling [28], though youth trials are lacking.",
    "games": [
     [
-     "Comp Simulation",
-     "Isolation, preview, then four-minute rotations on unseen problems under real rules."
+     "Choose-Your-Level Ladder",
+     "Each athlete picks a level, previews from the ground, and logs a personal best. No scoreboard against the group."
     ],
     [
      "Onsight Visualization",
@@ -556,7 +563,8 @@
    "donts": [
     "Campus training before skeletal maturity; UIAA advises against it up to about 16–17, and the BMC says under about 18–20 [23][24].",
     "Weight talk or encouraging weight loss for performance.",
-    "Year-round max effort with no planned rest."
+    "Year-round max effort with no planned rest.",
+    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
    ]
   }
  ],

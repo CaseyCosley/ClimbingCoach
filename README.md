@@ -74,7 +74,7 @@ The HTML holds no content. Change the JSON files and the site updates.
     - `months`: the chart rows, each with month, theme, color category and weeks as [skill, optional session type]
     - `session`: the typical session steps
     - `notes`
-    - `blocks`: timed blocks that add up to the class length; the slot is W (warm-up), D (drill), G (game), C (cool-down) or B (break)
+    - `blocks`: timed blocks that add up to the class length; the slot is W (warm-up), D (drill), G (game) or C (cool-down). Water is not a block
     - `vocabLevel`
     - `gamesByMonth`
     - `plan`: the authored weekly source data
@@ -173,7 +173,8 @@ Example term:
 
 3. For a new published source, add it to `sources.json` → `library` under a short key with `title`, `site` and `href`, keeping the title exactly as published. Never invent a source; use `"CP"` (coaching practice) when there isn't one.
 4. Write about managing and reducing risk. Avoid any word that suggests an activity is free of risk (the validator lists the banned words), except inside a source's title or URL.
-5. Change `lastUpdated` in `activities.json`, `vocabulary.json` and `meta.json` to today's date.
-6. Run `python3 tools/validate.py`. It checks for duplicate names or aliases, unknown ages, types, themes or source keys, weekly plans that use a name not in the library or not listed for that age, blocks that don't add up to the class length, and banned words.
+5. Leave out climber-vs-climber games and contact or avoidance games (tag, chase, dodge, races between climbers, elimination, king of the hill). `validate.py` flags those words in activity names and descriptions, with an allowlist for route-card tags and movement contrasts such as static vs dynamic.
+6. Change `lastUpdated` in `activities.json`, `vocabulary.json` and `meta.json` to today's date.
+7. Run `python3 tools/validate.py`. It checks for duplicate names or aliases, unknown ages, types, themes or source keys, weekly plans that use a name not in the library or not listed for that age, blocks that don't add up to the class length, banned words, and the game-wording check above.
 
 New entries appear in the Library and Vocabulary right away. Weekly plans only change if you edit `curricula.json`; `validate.py` checks any edits there.
