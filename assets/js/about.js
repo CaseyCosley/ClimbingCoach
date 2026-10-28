@@ -16,6 +16,12 @@
       '<div class="callout"><strong>' + esc(C.callout.lead) + "</strong>" + esc(C.callout.text) + "</div>" +
       '<ul class="theme-key">' + Object.keys(CAT).map(function (k) {
         return '<li' + (k === "fun" ? ' class="review-key"' : "") + ">" + esc(CAT[k].label) + "</li>";
+      }).join("") + "</ul>" +
+      "<h3>Views</h3><ul>" + (C.views || []).map(function (v) {
+        return "<li><b>" + esc(v.name) + "</b> " + esc(v.text) + "</li>";
+      }).join("") + "</ul>" +
+      "<h3>Age groups</h3><ul>" + d.curricula.groups.map(function (g) {
+        return "<li><b>" + esc(g.name) + "</b> " + esc(g.intro) + "</li>";
       }).join("") + "</ul>";
     document.getElementById("library-how").innerHTML = "<p>" + esc(L.summary) + "</p>";
     document.getElementById("playbook-how").innerHTML = "<p>" + cite(PB.summary) + "</p>" +

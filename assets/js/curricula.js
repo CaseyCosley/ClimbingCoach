@@ -2,13 +2,7 @@
   "use strict";
   var H = window.Hub, esc = H.esc;
   H.init("curricula.html");
-  var VIEWS = {
-    lesson: "One class on a single card: timed blocks, vocabulary, and a cue for each part. Print it and take it to the wall.",
-    roadmap: "Ten month stops for the year. Each card shows the theme and a one-line focus. Open a month for its four weeks.",
-    months: "One card per month, with the skills, a few vocabulary chips, and the weeks as tabs.",
-    ladder: "Each theme is a lane. Read across the year to see how the skills step up, then open any week.",
-    table: "The full grid: month, theme, skill progression, and weekly structure, with the week plan underneath."
-  };
+  var VIEWS = { lesson: 1, roadmap: 1, months: 1, ladder: 1, table: 1 };
   var FOCUS = {
     W: function () { return "Raise heart rate and loosen joints before climbing."; },
     D: function (r) { return "Teach: " + r.skill + "."; },
@@ -58,7 +52,6 @@
 
     var gsel = document.getElementById("group");
     var host = document.getElementById("view-host");
-    var blurb = document.getElementById("view-blurb");
     gsel.innerHTML = cur.groups.map(function (g) { return '<option value="' + g.id + '">' + esc(g.name) + "</option>"; }).join("");
     gsel.addEventListener("change", function () {
       state.g = gsel.value; state.tabs = {}; state.date = ""; state.dateNote = "";
@@ -174,8 +167,6 @@
       gsel.value = g.id;
       var tw = document.getElementById("this-week");
       if (tw) tw.innerHTML = H.lessonCard(g);
-      document.getElementById("group-intro").textContent = g.intro;
-      blurb.textContent = VIEWS[state.view];
       document.querySelectorAll("#view-switch [data-view]").forEach(function (b) {
         var on = b.dataset.view === state.view;
         b.setAttribute("aria-pressed", on ? "true" : "false");
@@ -229,7 +220,7 @@
         '<div class="lesson-nav"><button type="button" class="btn ghost" data-act="step" data-dir="-1">Previous</button>' +
         '<button type="button" class="btn ghost" data-act="step" data-dir="1">Next</button>' +
         '<button type="button" class="btn" data-act="print">Print this card</button></div></div>' +
-        '<p class="muted small no-print" id="date-note">' + esc(state.dateNote || "A date uses the calendar month, then days 1–7, 8–14, 15–21, and 22 through the end as the four weeks.") + "</p>" +
+        (state.dateNote ? '<p class="muted small no-print" id="date-note">' + esc(state.dateNote) + "</p>" : "") +
         '<h3>The class</h3><ol class="block-list">' + blocks + "</ol>" +
         "<h3>Vocabulary</h3><ul class=\"block-list\">" + vocab + "</ul></article>";
     }

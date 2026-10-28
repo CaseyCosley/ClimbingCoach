@@ -36,7 +36,7 @@
       history.replaceState(null, "", location.pathname + (p.toString() ? "?" + p : ""));
       var weekHost = el("this-week");
       if (weekHost) weekHost.innerHTML = byAge[ag] ? H.lessonCard(byAge[ag]) : "";
-      el("count").textContent = res.length + " of " + A.length + " activities match. Tap one to open its full page.";
+      el("count").textContent = res.length + " of " + A.length + " activities";
       el("results").innerHTML = res.map(function (a) {
         return '<a class="item th-' + esc(a.themes[0]) + '" href="' + H.actHref(a) + '"><h3>' + esc(a.name) + "</h3>" +
           (a.aka.length ? '<div class="meta">Also called: ' + esc(a.aka.join(", ")) + "</div>" : "") +

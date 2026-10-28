@@ -54,6 +54,13 @@
    "text": "These are the real class lengths: 60 min (Parent & Child (ages 2–3), Ages 3–4, Ages 4–6), 90 min (Ages 6–9) and 120 min (Ages 9–12, Ages 12+ (training), Ages 14+ (competitive))."
   },
   "weekIntro": "Pick a month and a week. Dec and Jun are Review & Play months: three review weeks that revisit earlier months, then a celebration week. Look up any activity or term by name in the Library for full steps, why it works, variations by age, risk management and sources.",
+  "views": [
+   {"name": "This week", "text": "One class on a single card: timed blocks, vocabulary, and a cue for each part. Print it and take it to the wall. A date uses the calendar month, then days 1–7, 8–14, 15–21, and 22 through the end as the four weeks. July and August open on week 1."},
+   {"name": "Roadmap", "text": "Ten month stops for the year. Each card shows the theme and a one-line focus. Open a month for its four weeks."},
+   {"name": "Months", "text": "One card per month, with the skills, a few vocabulary chips, and the weeks as tabs."},
+   {"name": "Ladder", "text": "Each theme is a lane. Read across the year to see how the skills step up, then open any week."},
+   {"name": "Table", "text": "The full grid: month, theme, skill progression, and weekly structure, with the week plan underneath."}
+  ],
   "related": [
    {
     "title": "Youth Climbing Coaching Library: Vocabulary and Activities (every game and term, how to run it, and sources)",
