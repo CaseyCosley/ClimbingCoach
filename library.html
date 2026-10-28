@@ -14,20 +14,23 @@
 <main id="main" tabindex="-1">
 <noscript><p class="noscript">This site needs JavaScript to load its data files.</p></noscript>
 
-<h1>Activity Library</h1>
-<div id="lib-intro"></div>
-<div class="controls" role="search">
-  <label class="field" for="q" style="grid-column:1/-1">Search names, aliases and descriptions<input type="search" id="q" placeholder="e.g. flag, quiet feet, belay" autocomplete="off"></label>
-  <label class="field" for="f-type">Session type<select id="f-type"></select></label>
+<div class="page-head">
+  <h1>Activity Library</h1>
+  <a class="how-link" href="about.html#library">How this works</a>
+</div>
+<div class="tool-bar">
   <label class="field" for="f-age">Age group<select id="f-age"></select></label>
+  <div id="this-week"></div>
+</div>
+<div class="controls" role="search">
+  <label class="field span-row" for="q">Search names, aliases and descriptions<input type="search" id="q" placeholder="e.g. flag, quiet feet, belay" autocomplete="off"></label>
+  <label class="field" for="f-type">Session type<select id="f-type"></select></label>
   <label class="field" for="f-skill">Skill<select id="f-skill"></select></label>
   <label class="field" for="f-theme">Month theme<select id="f-theme"></select></label>
 </div>
 <div class="btn-row no-print"><button type="button" class="btn ghost" id="reset">Clear filters</button></div>
-<div id="this-week"></div>
 <p class="result-count" id="count" aria-live="polite"></p>
 <div class="list" id="results"></div>
-<p class="muted small" style="margin-top:20px">How entries are added without duplicates: see <a href="about.html#dedup">About &amp; Sources</a>.</p>
 
 </main>
 <footer id="site-footer"></footer>

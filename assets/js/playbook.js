@@ -10,29 +10,54 @@
       }).join("") + "</ul>";
     };
     var lib = function (name) { var a = aIdx[H.nz(name)]; return a ? '<a href="' + H.actHref(a) + '">' + esc(name) + "</a>" : esc(name); };
-    var toc = [["principles", P.principles.heading], ["game-theory", P.gameTheory.heading], ["comparison", "Comparison across age groups"]]
-      .concat(P.groups.map(function (g) { return [g.id, g.name]; })).concat([["gaps", P.gaps.heading], ["sources", "Sources"]]);
-    var h = '<h1>Youth Climbing Coaching Playbook by Age Group</h1><p class="lead">' + esc(P.summary) + "</p>" +
-      '<nav class="card no-print" aria-label="On this page"><b>On this page</b><ol class="toc">' + toc.map(function (t) { return '<li><a href="#' + t[0] + '">' + esc(t[1]) + "</a></li>"; }).join("") + "</ol></nav>";
-    h += '<section id="principles"><h2>' + esc(P.principles.heading) + '</h2><div class="callout"><strong>' + esc(P.principles.callout.lead) + "</strong>" + esc(P.principles.callout.text) + "</div>" + ul(P.principles.bullets) + "<p>" + cite(P.principles.text) + "</p></section>";
-    h += '<section id="game-theory"><h2>' + esc(P.gameTheory.heading) + "</h2><p>" + cite(P.gameTheory.intro) + "</p>" + ul(P.gameTheory.bullets) + "</section>";
-    h += '<section id="comparison"><h2>Comparison across age groups</h2>' + H.table(P.comparison.columns, P.comparison.rows) + "</section>";
     var byGroup = {};
     d.curricula.groups.forEach(function (g) { byGroup[g.id] = g; });
-    P.groups.forEach(function (g) {
-      var card = byGroup[g.id] ? H.lessonCard(byGroup[g.id]) : "";
-      h += '<section class="group" id="' + esc(g.id) + '">' + card + '<h2>' + esc(g.name) + '</h2><dl class="props">' + g.props.map(function (p) { return "<dt>" + esc(p.label) + "</dt><dd>" + cite(p.value) + "</dd>"; }).join("") + "</dl>" +
+    var ids = P.groups.map(function (g) { return g.id; });
+    var q = new URLSearchParams(location.search);
+    var hash = location.hash.replace("#", "");
+    var srcHash = hash.indexOf("src-") === 0 ? hash : "";
+    var current = ids.indexOf(q.get("group")) >= 0 ? q.get("group") : (ids.indexOf(hash) >= 0 ? hash : ids[0]);
+
+    var root = document.getElementById("playbook");
+    root.innerHTML = '<div class="page-head"><h1>Playbook</h1><a class="how-link" href="about.html#playbook">How this works</a></div>' +
+      '<section class="card no-print tool-bar" id="picker"><label class="field" for="pb-group">Age group<select id="pb-group">' +
+      P.groups.map(function (g) { return '<option value="' + esc(g.id) + '">' + esc(g.name) + "</option>"; }).join("") +
+      '</select></label><div id="this-week"></div></section><div id="pb-host"></div>' +
+      '<details class="card" id="comparison"><summary><h2 style="display:inline;font-size:1.05rem">Compare age groups</h2></summary>' +
+      H.table(P.comparison.columns, P.comparison.rows) + "</details>";
+
+    var select = document.getElementById("pb-group");
+    function show(id, push) {
+      if (ids.indexOf(id) < 0) id = ids[0];
+      current = id;
+      select.value = id;
+      var g = P.groups.filter(function (x) { return x.id === id; })[0];
+      document.getElementById("this-week").innerHTML = byGroup[id] ? H.lessonCard(byGroup[id]) : "";
+      document.getElementById("pb-host").innerHTML = '<section class="group" id="' + esc(g.id) + '"><h2>' + esc(g.name) + '</h2><dl class="props">' +
+        g.props.map(function (p) { return "<dt>" + esc(p.label) + "</dt><dd>" + cite(p.value) + "</dd>"; }).join("") + "</dl>" +
         "<h3>How they learn</h3>" + ul(g.learn) + "<h3>What motivates them</h3>" + ul(g.motivate) +
         "<h3>Game-based approach that fits</h3><p>" + cite(g.approach) + "</p>" +
         "<h3>Games and drills</h3>" + H.table(["Game", "How it works"], g.games.map(function (r) { return [lib(r[0]), cite(r[1])]; }), { raw: true }) +
         '<h3>Coaching tips and pitfalls</h3><div class="proscons"><div class="card"><h4>Do</h4>' + ul(g.dos) + '</div><div class="card"><h4>Avoid</h4>' + ul(g.donts) + "</div></div></section>";
+      var next = "?group=" + id;
+      if (push && location.search !== next) history.pushState({ group: id }, "", next);
+      else if (!push && location.search !== next) history.replaceState({ group: id }, "", next);
+    }
+    select.addEventListener("change", function () { show(select.value, true); });
+    window.addEventListener("popstate", function () {
+      var params = new URLSearchParams(location.search);
+      show(params.get("group"), false);
     });
-    h += '<section id="gaps"><h2>' + esc(P.gaps.heading) + '</h2><div class="callout"><strong>' + esc(P.gaps.callout.lead) + "</strong>" + esc(P.gaps.callout.text) + "</div>" + ul(P.gaps.bullets) + "</section>";
-    document.getElementById("playbook").innerHTML = h;
+    show(current, false);
+
     H.load("sources").then(function (s) {
-      document.getElementById("playbook").insertAdjacentHTML("beforeend", '<section id="sources"><h2>Sources</h2><ol class="sources">' + s.playbook.map(function (x, i) {
-        return '<li id="src-' + (i + 1) + '"><a href="' + esc(x.href) + '" rel="noopener">' + esc(x.title) + '</a> <span class="muted small">(' + esc(x.site) + ")</span></li>"; }).join("") + "</ol></section>");
-      if (location.hash) { var t = document.getElementById(location.hash.slice(1)); if (t) t.scrollIntoView(); }
+      root.insertAdjacentHTML("beforeend", '<section id="sources"><h2>Sources</h2><ol class="sources">' + s.playbook.map(function (x, i) {
+        return '<li id="src-' + (i + 1) + '"><a href="' + esc(x.href) + '" rel="noopener">' + esc(x.title) + '</a> <span class="muted small">(' + esc(x.site) + ")</span></li>";
+      }).join("") + "</ol></section>");
+      if (srcHash) {
+        var t = document.getElementById(srcHash);
+        if (t) t.scrollIntoView();
+      }
     });
   }).catch(H.fail);
 })();

@@ -8,7 +8,7 @@
     ["library.html", "Activity Library"],
     ["vocabulary.html", "Vocabulary"],
     ["playbook.html", "Playbook"],
-    ["about.html", "About & Sources"]
+    ["about.html", "How it works"]
   ];
   var cache = {};
 
@@ -116,7 +116,7 @@
     if (!el) return;
     el.className = "site-header";
     el.innerHTML = '<a class="skip" href="#main">Skip to content</a><div class="bar">' +
-      '<a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>' + SITE_TITLE + "</a>" +
+      '<a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-full">' + SITE_TITLE + '</span><span class="brand-short">Coaching Hub</span></a>' +
       '<button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>' +
       '<nav class="nav" id="site-nav" aria-label="Main">' + NAV.map(function (n) {
         return '<a href="' + n[0] + '"' + (n[0] === active ? ' aria-current="page"' : "") + ">" + n[1] + "</a>";

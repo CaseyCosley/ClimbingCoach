@@ -2,15 +2,13 @@
   "use strict";
   var H = window.Hub, esc = H.esc, nz = H.nz;
   H.init("library.html");
-  H.loadAll(["activities", "meta", "pages", "curricula"]).then(function (d) {
+  H.loadAll(["activities", "meta", "curricula"]).then(function (d) {
     var A = d.activities.items.slice().sort(function (x, y) { return x.name.localeCompare(y.name); }), M = d.meta;
     var ageShort = {}; M.ages.forEach(function (a) { ageShort[a.id] = a.short; });
     var typeLabel = {}; M.types.forEach(function (t) { typeLabel[t.id] = t.label; });
     var skills = Array.from(new Set([].concat.apply([], A.map(function (a) { return a.skills; })))).sort();
     var opt = function (v, l) { return '<option value="' + esc(v) + '">' + esc(l) + "</option>"; };
     var el = function (id) { return document.getElementById(id); };
-    el("lib-intro").innerHTML = '<p class="lead">' + esc(d.pages.library.summary) + "</p>" +
-      '<div class="callout"><strong>' + esc(d.pages.library.callout.lead) + "</strong>" + esc(d.pages.library.callout.text) + "</div>";
     el("f-type").innerHTML = opt("all", "All types") + M.types.map(function (t) { return opt(t.id, t.label); }).join("");
     el("f-age").innerHTML = opt("all", "All ages") + M.ages.map(function (a) { return opt(a.id, a.label); }).join("");
     el("f-skill").innerHTML = opt("all", "All skills") + skills.map(function (s) { return opt(s, s); }).join("");
@@ -38,7 +36,7 @@
       history.replaceState(null, "", location.pathname + (p.toString() ? "?" + p : ""));
       var weekHost = el("this-week");
       if (weekHost) weekHost.innerHTML = byAge[ag] ? H.lessonCard(byAge[ag]) : "";
-      el("count").textContent = res.length + " of " + A.length + " activities match. Tap one to open its full page.";
+      el("count").textContent = res.length + " of " + A.length + " activities";
       el("results").innerHTML = res.map(function (a) {
         return '<a class="item th-' + esc(a.themes[0]) + '" href="' + H.actHref(a) + '"><h3>' + esc(a.name) + "</h3>" +
           (a.aka.length ? '<div class="meta">Also called: ' + esc(a.aka.join(", ")) + "</div>" : "") +

@@ -32,7 +32,7 @@ Pages then serves this site at `https://caseycosley.github.io/ClimbingCoach/`. A
 | `library.html` / `activity.html#<id>` | Activity search and filters / one activity's page (shareable URL) |
 | `vocabulary.html` / `term.html#<id>` | Glossary search and category filter / one term's page |
 | `playbook.html` | Research by age group, comparison table, game-theory section, sources |
-| `about.html` | About, the managing-risk language note, dedup rules, all sources |
+| `about.html` | How it works: page guides, managing-risk note, dedup rules, all sources |
 | `assets/css/style.css` | All styles, including mobile, dark mode and print |
 | `assets/js/*.js` | `common.js` (header, footer, data loading, helpers) plus one script per page |
 | `data/*.json` | All content (see below) |

@@ -14,13 +14,13 @@
 <main id="main" tabindex="-1">
 <noscript><p class="noscript">This site needs JavaScript to load its data files.</p></noscript>
 
-<h1>Youth Curricula by Age Group</h1>
-<div id="intro"></div>
-<section class="no-print"><h2>How these curricula work</h2><div id="how"></div></section>
-<section class="card no-print" id="picker" style="margin-top:16px">
-  <div id="this-week"></div>
+<div class="page-head">
+  <h1>Curricula</h1>
+  <a class="how-link" href="about.html#curricula">How this works</a>
+</div>
+<section class="card no-print tool-bar" id="picker">
   <label class="field" for="group">Age group<select id="group"></select></label>
-  <p id="group-intro" class="muted" style="margin:10px 0 0"></p>
+  <div id="this-week"></div>
   <div class="view-switch" id="view-switch" role="tablist" aria-label="How to read the year">
     <button type="button" role="tab" data-view="lesson">This week</button>
     <button type="button" role="tab" data-view="roadmap">Roadmap</button>
@@ -28,7 +28,6 @@
     <button type="button" role="tab" data-view="ladder">Ladder</button>
     <button type="button" role="tab" data-view="table">Table</button>
   </div>
-  <p class="muted small" id="view-blurb"></p>
 </section>
 <div id="view-host"></div>
 <section class="no-print"><h2>Typical session (<span id="session-min"></span> min)</h2><div id="session"></div></section>
