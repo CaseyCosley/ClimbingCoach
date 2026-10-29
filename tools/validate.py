@@ -45,6 +45,17 @@ weeks = 0
 for g in cur["groups"]:
     total = sum(b["min"] for b in g["blocks"])
     if total != g["minutes"]: errors.append(f"{g['name']}: blocks add to {total}, class is {g['minutes']}")
+    warm = [b for b in g["blocks"] if b["slot"] == "W"]
+    if any(b["slot"] == "C" for b in g["blocks"]):
+        errors.append(f"{g['name']}: cool-down is not a scheduled block")
+    if len(warm) != 1 or warm[0]["min"] != 5:
+        errors.append(f"{g['name']}: warm-up block should be 5 minutes")
+    for s in g.get("session", []):
+        blob = s.get("title", "") + " " + s.get("detail", "")
+        if re.search(r"cool-?down", blob, re.I):
+            errors.append(f"{g['name']} session: still mentions a cool-down ({s.get('title')})")
+        if re.search(r"warm-up,\s*(?!5\b)\d+", blob, re.I):
+            errors.append(f"{g['name']} session: warm-up is not 5 minutes ({s.get('title')})")
     for w in g["weeks"]:
         weeks += 1
         for n in (w["warm"], w["drill"], w["game"], w["cool"]):
@@ -53,6 +64,24 @@ for g in cur["groups"]:
         for t in w["vocab"]:
             if nz(t) not in V: errors.append(f"{g['name']} week {w['n']}: term '{t}' not in vocabulary")
             if t not in cur["weekVocab"]: errors.append(f"{g['name']} week {w['n']}: term '{t}' missing from weekVocab")
+pb = load("playbook"); pages = load("pages")
+shape_text = []
+for gpb in pb["groups"]:
+    for prop in gpb["props"]:
+        if prop.get("label") == "Session shape":
+            shape_text.append(("playbook " + gpb["name"], prop.get("value", "")))
+for item in pages.get("curricula", {}).get("how", []):
+    shape_text.append(("pages curricula", item))
+for view in pages.get("curricula", {}).get("views", []):
+    shape_text.append(("pages view " + view.get("name", ""), view.get("text", "")))
+root = pathlib.Path(__file__).resolve().parent.parent
+for label, path in (("about.html", root / "about.html"), ("README", root / "README.md")):
+    shape_text.append((label, path.read_text(encoding="utf-8")))
+for label, blob in shape_text:
+    if re.search(r"cool-?down", blob, re.I):
+        errors.append(f"{label}: still mentions a cool-down block")
+    if re.search(r"warm-up,?\s+(10|15|20)\s*min", blob, re.I):
+        errors.append(f"{label}: still describes a warm-up longer than 5 minutes")
 # Competitive games, contact games, water blocks, risk-free wording, and gym branding.
 # The allowlist is only for uses that are not those games. Each entry says why.
 game_flag = re.compile("|".join([
