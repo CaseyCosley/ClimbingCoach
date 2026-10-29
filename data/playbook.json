@@ -1,16 +1,16 @@
 {
  "title": "Youth Climbing Coaching Playbook by Age Group",
- "summary": "How kids learn at each age group, which game-based approaches fit, and the climbing games, cues and risk-management rules that research and federation guidance support. Numbers in brackets point to the sources at the bottom.",
+ "summary": "How kids learn at each age group, which game-based approaches fit, and the climbing games, cues and risk-management rules that research and federation guidance support. A number written as [1] refers to a source at the bottom.",
  "principles": {
   "heading": "Principles for every age",
   "callout": {
    "lead": "The short version",
-   "text": "Broad, playful movement before specialization; a climate about getting better, not about rank; real choices for kids; and protecting growing fingers. No climber-vs-climber games, and no tag, chase, or avoidance games."
+   "text": "Broad, playful movement before specialization; a climate about getting better, not about rank; real choices for kids; and protecting growing fingers. No games that pit climbers against each other, and no games where climbers touch or avoid each other."
   },
   "bullets": [
    "Climbing is a late-specialization sport: early years should build general movement and technique, not strength and power [4][1]. Sampling several sports with plenty of informal play through about age 12 supports long-term engagement [6].",
    "Mastery climates beat ego climates. Coach-created climates focused on effort and improvement are linked with more enjoyment and competence and less anxiety [7].",
-   "This site leaves out climber-vs-climber competition and contact or avoidance games: tag, chase, dodge, races between climbers, elimination, and climbing on the same holds as someone else. Those games split attention off a climber's own movement and raise the risk of falls. Mastery and personal-best framing stays: beat your own mark, follow a move the coach adds, or contribute to a team total.",
+   "This site leaves out games that pit climbers against each other, and games where climbers touch one another or try to get away from one another, including sharing a hold on purpose. Those games split attention off a climber's own movement and raise the risk of falls. Mastery and personal-best framing stays: beat your own mark, follow a move the coach adds, or contribute to a team total.",
    "Support the three needs from self-determination theory: autonomy (choice within limits), competence (right-sized challenges), relatedness (belonging) [8].",
    "Guided play beats free play alone for young kids. Planned movement programs improve fundamental skills, while free-play controls did not improve significantly [11][10].",
    "Shape the wall, not the child. The constraints-led approach changes holds, rules and goals so kids discover solutions [12]; climbing studies show hold design shapes exploration and transfer to new routes [13].",
@@ -26,7 +26,7 @@
   "intro": "Formal game theory is rarely studied in youth sport directly, so treat these as design lenses drawn from developmental and education research, not proven climbing methods.",
   "bullets": [
    {
-    "text": "Cooperation versus competition",
+    "text": "Cooperation and competition",
     "items": [
      "Across 148 studies of early adolescents, cooperative goal structures led to higher achievement and better peer relationships than competitive or individualistic ones [17].",
      "Practical form: a shared team goal plus individual accountability (everyone's sends count, and everyone must contribute one)."
@@ -35,7 +35,7 @@
    {
     "text": "Incentive design",
     "items": [
-     "Kids optimize whatever you score. If points only go to tops, they will thrash to the top; score quiet feet, controlled downclimbs or new holds tried.",
+     "Kids optimize whatever you count. If only tops count, they will thrash to the top; count quiet feet, controlled downclimbs, or new holds tried.",
      "Use surprise and informational rewards (\"that was your smoothest climb\") rather than promised prizes [9].",
      "When kids find a loophole in a game rule, treat it as problem solving and then tweak the rule."
     ]
@@ -133,9 +133,9 @@
    "motivate": [
     "Their own parent: the parent is the real coach in the room, and the child mostly wants the parent's attention and approval.",
     "Discovery and doing it themselves (\"me do it!\"), plus simple cause and effect: ring a bell, grab a toy, slide down.",
-    "Pretend play and familiar stories, not points or rules."
+    "Pretend play and familiar stories, not long rule lists or ranking children."
    ],
-   "approach": "Guided play is the fit: the coach sets up the space and the goal, the child keeps the choice of how to play [10]. Competition and scorekeeping have no place here; LTAD guidance for this stage calls for non-competitive, participation-focused games [1].",
+   "approach": "Guided play is the fit: the coach sets up the space and the goal, the child keeps the choice of how to play [10]. Competition and ranking children have no place here; LTAD guidance for this stage calls for non-competitive, participation-focused games [1].",
    "games": [
     [
      "Animal Rescue",
@@ -168,7 +168,7 @@
     "Long explanations or lining up to wait for turns.",
     "Parents lifting kids up the wall; it skips the learning and makes falls more likely.",
     "Stickers or prizes as the main reason to climb.",
-    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
+    "Games that pit climbers against each other, or where climbers touch one another or try to get away from one another. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -196,7 +196,7 @@
    "motivate": [
     "Make-believe: being a monkey, spider or firefighter is the reason to climb.",
     "Feeling big and capable; preschoolers tend to rate their own abilities very highly, which is an asset to protect.",
-    "Short, visible wins: a treasure in the bucket, a bell rung."
+    "Short, visible successes: a treasure in the bucket, a bell rung."
    ],
    "approach": "Guided play with a story wrapper. Use one rule at a time (\"only blue holds\") and keep the whole group moving. Rules exist to make the game fun, not to sort winners from losers [1].",
    "games": [
@@ -231,10 +231,10 @@
     "Praise specific effort (\"you used your feet!\") rather than \"good job\"."
    ],
    "donts": [
-    "Races or \"who got highest\": it turns the session into comparison before kids can handle it.",
+    "Comparing who went highest turns the session into comparison before kids can handle it.",
     "Forcing a hesitant child up; let them climb one hold and come down.",
     "Rules that need remembering three steps.",
-    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
+    "Games that pit climbers against each other, or where climbers touch one another or try to get away from one another. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -297,10 +297,10 @@
     "Let them choose between two options; choice within limits supports motivation [8]."
    ],
    "donts": [
-    "Elimination games where kids sit out.",
+    "Games where kids sit out.",
     "Lecturing technique; show it in a game instead.",
     "Expected prize-for-climb deals; expected tangible rewards undermine kids' later free-choice interest [9].",
-    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
+    "Games that pit climbers against each other, or where climbers touch one another or try to get away from one another. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -358,7 +358,7 @@
     ]
    ],
    "dos": [
-    "Design scoring so the score rewards what you want to teach (quiet feet, smooth moves), not just reaching the top.",
+    "Design the count so it tracks what you want to teach (quiet feet, smooth moves), not just reaching the top.",
     "Rotate partners and teams so no fixed \"winning team\" forms.",
     "Pair climbers for focus; one climbs, one watches for one thing."
    ],
@@ -366,7 +366,7 @@
     "Public rankings or leaderboards.",
     "Pushing competition; the CWA notes it is wise not to push the competitive side at this age [3].",
     "Dynos and big moves on poor holds; keep movement static and controlled.",
-    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
+    "Games that pit climbers against each other, or where climbers touch one another or try to get away from one another. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -396,7 +396,7 @@
     "Testing themselves against last week's mark, when the climate stays about improvement.",
     "Having a say: picking projects, setting goals."
    ],
-   "approach": "Keep the work mastery-focused: personal bests, a read from the ground, and simple tactics, not climber-vs-climber scoring. Mastery climates are linked with more enjoyment and competence and less anxiety than ego-focused ones [7]. Skills to aim for: heel and toe hooks, flagging (at least 3 types), pivots, controlled versus dynamic movement, and reading sequences in advance [1].",
+   "approach": "Keep the work mastery-focused: personal bests, a read from the ground, and simple tactics, not ranking one climber against another. Mastery climates are linked with more enjoyment and competence and less anxiety than ego-focused ones [7]. Skills to aim for: heel and toe hooks, flagging (at least 3 types), pivots, controlled and dynamic movement, and reading sequences in advance [1].",
    "games": [
     [
      "Add-On",
@@ -432,7 +432,7 @@
     "Campus boards, hangboard dead-hangs, or added weight; federation guidance says wait until skeletal maturity [1][23].",
     "Letting kids climb through finger pain at the middle knuckle; stop and refer [24].",
     "Early specialization: encourage other sports alongside climbing [1][6].",
-    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
+    "Games that pit climbers against each other, or where climbers touch one another or try to get away from one another. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -462,7 +462,7 @@
     "Belonging to a crew and being seen as competent by peers.",
     "Clear, personal goals and visible progress."
    ],
-   "approach": "Lean on self-determination theory: offer choice within limits, explain the why, acknowledge feelings, and avoid controlling pressure [8]. Use the peer effect on purpose with team challenges and shared projects rather than letting it drive risky showing-off [18]. Climbing Canada suggests about 70% practice, 30% competition for this stage [1]. On this site that slice is personal bests and shared team totals, not climber-vs-climber games, because those split attention and raise the risk of falls.",
+   "approach": "Lean on self-determination theory: offer choice within limits, explain the why, acknowledge feelings, and avoid controlling pressure [8]. Use the peer effect on purpose with team challenges and shared projects rather than letting it drive risky showing-off [18]. Climbing Canada suggests most of the time goes to practice, with personal-best test days mixed in [1]. On this site those days are personal bests and shared team totals, not games that pit climbers against each other, because those split attention and raise the risk of falls.",
    "games": [
     [
      "Team Send Board",
@@ -498,7 +498,7 @@
     "Comparing kids who matured early with those who have not; it rewards timing, not skill.",
     "Campus boarding and weighted hangs [1][23].",
     "Public critique; adolescents are highly sensitive to how they look to peers.",
-    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
+    "Games that pit climbers against each other, or where climbers touch one another or try to get away from one another. Those split attention and raise the risk of falls."
    ]
   },
   {
@@ -532,7 +532,7 @@
    "games": [
     [
      "Choose-Your-Level Ladder",
-     "Each athlete picks a level, previews from the ground, and logs a personal best. No scoreboard against the group."
+     "Each athlete picks a level, previews from the ground, and logs a personal best. No ranking against the group."
     ],
     [
      "Onsight Visualization",
@@ -564,7 +564,7 @@
     "Campus training before skeletal maturity; UIAA advises against it up to about 16–17, and the BMC says under about 18–20 [23][24].",
     "Weight talk or encouraging weight loss for performance.",
     "Year-round max effort with no planned rest.",
-    "Tag, chase, dodge, races between climbers, elimination, or two climbers sharing holds. Those split attention and raise the risk of falls."
+    "Games that pit climbers against each other, or where climbers touch one another or try to get away from one another. Those split attention and raise the risk of falls."
    ]
   }
  ],

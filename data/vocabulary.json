@@ -1021,7 +1021,7 @@
    "definition": "Sending on the first try with no beta.",
    "kid": "First-try send with no hints.",
    "little": "No-hint send.",
-   "demo": "Onsight route in a comp sim."
+   "demo": "Read an onsight route from the ground, then climb it."
   },
   {
    "id": "redpoint",

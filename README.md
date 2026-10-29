@@ -47,7 +47,7 @@ The HTML holds no content. Change the JSON files and the site updates.
   - `name`
   - `aka`: also-called aliases
   - `types`: session types; ids are listed in `meta.json`
-  - `skills`: free-text skill tags
+  - `skills`: free-text skill labels
   - `ages`: `parent-child ages-3-4 ages-4-6 ages-6-9 ages-9-12 ages-12-plus ages-14-plus`
   - `themes`: `rope tech str event fun`
   - `setup`
@@ -74,7 +74,7 @@ The HTML holds no content. Change the JSON files and the site updates.
     - `months`: the chart rows, each with month, theme, color category and weeks as [skill, optional session type]
     - `session`: the typical session steps
     - `notes`
-    - `blocks`: timed blocks that add up to the class length; the slot is W (warm-up), D (drill), G (game) or C (cool-down). Water is not a block
+    - `blocks`: timed blocks that add up to the class length; the slot is W (warm-up), D (drill), G (game) or C (cool-down). Climbers drink when they need to; it is not a timed block
     - `vocabLevel`
     - `gamesByMonth`
     - `plan`: the authored weekly source data
@@ -82,7 +82,7 @@ The HTML holds no content. Change the JSON files and the site updates.
   - `weekVocab`: the definitions used in the week tables, as [for you, kid, little kid]
 - **`data/sources.json`**:
   - `library`: activity sources by key
-  - `playbook`: the numbered Playbook sources; `[n]` in the Playbook text points to item n
+  - `playbook`: the numbered Playbook sources; `[n]` in the Playbook text refers to item n
   - `coachingPractice`: the label used for uncited entries
 - **`data/playbook.json`**: the Playbook text (principles, game theory, comparison, the seven age-group sections, evidence gaps).
 - **`data/pages.json`**: the intro text for the Library and Curricula pages, and the dedup steps.
@@ -93,7 +93,7 @@ The footer and Home counts are computed from the data, so they never need editin
 ## Dedup rules (from the Library)
 
 1. **Normalize the name.** Lowercase it and strip spaces, hyphens and punctuation (“Add-On” and “add on” both become “addon”). Compare against every existing name and every “also called” alias.
-2. **Compare the core rule, not the name.** Write the game in one sentence (what the climber does, and what wins or ends a round). If an existing entry has the same core rule, it is a duplicate even with a different name: add the new name to that entry's aliases and add its source.
+2. **Compare the core rule, not the name.** Write the game in one sentence (what the climber does, and what ends a round). If an existing entry has the same core rule, it is a duplicate even with a different name: add the new name to that entry's aliases and add its source.
 3. **Variants go inside the parent entry.** A scoring change, a theme, a prop swap or an age tweak (letters for falls, a dice roll, a board version) is a variation of the parent entry, not a new entry. Only a different core rule or a different purpose earns its own entry.
 4. **Same name, different game.** If two sources use one name for two different games, give each a descriptive unique name and keep the source's name as an alias with a qualifier.
 5. **Cite or mark it.** Every new entry links the page it came from, or is marked coaching practice. Never invent a source.
@@ -145,7 +145,7 @@ Names are compared after lowercasing and removing everything except letters and 
   "Finish standing still so the group is ready to listen."
  ],
  "why": "BMC's FUNdamentals notes build a climbing warm-up in three parts: pulse raiser, joint rotation, then easy climbing. Raising heart rate and body temperature first prepares muscles and gets attention on you.",
- "variations": "Parent & Child (ages 2–3) to Ages 4–6: tell a story (run from the rain, jump the puddles). Ages 6–9 and Ages 9–12: follow-the-leader or a tag game. Ages 12+ (training) and Ages 14+ (competitive): athlete-led.",
+ "variations": "Parent & Child (ages 2–3) to Ages 4–6: tell a story (run from the rain, jump the puddles). Ages 6–9 and Ages 9–12: follow-the-leader on separate lanes. Ages 12+ (training) and Ages 14+ (competitive): athlete-led.",
  "risk": "Keep running lanes clear of bags, ropes and the landing zones under climbers.",
  "sources": [
   "BMC",
@@ -173,7 +173,7 @@ Example term:
 
 3. For a new published source, add it to `sources.json` → `library` under a short key with `title`, `site` and `href`, keeping the title exactly as published. Never invent a source; use `"CP"` (coaching practice) when there isn't one.
 4. Write about managing and reducing risk. Avoid any word that suggests an activity is free of risk (the validator lists the banned words), except inside a source's title or URL.
-5. Leave out climber-vs-climber games and contact or avoidance games (tag, chase, dodge, races between climbers, elimination, king of the hill). `validate.py` flags those words in activity names and descriptions, with an allowlist for route-card tags and movement contrasts such as static vs dynamic.
+5. Leave out games that pit climbers against each other and games where climbers touch one another or try to get away from one another. `validate.py` flags that wording, with an allowlist for legitimate uses such as route-card labels and movement contrasts.
 6. Change `lastUpdated` in `activities.json`, `vocabulary.json` and `meta.json` to today's date.
 7. Run `python3 tools/validate.py`. It checks for duplicate names or aliases, unknown ages, types, themes or source keys, weekly plans that use a name not in the library or not listed for that age, blocks that don't add up to the class length, banned words, and the game-wording check above.
 
