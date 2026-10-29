@@ -14,7 +14,7 @@
    },
    {
     "title": "Compare the core rule, not the name",
-    "detail": "Write the game in one sentence (what the climber does, and what wins or ends a round). If an existing entry has the same core rule, it is a duplicate even with a different name: add the new name to that entry's aliases and add its source."
+    "detail": "Write the game in one sentence (what the climber does, and what ends a round). If an existing entry has the same core rule, it is a duplicate even with a different name: add the new name to that entry's aliases and add its source."
    },
    {
     "title": "Variants go inside the parent entry",
@@ -44,7 +44,7 @@
   "how": [
    "Same rhythm throughout: 4 weeks a month, with Dec and Jun as Review & Play in every group.",
    "The week types change with age. Hard Workout (Grade Pushing) only returns at Ages 12+ (training) and Ages 14+ (competitive); younger groups get Brave Steps, Challenge Climb, Personal Best or Project Push instead.",
-   "No climber-vs-climber games in any group. March is a team or family celebration for younger groups and a personal-best block for older ones.",
+   "No games that pit climbers against each other. March is a team or family celebration for younger groups and a personal-best block for older ones.",
    "No campus, hangboard or weighted finger training in any group; strength comes from climbing.",
    "Every week has its own plan: the skill and session type, the vocabulary with an age-pitched kid version, and a warm-up, skill drill, game and cool-down timed to the class length. All 40 weeks for all 7 groups (280 plans) use activity and term names exactly as they appear in the Library.",
    "Climbing is inherently dangerous, so the plans talk about managing and avoiding risk (checking systems, clearing fall zones, spotting, choosing when to commit), never about being risk-free."
@@ -55,11 +55,26 @@
   },
   "weekIntro": "Pick a month and a week. Dec and Jun are Review & Play months: three review weeks that revisit earlier months, then a celebration week. Look up any activity or term by name in the Library for full steps, why it works, variations by age, risk management and sources.",
   "views": [
-   {"name": "This week", "text": "One class on a single card: timed blocks, vocabulary, and a cue for each part. Print it and take it to the wall. A date uses the calendar month, then days 1–7, 8–14, 15–21, and 22 through the end as the four weeks. July and August open on week 1."},
-   {"name": "Roadmap", "text": "Ten month stops for the year. Each card shows the theme and a one-line focus. Open a month for its four weeks."},
-   {"name": "Months", "text": "One card per month, with the skills, a few vocabulary chips, and the weeks as tabs."},
-   {"name": "Ladder", "text": "Each theme is a lane. Read across the year to see how the skills step up, then open any week."},
-   {"name": "Table", "text": "The full grid: month, theme, skill progression, and weekly structure, with the week plan underneath."}
+   {
+    "name": "This week",
+    "text": "One class on a single card: timed blocks, vocabulary, and a cue for each part. Print it and take it to the wall. A date uses the calendar month, then days 1–7, 8–14, 15–21, and 22 through the end as the four weeks. July and August open on week 1."
+   },
+   {
+    "name": "Roadmap",
+    "text": "Ten month stops for the year. Each card shows the theme and a one-line focus. Open a month for its four weeks."
+   },
+   {
+    "name": "Months",
+    "text": "One card per month, with the skills, a few vocabulary chips, and the weeks as tabs."
+   },
+   {
+    "name": "Ladder",
+    "text": "Each theme is a lane. Read across the year to see how the skills step up, then open any week."
+   },
+   {
+    "name": "Table",
+    "text": "The full grid: month, theme, skill progression, and weekly structure, with the week plan underneath."
+   }
   ],
   "related": [
    {

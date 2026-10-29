@@ -9,8 +9,20 @@
     var typeLabel = {}; M.types.forEach(function (t) { typeLabel[t.id] = t.label; });
     var themeLabel = {}; M.themes.forEach(function (t) { themeLabel[t.id] = t.label; });
     var vIdx = H.indexByName(d.vocabulary.items);
+    var OLD_IDS = {
+      "v-point-comp": "send-tally",
+      "dyno-war": "dyno-count",
+      "king-of-the-volume": "volume-stay",
+      "quickdraw-relay": "quickdraw-carry",
+      "harness-check-race": "harness-check",
+      "flake-and-coil-races": "flake-and-coil",
+      "shark-attack": "wake-up-wall",
+      "ready-set-go": "finish-together",
+      "speed-climbing-bouldering": "beat-your-own-laps"
+    };
     function show() {
       var id = decodeURIComponent(location.hash.slice(1));
+      if (OLD_IDS[id]) { location.replace("#" + OLD_IDS[id]); return; }
       var i = A.findIndex(function (a) { return a.id === id; });
       var main = document.getElementById("detail");
       if (i < 0) {
