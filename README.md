@@ -74,7 +74,7 @@ The HTML holds no content. Change the JSON files and the site updates.
     - `months`: the chart rows, each with month, theme, color category and weeks as [skill, optional session type]
     - `session`: the typical session steps
     - `notes`
-    - `blocks`: timed blocks that add up to the class length; the slot is W (warm-up), D (drill), G (game) or C (cool-down). Climbers drink when they need to; it is not a timed block
+    - `blocks`: timed blocks that add up to the class length; the slot is W (warm-up, 5 minutes), D (drill), or G (game). Climbers drink when they need to; it is not a timed block
     - `vocabLevel`
     - `gamesByMonth`
     - `plan`: the authored weekly source data

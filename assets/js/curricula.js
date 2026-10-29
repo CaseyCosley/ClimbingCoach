@@ -46,15 +46,13 @@
     var state = readParams(location.search);
     state.road = state.m;
     state.tabs = {};
-    state.date = "";
-    state.dateNote = "";
     if (location.hash === "#week-section") state.view = "lesson";
 
     var gsel = document.getElementById("group");
     var host = document.getElementById("view-host");
     gsel.innerHTML = cur.groups.map(function (g) { return '<option value="' + g.id + '">' + esc(g.name) + "</option>"; }).join("");
     gsel.addEventListener("change", function () {
-      state.g = gsel.value; state.tabs = {}; state.date = ""; state.dateNote = "";
+      state.g = gsel.value; state.tabs = {};
       render();
     });
     document.getElementById("view-switch").addEventListener("click", function (e) {
@@ -124,7 +122,7 @@
     window.addEventListener("popstate", function () {
       var next = readParams(location.search);
       state.g = next.g; state.view = next.view; state.m = next.m; state.w = next.w;
-      state.road = state.m; state.date = ""; state.dateNote = "";
+      state.road = state.m;
       render("replace");
     });
     function goLesson(m, w) { state.m = m; state.w = w; state.view = "lesson"; state.road = m; render(); }
@@ -135,29 +133,12 @@
       if (act === "lesson") { goLesson(m, w); return; }
       if (act === "road") { state.road = state.road === m ? -1 : m; state.m = m; render(); return; }
       if (act === "tab") { state.m = m; state.w = w; state.tabs[m] = w; render(); return; }
-      if (act === "step") { var n = nOf() + (+t.dataset.dir || 0); if (n < 1 || n > 40) return; setWeekN(n); state.date = ""; render(); return; }
+      if (act === "step") { var n = nOf() + (+t.dataset.dir || 0); if (n < 1 || n > 40) return; setWeekN(n); render(); return; }
       if (act === "print") { document.body.classList.add("print-week"); window.print(); return; }
       if (act === "cell") { state.m = m; state.w = w; render(); return; }
     }
     function onChange(e) {
       var t = e.target;
-      if (t.id === "week-n") { setWeekN(+t.value); state.date = ""; render(); }
-      if (t.id === "week-date") {
-        state.date = t.value;
-        if (!t.value) { state.dateNote = ""; render(); return; }
-        var dt = new Date(t.value + "T12:00:00");
-        var picked = weekInSeason(dt);
-        if (!picked) {
-          state.dateNote = "July and August sit outside this September–June plan.";
-          render();
-          return;
-        }
-        state.dateNote = "";
-        state.m = picked.m;
-        state.w = picked.w;
-        state.road = state.m;
-        render();
-      }
       if (t.id === "month") { state.m = +t.value; state.w = 0; render(); }
     }
     window.addEventListener("afterprint", function () { document.body.classList.remove("print-week"); });
@@ -215,12 +196,9 @@
         "<h2>" + esc(m.m) + " · Week " + (state.w + 1) + "</h2>" +
         '<p class="lesson-skill">' + esc(r.skill) + "</p>" +
         '<p class="muted">' + esc(m.theme) + " · " + esc(r.type) + "</p>" +
-        '<div class="lesson-tools no-print"><label class="field">School-year week<input id="week-n" type="number" min="1" max="40" value="' + nOf() + '"></label>' +
-        '<label class="field">Or a date in the season<input id="week-date" type="date" value="' + esc(state.date) + '"></label>' +
-        '<div class="lesson-nav"><button type="button" class="btn ghost" data-act="step" data-dir="-1">Previous</button>' +
+        '<div class="lesson-tools no-print"><div class="lesson-nav"><button type="button" class="btn ghost" data-act="step" data-dir="-1">Previous</button>' +
         '<button type="button" class="btn ghost" data-act="step" data-dir="1">Next</button>' +
         '<button type="button" class="btn" data-act="print">Print this card</button></div></div>' +
-        (state.dateNote ? '<p class="muted small no-print" id="date-note">' + esc(state.dateNote) + "</p>" : "") +
         '<h3>The class</h3><ol class="block-list">' + blocks + "</ol>" +
         "<h3>Vocabulary</h3><ul class=\"block-list\">" + vocab + "</ul></article>";
     }
@@ -259,7 +237,7 @@
           }).join("") + "</div>" +
           (shown ? '<div class="month-detail"><p><b>' + esc(shown.skill) + "</b> · " + esc(shown.type) + "</p>" +
             "<p>Warm-up " + la(shown.warm) + " · Drill " + la(shown.drill) + "</p>" +
-            "<p>Game " + la(shown.game) + " · Cool-down " + la(shown.cool) + "</p>" +
+            "<p>Game " + la(shown.game) + "</p>" +
             '<p><button type="button" class="btn ghost" data-act="lesson" data-m="' + mi + '" data-w="' + tab + '">Open this week\'s card</button></p></div>' : "") +
           "</article>";
       }).join("") + "</div>";

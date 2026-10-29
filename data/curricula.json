@@ -220,20 +220,16 @@
    ],
    "session": [
     {
-     "title": "Warm-up, 10 min",
+     "title": "Warm-up, 5 min",
      "detail": "Free explore on mats, then a crawl-and-step path to the wall."
     },
     {
-     "title": "Station rotation, 23 min",
-     "detail": "Four 5-minute stations families rotate through: the themed skill (coach shows parent, parent shows child), a free climb, a crawl or balance path, and a calm corner for anyone who needs a pause."
+     "title": "Station rotation, 38 min",
+     "detail": "Families rotate through the themed skill (coach shows parent, parent shows child), a free climb, a crawl or balance path, and a calm corner for anyone who needs a pause."
     },
     {
      "title": "Story game, 17 min",
      "detail": "The week's story game, played in parallel by each family, restarting often with small changes."
-    },
-    {
-     "title": "Cool-down, 10 min",
-     "detail": "Turtle landings, a goodbye song or cheer, tell parents one thing to try at the playground."
     }
    ],
    "notes": [
@@ -243,23 +239,18 @@
    "blocks": [
     {
      "label": "Warm-up",
-     "min": 10,
+     "min": 5,
      "slot": "W"
     },
     {
      "label": "Skill stations",
-     "min": 23,
+     "min": 38,
      "slot": "D"
     },
     {
      "label": "Story game",
      "min": 17,
      "slot": "G"
-    },
-    {
-     "label": "Cool-down",
-     "min": 10,
-     "slot": "C"
     }
    ],
    "vocabLevel": "little",
@@ -1327,20 +1318,16 @@
    ],
    "session": [
     {
-     "title": "Warm-up, 10 min",
+     "title": "Warm-up, 5 min",
      "detail": "Story warm-up on the floor: animal walks, jumps, reaching for the sky."
     },
     {
-     "title": "Station rotation, 23 min",
-     "detail": "Four 5-minute stations on low walls and mats: the skill of the week as guided play, a free climb, a floor balance or crawl game, and a coach-led \"brave\" climb."
+     "title": "Station rotation, 38 min",
+     "detail": "Stations on low walls and mats: the skill of the week as guided play, a free climb, a floor balance or crawl game, and a coach-led \"brave\" climb."
     },
     {
      "title": "Game, 17 min",
      "detail": "Game Day or the month's game, one rule only, adding a twist each round."
-    },
-    {
-     "title": "Cool-down, 10 min",
-     "detail": "Falling Leaf landings and a closing cheer."
     }
    ],
    "notes": [
@@ -1350,23 +1337,18 @@
    "blocks": [
     {
      "label": "Warm-up",
-     "min": 10,
+     "min": 5,
      "slot": "W"
     },
     {
      "label": "Skill stations",
-     "min": 23,
+     "min": 38,
      "slot": "D"
     },
     {
      "label": "Game",
      "min": 17,
      "slot": "G"
-    },
-    {
-     "label": "Cool-down",
-     "min": 10,
-     "slot": "C"
     }
    ],
    "vocabLevel": "little",
@@ -2442,20 +2424,16 @@
    ],
    "session": [
     {
-     "title": "Warm-up, 10 min",
+     "title": "Warm-up, 5 min",
      "detail": "Active floor game, then easy climbing."
     },
     {
-     "title": "Main, 25 min",
+     "title": "Main, 40 min",
      "detail": "Skill of the day as a game, then free choice on set problems."
     },
     {
      "title": "Game, 15 min",
      "detail": "Whole-group goal game or the month's game."
-    },
-    {
-     "title": "Cool-down, 10 min",
-     "detail": "Landing or lowering practice and show-and-tell."
     }
    ],
    "notes": [
@@ -2465,23 +2443,18 @@
    "blocks": [
     {
      "label": "Warm-up",
-     "min": 10,
+     "min": 5,
      "slot": "W"
     },
     {
      "label": "Skill block",
-     "min": 25,
+     "min": 40,
      "slot": "D"
     },
     {
      "label": "Game",
      "min": 15,
      "slot": "G"
-    },
-    {
-     "label": "Cool-down",
-     "min": 10,
-     "slot": "C"
     }
    ],
    "vocabLevel": "little",
@@ -3561,20 +3534,16 @@
    ],
    "session": [
     {
-     "title": "Warm-up, 15 min",
+     "title": "Warm-up, 5 min",
      "detail": "Pulse raiser, joint circles, easy climbing."
     },
     {
-     "title": "Main, 43 min",
+     "title": "Main, 63 min",
      "detail": "Skill in short steps (about 15 min), then lots of easy varied climbing in pairs (one climbs, one watches for one thing), switching every few climbs."
     },
     {
      "title": "Game, 22 min",
      "detail": "The month's game, built around the skill being taught."
-    },
-    {
-     "title": "Cool-down, 10 min",
-     "detail": "Easy climbing or landings, then each kid names one thing they got better at."
     }
    ],
    "notes": [
@@ -3584,23 +3553,18 @@
    "blocks": [
     {
      "label": "Warm-up",
-     "min": 15,
+     "min": 5,
      "slot": "W"
     },
     {
      "label": "Skill block, then varied climbing",
-     "min": 43,
+     "min": 63,
      "slot": "D"
     },
     {
      "label": "Game",
      "min": 22,
      "slot": "G"
-    },
-    {
-     "label": "Cool-down",
-     "min": 10,
-     "slot": "C"
     }
    ],
    "vocabLevel": "kid",
@@ -4682,20 +4646,16 @@
    ],
    "session": [
     {
-     "title": "Warm-up, 20 min",
+     "title": "Warm-up, 5 min",
      "detail": "Pulse raiser, joint mobility, easy climbing building up."
     },
     {
-     "title": "Main, 58 min",
+     "title": "Main, 88 min",
      "detail": "Technique block as a game (about 20 min), then applied on routes or boulders, with ropes and belay practice on rope weeks."
     },
     {
      "title": "Game, 27 min",
      "detail": "The month's game, measured against each climber's own last try on the skill being taught."
-    },
-    {
-     "title": "Cool-down, 15 min",
-     "detail": "Easy climbing and mobility, then a quick goal check."
     }
    ],
    "notes": [
@@ -4705,23 +4665,18 @@
    "blocks": [
     {
      "label": "Warm-up",
-     "min": 20,
+     "min": 5,
      "slot": "W"
     },
     {
      "label": "Skill drill, then apply on routes",
-     "min": 58,
+     "min": 88,
      "slot": "D"
     },
     {
      "label": "Game",
      "min": 27,
      "slot": "G"
-    },
-    {
-     "label": "Cool-down",
-     "min": 15,
-     "slot": "C"
     }
    ],
    "vocabLevel": "kid",
@@ -5812,20 +5767,16 @@
    ],
    "session": [
     {
-     "title": "Warm-up, 20 min",
+     "title": "Warm-up, 5 min",
      "detail": "Climber-led warm-up (rotate leaders), then easy climbing."
     },
     {
-     "title": "Main, 60 min",
+     "title": "Main, 90 min",
      "detail": "Skill or Hard Workout block, then project time with peer beta."
     },
     {
      "title": "Game, 25 min",
      "detail": "Team game or fall-practice block."
-    },
-    {
-     "title": "Cool-down, 15 min",
-     "detail": "Easy climbing, mobility, one-line reflection."
     }
    ],
    "notes": [
@@ -5835,23 +5786,18 @@
    "blocks": [
     {
      "label": "Warm-up",
-     "min": 20,
+     "min": 5,
      "slot": "W"
     },
     {
      "label": "Skill or Hard Workout block",
-     "min": 60,
+     "min": 90,
      "slot": "D"
     },
     {
      "label": "Team game",
      "min": 25,
      "slot": "G"
-    },
-    {
-     "label": "Cool-down",
-     "min": 15,
-     "slot": "C"
     }
    ],
    "vocabLevel": "kid",
@@ -6941,20 +6887,16 @@
    ],
    "session": [
     {
-     "title": "Warm-up, 20 min",
+     "title": "Warm-up, 5 min",
      "detail": "Specific warm-up the athlete runs themselves."
     },
     {
-     "title": "Main, 60 min",
+     "title": "Main, 90 min",
      "detail": "The planned training block for the week."
     },
     {
      "title": "Personal-best block or game, 25 min",
      "detail": "A personal-best block or the month's game: read, try, and note one improvement."
-    },
-    {
-     "title": "Cool-down, 15 min",
-     "detail": "Mobility, training log, check in on pain, sleep and fueling."
     }
    ],
    "notes": [
@@ -6965,23 +6907,18 @@
    "blocks": [
     {
      "label": "Warm-up",
-     "min": 20,
+     "min": 5,
      "slot": "W"
     },
     {
      "label": "Training block",
-     "min": 60,
+     "min": 90,
      "slot": "D"
     },
     {
      "label": "Personal-best block or game",
      "min": 25,
      "slot": "G"
-    },
-    {
-     "label": "Cool-down",
-     "min": 15,
-     "slot": "C"
     }
    ],
    "vocabLevel": "kid",
