@@ -20,8 +20,11 @@
       }).join("") + "</ul>" : '<p class="muted">Not a weekly focus term yet.</p>';
       var prev = V[(i - 1 + V.length) % V.length], next = V[(i + 1) % V.length];
       main.innerHTML = '<nav class="crumbs no-print"><a href="vocabulary.html">Vocabulary</a> › ' + esc(v.name) + "</nav>" +
-        '<article class="card"><h1>' + esc(v.name) + "</h1>" +
-        '<p><a class="pill" href="vocabulary.html?category=' + encodeURIComponent(v.category) + '">' + esc(v.category) + "</a></p>" +
+        '<article class="detail"><h1>' + esc(v.name) + "</h1>" +
+        '<p><a class="pill" href="vocabulary.html?category=' + encodeURIComponent(v.category) + '">' + esc(v.category) + "</a>" +
+        (v.discipline || []).map(function (x) {
+          return '<a class="pill" href="vocabulary.html?discipline=' + esc(x) + '">' + esc(H.discLabel(x)) + "</a>";
+        }).join("") + "</p>" +
         (v.aka.length ? '<p class="muted">Also called: ' + esc(v.aka.join(", ")) + "</p>" : "") +
         "<dl><dt>Plain definition (ages 12+ and 14+, coaches)</dt><dd>" + esc(v.definition) + "</dd>" +
         "<dt>Kid version (ages 6–9 and 9–12)</dt><dd>" + esc(v.kid) + "</dd>" +

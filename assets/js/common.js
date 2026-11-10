@@ -1,14 +1,20 @@
-/* Youth Climbing Coaching Hub: shared helpers (no dependencies) */
+/* Climbing Coach: shared helpers (no dependencies) */
 (function () {
   "use strict";
-  var SITE_TITLE = "Youth Climbing Coaching Hub";
+  var SITE_TITLE = "Climbing Coach";
   var NAV = [
     ["index.html", "Home"],
     ["curricula.html", "Curricula"],
-    ["library.html", "Activity Library"],
+    ["library.html", "Library"],
     ["vocabulary.html", "Vocabulary"],
     ["playbook.html", "Playbook"],
     ["about.html", "How it works"]
+  ];
+  var DISCIPLINES = [
+    ["bouldering", "Bouldering"],
+    ["auto-belay", "Auto belay"],
+    ["top-rope", "Top rope"],
+    ["lead", "Lead"]
   ];
   var cache = {};
 
@@ -111,13 +117,25 @@
     return h + "</tbody></table></div>";
   }
 
+  function discLabel(id) {
+    for (var i = 0; i < DISCIPLINES.length; i++) if (DISCIPLINES[i][0] === id) return DISCIPLINES[i][1];
+    return id || "";
+  }
+  function leadOk(ageId) { return ageId === "ages-12-plus" || ageId === "ages-14-plus"; }
+
   function header(active) {
     var el = document.getElementById("site-header");
     if (!el) return;
     el.className = "site-header";
+    var q = "";
+    try { q = new URLSearchParams(location.search).get("q") || ""; } catch (e) { q = ""; }
     el.innerHTML = '<a class="skip" href="#main">Skip to content</a><div class="bar">' +
-      '<a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-full">' + SITE_TITLE + '</span><span class="brand-short">Coaching Hub</span></a>' +
-      '<button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>' +
+      '<a class="brand" href="index.html"><span class="brand-name">' + SITE_TITLE + '</span><span class="brand-sub">Plans and activities for youth coaches</span></a>' +
+      '<form class="head-search" action="library.html" method="get" role="search">' +
+      '<label class="sr-only" for="global-q">Find an activity or a term</label>' +
+      '<input id="global-q" name="q" type="search" placeholder="Find an activity or a term" value="' + esc(q) + '">' +
+      "</form>" +
+      '<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>' +
       '<nav class="nav" id="site-nav" aria-label="Main">' + NAV.map(function (n) {
         return '<a href="' + n[0] + '"' + (n[0] === active ? ' aria-current="page"' : "") + ">" + n[1] + "</a>";
       }).join("") + "</nav></div>";
@@ -134,7 +152,7 @@
     var el = document.getElementById("site-footer");
     if (!el) return;
     el.className = "site-footer";
-    el.innerHTML = '<div class="bar"><span>' + SITE_TITLE + '</span><span id="footer-stats">Loading counts…</span></div>';
+    el.innerHTML = '<div class="bar"><span>' + SITE_TITLE + ' · for youth coaches</span><span id="footer-stats">Loading counts…</span></div>';
     loadAll(["activities", "vocabulary", "curricula"]).then(function (d) {
       var weeks = d.curricula.groups.reduce(function (s, g) { return s + g.weeks.length; }, 0);
       document.getElementById("footer-stats").innerHTML =
@@ -155,7 +173,8 @@
   function init(active) { header(active); footer(); }
 
   window.Hub = {
-    SITE_TITLE: SITE_TITLE, esc: esc, nz: nz, load: load, loadAll: loadAll, indexByName: indexByName,
+    SITE_TITLE: SITE_TITLE, DISCIPLINES: DISCIPLINES, discLabel: discLabel, leadOk: leadOk,
+    esc: esc, nz: nz, load: load, loadAll: loadAll, indexByName: indexByName,
     actHref: actHref, termHref: termHref, linkName: linkName, usageIndex: usageIndex, weekHref: weekHref,
     seasonWeek: seasonWeek, lessonHref: lessonHref, lessonCard: lessonCard,
     cite: cite, table: table, init: init, fail: fail

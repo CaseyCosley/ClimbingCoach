@@ -1,6 +1,6 @@
-# Youth Climbing Coaching Hub
+# Climbing Coach
 
-A static website (plain HTML, CSS and JavaScript, no build step, no server code, no external dependencies) with youth climbing curricula for seven age groups, 280 week-by-week plans, an activity library and a vocabulary glossary.
+A static website (plain HTML, CSS and JavaScript, no build step, no server code, no external dependencies) with youth climbing curricula for seven age groups, 280 week-by-week plans, rope-discipline sample lessons, an activity library and a vocabulary glossary. The pages open on the tool. Longer explanations live on How it works.
 
 ## Run it locally
 
@@ -27,8 +27,8 @@ Pages then serves this site at `https://caseycosley.github.io/ClimbingCoach/`. A
 
 | Path | What it is |
 |---|---|
-| `index.html` | Home: what this is, who it's for, the key principles, links to each age group |
-| `curricula.html` | Group dropdown and a view switcher (`?group=&view=&month=&week=`). Default is this week's lesson card for today's date (week 1 outside September–June); Roadmap is next, then month cards, the skill ladder, and the full table |
+| `index.html` | Home: this week's plan, then age groups and disciplines |
+| `curricula.html` | Group dropdown, discipline tabs, and a view switcher (`?group=&view=&month=&week=&discipline=`). Bouldering defaults to this week's lesson card for today's date (week 1 outside September–June). Auto belay, top rope and lead show that age group's sample lesson. Lead is limited to Ages 12+ and Ages 14+ |
 | `library.html` / `activity.html#<id>` | Activity search and filters / one activity's page (shareable URL) |
 | `vocabulary.html` / `term.html#<id>` | Glossary search and category filter / one term's page |
 | `playbook.html` | Research by age group, comparison table, game-theory section, sources |
@@ -56,6 +56,9 @@ The HTML holds no content. Change the JSON files and the site updates.
   - `variations`
   - `risk`: risk management
   - `sources`: keys into `sources.json` → `library`, or `"CP"` for coaching practice
+  - `discipline`: one or more of `bouldering`, `auto-belay`, `top-rope`, `lead`. Lead entries are only for Ages 12+ and Ages 14+. Every auto-belay entry lists staff permission in `prereqs`
+  - `prereqs`: a list of prerequisite phrases (may be empty)
+- **`data/rope-lessons.json`**: sample lessons by `ageId` and `discipline`. Each has a 5-minute warm-up and skill blocks, and the minutes add up to the class length. Curricula shows the lesson that matches the selected age group and discipline.
 - **`data/vocabulary.json`**: `{ lastUpdated, count, items: [...] }`. Each term has these fields:
   - `id`
   - `name`
@@ -65,6 +68,7 @@ The HTML holds no content. Change the JSON files and the site updates.
   - `kid`: for Ages 6–9 and Ages 9–12
   - `little`: for Parent & Child (ages 2–3), Ages 3–4 and Ages 4–6
   - `demo`: how to teach it
+  - `discipline`: one or more of `bouldering`, `auto-belay`, `top-rope`, `lead`
 - **`data/curricula.json`** has three parts:
   - `categories`: chart colors and legend labels
   - `groups`: one per age group, each with:
@@ -150,7 +154,11 @@ Names are compared after lowercasing and removing everything except letters and 
  "sources": [
   "BMC",
   "MT"
- ]
+ ],
+ "discipline": [
+  "bouldering"
+ ],
+ "prereqs": []
 }
 ```
 
@@ -167,7 +175,10 @@ Example term:
  "definition": "Any shaped grip bolted to the wall for hands or feet.",
  "kid": "The bumps on the wall you grab or stand on.",
  "little": "The wall's handles and steps.",
- "demo": "Touch three holds and name their colors."
+ "demo": "Touch three holds and name their colors.",
+ "discipline": [
+  "bouldering"
+ ]
 }
 ```
 

@@ -1,0 +1,916 @@
+{
+ "lastUpdated": "2026-11-10",
+ "count": 16,
+ "formatNotes": "Each lesson: title, discipline, ageId, minutes, notes, warmup (~5 min), blocks[{title,minutes,activityIds}]. No cool-down block. Class lengths: parent-child/3-4/4-6=60; 6-9=90; 9-12/12+/14+=120.",
+ "items": [
+  {
+   "title": "Auto-Belay Watch & Touch (Parent & Child)",
+   "discipline": "auto-belay",
+   "ageId": "parent-child",
+   "minutes": 60,
+   "notes": "Staff permission to use auto belays required. Parents do not clip independently. Staff clips/unclips; parents spot on the mat. Auto belay is optional at this age and only when staff says yes.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "animal-walks"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Lane boundaries with parents",
+     "minutes": 10,
+     "activityIds": [
+      "auto-belay-lane-boundaries"
+     ]
+    },
+    {
+     "title": "Harness parts (belay loop)",
+     "minutes": 10,
+     "activityIds": [
+      "harness-parts-callout"
+     ]
+    },
+    {
+     "title": "Staff-controlled first climbs",
+     "minutes": 25,
+     "activityIds": [
+      "staff-controlled-first-auto-belay"
+     ]
+    },
+    {
+     "title": "Lowering position low",
+     "minutes": 10,
+     "activityIds": [
+      "auto-belay-lowering-position"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Harness Helpers (Parent & Child)",
+   "discipline": "top-rope",
+   "ageId": "parent-child",
+   "minutes": 60,
+   "notes": "Judgment call: ages 2–3 are not independent auto-belay or belay users. This sample stays on harness parts, mat rules, and watching a coach top-rope demo. Parents are the spotters; staff run any rope.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "animal-walks"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Harness parts with parents",
+     "minutes": 15,
+     "activityIds": [
+      "harness-parts-callout"
+     ]
+    },
+    {
+     "title": "Mat rules & fall zones tour",
+     "minutes": 10,
+     "activityIds": [
+      "fall-zones-tour"
+     ]
+    },
+    {
+     "title": "Watch a coach lower (astronaut story)",
+     "minutes": 15,
+     "activityIds": [
+      "astronaut-lowering"
+     ]
+    },
+    {
+     "title": "High-five the star / explore",
+     "minutes": 15,
+     "activityIds": [
+      "high-five-the-star"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Staff-Clipped Auto Belay (Ages 3–4)",
+   "discipline": "auto-belay",
+   "ageId": "ages-3-4",
+   "minutes": 60,
+   "notes": "Staff permission to use auto belays required. Staff clips and unclips every ascent. Keep climbs low; practise lowering position before full height.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "pulse-raiser"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Lane boundaries",
+     "minutes": 5,
+     "activityIds": [
+      "auto-belay-lane-boundaries"
+     ]
+    },
+    {
+     "title": "Harness parts",
+     "minutes": 8,
+     "activityIds": [
+      "harness-parts-callout"
+     ]
+    },
+    {
+     "title": "Staff-controlled climbs",
+     "minutes": 22,
+     "activityIds": [
+      "staff-controlled-first-auto-belay"
+     ]
+    },
+    {
+     "title": "Lowering position",
+     "minutes": 10,
+     "activityIds": [
+      "auto-belay-lowering-position"
+     ]
+    },
+    {
+     "title": "Reach games low",
+     "minutes": 10,
+     "activityIds": [
+      "auto-belay-reach-games-low"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "First Rope Trust (Ages 3–4)",
+   "discipline": "top-rope",
+   "ageId": "ages-3-4",
+   "minutes": 60,
+   "notes": "Staff belay only. Auto belay usually waits until ~4–5+ and gym policy; if the gym allows staff-clipped auto belay for this age, swap the Astronaut block for Staff-Controlled First Auto Belay.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "pulse-raiser"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Harness parts callout",
+     "minutes": 10,
+     "activityIds": [
+      "harness-parts-callout"
+     ]
+    },
+    {
+     "title": "Commands play",
+     "minutes": 10,
+     "activityIds": [
+      "climbing-commands-call-and-response"
+     ]
+    },
+    {
+     "title": "Astronaut lowering (low)",
+     "minutes": 20,
+     "activityIds": [
+      "astronaut-lowering"
+     ]
+    },
+    {
+     "title": "Easy top-rope explore",
+     "minutes": 15,
+     "activityIds": [
+      "rescue-mission"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Auto-Belay First Climbs (Ages 4–6)",
+   "discipline": "auto-belay",
+   "ageId": "ages-4-6",
+   "minutes": 60,
+   "notes": "Staff permission to use auto belays required for every climber. No fixed minimum age beyond the program group—staff decide per child. Coach clips/unclips until the gym says otherwise.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "pulse-raiser",
+     "joint-circles"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Lane boundaries walk",
+     "minutes": 5,
+     "activityIds": [
+      "auto-belay-lane-boundaries"
+     ]
+    },
+    {
+     "title": "Harness parts + belay-loop only",
+     "minutes": 8,
+     "activityIds": [
+      "harness-parts-callout"
+     ]
+    },
+    {
+     "title": "Staff-controlled first climbs",
+     "minutes": 22,
+     "activityIds": [
+      "staff-controlled-first-auto-belay"
+     ]
+    },
+    {
+     "title": "Lowering position low",
+     "minutes": 10,
+     "activityIds": [
+      "auto-belay-lowering-position"
+     ]
+    },
+    {
+     "title": "Reach games low",
+     "minutes": 10,
+     "activityIds": [
+      "auto-belay-reach-games-low"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Top-Rope Sit and Lower (Ages 4–6)",
+   "discipline": "top-rope",
+   "ageId": "ages-4-6",
+   "minutes": 60,
+   "notes": "Staff or certified adult belay with backup. Kids practise commands and lowering position.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "animal-walks"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Commands clarity",
+     "minutes": 8,
+     "activityIds": [
+      "commands-clarity-ladder"
+     ]
+    },
+    {
+     "title": "Harness check game",
+     "minutes": 7,
+     "activityIds": [
+      "harness-check"
+     ]
+    },
+    {
+     "title": "Astronaut lowering",
+     "minutes": 15,
+     "activityIds": [
+      "astronaut-lowering"
+     ]
+    },
+    {
+     "title": "Take and lower sequence",
+     "minutes": 10,
+     "activityIds": [
+      "take-and-lower-sequence"
+     ]
+    },
+    {
+     "title": "Figure-8 spotting game",
+     "minutes": 15,
+     "activityIds": [
+      "spot-the-figure-8"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Auto-Belay Double-Check Habits (Ages 6–9)",
+   "discipline": "auto-belay",
+   "ageId": "ages-6-9",
+   "minutes": 90,
+   "notes": "Staff permission to use auto belays required for every climber before any auto-belay lap. Move from staff-clipped to supervised self-clip where gym policy allows. Every lap gets a full double-check.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "pulse-raiser",
+     "joint-circles"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Clip-in routine teach",
+     "minutes": 15,
+     "activityIds": [
+      "auto-belay-clip-in-routine",
+      "auto-belay-retraction-test"
+     ]
+    },
+    {
+     "title": "Lane boundaries + pace",
+     "minutes": 10,
+     "activityIds": [
+      "auto-belay-lane-boundaries",
+      "auto-belay-pace-control"
+     ]
+    },
+    {
+     "title": "Lowering position",
+     "minutes": 10,
+     "activityIds": [
+      "auto-belay-lowering-position"
+     ]
+    },
+    {
+     "title": "Supervised climbs + reach tasks",
+     "minutes": 30,
+     "activityIds": [
+      "auto-belay-reach-games-low",
+      "staff-controlled-first-auto-belay"
+     ]
+    },
+    {
+     "title": "Downclimb finish practice",
+     "minutes": 10,
+     "activityIds": [
+      "downclimb-to-auto-belay-unclip"
+     ]
+    },
+    {
+     "title": "Easy color volume",
+     "minutes": 10,
+     "activityIds": [
+      "auto-belay-endurance-colors"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Top-Rope Checks and Trust (Ages 6–9)",
+   "discipline": "top-rope",
+   "ageId": "ages-6-9",
+   "minutes": 90,
+   "notes": "Ground-school belay may begin per gym policy with coach backup. Partner checks are non-negotiable.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "pulse-raiser",
+     "easy-climbing-build-up"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Figure-8 dressing lab",
+     "minutes": 15,
+     "activityIds": [
+      "figure-8-dressing-lab"
+     ]
+    },
+    {
+     "title": "Partner check point-trace",
+     "minutes": 10,
+     "activityIds": [
+      "partner-check-point-trace"
+     ]
+    },
+    {
+     "title": "Commands + take/lower",
+     "minutes": 10,
+     "activityIds": [
+      "commands-clarity-ladder",
+      "take-and-lower-sequence"
+     ]
+    },
+    {
+     "title": "Ground school belay (backed up)",
+     "minutes": 20,
+     "activityIds": [
+      "ground-school-belay",
+      "backup-belayer-habit"
+     ]
+    },
+    {
+     "title": "Push-off fall practice (tiny)",
+     "minutes": 15,
+     "activityIds": [
+      "push-off-fall-practice"
+     ]
+    },
+    {
+     "title": "Easy endurance laps",
+     "minutes": 15,
+     "activityIds": [
+      "top-rope-endurance-laps"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Auto-Belay Independence Block (Ages 9–12)",
+   "discipline": "auto-belay",
+   "ageId": "ages-9-12",
+   "minutes": 120,
+   "notes": "Staff permission to use auto belays required for every climber before any auto-belay lap. Full self-routine with partner/coach double-check. Endurance only after the routine is automatic—ABC complacency theme.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "climber-led-warm-up"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Routine refresh + retraction test",
+     "minutes": 15,
+     "activityIds": [
+      "auto-belay-clip-in-routine",
+      "auto-belay-retraction-test"
+     ]
+    },
+    {
+     "title": "Lane + pace control",
+     "minutes": 15,
+     "activityIds": [
+      "auto-belay-lane-boundaries",
+      "auto-belay-pace-control"
+     ]
+    },
+    {
+     "title": "Lowering + downclimb finish",
+     "minutes": 20,
+     "activityIds": [
+      "auto-belay-lowering-position",
+      "downclimb-to-auto-belay-unclip"
+     ]
+    },
+    {
+     "title": "Technique on auto belay",
+     "minutes": 25,
+     "activityIds": [
+      "auto-belay-reach-games-low",
+      "top-rope-route-preview"
+     ]
+    },
+    {
+     "title": "Endurance colors",
+     "minutes": 25,
+     "activityIds": [
+      "auto-belay-endurance-colors"
+     ]
+    },
+    {
+     "title": "Systems review",
+     "minutes": 15,
+     "activityIds": [
+      "what-is-wrong"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Top-Rope Systems and Fall Comfort (Ages 9–12)",
+   "discipline": "top-rope",
+   "ageId": "ages-9-12",
+   "minutes": 120,
+   "notes": "Belay certification remains gym-gated. Fall practice stays on top rope at the climber’s comfort-zone edge.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "pulse-raiser",
+     "joint-circles",
+     "easy-climbing-build-up"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Closed system + partner check",
+     "minutes": 15,
+     "activityIds": [
+      "closed-system-rope-end",
+      "partner-check-point-trace"
+     ]
+    },
+    {
+     "title": "Belay stance + pay out / take in",
+     "minutes": 25,
+     "activityIds": [
+      "belay-stance-practice",
+      "paying-out-and-taking-in",
+      "backup-belayer-habit"
+     ]
+    },
+    {
+     "title": "Route preview + rest hunt",
+     "minutes": 20,
+     "activityIds": [
+      "top-rope-route-preview",
+      "top-rope-rest-hunt"
+     ]
+    },
+    {
+     "title": "Push-off and progressive slump",
+     "minutes": 25,
+     "activityIds": [
+      "push-off-fall-practice",
+      "progressive-top-rope-slump"
+     ]
+    },
+    {
+     "title": "Endurance laps",
+     "minutes": 20,
+     "activityIds": [
+      "top-rope-endurance-laps"
+     ]
+    },
+    {
+     "title": "Lead readiness talk (no live lead)",
+     "minutes": 10,
+     "activityIds": [
+      "lead-age-readiness-talk"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Auto-Belay Training Tool Block (Ages 12+)",
+   "discipline": "auto-belay",
+   "ageId": "ages-12-plus",
+   "minutes": 120,
+   "notes": "Staff permission to use auto belays required for every climber before any auto-belay lap. Treat auto belay as a training tool (endurance, mock-lead backup) while keeping ABC double-check discipline against complacency.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "climber-led-warm-up"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Double-check under fatigue discussion",
+     "minutes": 10,
+     "activityIds": [
+      "auto-belay-clip-in-routine",
+      "auto-belay-retraction-test"
+     ]
+    },
+    {
+     "title": "Pace + lane mastery",
+     "minutes": 15,
+     "activityIds": [
+      "auto-belay-pace-control",
+      "auto-belay-lane-boundaries"
+     ]
+    },
+    {
+     "title": "Endurance colors",
+     "minutes": 30,
+     "activityIds": [
+      "auto-belay-endurance-colors"
+     ]
+    },
+    {
+     "title": "Mock lead with auto-belay backup",
+     "minutes": 35,
+     "activityIds": [
+      "mock-lead-auto-belay-backup",
+      "first-three-clips-focus"
+     ]
+    },
+    {
+     "title": "Downclimb finishes",
+     "minutes": 15,
+     "activityIds": [
+      "downclimb-to-auto-belay-unclip"
+     ]
+    },
+    {
+     "title": "Systems review",
+     "minutes": 10,
+     "activityIds": [
+      "what-is-wrong"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Top-Rope Mastery & Fall Ladder (Ages 12+)",
+   "discipline": "top-rope",
+   "ageId": "ages-12-plus",
+   "minutes": 120,
+   "notes": "Uses Rock & Sun / Prowess top-rope stages before any lead fall work.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "pulse-raiser",
+     "easy-climbing-build-up"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Partner check + closed system",
+     "minutes": 10,
+     "activityIds": [
+      "partner-check-point-trace",
+      "closed-system-rope-end"
+     ]
+    },
+    {
+     "title": "Belay quality block",
+     "minutes": 25,
+     "activityIds": [
+      "belay-stance-practice",
+      "paying-out-and-taking-in",
+      "take-and-lower-sequence"
+     ]
+    },
+    {
+     "title": "Route preview + rests",
+     "minutes": 20,
+     "activityIds": [
+      "top-rope-route-preview",
+      "top-rope-rest-hunt"
+     ]
+    },
+    {
+     "title": "Fall ladder stages 1–3",
+     "minutes": 30,
+     "activityIds": [
+      "push-off-fall-practice",
+      "pendulum-comfort-top-rope",
+      "clip-and-let-go-top-rope"
+     ]
+    },
+    {
+     "title": "Progressive slump",
+     "minutes": 15,
+     "activityIds": [
+      "progressive-top-rope-slump"
+     ]
+    },
+    {
+     "title": "Endurance laps",
+     "minutes": 15,
+     "activityIds": [
+      "top-rope-endurance-laps"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Lead Clinic Sample (Ages 12+)",
+   "discipline": "lead",
+   "ageId": "ages-12-plus",
+   "minutes": 120,
+   "notes": "JUSTIFICATION: Aligns with ~12–13+ course norms (GVSU intermediate lead lesson; Camp5 recommends 13, 10–12 only with adult; SNCS Level 2 age 13). Live lead and lead falls only for climbers inside the gym’s certification pathway with instructor belay as required. Lead content is for ages 12+ and 14+ only (Casey 2026-11-09).",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "climber-led-warm-up"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Readiness + soft-catch concept lab",
+     "minutes": 15,
+     "activityIds": [
+      "lead-age-readiness-talk",
+      "soft-catch-concept-lab"
+     ]
+    },
+    {
+     "title": "Clipping errors lab",
+     "minutes": 20,
+     "activityIds": [
+      "back-clip-spotting-board",
+      "z-clip-recognition-drill",
+      "gate-orientation-drill"
+     ]
+    },
+    {
+     "title": "Stance + first three clips",
+     "minutes": 20,
+     "activityIds": [
+      "clipping-stance-finder",
+      "first-three-clips-focus"
+     ]
+    },
+    {
+     "title": "Mock lead block",
+     "minutes": 25,
+     "activityIds": [
+      "mock-lead-auto-belay-backup",
+      "rope-behind-leg-awareness",
+      "rope-drag-zigzag-demo"
+     ]
+    },
+    {
+     "title": "Lead fall below the draw (clinic)",
+     "minutes": 20,
+     "activityIds": [
+      "lead-fall-below-the-draw"
+     ]
+    },
+    {
+     "title": "Lead belay ground skills",
+     "minutes": 15,
+     "activityIds": [
+      "paying-out-and-taking-in",
+      "belay-stance-practice"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Top-Rope Quality & Mentoring (Ages 14+)",
+   "discipline": "top-rope",
+   "ageId": "ages-14-plus",
+   "minutes": 120,
+   "notes": "Older teens refine belay quality and may teach-back checks to younger groups under coach oversight.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "climber-led-warm-up"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Teach-back partner checks",
+     "minutes": 15,
+     "activityIds": [
+      "partner-check-point-trace",
+      "commands-clarity-ladder"
+     ]
+    },
+    {
+     "title": "Belay polish",
+     "minutes": 25,
+     "activityIds": [
+      "belay-stance-practice",
+      "paying-out-and-taking-in",
+      "backup-belayer-habit"
+     ]
+    },
+    {
+     "title": "Route read + rests",
+     "minutes": 20,
+     "activityIds": [
+      "top-rope-route-preview",
+      "top-rope-rest-hunt"
+     ]
+    },
+    {
+     "title": "Fall comfort maintenance",
+     "minutes": 25,
+     "activityIds": [
+      "push-off-fall-practice",
+      "clip-and-let-go-top-rope",
+      "progressive-top-rope-slump"
+     ]
+    },
+    {
+     "title": "Endurance quality laps",
+     "minutes": 20,
+     "activityIds": [
+      "top-rope-endurance-laps"
+     ]
+    },
+    {
+     "title": "Systems mistake lab",
+     "minutes": 10,
+     "activityIds": [
+      "what-is-wrong"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Lead Performance Block (Ages 14+)",
+   "discipline": "lead",
+   "ageId": "ages-14-plus",
+   "minutes": 120,
+   "notes": "JUSTIFICATION: Ages 14+ matches competitive/training tracks and typical lead-card ages in published courses (Camp5 Youth Team expects lead proficiency; SNCS Level 2 age 13+). Still certification-gated; coach supervises fall practice.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "climber-led-warm-up"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Soft-catch concept + commands",
+     "minutes": 10,
+     "activityIds": [
+      "soft-catch-concept-lab",
+      "commands-clarity-ladder"
+     ]
+    },
+    {
+     "title": "Error recognition speed (personal accuracy)",
+     "minutes": 20,
+     "activityIds": [
+      "back-clip-spotting-board",
+      "z-clip-recognition-drill"
+     ]
+    },
+    {
+     "title": "First three clips + drag line",
+     "minutes": 20,
+     "activityIds": [
+      "first-three-clips-focus",
+      "rope-drag-zigzag-demo",
+      "clipping-stance-finder"
+     ]
+    },
+    {
+     "title": "Mock or live lead per certification",
+     "minutes": 30,
+     "activityIds": [
+      "mock-lead-auto-belay-backup",
+      "rope-behind-leg-awareness"
+     ]
+    },
+    {
+     "title": "Lead fall below the draw",
+     "minutes": 20,
+     "activityIds": [
+      "lead-fall-below-the-draw"
+     ]
+    },
+    {
+     "title": "Lead belay skills",
+     "minutes": 15,
+     "activityIds": [
+      "paying-out-and-taking-in",
+      "belay-stance-practice"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Auto-Belay Maintenance Habits (Ages 14+)",
+   "discipline": "auto-belay",
+   "ageId": "ages-14-plus",
+   "minutes": 120,
+   "notes": "Staff permission to use auto belays required for every climber before any auto-belay lap. Optional block: experienced teens are the highest complacency risk on auto belays per ABC. Keep the routine sacred while using auto belay for volume and mock-lead backup.",
+   "warmup": {
+    "title": "Warm-up",
+    "minutes": 5,
+    "activityIds": [
+     "climber-led-warm-up"
+    ]
+   },
+   "blocks": [
+    {
+     "title": "Complacency + double-check",
+     "minutes": 15,
+     "activityIds": [
+      "auto-belay-clip-in-routine",
+      "auto-belay-retraction-test"
+     ]
+    },
+    {
+     "title": "Pace mastery",
+     "minutes": 10,
+     "activityIds": [
+      "auto-belay-pace-control"
+     ]
+    },
+    {
+     "title": "Endurance colors",
+     "minutes": 35,
+     "activityIds": [
+      "auto-belay-endurance-colors"
+     ]
+    },
+    {
+     "title": "Mock-lead backup session",
+     "minutes": 35,
+     "activityIds": [
+      "mock-lead-auto-belay-backup",
+      "first-three-clips-focus"
+     ]
+    },
+    {
+     "title": "Downclimb finishes + lane review",
+     "minutes": 20,
+     "activityIds": [
+      "downclimb-to-auto-belay-unclip",
+      "auto-belay-lane-boundaries"
+     ]
+    }
+   ]
+  }
+ ]
+}

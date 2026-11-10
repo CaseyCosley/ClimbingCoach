@@ -11,7 +11,7 @@
     B: function () { return "Rest fingers, then a quick show-me of the skill."; }
   };
 
-  H.loadAll(["curricula", "activities", "vocabulary", "pages"]).then(function (d) {
+  H.loadAll(["curricula", "activities", "vocabulary", "pages", "rope-lessons"]).then(function (d) {
     var cur = d.curricula, P = d.pages.curricula, CAT = cur.categories;
     var aIdx = H.indexByName(d.activities.items), vIdx = H.indexByName(d.vocabulary.items);
     var la = function (n) { return H.linkName(n, aIdx, H.actHref); };
@@ -36,11 +36,16 @@
         m = now ? now.m : 0;
         w = now ? now.w : 0;
       }
+      var disc = params.get("discipline") || "bouldering";
+      if (!H.DISCIPLINES.some(function (x) { return x[0] === disc; })) disc = "bouldering";
+      var gid = named ? params.get("group") : cur.groups[0].id;
+      if (disc === "lead" && !H.leadOk(gid)) disc = "bouldering";
       return {
-        g: named ? params.get("group") : cur.groups[0].id,
+        g: gid,
         view: VIEWS[params.get("view")] ? params.get("view") : "lesson",
         m: m,
-        w: w
+        w: w,
+        discipline: disc
       };
     }
     var state = readParams(location.search);
@@ -53,6 +58,13 @@
     gsel.innerHTML = cur.groups.map(function (g) { return '<option value="' + g.id + '">' + esc(g.name) + "</option>"; }).join("");
     gsel.addEventListener("change", function () {
       state.g = gsel.value; state.tabs = {};
+      if (state.discipline === "lead" && !H.leadOk(state.g)) state.discipline = "bouldering";
+      render();
+    });
+    document.getElementById("disc-nav").addEventListener("click", function (e) {
+      var a = e.target.closest("[data-disc]"); if (!a || a.getAttribute("aria-disabled") === "true") { e.preventDefault(); return; }
+      e.preventDefault();
+      state.discipline = a.getAttribute("data-disc");
       render();
     });
     document.getElementById("view-switch").addEventListener("click", function (e) {
@@ -110,7 +122,9 @@
       return out;
     }
     function urlFor() {
-      return "?group=" + state.g + "&view=" + state.view + "&month=" + state.m + "&week=" + (state.w + 1);
+      var u = "?group=" + state.g + "&view=" + state.view + "&month=" + state.m + "&week=" + (state.w + 1);
+      if (state.discipline && state.discipline !== "bouldering") u += "&discipline=" + state.discipline;
+      return u;
     }
     function sync(mode) {
       var next = urlFor();
@@ -121,7 +135,7 @@
     }
     window.addEventListener("popstate", function () {
       var next = readParams(location.search);
-      state.g = next.g; state.view = next.view; state.m = next.m; state.w = next.w;
+      state.g = next.g; state.view = next.view; state.m = next.m; state.w = next.w; state.discipline = next.discipline;
       state.road = state.m;
       render("replace");
     });
@@ -146,18 +160,28 @@
     function render(mode) {
       var g = G();
       gsel.value = g.id;
+      var rope = state.discipline !== "bouldering";
+      document.getElementById("disc-nav").innerHTML = H.DISCIPLINES.map(function (x) {
+        var off = x[0] === "lead" && !H.leadOk(g.id);
+        if (off) return '<span class="is-off">' + esc(x[1]) + ' <span class="hint">Ages 12+</span></span>';
+        return '<a href="#" data-disc="' + x[0] + '"' + (x[0] === state.discipline ? ' aria-current="page"' : "") + ">" + esc(x[1]) + "</a>";
+      }).join("");
+      document.getElementById("view-switch").hidden = rope;
+      document.querySelectorAll(".year-extra").forEach(function (n) { n.hidden = rope; });
       var tw = document.getElementById("this-week");
-      if (tw) tw.innerHTML = H.lessonCard(g);
+      if (tw) tw.innerHTML = rope ? "" : H.lessonCard(g);
       document.querySelectorAll("#view-switch [data-view]").forEach(function (b) {
         var on = b.dataset.view === state.view;
         b.setAttribute("aria-pressed", on ? "true" : "false");
         b.setAttribute("aria-selected", on ? "true" : "false");
       });
-      var html = state.view === "roadmap" ? roadmap(g)
+      var html = rope ? ropeLesson(g)
+        : state.view === "roadmap" ? roadmap(g)
         : state.view === "months" ? months(g)
         : state.view === "ladder" ? ladder(g)
         : state.view === "table" ? table(g)
         : lesson(g);
+      if (!rope && state.view === "lesson") html += wallAngles();
       host.innerHTML = html;
       var games = document.getElementById("games");
       if (games) games.innerHTML = H.table(["Month", "Weeks 1 and 3", "Weeks 2 and 4"], g.gamesByMonth.map(function (r) {
@@ -174,6 +198,121 @@
       var notes = document.getElementById("notes");
       if (notes) notes.innerHTML = "<ul>" + g.notes.map(function (n) { return "<li>" + esc(n) + "</li>"; }).join("") + "</ul>";
       sync(mode || "push");
+    }
+
+    function byId(id) {
+      for (var i = 0; i < d.activities.items.length; i++) if (d.activities.items[i].id === id) return d.activities.items[i];
+      return null;
+    }
+    function actById(id) {
+      var a = byId(id);
+      return a ? '<a class="act" href="' + H.actHref(a) + '">' + esc(a.name) + "</a>" : esc(id);
+    }
+    function frame(src, alt) {
+      return '<div class="frame"><img src="' + src + '" alt="' + esc(alt) + '"></div>';
+    }
+    function credit(text, links) {
+      return '<p class="credit"><span><strong>Diagram: Petzl</strong> — ' + text + "</span>" + links + "</p>";
+    }
+    var PETZL = {
+      tie: "https://www.petzl.com/US/en/Sport/Tying-in-with-a-figure-8-knot",
+      book: "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+      reverso: "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf",
+      grigri: "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw30589f53/media/product/technical-notice-GRIGRI-3_068Tx000009YCjEIAW.pdf"
+    };
+    function tieIn() {
+      return '<article class="diag"><h2>Tie in through both tie-in points</h2>' +
+        '<p class="what">Check that the rope passes through both tie-in points. Petzl’s harness notice says: “Tie in to the two tie-in points. Always check the knot before starting to climb.” On a harness with a belay loop and two tie-in points, the Access Book labels those two points as the rope attachment point. The finished figure-eight sits against the harness with a tail of at least 10 cm / 3.9 in (Access Book) — the notice marks the same tail “10 cm mini.”</p>' +
+        '<div class="pair">' +
+        frame("assets/diagrams/petzl/tie-in-ifu-sequence.png", "Petzl harness notice, section 6 Tying in: form a figure-eight, pass the tail through both tie-in points, retrace, finished knot with 10 cm tail") +
+        frame("assets/diagrams/petzl/tie-in-finished-both-points.png", "Petzl Access Book: rope attachment point on a harness with a belay loop and two tie-in points, tail 10 cm or 3.9 inch minimum") +
+        "</div>" +
+        credit("left, sit-harness technical notice, section 6; right, ACCESS BOOK #1, booklet page 2",
+          '<a href="' + PETZL.tie + '">View on Petzl</a><a href="' + PETZL.book + '">Access Book on Petzl</a>') +
+        '<div class="pair" style="margin-top:14px">' +
+        frame("assets/diagrams/petzl/tie-in-accessbook-figure8.png", "Petzl Access Book: tying in with a figure-eight knot, steps through both tie-in points, finished tail 10 cm or 3.9 inch minimum") +
+        frame("assets/diagrams/petzl/tie-in-finished-10cm-closeup.png", "Petzl Access Book: finished figure-eight against the harness, tail marked 10 cm or 3.9 inch minimum") +
+        "</div>" +
+        credit("ACCESS BOOK #1, booklet page 3, tying in with a figure-eight knot; finished tail marked 10 cm / 3.9 inch minimum",
+          '<a href="' + PETZL.book + '">View on Petzl</a>') +
+        "</article>";
+    }
+    function reverso() {
+      return '<article class="diag"><h2>Load a tube-style device</h2>' +
+        '<p class="what">Check that a bight of rope is pushed through a slot of the REVERSO and that a locking carabiner passes through that bight and the device cable, then lock the sleeve. The notice titles this sequence “6a. Installing the REVERSO on the harness,” under “Belaying the leader.” The notice also states that the REVERSO does not automatically block the rope.</p>' +
+        frame("assets/diagrams/petzl/reverso-6a-install.png", "Petzl REVERSO notice section 6a: installing the device on the harness in three steps, with locker through the bight and the cable") +
+        '<p class="what">Section 6b is titled “Universal belay position” and says “always hold the brake side of the rope.”</p>' +
+        frame("assets/diagrams/petzl/reverso-6b-belay-position.png", "Petzl REVERSO notice section 6b: universal belay position, always hold the brake side of the rope") +
+        credit("REVERSO technical notice, PDF page 2, sections 6a and 6b",
+          '<a href="' + PETZL.reverso + '">View on Petzl</a>') +
+        "</article>";
+    }
+    function grigri() {
+      return '<article class="diag"><h2>Load a GRIGRI</h2>' +
+        '<p class="what">Check that the rope follows the climber-side and brake-hand markings on the device (steps 1–3), then clip a locking carabiner through the device and the harness (step 4). The English notice calls this section “Installing the GRIGRI” and says to use the markings on the product so the rope is installed in the proper direction. The diagram plate itself is headed “GRIGRI + installation.”</p>' +
+        frame("assets/diagrams/petzl/grigri-loading.png", "Petzl GRIGRI notice section 6: open the side plate, load the rope following the markings, close the plate, clip a locking carabiner to the harness") +
+        '<p class="what">The same notice plate “5. Function principle and test” shows the loaded device and the function test: pull the climber strand while holding the brake strand.</p>' +
+        frame("assets/diagrams/petzl/grigri-function-test.png", "Petzl GRIGRI notice section 5: function principle and test, climber strand pulled while the brake strand is held") +
+        credit("GRIGRI technical notice D0015500K, PDF page 1, sections 6 and 5",
+          '<a href="' + PETZL.grigri + '">View on Petzl</a>') +
+        "</article>";
+    }
+    function topSystem() {
+      return '<article class="diag"><h2>The top-rope system</h2>' +
+        '<p class="what">Check that one rope runs from the climber up to the top and back down to the belayer — the Access Book panel titled “Top rope with rope in place.” Next to it, “Installing a top rope at the belay anchor” shows two attachment points and two carabiners (marked in green), with other arrangements drawn in orange frames. In “Primary belaying position,” the booklet says “Always hold the brake side of the rope.”</p>' +
+        '<div class="trio">' +
+        frame("assets/diagrams/petzl/top-rope-in-place.png", "Petzl Access Book: top rope with rope in place, one rope from climber to top anchor and down to belayer") +
+        frame("assets/diagrams/petzl/top-rope-anchor-install.png", "Petzl Access Book: installing a top rope at the belay anchor, two points and two carabiners") +
+        frame("assets/diagrams/petzl/top-rope-primary-position.png", "Petzl Access Book: primary belaying position, belayer looking up and holding the brake side of the rope") +
+        "</div>" +
+        credit("ACCESS BOOK #1, booklet pages 6–7 (PDF page 5)",
+          '<a href="' + PETZL.book + '">View on Petzl</a>') +
+        "</article>";
+    }
+    function wallAngles() {
+      return '<article class="diag"><h2>Wall angles</h2>' +
+        '<p class="what">Three side views. The climber’s side is on the left of each panel: slab leans away, vertical is perpendicular to the floor, overhang leans toward the climber.</p>' +
+        frame("assets/diagrams/overview/wall-angles.svg", "Wall angles: slab leans away, vertical is perpendicular to the floor, overhang leans toward the climber") +
+        "</article>";
+    }
+    function autoBelayFig() {
+      return '<article class="diag"><h2>Auto belay</h2>' +
+        '<p class="what">A top-mounted housing pays out webbing. The connector clips to the harness belay loop only. Staff permission to use auto belays is required before anyone clips in.</p>' +
+        frame("assets/diagrams/overview/auto-belay.svg", "Auto belay: webbing from a top housing, connector on the belay loop only") +
+        "</article>";
+    }
+    function figuresFor(lesson) {
+      var young = lesson.ageId === "parent-child" || lesson.ageId === "ages-3-4";
+      if (lesson.discipline === "auto-belay") return autoBelayFig();
+      if (lesson.discipline === "lead") return grigri() + reverso();
+      if (lesson.ageId === "ages-9-12") return tieIn() + reverso() + grigri() + topSystem();
+      if (young) return topSystem();
+      return tieIn() + reverso() + topSystem();
+    }
+    function ropeLesson(g) {
+      var lessons = (d["rope-lessons"].items || []).filter(function (L) {
+        return L.ageId === g.id && L.discipline === state.discipline;
+      });
+      if (!lessons.length) {
+        return '<article class="plan"><h2>No sample lesson</h2><p class="note">This age group does not have a ' +
+          esc(H.discLabel(state.discipline)) + " sample in the rope lessons.</p></article>";
+      }
+      return lessons.map(function (L) {
+        var rows = [{ title: L.warmup.title, minutes: L.warmup.minutes, ids: L.warmup.activityIds, kind: "Warm-up" }]
+          .concat(L.blocks.map(function (b) { return { title: b.title, minutes: b.minutes, ids: b.activityIds, kind: "Skill" }; }));
+        var body = rows.map(function (r) {
+          return "<tr><td class=\"mins\">" + r.minutes + "<span>min</span></td><td>" + esc(r.kind) + "</td><td>" +
+            r.ids.map(actById).join(", ") + "</td><td>" + esc(r.title) + "</td></tr>";
+        }).join("");
+        return '<p class="kicker">Lesson · ' + esc(g.name) + " · " + esc(H.discLabel(L.discipline)) + "</p>" +
+          "<h2>" + esc(L.title) + "</h2>" +
+          '<p class="note">Total ' + L.minutes + " minutes. Warm-up about " + L.warmup.minutes + " minutes, then skill blocks.</p>" +
+          (L.notes ? '<p class="lead">' + esc(L.notes) + "</p>" : "") +
+          '<section class="plan"><table class="blocks"><thead><tr><th>Time</th><th>Block</th><th>Activity</th><th>Notes</th></tr></thead><tbody>' +
+          body + "</tbody></table></section>" +
+          '<p class="lead">Manufacturer diagrams for the checks that sit on this lesson. Each Petzl figure is credited below. The captions only repeat what the source drawing or notice says to look for.</p>' +
+          figuresFor(L);
+      }).join("");
     }
 
     function lesson(g) {
