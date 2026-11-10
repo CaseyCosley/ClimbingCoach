@@ -235,6 +235,13 @@
         "</div>" +
         credit("ACCESS BOOK #1, booklet page 3, tying in with a figure-eight knot; finished tail marked 10 cm / 3.9 inch minimum",
           '<a href="' + PETZL.book + '">View on Petzl</a>') +
+        '<div class="pair" style="margin-top:14px">' +
+        frame("assets/diagrams/petzl/harness-two-tie-in-points.png", "Petzl Access Book: harness with a belay loop and two tie-in points") +
+        frame("assets/diagrams/petzl/tie-in-accessbook-steps-3-to-6.png", "Petzl Access Book: figure-eight steps 3 to 6 through both tie-in points, finished tail 10 cm or 3.9 inch minimum") +
+        "</div>" +
+        frame("assets/diagrams/petzl/tie-in-ifu-finished.png", "Petzl harness notice: finished figure-eight against both tie-in points, tail marked 10 cm mini") +
+        credit("ACCESS BOOK #1, booklet page 2, harness with a belay loop and two tie-in points, and booklet page 3, steps 3–6; sit-harness notice, finished knot, tail marked 10 cm mini",
+          '<a href="' + PETZL.book + '">Access Book on Petzl</a><a href="' + PETZL.tie + '">View on Petzl</a>') +
         "</article>";
     }
     function reverso() {
