@@ -101,7 +101,7 @@ game_flag = re.compile("|".join([
     r"\bfastest\b",
     r"\bwho holds\b",
     r"\bwho can name\b",
-    r"\bpoints\b",          # a score; not the verb "point"
+        r"\bpoints\b(?!\s+(?:with|to|at))",  # a score; not the verb "points to/with"
     r"\ba point\b",
     r"\bscore\w*",
     r"\bbrackets?\b",
@@ -146,6 +146,13 @@ game_allow = [
         r"tie-in points",              # harness hardware
         r"halfway points",             # the Zone hold, a real comp term
         r"harness points",
+        r"hard points",                # harness hardware, not a score
+        r"attachment points",
+        r"clip-in points",
+        r"connection points",
+        r"points of contact",
+        r"coach points",
+        r"climber points",
         r"points to",                  # the verb, as in "points to the next hold"
         r"side points",
         r"slow sloth vs\.? quick frog",  # two ways to move, not two climbers
@@ -165,6 +172,47 @@ def scrub(text):
     for pat in game_allow:
         text = pat.sub(" ", text)
     return text
+DISC = {"bouldering", "auto-belay", "top-rope", "lead"}
+LEAD_AGES = {"ages-12-plus", "ages-14-plus"}
+for a in acts["items"]:
+    if "discipline" not in a or not isinstance(a["discipline"], list) or not a["discipline"]:
+        errors.append(f"activity {a['name']}: discipline must be a non-empty list")
+    else:
+        for x in a["discipline"]:
+            if x not in DISC: errors.append(f"activity {a['name']}: unknown discipline {x}")
+        if "lead" in a["discipline"] and any(x not in LEAD_AGES for x in a["ages"]):
+            errors.append(f"activity {a['name']}: lead is only for ages 12+ and 14+")
+    if "prereqs" not in a or not isinstance(a["prereqs"], list):
+        errors.append(f"activity {a['name']}: prereqs must be a list")
+    elif "auto-belay" in a.get("discipline", []) and not any("staff permission" in p.lower() for p in a["prereqs"]):
+        errors.append(f"activity {a['name']}: auto belay requires a staff-permission prerequisite")
+for v in voc["items"]:
+    if "discipline" not in v or not isinstance(v["discipline"], list) or not v["discipline"]:
+        errors.append(f"term {v.get('name')}: discipline must be a non-empty list")
+    else:
+        for x in v["discipline"]:
+            if x not in DISC: errors.append(f"term {v.get('name')}: unknown discipline {x}")
+ids = {a["id"] for a in acts["items"]}
+try:
+    ropes = load("rope-lessons")
+except Exception as exc:
+    errors.append(f"rope-lessons.json: {exc}")
+    ropes = {"items": []}
+for L in ropes.get("items", []):
+    if L.get("discipline") not in DISC:
+        errors.append(f"rope lesson {L.get('title')}: unknown discipline")
+    if L.get("discipline") == "lead" and L.get("ageId") not in LEAD_AGES:
+        errors.append(f"rope lesson {L.get('title')}: lead is only for ages 12+ and 14+")
+    if L.get("warmup", {}).get("minutes") != 5:
+        errors.append(f"rope lesson {L.get('title')}: warm-up must be 5 minutes")
+    total = L.get("warmup", {}).get("minutes", 0) + sum(b.get("minutes", 0) for b in L.get("blocks", []))
+    if total != L.get("minutes"):
+        errors.append(f"rope lesson {L.get('title')}: blocks add to {total}, lesson is {L.get('minutes')}")
+    for ref in L.get("warmup", {}).get("activityIds", []):
+        if ref not in ids: errors.append(f"rope lesson {L.get('title')}: unknown activity id {ref}")
+    for b in L.get("blocks", []):
+        for ref in b.get("activityIds", []):
+            if ref not in ids: errors.append(f"rope lesson {L.get('title')}: unknown activity id {ref}")
 root = pathlib.Path(__file__).resolve().parent.parent
 scan = list(D.glob("*.json")) + [root / "README.md"] + list(root.glob("*.html"))
 for path in scan:

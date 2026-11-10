@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vocabulary · Youth Climbing Coaching Hub</title>
+<title>Vocabulary · Climbing Coach</title>
 <meta name="description" content="Climbing vocabulary for coaching kids and teens, with plain, kid and little-kid definitions and how to teach each term.">
-<meta name="theme-color" content="#8e4632">
+<meta name="theme-color" content="#1F7A70">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -18,12 +18,13 @@
   <h1>Vocabulary</h1>
   <a class="how-link" href="about.html#vocabulary">How this works</a>
 </div>
-<div class="controls" role="search">
-  <label class="field" for="q">Search terms, aliases and definitions<input type="search" id="q" placeholder="e.g. crimp, belay, flag" autocomplete="off"></label>
+<nav class="discipline" id="disc-nav" aria-label="Discipline"></nav>
+<div class="toolbar" role="search">
+  <label class="field" for="q">Search<input type="search" id="q" placeholder="Term, alias or definition" autocomplete="off"></label>
   <label class="field" for="f-cat">Category<select id="f-cat"></select></label>
 </div>
-<p class="result-count" id="count" aria-live="polite"></p>
-<div class="list" id="results"></div>
+<p class="result-line" id="count" aria-live="polite"></p>
+<div id="results"></div>
 
 </main>
 <footer id="site-footer"></footer>

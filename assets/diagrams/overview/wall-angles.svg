@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" width="1600" height="980" fill="none" role="img" aria-labelledby="t d">
+  <style>
+    @font-face {
+      font-family: Fraunces;
+      src: url('../../fonts/Fraunces.ttf') format('truetype');
+      font-weight: 100 900;
+    }
+    @font-face {
+      font-family: 'Nunito Sans';
+      src: url('../../fonts/NunitoSans.ttf') format('truetype');
+      font-weight: 200 900;
+    }
+  </style>
+  <title id="t">Wall angles</title>
+  <desc id="d">Three side views with the climber’s side on the left: slab leans away, vertical is perpendicular to the floor, overhang leans toward the climber.</desc>
+  <rect width="1600" height="980" fill="#FFF9F1"/>
+<text x="48.00" y="52.00" font-family="Fraunces" font-size="28" font-weight="650" fill="#2A241C">Wall angles</text>
+<text x="48.00" y="74.00" font-family="Nunito Sans" font-size="14" font-weight="500" fill="#6A5E52">Climber’s side is on the left of each panel. Terms follow Philadelphia Rock Gyms’ indoor-wall article: vertical is essentially perpendicular to the floor.</text>
+<rect x="80.00" y="120.00" width="470.00" height="720.00" rx="16" fill="#F6EFE4" stroke="#E0D4C4" stroke-width="1.2"/>
+<text x="108.00" y="162.00" font-family="Fraunces" font-size="26" font-weight="650" fill="#2A241C">Slab</text>
+<text x="108.00" y="188.00" font-family="Nunito Sans" font-size="14" font-weight="500" fill="#6A5E52">leans away from the climber</text>
+<text x="108.00" y="208.00" font-family="Nunito Sans" font-size="13" font-weight="500" fill="#6A5E52">a few degrees less than vertical, or more</text>
+<line x1="130.00" y1="760.00" x2="500.00" y2="760.00" stroke="#2A241C" stroke-width="2"/>
+<text x="500.00" y="782.00" font-family="Nunito Sans" font-size="12" fill="#6A5E52" text-anchor="end">floor</text>
+<path d="M 280.0 760.0 L 416.5 340.0 L 444.5 340.0 L 308.0 760.0 Z" fill="#E7DCC8" stroke="#C9B79A" stroke-width="1.5"/>
+<line x1="290.00" y1="752.00" x2="426.47" y2="348.00" stroke="#BFA88A" stroke-width="1.1"/>
+<g transform="translate(319.76,613.00) rotate(0.0)">
+<ellipse cx="2.00" cy="3.00" rx="11.00" ry="8.25" fill="#8E3D22" fill-opacity="0.55"/>
+<ellipse cx="0.00" cy="0.00" rx="11.00" ry="8.25" fill="#C45C38" stroke="#8E3D22" stroke-width="1.1"/>
+<ellipse cx="-2.75" cy="-2.48" rx="3.85" ry="2.31" fill="#FFF6E8" fill-opacity="0.28"/>
+</g>
+<g transform="translate(347.06,529.00) rotate(0.0)">
+<ellipse cx="2.00" cy="3.00" rx="9.00" ry="6.75" fill="#15564E" fill-opacity="0.55"/>
+<ellipse cx="0.00" cy="0.00" rx="9.00" ry="6.75" fill="#1F7A70" stroke="#15564E" stroke-width="1.1"/>
+<ellipse cx="-2.25" cy="-2.02" rx="3.15" ry="1.89" fill="#FFF6E8" fill-opacity="0.28"/>
+</g>
+<g transform="translate(374.35,445.00) rotate(0.0)">
+<ellipse cx="2.00" cy="3.00" rx="10.00" ry="7.50" fill="#8A6A18" fill-opacity="0.55"/>
+<ellipse cx="0.00" cy="0.00" rx="10.00" ry="7.50" fill="#E0B03A" stroke="#8A6A18" stroke-width="1.1"/>
+<ellipse cx="-2.50" cy="-2.25" rx="3.50" ry="2.10" fill="#FFF6E8" fill-opacity="0.28"/>
+</g>
+<line x1="280.00" y1="760.00" x2="280.00" y2="340.00" stroke="#1F7A70" stroke-width="1.1" stroke-dasharray="5 5" stroke-opacity="0.8"/>
+<text x="288.00" y="332.00" font-family="Nunito Sans" font-size="11" fill="#1F7A70">plumb</text>
+<text x="130.00" y="782.00" font-family="Nunito Sans" font-size="13" font-weight="700" fill="#1F7A70">climber side</text>
+<line x1="130.00" y1="734.00" x2="268.00" y2="734.00" stroke="#1F7A70" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M 268.0 734.0 l -8 -4 l 0 8 Z" fill="#1F7A70" stroke="none"/>
+<rect x="590.00" y="120.00" width="470.00" height="720.00" rx="16" fill="#F6EFE4" stroke="#E0D4C4" stroke-width="1.2"/>
+<text x="618.00" y="162.00" font-family="Fraunces" font-size="26" font-weight="650" fill="#2A241C">Vertical</text>
+<text x="618.00" y="188.00" font-family="Nunito Sans" font-size="14" font-weight="500" fill="#6A5E52">perpendicular to the floor</text>
+<text x="618.00" y="208.00" font-family="Nunito Sans" font-size="13" font-weight="500" fill="#6A5E52">PRG: a few degrees either side still reads as vertical</text>
+<line x1="640.00" y1="760.00" x2="1010.00" y2="760.00" stroke="#2A241C" stroke-width="2"/>
+<text x="1010.00" y="782.00" font-family="Nunito Sans" font-size="12" fill="#6A5E52" text-anchor="end">floor</text>
+<path d="M 790.0 760.0 L 790.0 340.0 L 818.0 340.0 L 818.0 760.0 Z" fill="#E7DCC8" stroke="#C9B79A" stroke-width="1.5"/>
+<line x1="800.00" y1="752.00" x2="800.00" y2="348.00" stroke="#BFA88A" stroke-width="1.1"/>
+<g transform="translate(782.00,613.00) rotate(0.0)">
+<ellipse cx="2.00" cy="3.00" rx="11.00" ry="8.25" fill="#8E3D22" fill-opacity="0.55"/>
+<ellipse cx="0.00" cy="0.00" rx="11.00" ry="8.25" fill="#C45C38" stroke="#8E3D22" stroke-width="1.1"/>
+<ellipse cx="-2.75" cy="-2.48" rx="3.85" ry="2.31" fill="#FFF6E8" fill-opacity="0.28"/>
+</g>
+<g transform="translate(782.00,529.00) rotate(0.0)">
+<ellipse cx="2.00" cy="3.00" rx="9.00" ry="6.75" fill="#15564E" fill-opacity="0.55"/>
+<ellipse cx="0.00" cy="0.00" rx="9.00" ry="6.75" fill="#1F7A70" stroke="#15564E" stroke-width="1.1"/>
+<ellipse cx="-2.25" cy="-2.02" rx="3.15" ry="1.89" fill="#FFF6E8" fill-opacity="0.28"/>
+</g>
+<g transform="translate(782.00,445.00) rotate(0.0)">
+<ellipse cx="2.00" cy="3.00" rx="10.00" ry="7.50" fill="#8A6A18" fill-opacity="0.55"/>
+<ellipse cx="0.00" cy="0.00" rx="10.00" ry="7.50" fill="#E0B03A" stroke="#8A6A18" stroke-width="1.1"/>
+<ellipse cx="-2.50" cy="-2.25" rx="3.50" ry="2.10" fill="#FFF6E8" fill-opacity="0.28"/>
+</g>
+<line x1="790.00" y1="760.00" x2="790.00" y2="340.00" stroke="#1F7A70" stroke-width="1.1" stroke-dasharray="5 5" stroke-opacity="0.8"/>
+<text x="798.00" y="332.00" font-family="Nunito Sans" font-size="11" fill="#1F7A70">plumb</text>
+<text x="640.00" y="782.00" font-family="Nunito Sans" font-size="13" font-weight="700" fill="#1F7A70">climber side</text>
+<line x1="640.00" y1="734.00" x2="778.00" y2="734.00" stroke="#1F7A70" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M 778.0 734.0 l -8 -4 l 0 8 Z" fill="#1F7A70" stroke="none"/>
+<rect x="1100.00" y="120.00" width="470.00" height="720.00" rx="16" fill="#F6EFE4" stroke="#E0D4C4" stroke-width="1.2"/>
+<text x="1128.00" y="162.00" font-family="Fraunces" font-size="26" font-weight="650" fill="#2A241C">Overhang</text>
+<text x="1128.00" y="188.00" font-family="Nunito Sans" font-size="14" font-weight="500" fill="#6A5E52">leans toward the climber</text>
+<text x="1128.00" y="208.00" font-family="Nunito Sans" font-size="13" font-weight="500" fill="#6A5E52">more than a few degrees past vertical</text>
+<line x1="1150.00" y1="760.00" x2="1520.00" y2="760.00" stroke="#2A241C" stroke-width="2"/>
+<text x="1520.00" y="782.00" font-family="Nunito Sans" font-size="12" fill="#6A5E52" text-anchor="end">floor</text>
+<path d="M 1300.0 760.0 L 1163.5 340.0 L 1191.5 340.0 L 1328.0 760.0 Z" fill="#E7DCC8" stroke="#C9B79A" stroke-width="1.5"/>
+<line x1="1310.00" y1="752.00" x2="1173.53" y2="348.00" stroke="#BFA88A" stroke-width="1.1"/>
+<g transform="translate(1244.24,613.00) rotate(0.0)">
+<ellipse cx="2.00" cy="3.00" rx="11.00" ry="8.25" fill="#8E3D22" fill-opacity="0.55"/>
+<ellipse cx="0.00" cy="0.00" rx="11.00" ry="8.25" fill="#C45C38" stroke="#8E3D22" stroke-width="1.1"/>
+<ellipse cx="-2.75" cy="-2.48" rx="3.85" ry="2.31" fill="#FFF6E8" fill-opacity="0.28"/>
+</g>
+<g transform="translate(1216.94,529.00) rotate(0.0)">
+<ellipse cx="2.00" cy="3.00" rx="9.00" ry="6.75" fill="#15564E" fill-opacity="0.55"/>
+<ellipse cx="0.00" cy="0.00" rx="9.00" ry="6.75" fill="#1F7A70" stroke="#15564E" stroke-width="1.1"/>
+<ellipse cx="-2.25" cy="-2.02" rx="3.15" ry="1.89" fill="#FFF6E8" fill-opacity="0.28"/>
+</g>
+<g transform="translate(1189.65,445.00) rotate(0.0)">
+<ellipse cx="2.00" cy="3.00" rx="10.00" ry="7.50" fill="#8A6A18" fill-opacity="0.55"/>
+<ellipse cx="0.00" cy="0.00" rx="10.00" ry="7.50" fill="#E0B03A" stroke="#8A6A18" stroke-width="1.1"/>
+<ellipse cx="-2.50" cy="-2.25" rx="3.50" ry="2.10" fill="#FFF6E8" fill-opacity="0.28"/>
+</g>
+<line x1="1300.00" y1="760.00" x2="1300.00" y2="340.00" stroke="#1F7A70" stroke-width="1.1" stroke-dasharray="5 5" stroke-opacity="0.8"/>
+<text x="1308.00" y="332.00" font-family="Nunito Sans" font-size="11" fill="#1F7A70">plumb</text>
+<text x="1150.00" y="782.00" font-family="Nunito Sans" font-size="13" font-weight="700" fill="#1F7A70">climber side</text>
+<line x1="1150.00" y1="734.00" x2="1288.00" y2="734.00" stroke="#1F7A70" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M 1288.0 734.0 l -8 -4 l 0 8 Z" fill="#1F7A70" stroke="none"/>
+<text x="48.00" y="930.00" font-family="Nunito Sans" font-size="13" font-weight="500" fill="#6A5E52">No extra degree numbers are given as a standard. PRG: vertical is essentially perpendicular to the ground; a slab is less than vertical; an overhang is steeper than vertical.</text>
+<text x="48.00" y="950.00" font-family="Nunito Sans" font-size="13" font-weight="500" fill="#6A5E52">The three lean directions are drawn from that article’s definitions. The article’s own photographs could not be retrieved from this environment (the image URLs returned 404), so the check is against the published wording.</text>
+</svg>

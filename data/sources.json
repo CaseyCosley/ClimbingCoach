@@ -125,6 +125,736 @@
    "title": "Growth plate stress fractures in teenage climbers",
    "site": "British Mountaineering Council",
    "href": "https://services.thebmc.co.uk/media/files/Comps/Development%20Squad/Growth%20Plate%20Stress%20Fractures%20in%20Teenage%20Climbers.pdf"
+  },
+  "ABC": {
+   "title": "Autobelay risk reduction strategies",
+   "site": "Association of British Climbing Walls",
+   "href": "http://www.abcwalls.co.uk/wp-content/uploads/ABC_Walls_Autobelay_Guide_FINAL_Mar22.pdf"
+  },
+  "TRU": {
+   "title": "How to Use an Auto Belay: Step by Step Instructions",
+   "site": "TRUBLUE / Head Rush Technologies",
+   "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+  },
+  "NICAS": {
+   "title": "NICAS Clip",
+   "site": "NICAS",
+   "href": "https://nicas.co.uk/schemes/clip/"
+  },
+  "CAMP5": {
+   "title": "Lead Wall Course and youth lead prerequisites",
+   "site": "Camp5",
+   "href": "https://www.camp5.com/climb-harder/"
+  },
+  "GVSU": {
+   "title": "Lead Lesson Details",
+   "site": "Grand Valley State University",
+   "href": "https://www.gvsu.edu/cms5/asset/adcc196e-ce5d-4a4f-a6bb-75ff02d481c9/62638c6d-1660-48b4-9240-039d85bb16c4/lead_lesson_details(2).pdf"
+  },
+  "SNCS": {
+   "title": "SNCS Level 2 Sport Climbing Certification",
+   "site": "Rockerfellas / SNCS",
+   "href": "https://rockerfellasadventure.com/courses/instances/39/"
+  },
+  "BUSH": {
+   "title": "Climbing Auto Belay SOP",
+   "site": "Bushcamp / Campaspe Downs",
+   "href": "https://bushcamp.com.au/wp-content/uploads/Climbing-Auto-Belay-SOP-Campaspe-Downs.pdf"
+  },
+  "CP": {
+   "title": "Coaching practice",
+   "site": "This hub",
+   "href": ""
+  },
+  "CWAT": {
+   "title": "Building Your Team's Performance and Cooperation With Some Simple Activities",
+   "site": "Climbing Wall Association",
+   "href": "https://www.cwapro.org/blog/building-your-teams-performance-and-cooperation-with-some-simple-activities"
+  },
+  "CWAF": {
+   "title": "Making Training Fun: Incorporating games to meet youth training goals",
+   "site": "Climbing Wall Association",
+   "href": "https://www.cwapro.org/blog/making-training-fun-incorporating-games-to-meet-youth-training-goals"
+  },
+  "EVC": {
+   "title": "Build Teams on the Climbing Wall with Cooperative Games",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/build-teams-on-the-climbing-wall-with-cooperative-games"
+  },
+  "EVB": {
+   "title": "Back-to-School Means Back-to-Climbing: Traverse Wall® Activities for the New School Year",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/back-to-school-means-back-to-climbing-traverse-wall-activities-for-the-new-school-year"
+  },
+  "EWT": {
+   "title": "Traversing Wall Activities",
+   "site": "Earleywood School",
+   "href": "https://earleywood.org.uk/wp-content/uploads/sites/88/2025/03/Traversing-Wall-Activities.pdf"
+  },
+  "MOMFMP": {
+   "title": "Fundamental Movement Pattern",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/fundamental-movement-pattern/"
+  },
+  "YCT": {
+   "title": "Youth Climbing Training Guide",
+   "site": "YouthClimbing.com",
+   "href": "https://youthclimbing.com/training/"
+  },
+  "BLOKS": {
+   "title": "Slow climbing: a drill for precise movement",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/slow-motion-climbing"
+  },
+  "BLOKC": {
+   "title": "Cooldown reset for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/cooldown-general"
+  },
+  "P6": {
+   "title": "Academy: Hip Rotation Drill",
+   "site": "PitchSix",
+   "href": "https://pitchsix.com/blogs/academy/academy-hip-rotation-drill"
+  },
+  "TFC": {
+   "title": "Age-Appropriate Strength Training for Youth Climbers",
+   "site": "Training for Climbing",
+   "href": "https://trainingforclimbing.com/age-appropriate-strength-training-for-youth-climbers/"
+  },
+  "UKCJ": {
+   "title": "Injury Management and Prevention for Junior Climbers",
+   "site": "UKClimbing",
+   "href": "https://www.ukclimbing.com/articles/series/injury_management/and_prevention_junior_climbers-6269"
+  },
+  "MCOFS": {
+   "title": "FUNdamentals of Climbing Coach Resource Pack",
+   "site": "Mountaineering Council of Scotland (via Pro-Venture)",
+   "href": "https://www.pro-venture.uk/wp-content/uploads/2019/04/rock-climbing-coaching-resources.pdf"
+  },
+  "EVT": {
+   "title": "Three Great Games for a Traverse Wall®",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/three-great-games-for-a-traverse-wall"
+  },
+  "SWI": {
+   "title": "Combining Traverse Climbing with Classroom Learning",
+   "site": "Small Wall",
+   "href": "https://smallwall.ie/wp-content/uploads/2024/03/Traverse-Climbing-Games.pdf"
+  },
+  "WIKI": {
+   "title": "Glossary of climbing terms",
+   "site": "Wikipedia",
+   "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+  },
+  "BLOKH": {
+   "title": "Hover feet for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/hover-feet"
+  },
+  "BLOKM": {
+   "title": "How to mantle in climbing: a practice drill",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/mantle-practice"
+  },
+  "BLOKD": {
+   "title": "Drop knee climbing: how to do a drop knee",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/drop-knees"
+  },
+  "BLOKRO": {
+   "title": "Rock-over repeats for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/rock-over-repeats"
+  },
+  "BLOKF": {
+   "title": "Furthest-point traverse: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/furthest-point-traverse"
+  },
+  "BLOKRB": {
+   "title": "Robot exercise for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/robot-exercise"
+  },
+  "BLOKTG": {
+   "title": "Tendon glides for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/tendon-glides"
+  },
+  "BLOKHB": {
+   "title": "Hollow body hold for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/hollow-body-hold"
+  },
+  "BLOKAN": {
+   "title": "Calf and ankle high-step mobility",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/calf-ankle-high-step-mobility"
+  },
+  "BLOKOB": {
+   "title": "Open book thoracic rotation",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/open-book-thoracic-rotation"
+  },
+  "BLOKLS": {
+   "title": "Leg swings",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/leg-swings"
+  },
+  "BLOKHC": {
+   "title": "Hip circles",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/hip-circles"
+  },
+  "BLOKBF": {
+   "title": "Butterfly stretch",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/butterfly-stretch"
+  },
+  "BLOKSC": {
+   "title": "Shoulder CARs",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/shoulder-cars"
+  },
+  "BLOKPP": {
+   "title": "Push-up plus",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/push-up-plus"
+  },
+  "BLOKBD": {
+   "title": "Breathing downshift",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/breathing-downshift"
+  },
+  "BLOKDB": {
+   "title": "Dead bug for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/dead-bug"
+  },
+  "BLOKCZ": {
+   "title": "Comfort-zone ladder: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/comfort-zone-ladder"
+  },
+  "BLOKFI": {
+   "title": "Fear inventory for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/fear-inventory"
+  },
+  "BLOKSM": {
+   "title": "Sticky-man for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/sticky-man"
+  },
+  "BLOK3S": {
+   "title": "The 3 second rule in bouldering, explained",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/three-second-rule"
+  },
+  "BLOKSH": {
+   "title": "Smell the hand for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/smell-the-hand"
+  },
+  "MOMEFC": {
+   "title": "Eye To Foot Contact",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/eye-to-foot-contact/"
+  },
+  "MOMMAN": {
+   "title": "Mantle",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/mantle/"
+  },
+  "MOMDK": {
+   "title": "Drop Knee",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/drop-knee/"
+  },
+  "MOMBF": {
+   "title": "Back Flagging",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/back-flagging/"
+  },
+  "MOMRO": {
+   "title": "Rock Over",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/rock-over/"
+  },
+  "MOMSO": {
+   "title": "Shaking Out and Resting",
+   "site": "Momentum Youth Programs",
+   "href": "https://youthprograms.momentumclimbing.com/shaking-out-and-resting/"
+  },
+  "UKCG": {
+   "title": "Neil Gresham Technique And Training: Improve Your Movement",
+   "site": "UKClimbing",
+   "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+  },
+  "TFCG": {
+   "title": "Effectiveness of “Dangling Arm” and “G-Tox” Recovery Techniques",
+   "site": "Training for Climbing",
+   "href": "https://trainingforclimbing.com/effectiveness-of-dangling-arm-and-g-tox-recovery-techniques/"
+  },
+  "BLOKBK": {
+   "title": "Backstep climbing: a drill to learn it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/backstep-drill"
+  },
+  "BLOKDP": {
+   "title": "Deadpoint climbing: how to train deadpoints",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/deadpoint-training"
+  },
+  "BLOKFL": {
+   "title": "Climb with flow: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/climb-with-flow"
+  },
+  "BLOKMC": {
+   "title": "Movement centres for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/movement-centres"
+  },
+  "BLOKAA": {
+   "title": "Attempt analysis for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/attempt-analysis"
+  },
+  "BLOKBM": {
+   "title": "Beta before microbeta: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/beta-before-microbeta"
+  },
+  "BLOKPG": {
+   "title": "Session process goals: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/session-process-goals"
+  },
+  "BLOKPW": {
+   "title": "Positivity worksheet: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/positivity-worksheet"
+  },
+  "BLOKWG": {
+   "title": "World's greatest stretch for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/worlds-greatest-stretch"
+  },
+  "BLOKSQ": {
+   "title": "Deep squat hold for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/deep-squat-hold"
+  },
+  "BLOKND": {
+   "title": "No-impact dynos for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/no-impact-dynos"
+  },
+  "BLOKRS": {
+   "title": "Read, say, send for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/read-say-send"
+  },
+  "BLOKMT": {
+   "title": "Metronome climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/metronome-climbing"
+  },
+  "BLOKMS": {
+   "title": "Multiple solutions: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/multiple-solutions"
+  },
+  "BLOKVT": {
+   "title": "Vary tempo for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/vary-tempo"
+  },
+  "BLOKFF": {
+   "title": "Fast feet for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/fast-feet"
+  },
+  "BLOKM1": {
+   "title": "-1 for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/minus-one"
+  },
+  "BLOKP1": {
+   "title": "+1 for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/plus-one"
+  },
+  "BLOKDR": {
+   "title": "Draw the boulder for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/draw-boulder"
+  },
+  "BLOKRD": {
+   "title": "Remember all details: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/remember-details"
+  },
+  "BLOKOL": {
+   "title": "Overlapping links for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/overlapping-links"
+  },
+  "BLOKFC": {
+   "title": "Feet cut after every move for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/feet-cut-every-move"
+  },
+  "BLOKBC": {
+   "title": "Boulderbuilding cards: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/boulderbuilding-cards"
+  },
+  "BLOKVZ": {
+   "title": "Visualize your project: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/visualization"
+  },
+  "BLOKCW": {
+   "title": "Concentration worksheet: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/concentration-worksheet"
+  },
+  "BLOKJR": {
+   "title": "Jump rope for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/jump-rope"
+  },
+  "BLOKBO": {
+   "title": "Balance board for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/balance-board"
+  },
+  "BLOKBG": {
+   "title": "Beanbags on feet for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/beanbags"
+  },
+  "BLOKQC": {
+   "title": "Quiet climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/quiet-climbing"
+  },
+  "BLOKFS": {
+   "title": "Foot swaps for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/foot-swaps"
+  },
+  "BLOKNH": {
+   "title": "No-hands climbing: a footwork drill on slabs",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/no-hands"
+  },
+  "BLOKPV": {
+   "title": "Pivoting on one foothold for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/pivoting-one-foothold"
+  },
+  "BLOKSL": {
+   "title": "Sloth and monkey for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/sloth-and-monkey"
+  },
+  "BLOKSA": {
+   "title": "Straight-arm efficiency drill for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/straight-arm-efficiency"
+  },
+  "BLOKUD": {
+   "title": "Up-and-down boulders: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/up-down-boulders"
+  },
+  "BLOKBT": {
+   "title": "Climb with full-body tension: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/full-body-tension"
+  },
+  "BLOKOH": {
+   "title": "One hand / one foot: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/one-hand-one-foot"
+  },
+  "BLOKEF": {
+   "title": "Eyes on the footholds: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/eyes-on-footholds"
+  },
+  "BLOKTO": {
+   "title": "Tape over holds for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/taped-holds"
+  },
+  "BLOKCR": {
+   "title": "Climb and reverse the crux: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/climb-and-reverse-crux"
+  },
+  "BLOKCB": {
+   "title": "Compression bouldering: how to squeeze",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/compression-boulders"
+  },
+  "BLOKHX": {
+   "title": "Fast hands (hip bounce): how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/fast-hands-hip-bounce"
+  },
+  "BLOKDT": {
+   "title": "Double-through climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/double-through"
+  },
+  "BLOKAF": {
+   "title": "All holds to a chosen finish for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/all-holds-to-finish"
+  },
+  "BLOKPF": {
+   "title": "Perfect boulders in the fewest attempts: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/perfect-fewest-attempts"
+  },
+  "BLOKTL": {
+   "title": "Twist lock climbing: how to learn the move",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/twist-lock-moves"
+  },
+  "BLOKWA": {
+   "title": "Wall angel hold for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/wall-angel-hold"
+  },
+  "BLOKSP": {
+   "title": "Side plank for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/side-plank"
+  },
+  "BLOKSU": {
+   "title": "Superman back extensions for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/superman"
+  },
+  "BLOKHS": {
+   "title": "High-step stretch on the wall for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/high-step-stretch-boulders"
+  },
+  "BLOKST": {
+   "title": "Strengths worksheet: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/qualities-worksheet"
+  },
+  "BLOKRX": {
+   "title": "Relaxation exercises: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/relaxation-exercises"
+  },
+  "BLOK6M": {
+   "title": "Six one-minute reps: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/six-in-six"
+  },
+  "CLIM7": {
+   "title": "Training: 7 Simple Drills To Improve Footwork And Technique",
+   "site": "Climbing",
+   "href": "https://www.climbing.com/skills/training-7-simple-drills-to-improve-footwork-and-technique/"
+  },
+  "BLOKPO": {
+   "title": "Pogos for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/pogos"
+  },
+  "BLOKSD": {
+   "title": "Stabilize dynos for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/stabilize-dynos"
+  },
+  "BLOKHL": {
+   "title": "Heel-hook load repeats: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/heel-hook-load-repeats"
+  },
+  "BLOKTP": {
+   "title": "Toe-pull tension drill: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/toe-pull-tension-drill"
+  },
+  "BLOKFM": {
+   "title": "Forearm self-massage: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/forearm-self-massage"
+  },
+  "BLOKPC": {
+   "title": "Plank clocks for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/plank-clocks"
+  },
+  "BLOKEC": {
+   "title": "Execute a circuit perfectly for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/perfect-circuit"
+  },
+  "BLOKHD": {
+   "title": "High-step into dyno: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/high-step-into-dyno"
+  },
+  "BLOKDG": {
+   "title": "Deadpoint generators: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/deadpoint-generators"
+  },
+  "BLOKCK": {
+   "title": "Heel-toe cam and knee bar: how to climb them",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/heel-toe-cam-kneebar"
+  },
+  "BLOKFG": {
+   "title": "Flagging in climbing: a drill to learn when to flag",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/flagging-isolation"
+  },
+  "BLOKSB": {
+   "title": "Easy skill bite for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/wall-skill-bite"
+  },
+  "BLOKMQ": {
+   "title": "Movement quality warm-up for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/warmup-movement-quality"
+  },
+  "BLOKFR": {
+   "title": "Boulder flash round: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/boulder-flash-round"
+  },
+  "BLOKBB": {
+   "title": "Build balance boulders: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/build-balance-boulders"
+  },
+  "BLOKSK": {
+   "title": "Squeeze the block for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/squeeze-the-block"
+  },
+  "BLOKFX": {
+   "title": "Forearm flush for climbing: how to do it",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/cooldown-forearms"
+  },
+  "BLOKHH": {
+   "title": "Heel hook climbing: how to heel hook",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/heel-hooks"
+  },
+  "BLOKTH": {
+   "title": "Toe hook climbing: how to toe hook on steep boulders",
+   "site": "Blok Sessions",
+   "href": "https://bloksessions.com/exercises/toe-hooks"
+  },
+  "EVSG": {
+   "title": "Our Favorite Small Group Climbing Activities",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/our-favorite-small-group-climbing-activities"
+  },
+  "EVNY": {
+   "title": "New Climbing Activities for the New Year",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/new-climbing-activities-for-the-new-year"
+  },
+  "EVTW": {
+   "title": "Climbing Wall Twister® (Activity of the Month)",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/climbing-wall-twister"
+  },
+  "EVOT": {
+   "title": "On Thin Ice (Activity of the Month)",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/on-thin-ice"
+  },
+  "EVV": {
+   "title": "Valentine’s Day-Themed Climbing Wall Activities",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/valentine-s-day-themed-climbing-wall-activities"
+  },
+  "CWAS": {
+   "title": "Sequencing Activities for Youth Climbing Programs",
+   "site": "Climbing Wall Association",
+   "href": "https://www.cwapro.org/blog/sequencing-activities-for-youth-climbing-programs"
+  },
+  "CECT": {
+   "title": "Technical/Tactical Series Part 1",
+   "site": "Climbing Escalade Canada",
+   "href": "https://climbingcanada.ca/coaches-tool-box/technical-tactical-series-part-1/"
+  },
+  "UKCK": {
+   "title": "Coaching Kids - 7 ways 7 Year Olds Learn to Climb",
+   "site": "UKClimbing",
+   "href": "https://www.ukclimbing.com/articles/skills/coaching_kids_-_7_ways_7_year_olds_learn_to_climb-12351"
+  },
+  "PS135": {
+   "title": "Academy: 1-3-5 Core Tension Drill",
+   "site": "PitchSix",
+   "href": "https://pitchsix.com/blogs/academy/academy-1-3-5-core-tension-drill"
+  },
+  "PSDA": {
+   "title": "Academy: Dynamic Accuracy Drill",
+   "site": "PitchSix",
+   "href": "https://pitchsix.com/blogs/academy/academy-dynamic-accuracy-drill"
+  },
+  "PSXM": {
+   "title": "Academy: X-Motion Movement Pattern",
+   "site": "PitchSix",
+   "href": "https://pitchsix.com/blogs/academy/academy-x-motion-movement-pattern"
+  },
+  "PSBX": {
+   "title": "Academy: Breaking X-Motion",
+   "site": "PitchSix",
+   "href": "https://pitchsix.com/blogs/academy/academy-breaking-x-motion"
+  },
+  "SE17": {
+   "title": "17 Footwork Drills for Climbing",
+   "site": "Send Edition",
+   "href": "https://sendedition.com/17-footwork-drills-for-climbing/"
+  },
+  "SECT": {
+   "title": "Climbing Training – Drills",
+   "site": "Send Edition",
+   "href": "https://sendedition.com/climbing-training-drills/"
+  },
+  "EVHL": {
+   "title": "A “New” Wall for a New Year: Ten Quick Ways to Refresh the Traverse Wall Experience",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/a-new-wall-for-a-new-year-ten-quick-ways-to-refresh-the-traverse-wall-experience"
+  },
+  "EVBB": {
+   "title": "New Rock-Climbing Activities to Try in the New Year",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/new-rock-climbing-activities-to-try-in-the-new-year"
+  },
+  "EVTB": {
+   "title": "Rock Wall Climbing Challenges by Matt Barrow",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/rock-wall-climbing-challenges-by-matt-barrow"
+  },
+  "EVMY": {
+   "title": "No Tricks and All Treats with our Halloween Climbing Activities",
+   "site": "Everlast Climbing",
+   "href": "https://everlastclimbing.com/blogs/everlast-climbing/no-tricks-and-all-treats-with-our-halloween-climbing-activities"
+  },
+  "TCDWU": {
+   "title": "Dynamic Climbing Warm-up",
+   "site": "The Climbing Doctor",
+   "href": "https://theclimbingdoctor.com/warm-up/"
   }
  },
  "playbook": [

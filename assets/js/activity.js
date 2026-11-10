@@ -45,13 +45,20 @@
           return '<a href="' + H.weekHref(b.g.id, w.monthIndex, w.week) + '">' + esc(w.month + " wk " + w.week) + "</a>"; }).join(", ") + "</li>";
       }).join("") + "</ul>" : '<p class="muted">Not scheduled in the weekly plans yet; use it as a swap-in.</p>';
       var prev = A[(i - 1 + A.length) % A.length], next = A[(i + 1) % A.length];
-      main.innerHTML = '<nav class="crumbs no-print"><a href="library.html">Activity Library</a> › ' + esc(a.name) + "</nav>" +
-        '<article class="card th-' + esc(a.themes[0]) + '" style="border-left-width:6px">' +
+      var prereqs = a.prereqs || [];
+      var prereqHtml = prereqs.length ? '<div class="prereqs"><strong>Prerequisites</strong><ul>' +
+        prereqs.map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") + "</ul></div>" : "";
+      main.innerHTML = '<nav class="crumbs no-print"><a href="library.html">Library</a> · ' + esc(a.name) + "</nav>" +
+        '<article class="detail">' +
         "<h1>" + esc(a.name) + "</h1>" +
+        prereqHtml +
         (a.aka.length ? '<p class="muted">Also called: ' + esc(a.aka.join(", ")) + "</p>" : "") +
         "<div>" + a.types.map(function (t) { return '<a class="pill" href="library.html?type=' + esc(t) + '">' + esc(typeLabel[t] || t) + "</a>"; }).join("") +
         a.skills.map(function (s) { return '<a class="pill" href="library.html?skill=' + encodeURIComponent(s) + '">' + esc(s) + "</a>"; }).join("") + "</div>" +
-        "<dl><dt>Ages</dt><dd>" + a.ages.map(function (x) { return '<a class="pill" href="library.html?age=' + x + '">' + esc(ageLabel[x] || x) + "</a>"; }).join("") + "</dd>" +
+        "<dl class=\"meta-list\"><dt>Discipline</dt><dd>" + (a.discipline || ["bouldering"]).map(function (x) {
+          return '<a class="pill" href="library.html?discipline=' + esc(x) + '">' + esc(H.discLabel(x)) + "</a>";
+        }).join("") + "</dd>" +
+        "<dt>Ages</dt><dd>" + a.ages.map(function (x) { return '<a class="pill" href="library.html?age=' + x + '">' + esc(ageLabel[x] || x) + "</a>"; }).join("") + "</dd>" +
         "<dt>Month themes</dt><dd>" + a.themes.map(function (t) { return '<span class="pill"><span class="swatch bg-' + esc(t) + '"></span>' + esc(themeLabel[t] || t) + "</span>"; }).join("") + "</dd>" +
         "<dt>Setup</dt><dd>" + esc(a.setup) + "</dd>" +
         "<dt>How to run it</dt><dd><ol>" + a.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol></dd>" +
