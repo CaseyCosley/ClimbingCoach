@@ -334,6 +334,9 @@ td { padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); vertical-a
 .block-row .mins { font-family: var(--display); font-size: 1.5rem; line-height: 1; }
 .block-row .mins span { display: block; font-family: var(--sans); font-size: .66rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
 .cue { color: var(--muted); margin: 4px 0 0; }
+.learn-list { margin: 6px 0 0; padding-left: 1.2em; }
+.learn-list li { margin: .3em 0; }
+.detail .diag { margin: 16px 0; }
 .lesson-tools { margin: 12px 0; }
 .lesson-nav { display: flex; flex-wrap: wrap; gap: 8px; }
 .roadmap { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }

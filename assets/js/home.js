@@ -4,6 +4,8 @@
   H.init("index.html");
   H.loadAll(["activities", "vocabulary", "curricula"]).then(function (d) {
     var aIdx = H.indexByName(d.activities.items);
+    var byId = {};
+    d.activities.items.forEach(function (a) { byId[a.id] = a; });
     var vIdx = H.indexByName(d.vocabulary.items);
     var featured = d.curricula.groups.filter(function (g) { return g.id === "ages-6-9"; })[0] || d.curricula.groups[0];
     var s = H.seasonWeek();
@@ -12,6 +14,15 @@
     var when = new Date();
     var kicker = when.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }) +
       " · " + month.m + " · Week " + (s.w + 1);
+    function focusBlock(plan) {
+      var links = (plan.focusActivities || []).map(function (id) {
+        var a = byId[id];
+        return a ? '<a href="' + H.actHref(a) + '">' + esc(a.name) + "</a>" : esc(id);
+      });
+      var learns = (plan.learnings || []).map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("");
+      return (links.length ? '<p class="note"><b>Focus activities.</b> ' + links.join(", ") + "</p>" : "") +
+        (learns ? '<p class="note"><b>Learnings.</b></p><ul class="learn-list">' + learns + "</ul>" : "");
+    }
     function actLink(name) {
       var a = aIdx[H.nz(name)];
       return a ? '<a class="act" href="' + H.actHref(a) + '">' + esc(name) + "</a>" : esc(name);
@@ -45,6 +56,7 @@
       '<table class="blocks"><thead><tr><th>Time</th><th>Block</th><th>Activity</th><th>Notes</th></tr></thead><tbody>' +
       blocks + "</tbody></table>" +
       '<p class="note"><b>Vocabulary.</b> ' + vocab + "</p>" +
+      focusBlock(plan) +
       '<div class="actions"><a class="btn" href="' + H.lessonHref(featured.id) + '">See the full lesson card</a>' +
       '<a class="btn ghost" href="library.html?discipline=bouldering">Look up this week\'s activities</a></div></section>' +
       '<div class="split"><section><h2>Age groups</h2>' +

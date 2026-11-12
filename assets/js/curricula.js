@@ -322,6 +322,20 @@
       }).join("");
     }
 
+    function focusBlock(r) {
+      var ids = r.focusActivities || [];
+      var learns = r.learnings || [];
+      if (!ids.length && !learns.length) return "";
+      var links = ids.map(function (id) {
+        var a = byId(id);
+        return a ? '<a href="' + H.actHref(a) + '">' + esc(a.name) + "</a>" : esc(id);
+      }).join(", ");
+      return (ids.length ? "<h3>Focus activities</h3><p>" + links + "</p>" : "") +
+        (learns.length ? "<h3>Learnings</h3><ul class=\"learn-list\">" + learns.map(function (s) {
+          return "<li>" + esc(s) + "</li>";
+        }).join("") + "</ul>" : "");
+    }
+
     function lesson(g) {
       var m = g.months[state.m], r = weekAt(g), review = m.c === "fun";
       var blocks = g.blocks.map(function (b) {
@@ -345,6 +359,7 @@
         '<div class="lesson-tools no-print"><div class="lesson-nav"><button type="button" class="btn ghost" data-act="step" data-dir="-1">Previous</button>' +
         '<button type="button" class="btn ghost" data-act="step" data-dir="1">Next</button>' +
         '<button type="button" class="btn" data-act="print">Print this card</button></div></div>' +
+        focusBlock(r) +
         '<h3>The class</h3><ol class="block-list">' + blocks + "</ol>" +
         "<h3>Vocabulary</h3><ul class=\"block-list\">" + vocab + "</ul></article>";
     }

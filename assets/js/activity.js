@@ -46,6 +46,31 @@
       }).join("") + "</ul>" : '<p class="muted">Not scheduled in the weekly plans yet; use it as a swap-in.</p>';
       var prev = A[(i - 1 + A.length) % A.length], next = A[(i + 1) % A.length];
       var prereqs = a.prereqs || [];
+      function listSection(title, items) {
+        if (!items || !items.length) return "";
+        return "<h2>" + esc(title) + "</h2><ul>" + items.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul>";
+      }
+      function extraSections(a) {
+        var prog = a.progressions || {};
+        var progHtml = "";
+        if (prog.easier || prog.harder) {
+          progHtml = "<h2>Progressions</h2><dl class=\"meta-list\">" +
+            (prog.easier ? "<dt>Easier</dt><dd>" + esc(prog.easier) + "</dd>" : "") +
+            (prog.harder ? "<dt>Harder</dt><dd>" + esc(prog.harder) + "</dd>" : "") + "</dl>";
+        }
+        var meta = "";
+        if (a.duration) meta += "<dt>Duration</dt><dd>" + esc(a.duration) + "</dd>";
+        if (a.groupSize) meta += "<dt>Group size</dt><dd>" + esc(a.groupSize) + "</dd>";
+        if (meta) meta = '<dl class="meta-list">' + meta + "</dl>";
+        var research = (a.researchSources || []).filter(function (s) { return s && (s.title || s.href); });
+        var researchHtml = research.length ? "<h2>Research sources</h2><ul class=\"sources\">" + research.map(function (s) {
+          var label = (s.site ? s.site + ": " : "") + (s.title || s.href);
+          return s.href ? '<li><a href="' + esc(s.href) + '" rel="noopener">' + esc(label) + "</a></li>" : "<li>" + esc(label) + "</li>";
+        }).join("") + "</ul>" : "";
+        return H.figuresHtml(a.images) + listSection("Coaching cues", a.coachingCues) +
+          listSection("Common mistakes", a.commonMistakes) + progHtml +
+          listSection("Equipment", a.equipment) + meta + researchHtml;
+      }
       var prereqHtml = prereqs.length ? '<div class="prereqs"><strong>Prerequisites</strong><ul>' +
         prereqs.map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") + "</ul></div>" : "";
       main.innerHTML = '<nav class="crumbs no-print"><a href="library.html">Library</a> · ' + esc(a.name) + "</nav>" +
@@ -66,7 +91,8 @@
         "<dt>Variations and progressions by age</dt><dd>" + esc(a.variations) + "</dd>" +
         "<dt>Risk management</dt><dd>" + esc(a.risk) + "</dd>" +
         '<dt>Source</dt><dd><ul class="sources">' + src + "</ul></dd>" +
-        "<dt>Where it appears in the weekly plans (" + uses.length + ")</dt><dd>" + useHtml + "</dd></dl></article>" +
+        "<dt>Where it appears in the weekly plans (" + uses.length + ")</dt><dd>" + useHtml + "</dd></dl>" +
+        extraSections(a) + "</article>" +
         '<div class="pager no-print"><a class="btn ghost" href="' + H.actHref(prev) + '">← ' + esc(prev.name) + '</a><a class="btn ghost" href="' + H.actHref(next) + '">' + esc(next.name) + " →</a></div>";
       void vIdx;
       window.scrollTo(0, 0);

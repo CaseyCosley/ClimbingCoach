@@ -86,6 +86,31 @@
   function weekHref(gid, monthIndex, week) {
     return lessonHref(gid, monthIndex, week);
   }
+  function figuresHtml(images) {
+    if (!images || !images.length) return "";
+    return images.map(function (im) {
+      var lead = im.credit || "";
+      var rest = "";
+      var dash = lead.indexOf(" — ");
+      if (dash > 0) { rest = lead.slice(dash); lead = lead.slice(0, dash); }
+      var linkLabel = "View source";
+      var blob = (im.credit || "") + " " + (im.sourceUrl || "");
+      if (/petzl/i.test(blob)) linkLabel = "View on Petzl";
+      else if (/wikimedia|commons/i.test(blob)) linkLabel = "View on Wikimedia Commons";
+      var license = "";
+      if (im.license) {
+        license = im.licenseUrl
+          ? '<a href="' + esc(im.licenseUrl) + '" rel="noopener">' + esc(im.license) + "</a>"
+          : esc(im.license);
+      }
+      return '<figure class="diag"><div class="frame"><img src="' + esc(im.src) + '" alt="' + esc(im.alt || "") + '"></div>' +
+        '<p class="credit"><span><strong>' + esc(lead) + "</strong>" + esc(rest) + "</span>" +
+        (license ? "<span>" + license + "</span>" : "") +
+        (im.sourceUrl ? '<a href="' + esc(im.sourceUrl) + '" rel="noopener">' + linkLabel + "</a>" : "") +
+        "</p></figure>";
+    }).join("");
+  }
+
   function lessonCard(group) {
     var s = seasonWeek();
     var month = group.months[s.m];
@@ -176,7 +201,7 @@
     SITE_TITLE: SITE_TITLE, DISCIPLINES: DISCIPLINES, discLabel: discLabel, leadOk: leadOk,
     esc: esc, nz: nz, load: load, loadAll: loadAll, indexByName: indexByName,
     actHref: actHref, termHref: termHref, linkName: linkName, usageIndex: usageIndex, weekHref: weekHref,
-    seasonWeek: seasonWeek, lessonHref: lessonHref, lessonCard: lessonCard,
+    seasonWeek: seasonWeek, lessonHref: lessonHref, lessonCard: lessonCard, figuresHtml: figuresHtml,
     cite: cite, table: table, init: init, fail: fail
   };
 })();
