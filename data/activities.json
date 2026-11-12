@@ -186,7 +186,30 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Do the animal walk on the floor first, then find a version on easy holds.",
+    "Quality of the shape matters more than distance."
+   ],
+   "commonMistakes": [
+    "Turning the walks into a hurry across the gym floor or through fall zones."
+   ],
+   "progressions": {
+    "easier": "Floor only, one animal.",
+    "harder": "The same animal along a short, easy wall."
+   },
+   "equipment": [
+    "Open floor away from fall zones",
+    "Optional easy wall"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
+   ]
   },
   {
    "id": "climber-led-warm-up",
@@ -476,7 +499,46 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Practice the landing on the mat first: feet, bent knees, then roll back with arms in.",
+    "Start from a sit or a very low hang so the landing is a skill, not a surprise.",
+    "Keep the fall zone clear of people, bags, and loose pads with gaps."
+   ],
+   "commonMistakes": [
+    "Reaching back with straight arms to catch the mat.",
+    "Practicing from a height the climber has not yet landed from successfully lower down."
+   ],
+   "progressions": {
+    "easier": "Sit on a pad, roll back, then stand and drop from a low hang.",
+    "harder": "A short planned step-off from a low hold onto a flat, closed pad."
+   },
+   "equipment": [
+    "Closed crash-pad area",
+    "Clear fall zone"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/crash-pads-indoor-wall.jpg",
+     "alt": "Indoor bouldering wall with a continuous row of thick crash pads covering the landing area.",
+     "credit": "Photo: amrufm / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indoor_Climbing_Wall_Bouldering_Mats.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Bouldering mat",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Bouldering_mat"
+    },
+    {
+     "title": "Glossary: spotting / crash pad",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
+   ]
   },
   {
    "id": "buddies-up",
@@ -668,7 +730,30 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "This is an off-wall group warm-up: everyone has a role on the parachute, and the game stays in the open floor away from fall zones.",
+    "Use it to get attention and a little pulse raise, then move to the wall."
+   ],
+   "commonMistakes": [
+    "Playing next to a wall where climbers are landing."
+   ],
+   "progressions": {
+    "easier": "Simple up-and-down waves.",
+    "harder": "A short cooperative task (all take two steps in, then out) before climbing."
+   },
+   "equipment": [
+    "Parachute or large round sheet",
+    "Open floor away from the wall"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
+   ]
   },
   {
    "id": "bosu-balance",
@@ -1172,7 +1257,29 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Freeze means still hands and still feet, not a tighter squeeze on the holds.",
+    "Use the pause to look at the next foothold before moving again."
+   ],
+   "commonMistakes": [
+    "Rushing the restart so feet get slapped on instead of placed."
+   ],
+   "progressions": {
+    "easier": "Shorter traverse and longer freeze so kids can look around.",
+    "harder": "Freeze on smaller footholds, still looking before the next step."
+   },
+   "equipment": [
+    "A traverse with plenty of footholds"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Neil Gresham: Improve Your Movement",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    }
+   ]
   },
   {
    "id": "10-seconds",
@@ -1338,7 +1445,29 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Name the animal and the body shape you want (wide bear steps, quiet cat feet) before they leave the ground.",
+    "Keep the path short and on the mat so the game stays a movement idea, not a race."
+   ],
+   "commonMistakes": [
+    "Letting the game spread into other climbers' fall zones."
+   ],
+   "progressions": {
+    "easier": "One animal for the whole group, demonstrated on the ground first.",
+    "harder": "Kids choose an animal and can show a second one after a quality first pass."
+   },
+   "equipment": [
+    "Open mat and an easy stretch of wall"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
+   ]
   },
   {
    "id": "animal-habitats",
@@ -1374,7 +1503,38 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Each habitat is a zone of the wall (slab cave, vertical forest) the group visits with a movement idea, not a competition between teams.",
+    "Clear fall zones when a group moves from one habitat to another."
+   ],
+   "commonMistakes": [
+    "Running between walls or crowding a pad to claim a habitat."
+   ],
+   "progressions": {
+    "easier": "Two habitats, coach leads both.",
+    "harder": "Kids name the wall angle of their habitat and one skill it needs (smears on slab, stems in a corner)."
+   },
+   "equipment": [
+    "Two or three distinct wall areas"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/wall-angles.png",
+     "alt": "Side-view diagrams of slab, vertical, and overhang, useful when a habitat is a different wall angle.",
+     "credit": "Climbing Coach overview diagram, checked against PRG wall-angle wording",
+     "sourceUrl": "https://philarockgym.com/all-about-indoor-climbing-walls/",
+     "license": "Climbing Coach overview diagram; hosted with credit and source link",
+     "licenseUrl": "https://philarockgym.com/all-about-indoor-climbing-walls/"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "All About Indoor Climbing Walls",
+     "site": "Philadelphia Rock Gyms",
+     "href": "https://philarockgym.com/all-about-indoor-climbing-walls/"
+    }
+   ]
   },
   {
    "id": "rescue-mission",
@@ -1415,7 +1575,30 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "The rescue is a climbing task with a clear start and finish, not a chase.",
+    "One climber moves at a time in each fall zone; helpers stay off the pads unless they are spotting a planned low problem."
+   ],
+   "commonMistakes": [
+    "Crowding the landing area to help."
+   ],
+   "progressions": {
+    "easier": "A stuffed toy on a low, large hold.",
+    "harder": "A slightly higher target that still allows a controlled downclimb or drop to the pad."
+   },
+   "equipment": [
+    "A soft object to retrieve",
+    "Clear pads"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
+   ]
   },
   {
    "id": "fuzz-ball-search",
@@ -1458,7 +1641,30 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "The search is a reason to look at holds and move with control, not a race to grab every fuzz ball.",
+    "One climber at a time in each fall zone."
+   ],
+   "commonMistakes": [
+    "Lunging for a fuzz ball and skipping feet."
+   ],
+   "progressions": {
+    "easier": "Fuzz balls on large, obvious holds close to the mat.",
+    "harder": "A few higher or smaller targets the child can still reach with three points on."
+   },
+   "equipment": [
+    "Soft fuzz balls or tape dots",
+    "Easy wall"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
+   ]
   },
   {
    "id": "puzzle-hunt",
@@ -1870,7 +2076,30 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Let the child choose whether the star moves up; the target stays a choice, not a test.",
+    "For the youngest group, keep the target within a short step of the mat."
+   ],
+   "commonMistakes": [
+    "Raising the star because other kids reached higher, rather than because this child asked."
+   ],
+   "progressions": {
+    "easier": "Parent places the star at a height the child already enjoys.",
+    "harder": "On a top-rope, a bell or star that the child can choose to go for after the partner check."
+   },
+   "equipment": [
+    "Star sticker or bell",
+    "Mat under the climb"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
+   ]
   },
   {
    "id": "color-detective",
@@ -1953,7 +2182,29 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "The leader moves slowly enough that partners can copy the same hand and the same foot.",
+    "Pause after each move so the group can match the body shape, not just the holds."
+   ],
+   "commonMistakes": [
+    "The leader climbing at send pace, so followers only grab the next hold and miss the feet."
+   ],
+   "progressions": {
+    "easier": "Coach leads on a very easy traverse.",
+    "harder": "A student leads a short sequence the group already knows."
+   },
+   "equipment": [
+    "Easy shared traverse"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Neil Gresham: Improve Your Movement — fluid style and awareness",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    }
+   ]
   },
   {
    "id": "octopus",
@@ -2218,7 +2469,33 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Each climber must be able to take a hand off and tap the wall before hopping down, to show they are secure on the holds.",
+    "Add two moves at a time and repeat the whole sequence from the start.",
+    "Keep groups small so everyone gets turns on the same problem."
+   ],
+   "commonMistakes": [
+    "Hopping off without showing a still, secure position on the last holds.",
+    "Making the game about who is last standing; keep the focus on remembering and repeating the sequence."
+   ],
+   "progressions": {
+    "easier": "Hands-only add-on: any foothold is allowed.",
+    "harder": "Both handholds and footholds count as moves, still on terrain the group can repeat."
+   },
+   "equipment": [
+    "Bouldering wall with an easy starting area"
+   ],
+   "duration": "10–20 min",
+   "groupSize": "2–4",
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Add On (Route Reading)",
+     "site": "Momentum Youth Programs, Focus Drills",
+     "href": "https://youthprograms.momentumclimbing.com/focus-drills/"
+    }
+   ]
   },
   {
    "id": "climber-dice",
@@ -2297,7 +2574,30 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "The card is a scavenger list of skills or hold types, not a race to shout bingo first.",
+    "A square counts only if the climber can show the skill with control."
+   ],
+   "commonMistakes": [
+    "Rushing from square to square and skipping feet or partner checks."
+   ],
+   "progressions": {
+    "easier": "A short card with skills already taught this month.",
+    "harder": "A card that includes naming a wall angle or a hold type and then using it."
+   },
+   "equipment": [
+    "Bingo cards and a pencil",
+    "Easy wall space"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
+   ]
   },
   {
    "id": "scavenger-hunt",
@@ -3247,7 +3547,38 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Look at the foothold first, then place the foot so it makes no sound.",
+    "Stand up on that foot with a steady, firm placement instead of hopping or stomping.",
+    "Use easy terrain so the drill is about placement, not hanging on with the arms."
+   ],
+   "commonMistakes": [
+    "Placing the foot without looking, then adjusting it after it is already weighted.",
+    "Treating a foot sound as a reason to stop the climber's turn."
+   ],
+   "progressions": {
+    "easier": "Large footholds on a gentle traverse; coach watches and names quiet placements.",
+    "harder": "The same rule on a vertical or slightly overhanging wall, still well below a hard send."
+   },
+   "equipment": [
+    "Easy traverse or boulder"
+   ],
+   "duration": "5–10 min (Momentum Quiet Sticky Ninja Feet drill, same skill)",
+   "groupSize": "Any, limited by wall space (Momentum Quiet Sticky Ninja Feet)",
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Quiet Sticky Ninja Feet",
+     "site": "Momentum Youth Programs, Focus Drills",
+     "href": "https://youthprograms.momentumclimbing.com/focus-drills/"
+    },
+    {
+     "title": "Neil Gresham: Improve Your Movement — precise footwork",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    }
+   ]
   },
   {
    "id": "sticky-feet",
@@ -3294,7 +3625,49 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "The foot stays where it first lands: look, place, then stand up on it.",
+    "A sticky placement is quiet and firm, not a stomp."
+   ],
+   "commonMistakes": [
+    "Tapping or shuffling the foot after it is on the hold to fix it.",
+    "Picking terrain so hard that arms take over and the feet get sloppy."
+   ],
+   "progressions": {
+    "easier": "Big footholds on a slab or vertical traverse.",
+    "harder": "Smaller footholds, still easy enough that the foot can stay put."
+   },
+   "equipment": [
+    "Easy traverse or boulder"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/smear-foot-bouldering.jpg",
+     "alt": "Close view of a climbing shoe smearing on rock, the sole placed flat and held by friction rather than a sharp edge.",
+     "credit": "Photo: MarkDoliner / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bouldering_-_foot_smear.jpg",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Quiet Sticky Ninja Feet",
+     "site": "Momentum Youth Programs, Focus Drills",
+     "href": "https://youthprograms.momentumclimbing.com/focus-drills/"
+    },
+    {
+     "title": "Hover feet for climbing",
+     "site": "Blok Sessions",
+     "href": "https://bloksessions.com/exercises/hover-feet"
+    },
+    {
+     "title": "Glossary: smearing",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
+   ]
   },
   {
    "id": "bean-bag-feet",
@@ -3605,7 +3978,43 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Two foot moves, then a hand: the reach comes after the feet are set and weighted.",
+    "Look at each foothold; this is the same eye-to-foot idea as quiet feet and downclimbing."
+   ],
+   "commonMistakes": [
+    "Reaching first and then scraping around for feet."
+   ],
+   "progressions": {
+    "easier": "Large holds on a vertical wall.",
+    "harder": "A high step as one of the two foot moves, still followed by a controlled reach."
+   },
+   "equipment": [
+    "Easy vertical or slab terrain"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/high-step-colli.jpg",
+     "alt": "Climber making a high step, one foot raised to a higher hold while the body stays close to the wall.",
+     "credit": "Photo: Ultimouomo / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beatrice_Colli,_bouldering_flexibility,_pic_by_Yuri_Palma.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Downclimbing / Quiet Sticky Ninja Feet (eye-to-foot contact)",
+     "site": "Momentum Youth Programs, Focus Drills",
+     "href": "https://youthprograms.momentumclimbing.com/focus-drills/"
+    },
+    {
+     "title": "High/Low Feet (body position and high steps)",
+     "site": "Momentum Youth Programs, Contact Drills",
+     "href": "https://youthprograms.momentumclimbing.com/contact-drills/"
+    }
+   ]
   },
   {
    "id": "drag-a-hold",
@@ -3793,7 +4202,49 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "A smear uses friction from the shoe's sole when there is no positive foothold to edge on.",
+    "Weight the foot and keep the hip over it; a smear that is only dabbed will slip.",
+    "Trust the smear on a slab first, where the angle helps."
+   ],
+   "commonMistakes": [
+    "Hunting for a tiny edge and ignoring a large, usable patch of wall.",
+    "Standing upright with the weight behind the smear instead of over it."
+   ],
+   "progressions": {
+    "easier": "Standing smears on a low-angle slab with hands on large holds.",
+    "harder": "A short slab problem with fewer positive footholds."
+   },
+   "equipment": [
+    "Slab or lower-angle wall",
+    "Climbing shoes with a usable sole"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/smear-foot-bouldering.jpg",
+     "alt": "Close view of a climbing shoe smearing on rock, the sole pressed flat to use friction.",
+     "credit": "Photo: MarkDoliner / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bouldering_-_foot_smear.jpg",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+     "src": "assets/images/figures/smear-standing-friction-slab.jpg",
+     "alt": "Climber standing on a friction slab, weight over the feet, soles smearing on low-angle rock.",
+     "credit": "Photo: Hermann Feederle / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stehen_auf_Reibungsplatten.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Glossary: smearing, edging, slab climbing",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
+   ]
   },
   {
    "id": "single-leg-smear",
@@ -3991,7 +4442,36 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Look at the next foothold before you move the foot; downclimbing is feet first, not a search with the hands.",
+    "On a top-rope, the belayer gives enough slack that the climber is climbing down, not hanging on the rope.",
+    "Many climbers only look up; the cue is to unlock that pattern and use the legs."
+   ],
+   "commonMistakes": [
+    "Sitting on the rope and being lowered while still calling it a downclimb.",
+    "Tunnel vision on the next handhold, so the feet pad around blindly."
+   ],
+   "progressions": {
+    "easier": "A short slab or vertical climb they just went up.",
+    "harder": "A longer vertical route, still well within ability, with a partner watching the feet."
+   },
+   "equipment": [
+    "Vertical or slab wall; top-rope or a boulder they can climb down"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Downclimbing (Eye to Foot Contact)",
+     "site": "Momentum Youth Programs, Focus Drills",
+     "href": "https://youthprograms.momentumclimbing.com/focus-drills/"
+    },
+    {
+     "title": "Glossary: downclimb",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
+   ]
   },
   {
    "id": "climber-up-climber-down",
@@ -4143,7 +4623,29 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "On steep ground the instinct is to straighten the legs and bend the arms; cue straight arms with the shoulders engaged and the hips under the body.",
+    "A relaxed grip goes with the straight arm: the skeleton, not a squeezed fist, holds the hang."
+   ],
+   "commonMistakes": [
+    "Bending the elbows and hiking the shoulders up by the ears, especially when tired or nervous."
+   ],
+   "progressions": {
+    "easier": "Hang on large jugs, then easy climbs with a long-arms cue.",
+    "harder": "Combine with precise feet on the same easy climb, as Gresham groups those two drills."
+   },
+   "equipment": [
+    "Large handholds on vertical or slightly overhanging terrain"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Neil Gresham: Improve Your Movement — straight arms, relaxed grip",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    }
+   ]
   },
   {
    "id": "hang-or-hold",
@@ -4302,7 +4804,43 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Press equally with both feet (and hands when they can) so the body stays in the wall instead of peeling off.",
+    "On a corner or wide stem, push in opposite directions; that opposition is the tension."
+   ],
+   "commonMistakes": [
+    "Sagging the hips away from the wall and trying to fix it by pulling harder on the hands."
+   ],
+   "progressions": {
+    "easier": "A wide, gentle corner or two facing holds a climber can stem between.",
+    "harder": "A narrower or slightly overhanging stem, still with large holds."
+   },
+   "equipment": [
+    "A corner, volume pair, or wide stem"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/stemming-bridging-arapiles.jpg",
+     "alt": "Climber stemming in a wide chimney-like corner, both legs pressing outward in opposition.",
+     "credit": "Photo: Stefanos Nikologianis / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rock_Climb_on_Arapiles,_Australia.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Glossary: stemming / bridging",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Drop Knee (body tension on steep terrain)",
+     "site": "Momentum Youth Programs",
+     "href": "https://youthprograms.momentumclimbing.com/drop-knee/"
+    }
+   ]
   },
   {
    "id": "reposition-repetition",
@@ -4681,7 +5219,40 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "A flag is a leg used for balance, not to support weight, often to stop a barn-door swing.",
+    "Normal flag: the free foot stays on the same side. Inside-flag: it crosses in front of the standing foot. Outside-flag: it crosses behind.",
+    "A back-step (outside edge of the shoe) often appears with a flag on the other leg."
+   ],
+   "commonMistakes": [
+    "Trying to stand on the flagged foot, or flagging without moving the hips toward the standing foot."
+   ],
+   "progressions": {
+    "easier": "A taped box or volume to rest the flagged foot against on a gentle wall.",
+    "harder": "The same flag on a slightly steeper problem where a barn-door is obvious without it."
+   },
+   "equipment": [
+    "Tape boxes or volumes",
+    "Vertical or slightly overhanging wall"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/backstep-eindrehen.jpg",
+     "alt": "Climber in a back-step with the free leg flagged out to the side for balance, hips turned into the wall.",
+     "credit": "Photo: ThomasP / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eindrehen.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Glossary: flagging, back-step, barn-door",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
+   ]
   },
   {
    "id": "step-flag-reach",
@@ -4833,7 +5404,49 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "A heel hook uses the back of the heel to press on a hold for balance or leverage.",
+    "A toe hook presses the top of the toes under a hold to pull the body in, often on overhangs.",
+    "Set the hook, then move the hips; a hook that is only hooked as an afterthought often pops."
+   ],
+   "commonMistakes": [
+    "Hooking and then immediately cutting the other foot, before the hips have moved in.",
+    "Using a bat-hang (hanging upside down from the toes) when the lesson is an ordinary toe hook."
+   ],
+   "progressions": {
+    "easier": "A large, obvious heel hook on a volume or rail, standing height.",
+    "harder": "A toe hook on a volume to keep the body into an overhang, with a planned landing."
+   },
+   "equipment": [
+    "Volumes or rails that accept a heel or toe",
+    "Closed pads"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/heel-hook-fersen.jpg",
+     "alt": "Indoor heel hook: the back of the heel is set on a hold, with the free leg and body clearly visible.",
+     "credit": "Photo: ThomasP / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fersen_hook.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+     "src": "assets/images/figures/toe-hook-hojer.jpg",
+     "alt": "Climber using a toe hook on a volume, the top of the shoe pressing under the hold to pull the body in.",
+     "credit": "Photo: Henning Schlottmann / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hojer_jan_1610.JPG",
+     "license": "CC BY 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Glossary: heel hook, toe hook",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
+   ]
   },
   {
    "id": "static-and-dynamic",
@@ -4878,7 +5491,41 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Static: slow, controlled movement that keeps three points on.",
+    "A dyno is a jump or leap to an out-of-reach hold; missing it usually means a fall, so practice only on pads or a belay, from a height you have agreed.",
+    "A deadpoint is a more controlled dynamic: the hand arrives at the apex while the other contacts stay on."
+   ],
+   "commonMistakes": [
+    "Jumping on a move that can be done statically, just because jumping feels exciting.",
+    "Practicing dynos over a gap in the pads."
+   ],
+   "progressions": {
+    "easier": "Do the same easy sequence once statically, then with one slightly more dynamic reach still in control.",
+    "harder": "A short, padded dyno to a large hold, then compare it with a static version if one exists."
+   },
+   "equipment": [
+    "Closed pads",
+    "Large target hold"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/dyno-mushroom-boulder.jpg",
+     "alt": "Climber making a dynamic reach on a boulder, one foot off the rock, both hands going to a higher hold.",
+     "credit": "Photo: Dana Le / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mushroom_boulder_dyno.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Glossary: dyno, deadpoint, static rope (contrast with dynamic movement)",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
+   ]
   },
   {
    "id": "setter-for-a-day",
@@ -5043,7 +5690,29 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Point to each hand and foot in order before leaving the ground.",
+    "If they get stuck, come down, re-point, and try the same sequence again."
+   ],
+   "commonMistakes": [
+    "Pointing only at handholds and ignoring feet."
+   ],
+   "progressions": {
+    "easier": "Coach and climber point together on a short problem.",
+    "harder": "The climber points silently, then climbs; the partner checks whether the feet matched the plan."
+   },
+   "equipment": [
+    "A short boulder or route the group can see from the ground"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Add On / route reading (planning moves before leaving the ground)",
+     "site": "Momentum Youth Programs, Focus Drills",
+     "href": "https://youthprograms.momentumclimbing.com/focus-drills/"
+    }
+   ]
   },
   {
    "id": "draw-the-route",
@@ -5587,7 +6256,44 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Slab: less than vertical, often about balance, footwork, and smearing.",
+    "Vertical: essentially perpendicular to the floor.",
+    "Overhang: steeper than vertical; expect more need for body tension and straight arms."
+   ],
+   "commonMistakes": [
+    "Treating every wall the same and only pulling with the arms, especially on slab."
+   ],
+   "progressions": {
+    "easier": "Compare two easy problems on two angles.",
+    "harder": "The same movement cue (quiet feet or straight arms) on slab and on an overhang."
+   },
+   "equipment": [
+    "Access to more than one wall angle"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/wall-angles.png",
+     "alt": "Three side-view diagrams of slab, vertical, and overhang wall angles.",
+     "credit": "Climbing Coach overview diagram, checked against PRG wall-angle wording",
+     "sourceUrl": "https://philarockgym.com/all-about-indoor-climbing-walls/",
+     "license": "Climbing Coach overview diagram; hosted with credit and source link",
+     "licenseUrl": "https://philarockgym.com/all-about-indoor-climbing-walls/"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "All About Indoor Climbing Walls",
+     "site": "Philadelphia Rock Gyms",
+     "href": "https://philarockgym.com/all-about-indoor-climbing-walls/"
+    },
+    {
+     "title": "Glossary: slab, slab climbing, overhang",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
+   ]
   },
   {
    "id": "learn-the-grades",
@@ -5948,7 +6654,29 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Repeat an easy climb with the aim of looking smoother, not faster or harder.",
+    "Gresham's warm-up loop is a useful cue list: precise feet, straight arms, relaxed grip, fluid moves."
+   ],
+   "commonMistakes": [
+    "Raising the grade on the repeat, which usually brings back rushed, bent-arm movement."
+   ],
+   "progressions": {
+    "easier": "One quality repeat of a climb they already know.",
+    "harder": "Two or three repeats, adding one cue at a time (feet, then arms)."
+   },
+   "equipment": [
+    "An easy known boulder or top-rope"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Neil Gresham: Improve Your Movement",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    }
+   ]
   },
   {
    "id": "choose-your-level-ladder",
@@ -6485,6 +7213,58 @@
    ],
    "prereqs": [
     "Staff permission to use auto belays (if using for auto belay)"
+   ],
+   "coachingCues": [
+    "Waist belt at the waist (not the hips), leg loops snug, buckle doubled back if the harness uses that design, belay loop free and visible.",
+    "Tie-in points are the two bridges beside the belay loop; the belay loop is for the belay device or an auto-belay connector, not for the tie-in knot on a standard sit harness.",
+    "Always check the knot, and check a locking carabiner is closed, locked, and loaded on the major axis."
+   ],
+   "commonMistakes": [
+    "A waist belt worn too low, or a buckle that is not secured in the way that harness requires.",
+    "Confusing gear loops (for racking only) with the belay loop or tie-in points."
+   ],
+   "progressions": {
+    "easier": "Coach and climber point through a printed or on-harness checklist.",
+    "harder": "Partners find one planted error (twisted leg loop or unlocked locker) and fix it."
+   },
+   "equipment": [
+    "Sit harnesses",
+    "Optional locker and device for the belay-loop check"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/harness-petzl-corax.jpg",
+     "alt": "Sit harness showing waist belt, leg loops, green belay loop, and two tie-in points.",
+     "credit": "Photo: Savant-fou / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baudrier.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/petzl-harness-two-tie-in-points.png",
+     "alt": "Petzl Access Book: harness with a belay loop and two tie-in points.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 2, harness with a belay loop and two tie-in points",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Tying in with a figure 8 knot / harness notice",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/US/en/Sport/Tying-in-with-a-figure-8-knot"
+    },
+    {
+     "title": "Climbing harness",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Climbing_harness"
+    },
+    {
+     "title": "How to Use an Auto Belay (belay loop only)",
+     "site": "TRUBLUE / Head Rush Technologies",
+     "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
    ]
   },
   {
@@ -6525,7 +7305,63 @@
    "discipline": [
     "top-rope"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Check each other every time: harness (waist and legs), knot, device, and locking carabiner.",
+    "On a standard sit harness, the rope goes through both tie-in points, not through the belay loop.",
+    "Petzl's harness notice: “Tie in to the two tie-in points. Always check the knot before starting to climb.”"
+   ],
+   "commonMistakes": [
+    "Clipping or tying in through the belay loop, or through only one tie-in point.",
+    "A locker that is not closed and locked, or is loaded off its major axis."
+   ],
+   "progressions": {
+    "easier": "Coach talks through each point while partners point at it.",
+    "harder": "Partners run the check from memory, coach listens in and only prompts if a step is skipped."
+   },
+   "equipment": [
+    "Harnesses",
+    "Rope",
+    "Belay device and locking carabiner"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/harness-petzl-corax.jpg",
+     "alt": "Sit harness laid out so the waist belt, leg loops, green belay loop, and two tie-in points are visible.",
+     "credit": "Photo: Savant-fou / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baudrier.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/petzl-harness-two-tie-in-points.png",
+     "alt": "Petzl Access Book drawing of a sit harness with a belay loop and two tie-in points.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 2, harness with a belay loop and two tie-in points",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    },
+    {
+     "src": "assets/images/figures/petzl-tie-in-finished-both-points.png",
+     "alt": "Petzl Access Book: finished figure-eight follow-through through both tie-in points, tail marked 10 cm / 3.9 inch minimum.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 2",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Tying in with a figure 8 knot",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/US/en/Sport/Tying-in-with-a-figure-8-knot"
+    },
+    {
+     "title": "Climbing harness",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Climbing_harness"
+    }
+   ]
   },
   {
    "id": "knot-practice",
@@ -6724,6 +7560,44 @@
    ],
    "prereqs": [
     "Staff permission to use auto belays"
+   ],
+   "coachingCues": [
+    "American start-up is a question and answer: “On belay?” / “Belay on.” Then “Climbing.” / “Climb on.”",
+    "The belayer does not take the climber off belay until the agreed end-of-climb commands are finished.",
+    "Commands happen after the partner check, not instead of it."
+   ],
+   "commonMistakes": [
+    "The climber leaving the ground before hearing “Climb on.”",
+    "Mumbling commands so the partner cannot tell they were answered."
+   ],
+   "progressions": {
+    "easier": "Practice on the ground with a rope through a dummy anchor or held by a coach.",
+    "harder": "Full start-up on a real top-rope after a complete partner check."
+   },
+   "equipment": [
+    "Rope, harnesses, belay device"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/petzl-top-rope-primary-position.png",
+     "alt": "Petzl Access Book: primary top-rope belay position, belayer looking up and holding the brake side of the rope.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet pages 6–7, primary belaying position",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Glossary: on belay, belay on",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "ACCESS BOOK #1: Belaying in a climbing gym",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
    ]
   },
   {
@@ -7063,7 +7937,53 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "The fall zone is the area under and around a climber where they might land; it stays clear of people, bags, and gaps between pads.",
+    "Walk the gym and point to good closed-pad areas and to places that are not landing zones.",
+    "Auto belays, if you visit them, are staff-permission only; the connector clips to the belay loop, not to multiple hard points."
+   ],
+   "commonMistakes": [
+    "Standing on a pad to chat or film while someone is climbing above it.",
+    "Clipping an auto belay without staff permission, or clipping anything other than the belay loop."
+   ],
+   "progressions": {
+    "easier": "A walking tour with the group pointing out zones.",
+    "harder": "Students lead a short tour for a partner and correct one staged mistake (a bag on a pad)."
+   },
+   "equipment": [
+    "The gym floor and pads; no extra gear"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/crash-pads-indoor-wall.jpg",
+     "alt": "Indoor bouldering pads covering the landing area under a wall.",
+     "credit": "Photo: amrufm / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indoor_Climbing_Wall_Bouldering_Mats.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "src": "assets/images/figures/auto-belay-overview.png",
+     "alt": "Overview diagram of an auto belay: a top housing pays out webbing, and the connector clips to the harness belay loop only.",
+     "credit": "Climbing Coach overview diagram, checked against TRUBLUE clip-to-belay-loop guidance",
+     "sourceUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions",
+     "license": "Climbing Coach overview diagram; hosted with credit and source link",
+     "licenseUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Bouldering mat",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Bouldering_mat"
+    },
+    {
+     "title": "How to Use an Auto Belay: Step by Step Instructions",
+     "site": "TRUBLUE / Head Rush Technologies",
+     "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
+   ]
   },
   {
    "id": "cool-down-stretch-reflect",
@@ -7274,7 +8194,43 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Name the three wall angles: a slab leans away, vertical is essentially perpendicular to the floor, an overhang leans toward the climber.",
+    "Walk the group to one example of each in this gym before they climb."
+   ],
+   "commonMistakes": [
+    "Sending everyone to the steepest wall first because it looks exciting."
+   ],
+   "progressions": {
+    "easier": "Touch a slab, a vertical wall, and an overhang from the ground.",
+    "harder": "Climb a short easy problem on two different angles and say what the feet had to do."
+   },
+   "equipment": [
+    "Access to slab, vertical, and overhanging walls"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/wall-angles.png",
+     "alt": "Three side-view diagrams: slab leans away from the climber, vertical is perpendicular to the floor, overhang leans toward the climber.",
+     "credit": "Climbing Coach overview diagram, checked against PRG wall-angle wording",
+     "sourceUrl": "https://philarockgym.com/all-about-indoor-climbing-walls/",
+     "license": "Climbing Coach overview diagram; hosted with credit and source link",
+     "licenseUrl": "https://philarockgym.com/all-about-indoor-climbing-walls/"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "All About Indoor Climbing Walls",
+     "site": "Philadelphia Rock Gyms",
+     "href": "https://philarockgym.com/all-about-indoor-climbing-walls/"
+    },
+    {
+     "title": "Glossary: slab / overhang",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
+   ]
   },
   {
    "id": "target-practice",
@@ -7324,7 +8280,30 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "The target is reached with the same footwork as any other climb; looking at the target does not mean skipping feet.",
+    "One climber in the fall zone at a time."
+   ],
+   "commonMistakes": [
+    "Jumping for the target from too far away when a static reach would work."
+   ],
+   "progressions": {
+    "easier": "A large, low target.",
+    "harder": "A slightly higher target the climber can still touch with control and climb down from."
+   },
+   "equipment": [
+    "A visible target (tape, magnet, or marker)",
+    "Pads"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
+   ]
   },
   {
    "id": "catch-n-climb",
@@ -8150,7 +9129,32 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Look at the exact spot, hover the foot over it, then set it down. A hover followed by a shuffle does not count.",
+    "If the body swings during the hover, move the hips over the standing foot instead of pulling harder with the hands.",
+    "Every placement gets the hover, including easy ones near the ground."
+   ],
+   "commonMistakes": [
+    "Picking boulders that are too hard, so the climber holds the hover with the arms.",
+    "Holding a swing with the hands instead of moving the hips over the standing foot.",
+    "Hovering without looking first."
+   ],
+   "progressions": {
+    "easier": "Longer hovers on easy, large footholds.",
+    "harder": "The same hover on slightly harder boulders, then steeper walls or smaller footholds."
+   },
+   "equipment": [
+    "Easy boulder or traverse with clear footholds"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Hover feet for climbing: how to do it",
+     "site": "Blok Sessions",
+     "href": "https://bloksessions.com/exercises/hover-feet"
+    }
+   ]
   },
   {
    "id": "mantle-practice",
@@ -8191,7 +9195,45 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "A mantle is how you climb through a ledge when there is nothing useful to pull on above it, like getting out of a pool.",
+    "Try a palm-down press, a hand-foot match, and leaning in over the feet.",
+    "It is commonly used when topping out a boulder."
+   ],
+   "commonMistakes": [
+    "Keeping the hands as pulls above the lip instead of flipping them to a press.",
+    "Leaving the hips behind the ledge so the press has nothing under it."
+   ],
+   "progressions": {
+    "easier": "A low box, volume, or padded ledge they can press out onto.",
+    "harder": "A higher top-out with a planned downclimb or drop after they stand up."
+   },
+   "equipment": [
+    "A ledge, volume, or top-out with pads underneath"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/mantle-move.jpg",
+     "alt": "Climber topping out a boulder with a mantle: palms pressing down on the lip, body rising onto the shelf.",
+     "credit": "Photo: luis vilanova / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mantel_Move.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Mantle",
+     "site": "Momentum Youth Programs",
+     "href": "https://youthprograms.momentumclimbing.com/mantle/"
+    },
+    {
+     "title": "Glossary: mantel move, top-out",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
+   ]
   },
   {
    "id": "drop-knee-finder",
@@ -8801,7 +9843,29 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Change one thing: a foot, a sequence, or a rest. Leave the rest of the plan alone so you can tell what helped.",
+    "Gresham notes that stacking too many movement drills at once makes them hard to keep; two or three is plenty, and one change is enough on a hard try."
+   ],
+   "commonMistakes": [
+    "Changing the start, the feet, and the finish all at once, then not knowing what worked."
+   ],
+   "progressions": {
+    "easier": "Coach names the one change.",
+    "harder": "The climber names it before leaving the ground."
+   },
+   "equipment": [
+    "A project or drill climb they will try more than once"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Neil Gresham: Improve Your Movement — combining a few drills",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    }
+   ]
   },
   {
    "id": "today-s-process-goal",
@@ -8842,7 +9906,29 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "A process goal is about how they will climb (quiet feet, a full partner check, cheering a teammate), not whether they send.",
+    "Write or say the goal before the first climb and revisit it at the end."
+   ],
+   "commonMistakes": [
+    "Setting a goal the climber cannot control, such as sending a certain color today."
+   ],
+   "progressions": {
+    "easier": "Choose from two process goals the coach offers.",
+    "harder": "Each athlete writes one process goal and one way they will notice it during the session."
+   },
+   "equipment": [
+    "Optional card or notebook"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
+   ]
   },
   {
    "id": "three-good-choices",
@@ -8884,7 +9970,29 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "After a try, name three things that went well (feet, effort, or a kind turn) before talking about what to change.",
+    "This is a process talk about the attempt, not a results board."
+   ],
+   "commonMistakes": [
+    "Only listing mistakes, or comparing the try to someone else's send."
+   ],
+   "progressions": {
+    "easier": "Coach offers the first good choice and the climber adds two.",
+    "harder": "Partners give each other three observations, still about process."
+   },
+   "equipment": [
+    "None"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
+   ]
   },
   {
    "id": "world-s-greatest-stretch",
@@ -9179,7 +10287,46 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Squeeze or stem: push out in opposite directions with the feet (and hands if they reach) so the body is held by opposition.",
+    "This is the same idea as bridging in a corner or chimney."
+   ],
+   "commonMistakes": [
+    "Pulling inward on the hands while the feet slip, instead of pressing the feet out."
+   ],
+   "progressions": {
+    "easier": "A wide, low corner or two facing volumes.",
+    "harder": "A narrower stem, or a brief no-hands pause if the opposition is solid."
+   },
+   "equipment": [
+    "A corner, chimney, or pair of volumes"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/stemming-bridging-arapiles.jpg",
+     "alt": "Climber bridging a wide corner, feet and body pressing outward in opposition.",
+     "credit": "Photo: Stefanos Nikologianis / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rock_Climb_on_Arapiles,_Australia.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "src": "assets/images/figures/stemming-dihedral.jpg",
+     "alt": "Climber stemming in an open-book dihedral, both feet pressing on opposite walls.",
+     "credit": "Photo: Horst Strähle / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spreizen_in_Verschneidung.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Glossary: stemming, bridging, chimneying, dihedral",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
+   ]
   },
   {
    "id": "double-hand-moves",
@@ -10050,7 +11197,29 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Pick one rule for the set of laps (quiet feet, straight arms, or no adjusting the foot) and keep the climbs easy enough to honor it.",
+    "Quality laps beat a high count of messy ones."
+   ],
+   "commonMistakes": [
+    "Stacking several rules at once, or choosing climbs that are too hard for any rule to stick."
+   ],
+   "progressions": {
+    "easier": "One short boulder, one rule, two laps.",
+    "harder": "A longer easy top-rope or a few linked boulders, still one rule."
+   },
+   "equipment": [
+    "Easy boulder or top-rope"
+   ],
+   "images": [],
+   "researchSources": [
+    {
+     "title": "Neil Gresham: Improve Your Movement — grouping a few drills on easy climbs",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    }
+   ]
   },
   {
    "id": "forearm-flush-laps",
@@ -10782,7 +11951,43 @@
    "discipline": [
     "bouldering"
    ],
-   "prereqs": []
+   "prereqs": [],
+   "coachingCues": [
+    "Keep hips close and arms long while the body drops between the holds.",
+    "If the feet cut, step back up and try with more tension rather than muscling through."
+   ],
+   "commonMistakes": [
+    "Dropping the hips by bending the arms and pulling, instead of staying in a long, tight position."
+   ],
+   "progressions": {
+    "easier": "A steep volume or large holds close together.",
+    "harder": "A slightly wider span, still with holds they can hold statically."
+   },
+   "equipment": [
+    "Overhanging or steep section with large holds"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/drop-knee-verhoeven.jpg",
+     "alt": "Climber on an indoor overhang using a drop-knee: the knee is turned down so the hips stay close to the wall.",
+     "credit": "Photo: O.Taris / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:AnakVerhoeven-1.JPG",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Drop Knee",
+     "site": "Momentum Youth Programs",
+     "href": "https://youthprograms.momentumclimbing.com/drop-knee/"
+    },
+    {
+     "title": "Neil Gresham: Improve Your Movement — hips centred, arms straight",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    }
+   ]
   },
   {
    "id": "tennis-ball-transfer",
@@ -12777,6 +13982,50 @@
    "prereqs": [
     "Partner Check",
     "Take and Lower Sequence"
+   ],
+   "coachingCues": [
+    "Choose climbs well within ability so the athlete can practice pacing, straight arms, and rests rather than fighting a redpoint.",
+    "Pump is the forearm getting so full of metabolic waste that even a basic grip is hard; shake out and rest before that happens.",
+    "Downclimbing a lap can count as more time on the wall if the belayer is giving working slack."
+   ],
+   "commonMistakes": [
+    "Picking a hard project for endurance, which usually becomes a short, intense fight.",
+    "The belayer holding the climber tight so the lap is a lower, not a climb."
+   ],
+   "progressions": {
+    "easier": "One easy top-rope up and down.",
+    "harder": "A set of easy laps with a short rest between, or a longer easy route with planned shake-outs."
+   },
+   "equipment": [
+    "Top-rope wall",
+    "Harnesses, rope, belay device"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/top-rope-pair.jpg",
+     "alt": "Top-rope system in use: the rope runs to a top anchor and back, with a climber on the wall and a belayer standing below.",
+     "credit": "Photo: AvantaR / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asekurujacy_i_asekurowany.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ],
+   "researchSources": [
+    {
+     "title": "Glossary: pump, lower-off, endurance context",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Downclimbing (belayer gives enough slack)",
+     "site": "Momentum Youth Programs, Focus Drills",
+     "href": "https://youthprograms.momentumclimbing.com/focus-drills/"
+    },
+    {
+     "title": "4x4's (Endurance) — purpose: endurance and energy management on climbs within ability",
+     "site": "Momentum Youth Programs, Other Drills",
+     "href": "https://youthprograms.momentumclimbing.com/other-drills/"
+    }
    ]
   },
   {

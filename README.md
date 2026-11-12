@@ -58,6 +58,7 @@ The HTML holds no content. Change the JSON files and the site updates.
   - `sources`: keys into `sources.json` → `library`, or `"CP"` for coaching practice
   - `discipline`: one or more of `bouldering`, `auto-belay`, `top-rope`, `lead`. Lead entries are only for Ages 12+ and Ages 14+. Every auto-belay entry lists staff permission in `prereqs`
   - `prereqs`: a list of prerequisite phrases (may be empty)
+  - Optional coaching fields on some activities: `coachingCues`, `commonMistakes`, `progressions` (`easier` and `harder`), `equipment`, `duration`, `groupSize`, `images`, and `researchSources`. Empty sections are not shown. Each image has a credit line and a source link.
 - **`data/rope-lessons.json`**: sample lessons by `ageId` and `discipline`. Each has a 5-minute warm-up and skill blocks, and the minutes add up to the class length. Curricula shows the lesson that matches the selected age group and discipline.
 - **`data/vocabulary.json`**: `{ lastUpdated, count, items: [...] }`. Each term has these fields:
   - `id`
@@ -69,6 +70,7 @@ The HTML holds no content. Change the JSON files and the site updates.
   - `little`: for Parent & Child (ages 2–3), Ages 3–4 and Ages 4–6
   - `demo`: how to teach it
   - `discipline`: one or more of `bouldering`, `auto-belay`, `top-rope`, `lead`
+  - Optional coaching fields on some terms: `explanation`, `whyItMatters`, `howToCoachIt`, `relatedTerms` (vocabulary ids), `images`, and `sources`
 - **`data/curricula.json`** has three parts:
   - `categories`: chart colors and legend labels
   - `groups`: one per age group, each with:
@@ -82,7 +84,7 @@ The HTML holds no content. Change the JSON files and the site updates.
     - `vocabLevel`
     - `gamesByMonth`
     - `plan`: the authored weekly source data
-    - `weeks`: the 40 finished weekly plans
+    - `weeks`: the 40 finished weekly plans. Each week also has `focusActivities` (2–3 activity ids) and `learnings` (2–4 short cues). The lesson card links the activities and lists the cues.
   - `weekVocab`: the definitions used in the week tables, as [for you, kid, little kid]
 - **`data/sources.json`**:
   - `library`: activity sources by key

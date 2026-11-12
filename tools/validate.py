@@ -41,6 +41,7 @@ for v in voc["items"]:
     for f in ["id", "name", "aka", "category", "definition", "kid", "little", "demo"]:
         if f not in v: errors.append(f"term {v.get('name')}: missing {f}")
 byname = {a["name"]: a for a in acts["items"]}
+byid = {a["id"]: a for a in acts["items"]}
 weeks = 0
 for g in cur["groups"]:
     total = sum(b["min"] for b in g["blocks"])
@@ -64,6 +65,22 @@ for g in cur["groups"]:
         for t in w["vocab"]:
             if nz(t) not in V: errors.append(f"{g['name']} week {w['n']}: term '{t}' not in vocabulary")
             if t not in cur["weekVocab"]: errors.append(f"{g['name']} week {w['n']}: term '{t}' missing from weekVocab")
+        focus = w.get("focusActivities")
+        learnings = w.get("learnings")
+        if not isinstance(focus, list) or not 2 <= len(focus) <= 3:
+            errors.append(f"{g['name']} week {w['n']}: focusActivities must list 2 or 3 activity ids")
+        else:
+            for aid in focus:
+                act = byid.get(aid)
+                if not act:
+                    errors.append(f"{g['name']} week {w['n']}: focusActivities id '{aid}' does not resolve")
+                else:
+                    if g["ageId"] not in act["ages"]:
+                        errors.append(f"{g['name']} week {w['n']}: focus activity '{aid}' not listed for {g['ageId']}")
+                    if "lead" in (act.get("discipline") or []) and g["ageId"] not in ("ages-12-plus", "ages-14-plus"):
+                        errors.append(f"{g['name']} week {w['n']}: lead focus '{aid}' is only for ages 12+ and 14+")
+        if not isinstance(learnings, list) or not 2 <= len(learnings) <= 4 or any(not isinstance(x, str) or not x.strip() for x in learnings):
+            errors.append(f"{g['name']} week {w['n']}: learnings must be 2 to 4 short cues")
 pb = load("playbook"); pages = load("pages")
 shape_text = []
 for gpb in pb["groups"]:
@@ -142,6 +159,7 @@ game_allow = [
         r"three points",               # three points of contact
         r"three-points",               # id slug for that term
         r"tie-in-points",              # id slug for the harness hardware
+        r"both-points",                # filename of the Petzl two-point tie-in figure
         r"four points",
         r"tie-in points",              # harness hardware
         r"halfway points",             # the Zone hold, a real comp term
@@ -165,6 +183,9 @@ game_allow = [
         r"tight vs slack",
         r"wiggle zone[’']? vs",
         r"self vs\.? self",            # personal best
+        r"not a race",                 # a warning against a race, not a race game
+        r"not a chase",                # a warning against a chase, not a chase game
+        r"into an elimination",        # tells the coach not to make an elimination game
         r"documents/safety/",          # published source URL; keep it verbatim
     ]
 ]
@@ -192,6 +213,26 @@ for v in voc["items"]:
     else:
         for x in v["discipline"]:
             if x not in DISC: errors.append(f"term {v.get('name')}: unknown discipline {x}")
+term_ids = {v["id"] for v in voc["items"]}
+IMG_NEED = ("src", "alt", "credit", "sourceUrl", "license", "licenseUrl")
+def check_images(item, label):
+    for im in item.get("images") or []:
+        if not isinstance(im, dict):
+            errors.append(f"{label}: image must be an object")
+            continue
+        for k in IMG_NEED:
+            if not im.get(k):
+                errors.append(f"{label}: image missing {k}")
+        src = im.get("src") or ""
+        if src and not (root / src).is_file():
+            errors.append(f"{label}: image file missing {src}")
+for a in acts["items"]:
+    check_images(a, f"activity {a['name']}")
+for v in voc["items"]:
+    check_images(v, f"term {v.get('name')}")
+    for rel in v.get("relatedTerms") or []:
+        if rel not in term_ids:
+            errors.append(f"term {v.get('name')}: relatedTerms id '{rel}' does not resolve")
 ids = {a["id"] for a in acts["items"]}
 try:
     ropes = load("rope-lessons")

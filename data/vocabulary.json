@@ -15,6 +15,33 @@
    "demo": "Touch three holds and name their colors.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A climbing hold is a shaped grip, usually bolted to a wall, that you grab or stand on. Holds are arranged in paths called routes by route setters, and they come in many shapes (jugs, crimps, pinches, slopers, volumes).",
+   "whyItMatters": "Naming hold types helps kids choose feet and hands on purpose, and it is the language of route reading.",
+   "howToCoachIt": "Touch and name a jug, a crimp, a pinch, a sloper, and a foothold on the wall in front of you. Momentum's Mo Mini list starts with those basic names.",
+   "relatedTerms": [
+    "foothold",
+    "jug",
+    "route",
+    "match"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Climbing hold",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Climbing_hold"
+    },
+    {
+     "title": "Glossary: hold, jug/bucket, volume hold",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Hold-name games (Mo Mini list)",
+     "site": "Momentum Youth Programs, Contact Drills",
+     "href": "https://youthprograms.momentumclimbing.com/contact-drills/"
+    }
    ]
   },
   {
@@ -30,6 +57,28 @@
    "demo": "Hang from a jug and from a small hold; compare.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A jug (also called a bucket in the glossary) is a large handhold that is very easy to use.",
+   "whyItMatters": "Jugs are the right place to teach new movement, rests, and straight arms, because the hands can hold on while the feet and hips learn the skill.",
+   "howToCoachIt": "Ask the group to find three jugs and then do a drill (hover feet, robot arms, or a mantle press) only on those large holds first.",
+   "relatedTerms": [
+    "hold",
+    "match",
+    "pump",
+    "straight-arms"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: jug, bucket",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Climbing hold",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Climbing_hold"
+    }
    ]
   },
   {
@@ -157,6 +206,34 @@
    "demo": "Find the smallest foothold in reach.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A foothold is any place you stand: a bolt-on hold, a chip, a volume, or a smear on the wall itself. Wikipedia's glossary treats a hold as a place to cling, grip, jam, press, or stand.",
+   "whyItMatters": "Looking at the foothold before you place the foot is the shared idea behind quiet feet, sticky feet, hover feet, and downclimbing.",
+   "howToCoachIt": "Ask the climber to point to the next foothold, then watch whether the foot lands there quietly and stays.",
+   "relatedTerms": [
+    "hold",
+    "quiet-feet",
+    "smear",
+    "edging",
+    "high-step"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: hold, smearing, edging",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Climbing hold",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Climbing_hold"
+    },
+    {
+     "title": "Quiet Sticky Ninja Feet",
+     "site": "Momentum Youth Programs",
+     "href": "https://youthprograms.momentumclimbing.com/focus-drills/"
+    }
    ]
   },
   {
@@ -188,6 +265,40 @@
    "demo": "Walk feet up blank wall while holding a jug.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Smearing is using friction from the sole of the climbing shoe when there are no good footholds to stand on. It is a central skill of slab climbing, which emphasizes balance, footwork, and smearing on walls that are less than vertical.",
+   "whyItMatters": "If kids only hunt for edges, they miss a lot of useful feet, especially on slab.",
+   "howToCoachIt": "Start on a low-angle slab. Weight the whole sole and keep the hip over the foot. Contrast it with edging on a nearby narrow foothold.",
+   "relatedTerms": [
+    "edging",
+    "foothold",
+    "quiet-feet",
+    "center-of-gravity"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/smear-foot-bouldering.jpg",
+     "alt": "Close view of a climbing shoe smearing on rock, the sole pressed flat to use friction.",
+     "credit": "Photo: MarkDoliner / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bouldering_-_foot_smear.jpg",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+     "src": "assets/images/figures/smear-standing-friction-slab.jpg",
+     "alt": "Climber standing on a friction slab with weight over smeared feet.",
+     "credit": "Photo: Hermann Feederle / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stehen_auf_Reibungsplatten.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary: smearing, edging, slab, slab climbing",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -205,6 +316,23 @@
    "demo": "Inside edge, then outside edge, on the same hold.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Edging uses the edge of the climbing shoe on a narrow foothold. When there is no foothold to edge on, smearing (friction from the sole) is used instead.",
+   "whyItMatters": "Choosing an edge or a smear is basic footwork. Precise placement still matters for both.",
+   "howToCoachIt": "Find a small edge and a blank patch of wall side by side. Have the climber edge one foot and smear the other, looking at each placement first. No accurate close-up edging photo was available for this draft, so demo on the wall.",
+   "relatedTerms": [
+    "smear",
+    "foothold",
+    "quiet-feet",
+    "high-step"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: edging, smearing",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -233,6 +361,32 @@
    "demo": "Heel hook a big hold at waist height.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A heel hook uses the back of the heel to apply pressure on a hold for balance or leverage. It is different from a toe hook, which presses the top of the toes under a hold to pull the body in.",
+   "whyItMatters": "A good heel hook can take weight off the hands and help the hips stay close, especially on steep terrain or a traverse.",
+   "howToCoachIt": "Start with a large, obvious heel on a volume or rail at a comfortable height. Set the heel, then move the hips, then move a hand. Keep pads closed underneath.",
+   "relatedTerms": [
+    "flagging",
+    "body-tension",
+    "top-out",
+    "match"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/heel-hook-fersen.jpg",
+     "alt": "Indoor heel hook with the back of the heel set on a hold, body and free leg visible.",
+     "credit": "Photo: ThomasP / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fersen_hook.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary: heel hook, toe hook",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -301,6 +455,32 @@
    "demo": "High step and stand up.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A high step is placing a foot on a hold that is significantly higher than usual, often near the hips or hands, then weighting it to stand up. Momentum groups high steps with toe placement and body position: sometimes the body is stretched, sometimes scrunched, and both can be useful.",
+   "whyItMatters": "Kids often avoid a high foot and over-reach with the hands. A committed high step can make the next hand easy.",
+   "howToCoachIt": "On a vertical wall with large holds, ask for a high foot, eyes on the hold, then a stand-up with hips over that foot. High/Low Feet (10–20 min in Momentum's contact drills) contrasts scrunched feet with a stretched, tip-toe position.",
+   "relatedTerms": [
+    "foothold",
+    "quiet-feet",
+    "center-of-gravity",
+    "smear"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/high-step-colli.jpg",
+     "alt": "Climber making a high step on a boulder, one foot raised high while the body stays close to the wall.",
+     "credit": "Photo: Ultimouomo / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beatrice_Colli,_bouldering_flexibility,_pic_by_Yuri_Palma.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "High/Low Feet (Toe Placement)",
+     "site": "Momentum Youth Programs, Contact Drills",
+     "href": "https://youthprograms.momentumclimbing.com/contact-drills/"
+    }
    ]
   },
   {
@@ -329,6 +509,28 @@
    "demo": "See Silent Feet.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Quiet feet means placing each foot without noise, which is a signal of a precise, controlled placement. Gresham treats precise footwork as a generic drill: not which kind of placement (edge or smear), but how quietly and carefully the foot is set.",
+   "whyItMatters": "Noisy, slapping feet usually mean the climber did not look and is not standing on the foot with confidence.",
+   "howToCoachIt": "Momentum's Quiet Sticky Ninja Feet drill (5–10 min): look at the hold first, place a silent, firm foot, and stand up on it. Do this on easy traverses or routes. Do not turn missed silence into an elimination game.",
+   "relatedTerms": [
+    "foothold",
+    "edging",
+    "smear",
+    "downclimb"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Quiet Sticky Ninja Feet",
+     "site": "Momentum Youth Programs, Focus Drills",
+     "href": "https://youthprograms.momentumclimbing.com/focus-drills/"
+    },
+    {
+     "title": "Neil Gresham: Improve Your Movement — precise footwork",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    }
    ]
   },
   {
@@ -364,6 +566,31 @@
    "demo": "See Monkey Tails.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Flagging is holding a leg in a position to keep balance, rather than to support weight, often to prevent a barn-door swing. The glossary names three types: a normal flag (free foot stays on the same side), a reverse inside-flag (crosses in front of the standing foot), and a reverse outside-flag (crosses behind). A back-step uses the outside (little-toe) edge of the shoe and often appears with a flag.",
+   "whyItMatters": "When both feet are on the same side of the hands, the body can swing. A flag is the usual fix.",
+   "howToCoachIt": "Build a simple problem where both footholds sit on one side. Let the climber feel the barn-door, then add a flag or a taped box for the free leg. Flag Boxes is the matching drill.",
+   "relatedTerms": [
+    "center-of-gravity",
+    "body-tension",
+    "stemming"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/backstep-eindrehen.jpg",
+     "alt": "Climber in a back-step with the free leg flagged to the side for balance.",
+     "credit": "Photo: ThomasP / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eindrehen.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary: flagging, back-step",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -379,6 +606,23 @@
    "demo": "See Robot Arms.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Straight arms means hanging on extended arms so the skeleton, not bent elbows, holds the weight. Gresham: on steep walls the instinct is to straighten the legs and bend the arms when pumped or scared; the better position is arms as straight as possible, shoulders engaged, hips centred below, legs bent.",
+   "whyItMatters": "Bent-arm hanging tires the pumps quickly. Straight arms are one of Gresham's generic movement drills, alongside precise feet.",
+   "howToCoachIt": "On an easy steep climb, use Robot Arms and Gresham's loop: precise feet, straight arms, relaxed grip. Do not use a hard project for the first look at this cue.",
+   "relatedTerms": [
+    "pump",
+    "center-of-gravity",
+    "endurance",
+    "body-tension"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Neil Gresham: Improve Your Movement — straight arms, relaxed grip",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    }
    ]
   },
   {
@@ -405,6 +649,31 @@
    "demo": "See Dyno Dash.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A dyno is a dynamic jump or leap to an out-of-reach hold; missing the hold will usually result in a fall. A deadpoint is a more controlled dynamic in which the hold is grabbed at the apex of the movement while other points of contact remain.",
+   "whyItMatters": "Dynos are exciting and easy to overuse. They belong on closed pads or a belay, at a height you have agreed, after the climber can do the same wall statically when the holds allow it.",
+   "howToCoachIt": "Compare a static reach and a short padded dyno to a large hold. Talk about the landing before the first jump.",
+   "relatedTerms": [
+    "static",
+    "fall-zone",
+    "landing-position"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/dyno-mushroom-boulder.jpg",
+     "alt": "Climber on a boulder making a dynamic reach, one foot off, both hands going to a higher hold.",
+     "credit": "Photo: Dana Le / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mushroom_boulder_dyno.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary: dyno, deadpoint, campusing",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -433,6 +702,23 @@
    "demo": "See Static and Dynamic.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "In this program, static means slow, controlled movement that keeps three points of contact. It is the opposite of a dyno (a jump to an out-of-reach hold). A deadpoint sits in between: a controlled dynamic where the hand arrives at the apex while the other contacts stay on.",
+   "whyItMatters": "Kids often jump when a static move would work. Teaching both words lets them choose the movement the hold actually needs.",
+   "howToCoachIt": "Do the same easy sequence once statically, then ask whether any reach truly needs a jump. Save committed dynos for padded, agreed tries.",
+   "relatedTerms": [
+    "dyno",
+    "quiet-feet",
+    "body-tension",
+    "match"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: dyno, deadpoint",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -463,6 +749,32 @@
    "demo": "Match on a jug.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "In this program, a match is putting both hands, or both feet, on the same hold. The glossary also mentions a shadow match, which is a quick hand switch on a hold that only fits one hand; that is a more advanced variant, not the basic class meaning.",
+   "whyItMatters": "Matching is a common way to reorganize for the next reach, and it appears in mantles (hand-foot match) as well as on jugs.",
+   "howToCoachIt": "Start on a jug large enough for two hands. Then try a hand-foot match on a low ledge as part of mantle practice.",
+   "relatedTerms": [
+    "jug",
+    "hold",
+    "top-out"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Program definition (existing vocabulary text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "Mantle (includes hand-foot match)",
+     "site": "Momentum Youth Programs",
+     "href": "https://youthprograms.momentumclimbing.com/mantle/"
+    },
+    {
+     "title": "Glossary: shadow match (related, advanced)",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -523,6 +835,32 @@
    "demo": "Layback an arete.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Laybacking (also liebacking) is climbing an edge by side-pulling with both hands and using opposing friction with the feet.",
+   "whyItMatters": "It is a clear example of opposition: hands pull, feet push. It shows up on aretes, crack edges, and some volumes.",
+   "howToCoachIt": "Find a vertical edge or volume rail. Cue pull with the hands, push with the feet, and keep the hips close. Use a height they can downclimb or drop from with pads.",
+   "relatedTerms": [
+    "stemming",
+    "body-tension",
+    "flagging",
+    "dihedral"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/layback-owens-river.jpg",
+     "alt": "Climber laybacking a crack: both hands side-pulling the edge, feet pushing in opposition on the face.",
+     "credit": "Photo: Maria Ly / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crack_climbing_layback_left.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary: laybacking / liebacking",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -540,6 +878,40 @@
    "demo": "Stem in a corner.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Stemming (also called bridging) is climbing opposing walls or a corner by pushing in opposite directions with the feet and hands. Chimneying is the related skill of climbing a cleft large enough for the body.",
+   "whyItMatters": "Opposition can take weight off the arms and even allow a rest. It is also a clear way to feel body tension.",
+   "howToCoachIt": "Use a wide dihedral or two facing volumes. Cue press the feet out. A brief, solid no-hands pause is a useful test on easy stems only.",
+   "relatedTerms": [
+    "dihedral",
+    "body-tension",
+    "flagging",
+    "center-of-gravity"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/stemming-bridging-arapiles.jpg",
+     "alt": "Classic stem / bridge in a wide chimney-like corner, both legs pressing outward.",
+     "credit": "Photo: Stefanos Nikologianis / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rock_Climb_on_Arapiles,_Australia.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "src": "assets/images/figures/stemming-dihedral.jpg",
+     "alt": "Climber stemming in an open-book dihedral, feet on opposite walls.",
+     "credit": "Photo: Horst Strähle / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spreizen_in_Verschneidung.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary: stemming, bridging, chimneying, dihedral",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -586,6 +958,42 @@
    "demo": "Stand on one foot and lean.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "The centre of gravity is the body's balance point. In this program, climbers learn to keep it over the feet. Gresham's steep-wall position puts the hips centred directly below straight, engaged arms, with the legs bent. A drop-knee is an advanced way to twist the hips — and the centre of gravity — closer to a steep wall.",
+   "whyItMatters": "When the hips drift away from the wall or off the standing foot, feet smear off and arms take the weight.",
+   "howToCoachIt": "On a smear or a hover-feet drill, ask the climber to move the hips over the standing foot. Blok Sessions uses the same cue when a hover starts to swing.",
+   "relatedTerms": [
+    "smear",
+    "flagging",
+    "body-tension",
+    "straight-arms"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/smear-standing-friction-slab.jpg",
+     "alt": "Climber on a friction slab with the weight and hips over smeared feet, a clear example of balance over the feet.",
+     "credit": "Photo: Hermann Feederle / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stehen_auf_Reibungsplatten.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Neil Gresham: Improve Your Movement — hips centred",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    },
+    {
+     "title": "Glossary: drop knee (hips and centre of gravity closer to the wall)",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Hover feet for climbing",
+     "site": "Blok Sessions",
+     "href": "https://bloksessions.com/exercises/hover-feet"
+    }
    ]
   },
   {
@@ -631,6 +1039,37 @@
    "demo": "See Keep the Tension.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Body tension is the core and opposing limbs working together so the feet stay on and the body does not sag or swing. Stemming (pressing in opposite directions) and, on steeper ground, a drop-knee are common ways coaches see that tension.",
+   "whyItMatters": "Without tension, even good handholds are not enough on a steep wall or a wide stem; the feet peel and the arms take all the load.",
+   "howToCoachIt": "Use a wide, large-hold stem and ask the climber to press the feet out. On an overhang, Momentum's drop-knee page notes the climber needs both feet outside the centerline and should be cautious of knee strain; keep repetition limited and warm up the lower body.",
+   "relatedTerms": [
+    "stemming",
+    "flagging",
+    "center-of-gravity",
+    "straight-arms"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/stemming-bridging-arapiles.jpg",
+     "alt": "Climber keeping tension by stemming: both legs press outward in a wide corner so the body stays in the wall.",
+     "credit": "Photo: Stefanos Nikologianis / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rock_Climb_on_Arapiles,_Australia.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary: stemming, flagging",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Drop Knee",
+     "site": "Momentum Youth Programs",
+     "href": "https://youthprograms.momentumclimbing.com/drop-knee/"
+    }
    ]
   },
   {
@@ -676,6 +1115,50 @@
    "demo": "See Harness Check.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A climbing harness is a sewn, load-bearing waist-and-leg device that the rope and other load-bearing gear attach to. On a standard sit harness the rope is tied through the two tie-in points (bridges). The belay loop is for a belay device or an auto-belay connector, attached with a locking carabiner. Gear loops are for racking only. The usual tie-in knot is the figure-eight follow-through, often backed up by a stopper knot. Always check the knot before climbing.",
+   "whyItMatters": "A waist belt worn too low, a knot through the wrong point, or an unlocked locker is a serious error; the partner check exists to catch it every time.",
+   "howToCoachIt": "Lay the harness out, name waist, legs, belay loop, tie-in points, and gear loops, then put it on and check each other. Petzl: “Tie in to the two tie-in points.” For auto belays, staff permission is required, and TRUBLUE says to clip the belay loop only, not multiple hard points.",
+   "relatedTerms": [
+    "figure-8-follow-through",
+    "partner-check",
+    "belay",
+    "on-belay"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/harness-petzl-corax.jpg",
+     "alt": "Sit harness with waist belt, leg loops, green belay loop, and two tie-in points visible.",
+     "credit": "Photo: Savant-fou / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baudrier.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/petzl-harness-two-tie-in-points.png",
+     "alt": "Petzl Access Book drawing of a sit harness with a belay loop and two tie-in points.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 2, harness with a belay loop and two tie-in points",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Climbing harness",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Climbing_harness"
+    },
+    {
+     "title": "Tying in with a figure 8 knot",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/US/en/Sport/Tying-in-with-a-figure-8-knot"
+    },
+    {
+     "title": "How to Use an Auto Belay",
+     "site": "TRUBLUE / Head Rush Technologies",
+     "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
    ]
   },
   {
@@ -796,6 +1279,43 @@
    "demo": "See Fall Zones Tour.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A crash pad (or bouldering mat) is a thick foam pad used for protection when bouldering. Modern pads are often about 8–15 cm (3–6 in) thick, with two or three layers of foam in a tough cover; some fold for carrying. They help with repeated short landings on hard or uneven ground, and they are also the standard indoor landing surface under bouldering walls.",
+   "whyItMatters": "Pads only help if they cover the actual landing, including the fall zone, with no gaps.",
+   "howToCoachIt": "On the fall-zone tour, have kids point to closed pad coverage and to gaps. Do not stand, stack bags, or film on a pad that is in use.",
+   "relatedTerms": [
+    "fall-zone",
+    "landing-position"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/crash-pad-black-diamond.jpg",
+     "alt": "A folded outdoor crash pad (bouldering mat) standing on end, showing its thick foam construction.",
+     "credit": "Photo: Josh McIntyre / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Diamond_Boulder_Mat.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "src": "assets/images/figures/crash-pads-indoor-wall.jpg",
+     "alt": "Indoor bouldering wall with a row of thick crash pads covering the landing area.",
+     "credit": "Photo: amrufm / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indoor_Climbing_Wall_Bouldering_Mats.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bouldering mat",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Bouldering_mat"
+    },
+    {
+     "title": "Glossary: bouldering mat, crash pad, spotting",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -840,6 +1360,58 @@
    "demo": "See Spot the Figure 8.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "The figure-eight follow-through (figure-eight loop) is the knot commonly used to tie a climbing rope into a harness. Wikipedia calls it the most common harness tie-in knot: strong, relatively easy to tie and to check, though it can be hard to untie after a heavy load. On a standard sit harness the rope passes through both tie-in points and is retraced; Petzl's figures mark a minimum tail of 10 cm / 3.9 in. Always check the knot before starting to climb.",
+   "whyItMatters": "A knot tied through the belay loop, through only one tie-in point, or with a short un-retraced tail is not the standard gym tie-in taught here.",
+   "howToCoachIt": "Teach the sequence from the Petzl figures: form the eight, pass the tail through both tie-in points, retrace, dress, check the tail. Partners check every time.",
+   "relatedTerms": [
+    "harness",
+    "partner-check",
+    "on-belay",
+    "belay"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/petzl-tie-in-ifu-sequence.png",
+     "alt": "Petzl harness notice, section 6: form a figure-eight, pass the tail through both tie-in points, retrace, finished knot with a 10 cm minimum tail.",
+     "credit": "Diagram: Petzl — sit-harness technical notice, section 6",
+     "sourceUrl": "https://www.petzl.com/US/en/Sport/Tying-in-with-a-figure-8-knot",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/US/en/Sport/Tying-in-with-a-figure-8-knot"
+    },
+    {
+     "src": "assets/images/figures/petzl-tie-in-figure8-sequence.png",
+     "alt": "Petzl Access Book: steps for tying in with a figure-eight through both tie-in points.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 3, tying in with a figure-eight knot",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    },
+    {
+     "src": "assets/images/figures/petzl-tie-in-finished-both-points.png",
+     "alt": "Petzl Access Book: finished figure-eight through both tie-in points, tail marked 10 cm / 3.9 inch minimum.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 2",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tying in with a figure 8 knot",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/US/en/Sport/Tying-in-with-a-figure-8-knot"
+    },
+    {
+     "title": "Figure-eight knot",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Figure-eight_knot"
+    },
+    {
+     "title": "Glossary: figure-eight knot, tie in",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -973,6 +1545,77 @@
    "demo": "See Ground School Belay.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Belaying is managing the rope so a falling climber is caught and, when needed, lowered. The belayer uses a device on the harness belay loop to increase braking force. Devices may be a simple tube (passive) or a cam-assisted device such as a GRIGRI. In a typical setup the climber is tied in with a figure-eight, the rope runs through the top-rope anchor or through protection, and the belayer holds the brake side of the rope. Petzl's REVERSO notice states that the device does not automatically block the rope; the brake strand is always held. Staff permission is required before anyone uses an auto belay; the connector goes to the belay loop only.",
+   "whyItMatters": "Belaying is a partnership skill. The partner check, the commands, and the brake hand are all part of the same system.",
+   "howToCoachIt": "Ground school first, then a top-rope with a backup as your gym requires. Lead belay belongs only in the 12+ and 14+ groups. Load a GRIGRI using the markings on the device (Petzl section 6). Always hold the brake strand.",
+   "relatedTerms": [
+    "on-belay",
+    "lower",
+    "partner-check",
+    "harness",
+    "figure-8-follow-through"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/belay-tube-device.jpg",
+     "alt": "Tube-style belay device on a locking carabiner, brake hand holding the brake strand.",
+     "credit": "Photo: Rupertsciamenna / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belaying_tuber.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/belay-grigri.jpg",
+     "alt": "GRIGRI loaded on a locking carabiner, brake hand on the brake strand.",
+     "credit": "Photo: Rupertsciamenna / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belaying_grigri.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/petzl-grigri-loading.png",
+     "alt": "Petzl GRIGRI notice: open the side plate, load the rope following the markings, close the plate, clip a locker.",
+     "credit": "Diagram: Petzl — GRIGRI technical notice, section 6",
+     "sourceUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw30589f53/media/product/technical-notice-GRIGRI-3_068Tx000009YCjEIAW.pdf",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw30589f53/media/product/technical-notice-GRIGRI-3_068Tx000009YCjEIAW.pdf"
+    },
+    {
+     "src": "assets/images/figures/petzl-reverso-belay-position.png",
+     "alt": "Petzl REVERSO notice, section 6b: universal belay position, always hold the brake side of the rope.",
+     "credit": "Diagram: Petzl — REVERSO technical notice, section 6b: always hold the brake side of the rope",
+     "sourceUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Belaying",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Belaying"
+    },
+    {
+     "title": "Glossary: belay, belay device, auto belay",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "REVERSO technical notice",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    },
+    {
+     "title": "GRIGRI technical notice, section 6",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw30589f53/media/product/technical-notice-GRIGRI-3_068Tx000009YCjEIAW.pdf"
+    },
+    {
+     "title": "How to Use an Auto Belay",
+     "site": "TRUBLUE / Head Rush Technologies",
+     "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
    ]
   },
   {
@@ -1048,6 +1691,42 @@
    "demo": "See Climbing Commands Call-and-Response.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "“On belay?” is the American command a climber uses when ready to be belayed. The standard reply is “Belay on.” The usual start-up then continues “Climbing.” / “Climb on.” These commands come after the partner check, not instead of it.",
+   "whyItMatters": "Clear, loud commands are how both people know the belay is on before anyone leaves the ground.",
+   "howToCoachIt": "Practice the call-and-response on the ground, then use it on every top-rope. The belayer is looking up and holding the brake side of the rope (Petzl primary position and REVERSO notice: always hold the brake side; a REVERSO does not automatically block).",
+   "relatedTerms": [
+    "belay",
+    "partner-check",
+    "lower",
+    "harness"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/petzl-top-rope-primary-position.png",
+     "alt": "Petzl Access Book: primary belaying position, belayer looking up and holding the brake side of the rope.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet pages 6–7, primary belaying position",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary: on belay, belay on, belay",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "ACCESS BOOK #1, primary belaying position",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    },
+    {
+     "title": "REVERSO technical notice, section 6b",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    }
    ]
   },
   {
@@ -1064,6 +1743,50 @@
    "demo": "See Astronaut Lowering.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "To lower (or lower-off) is for the belayer to take the climber's weight on the device and bring them down. In this program, lower also covers the commands for coming down and ending the belay. The climber typically sits back with feet on the wall; the belayer keeps holding the brake side of the rope. This is different from a downclimb, where the climber climbs down under their own movement.",
+   "whyItMatters": "A clean lower needs a ready belayer, a locked locker, and clear commands. It is how most gym top-ropes finish.",
+   "howToCoachIt": "Practice commands first. The belayer holds the brake strand throughout (Petzl: always hold the brake side; a REVERSO does not automatically block). Contrast a lower with a downclimb lap.",
+   "relatedTerms": [
+    "belay",
+    "on-belay",
+    "downclimb",
+    "harness"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/top-rope-pair.jpg",
+     "alt": "Top-rope pair: climber on the wall and belayer below, rope running to a top anchor and back — the system used to lower.",
+     "credit": "Photo: AvantaR / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asekurujacy_i_asekurowany.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+     "src": "assets/images/figures/belay-tube-device.jpg",
+     "alt": "Tube-style belay device in use, brake hand on the brake strand of the rope.",
+     "credit": "Photo: Rupertsciamenna / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belaying_tuber.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary: lower-off, belay device",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "REVERSO technical notice, section 6b",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    },
+    {
+     "title": "Belaying",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Belaying"
+    }
    ]
   },
   {
@@ -1094,6 +1817,50 @@
    "demo": "See Partner Check.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A partner check is each person checking the other's harness, knot, belay device, and locking carabiner before every climb. It includes Petzl's rule to tie in through both tie-in points and always check the knot, and to connect a belay device to the belay loop with a locker that is closed, locked, and loaded on the major axis.",
+   "whyItMatters": "The check is how missed buckles, short tails, and unlocked lockers get caught. It is done every time, including by experienced pairs.",
+   "howToCoachIt": "Use a fixed order (harness, knot, device, locker, commands). Partners point at each item. Coach listens and only prompts if a step is skipped.",
+   "relatedTerms": [
+    "harness",
+    "figure-8-follow-through",
+    "belay",
+    "on-belay"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/harness-petzl-corax.jpg",
+     "alt": "Sit harness with the parts a partner check names: waist, legs, belay loop, tie-in points.",
+     "credit": "Photo: Savant-fou / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baudrier.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/petzl-tie-in-finished-both-points.png",
+     "alt": "Finished figure-eight through both tie-in points, tail marked 10 cm / 3.9 inch minimum — a standard knot check.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 2",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tying in with a figure 8 knot / harness notice",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/US/en/Sport/Tying-in-with-a-figure-8-knot"
+    },
+    {
+     "title": "REVERSO technical notice (device on the belay loop; hold the brake side)",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    },
+    {
+     "title": "Climbing harness",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Climbing_harness"
+    }
    ]
   },
   {
@@ -1155,6 +1922,28 @@
    "demo": "See Climb the Rainbow.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A climbing route is the path a climber follows to the top of a problem, a wall, or a piece of rock. Indoors, holds are usually arranged in marked routes by setters.",
+   "whyItMatters": "Reading a route (which holds, which feet, where to rest) is a skill of its own, practiced in add-on, read-and-point, and observation time.",
+   "howToCoachIt": "Stand on the ground, point hand-foot-hand-foot, then climb the plan. Use easy, well-marked color routes for early practice.",
+   "relatedTerms": [
+    "hold",
+    "send",
+    "project",
+    "observation-period"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: climbing route",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Climbing hold (routes set on walls)",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Climbing_hold"
+    }
    ]
   },
   {
@@ -1187,6 +1976,36 @@
    "demo": "Match the finish hold.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "To top out is to finish a climb by going over the top to a standing position. On boulders that often means a mantel: pressing down on the shelf (palms down, like getting out of a pool) until you can stand on it. Momentum notes that mantles can include a palm-down press, a hand-foot match, and leaning in over the feet.",
+   "whyItMatters": "Many indoor problems finish at a last hold, but outdoor boulders and some gym top-outs require this press. It is awkward until it is practiced on a low ledge.",
+   "howToCoachIt": "Start on a low padded ledge or volume. Cue the flip to a palm-down press and a lean over the feet. Agree how they will come down.",
+   "relatedTerms": [
+    "match",
+    "downclimb",
+    "crash-pad"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/mantle-move.jpg",
+     "alt": "Climber topping out with a mantle, palms pressing down on the lip to stand onto the shelf.",
+     "credit": "Photo: luis vilanova / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mantel_Move.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary: top-out, mantel move",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Mantle",
+     "site": "Momentum Youth Programs",
+     "href": "https://youthprograms.momentumclimbing.com/mantle/"
+    }
    ]
   },
   {
@@ -1200,6 +2019,28 @@
    "demo": "See Downclimbing.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "To downclimb is to descend by climbing downward, rather than being lowered or rappelling. Momentum's drill stresses eye-to-foot contact: look before you place the foot, and use the legs. On a top-rope, the belayer gives enough slack that the climber is not hanging on the rope.",
+   "whyItMatters": "Downclimbing trains feet, control, and a planned way off a boulder. It also adds easy time on the wall for endurance.",
+   "howToCoachIt": "Climb a vertical or slab route, then climb back down. Coach the belayer's slack. On boulders, agree the downclimb before they leave the ground.",
+   "relatedTerms": [
+    "quiet-feet",
+    "foothold",
+    "lower",
+    "endurance"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: downclimb, lower-off",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Downclimbing (Eye to Foot Contact)",
+     "site": "Momentum Youth Programs, Focus Drills",
+     "href": "https://youthprograms.momentumclimbing.com/focus-drills/"
+    }
    ]
   },
   {
@@ -1215,6 +2056,48 @@
    "demo": "See Fall Zones Tour.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "The fall zone is the area under and around a climber where they might land. It should be clear of people, bags, and gaps in the pads. Crash pads are the usual surface in the bouldering fall zone; they work only if they actually cover the landing.",
+   "whyItMatters": "Most avoidable bumps in a youth session happen in a busy fall zone, not on the wall.",
+   "howToCoachIt": "Walk a Fall Zones Tour. One climber (and a spotter, if you are spotting) in a zone at a time. If you include auto belays on the tour, they need staff permission, and the connector clips to the belay loop only.",
+   "relatedTerms": [
+    "crash-pad",
+    "landing-position"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/crash-pads-indoor-wall.jpg",
+     "alt": "Indoor crash pads covering the landing area under a bouldering wall — the fall zone stays on this surface and stays clear.",
+     "credit": "Photo: amrufm / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indoor_Climbing_Wall_Bouldering_Mats.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "src": "assets/images/figures/auto-belay-overview.png",
+     "alt": "Auto belay overview: connector on the belay loop only. Auto-belay use needs staff permission, and the area under the climber still stays clear.",
+     "credit": "Climbing Coach overview diagram, checked against TRUBLUE clip-to-belay-loop guidance",
+     "sourceUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions",
+     "license": "Climbing Coach overview diagram; hosted with credit and source link",
+     "licenseUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bouldering mat",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Bouldering_mat"
+    },
+    {
+     "title": "How to Use an Auto Belay",
+     "site": "TRUBLUE / Head Rush Technologies",
+     "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    },
+    {
+     "title": "Program definition (existing vocabulary text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -1247,6 +2130,35 @@
    "demo": "See Learn to Fall.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "The program landing is: land on the feet with bent knees, then roll back, arms in. Crash pads are thick foam mats that give a more forgiving surface for the repeated short falls of bouldering; they do not replace a planned landing.",
+   "whyItMatters": "Reaching back with straight arms, or landing on a pad gap, is how wrists and necks get hurt. The landing is a skill to practice on purpose (see Learn to Fall).",
+   "howToCoachIt": "Practice from a sit, then a low hang, on a closed pad with a clear fall zone. Do not start from a height the climber has not landed from lower down.",
+   "relatedTerms": [
+    "fall-zone",
+    "crash-pad"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/crash-pads-indoor-wall.jpg",
+     "alt": "Continuous indoor crash pads under a bouldering wall, the surface a climber should land on.",
+     "credit": "Photo: amrufm / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indoor_Climbing_Wall_Bouldering_Mats.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bouldering mat",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Bouldering_mat"
+    },
+    {
+     "title": "Glossary: spotting, bouldering mat",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1263,6 +2175,23 @@
    "demo": "Celebrate on the Team Send Board.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "In the glossary, to send is to free-climb a route from start to finish, whether as an onsight, flash, or redpoint. In class it means completing the agreed climb without falling or weighting the rope.",
+   "whyItMatters": "The word is useful, but it should not become the only goal; process goals and quality repeats matter more for learning.",
+   "howToCoachIt": "Celebrate a send, then ask what the feet or the partner check looked like. Keep send off process-goal cards.",
+   "relatedTerms": [
+    "project",
+    "route",
+    "pump",
+    "endurance"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: send, project, beta",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1317,6 +2246,22 @@
    "demo": "Pick a project and log tries.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A project is a route or boulder you work over more than one session (or many tries in one session) toward a send. The glossary also uses projecting for that longer attempt.",
+   "whyItMatters": "Projects teach planning, one-change-per-try, and patience. They should still leave room in the session for easy movement quality.",
+   "howToCoachIt": "Pick a project that is a stretch, not a desperate fight. Log what changed. Keep process goals alongside the project.",
+   "relatedTerms": [
+    "send",
+    "route",
+    "observation-period"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: project, send, beta",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1470,6 +2415,31 @@
    "demo": "Stem in it.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A dihedral (an open book) is the inside corner formed where two walls meet; it is the opposite of an arete. Dihedrals are the usual place to teach stemming or bridging.",
+   "whyItMatters": "Kids can often rest or climb more easily in a corner than on a flat wall, if they learn to press out instead of only pulling in.",
+   "howToCoachIt": "Walk the gym and find a corner. Name it, then stem it on large holds. Pair the word with the stemming images.",
+   "relatedTerms": [
+    "stemming",
+    "body-tension",
+    "layback"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/stemming-dihedral.jpg",
+     "alt": "Climber in an open-book dihedral, stemming with feet on the two opposing walls.",
+     "credit": "Photo: Horst Strähle / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spreizen_in_Verschneidung.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary: dihedral, open book, stemming",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1485,6 +2455,23 @@
    "demo": "See Freeze Traverse.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A traverse is a section of climbing that moves horizontally rather than straight up. A hand traverse, in the glossary, is a traverse without useful footholds.",
+   "whyItMatters": "Traverses let a whole group share one stretch of wall and are ideal for footwork drills (silent feet, hover feet, add-on) because falls are usually short.",
+   "howToCoachIt": "Set a start and finish at the same height, keep the line within a short step of the mat for the youngest groups, and run one climber per fall zone.",
+   "relatedTerms": [
+    "route",
+    "quiet-feet",
+    "fall-zone",
+    "endurance"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: traverse, hand traverse",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1527,6 +2514,27 @@
    "demo": "Shake out and feel it fade.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Pump (being pumped) is the accumulation of metabolic waste in the forearms so that even a basic grip becomes very hard to hold.",
+   "whyItMatters": "Pump is the usual limit on easy, longer climbing. Straight arms, relaxed grips, and planned rests delay it; fighting a hard move with bent arms brings it on faster.",
+   "howToCoachIt": "On endurance laps, have the athlete notice early pump, shake out, and rest on a jug or a stem. Choose climbs within ability.",
+   "relatedTerms": [
+    "endurance",
+    "straight-arms",
+    "jug"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: pump",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Neil Gresham: Improve Your Movement — energy and bent arms when pumped",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    }
    ]
   },
   {
@@ -1542,6 +2550,33 @@
    "demo": "See Easy Continuous Laps.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Endurance is the ability to keep climbing for longer before the pump takes over. Gresham ties it to efficient movement: graceful, precise climbing conserves energy and lets you climb further on the same effort. Momentum's endurance drills use problems well within ability, not limit projects.",
+   "whyItMatters": "Choosing a hard redpoint to train endurance usually just creates a short, intense fight.",
+   "howToCoachIt": "Easy top-rope laps or linked easy boulders, with one movement cue (straight arms or quiet feet) and planned rests. Downclimbing can add time on the wall if the belayer gives working slack.",
+   "relatedTerms": [
+    "pump",
+    "strength",
+    "straight-arms",
+    "quiet-feet"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Neil Gresham: Improve Your Movement — energy conserved",
+     "site": "UKClimbing",
+     "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    },
+    {
+     "title": "4x4's (Endurance)",
+     "site": "Momentum Youth Programs, Other Drills",
+     "href": "https://youthprograms.momentumclimbing.com/other-drills/"
+    },
+    {
+     "title": "Glossary: pump",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1572,6 +2607,27 @@
    "demo": "See Limit Bouldering.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "In this program, strength means maximum force for single hard moves, as distinct from endurance (how long you can keep climbing before the pump). The existing demo is limit bouldering.",
+   "whyItMatters": "Kids often call every hard feeling strength. Separating a single hard move from a long easy pump helps you pick the right drill.",
+   "howToCoachIt": "Use easy, quality movement most of the session. When you do a hard move, keep attempts limited and on large holds for younger groups.",
+   "relatedTerms": [
+    "endurance",
+    "pump",
+    "project"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Program definition (existing vocabulary text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "Glossary: pump",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1724,6 +2780,28 @@
    "demo": "See Pre-Climb Routine.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "In this program, isolation is a quiet spot to wait and read before an attempt (see also the pre-climb routine). In competition climbing, an isolation zone is where competitors wait so they do not get beta on upcoming routes. The class meaning is the quieter, closer idea: a place to think before you climb, not the full IFSC isolation procedure.",
+   "whyItMatters": "A short pause to look, away from other people's beta, makes read-and-point and observation time actually work.",
+   "howToCoachIt": "Show the group a waiting spot off the pads. No spraying beta to someone who is in their isolation or observation time unless they ask.",
+   "relatedTerms": [
+    "observation-period",
+    "project",
+    "sportsmanship",
+    "route"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: isolation zone, beta",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Program definition (existing vocabulary text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -1739,6 +2817,28 @@
    "demo": "See Pre-Climb Routine.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Observation period is time set aside to read a route before climbing. In competition it is a formal window; in class it is the same idea as a pre-climb routine: look, point, and plan before you leave the ground. It is related to, but not the same as, competition isolation (waiting away from beta).",
+   "whyItMatters": "A short look from the ground often changes the first sequence and reduces panicked grabbing.",
+   "howToCoachIt": "Give a fixed, quiet minute. Climbers may point but do not start climbing and do not shout beta to someone who is still observing.",
+   "relatedTerms": [
+    "isolation",
+    "route",
+    "project",
+    "sportsmanship"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: isolation zone, beta",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Program definition (existing vocabulary text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -1754,6 +2854,23 @@
    "demo": "Tape a zone on a problem.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "In this program a zone is a marked hold partway up a problem (as in competition bouldering, where a zone hold sits between the start and the top). Wikipedia also describes a low zone as a marked intermediate hold used for scoring.",
+   "whyItMatters": "Marking a mid-point hold gives a process target that is not only whether they topped it.",
+   "howToCoachIt": "Tape a zone on an easy problem and celebrate reaching it with control, then the top. Do not confuse this with the fall zone, which is the landing area.",
+   "relatedTerms": [
+    "route",
+    "isolation",
+    "observation-period",
+    "fall-zone"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary: low zone / zone hold, isolation zone",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1800,6 +2917,22 @@
    "demo": "Cheer every climber.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "In this program, sportsmanship means respecting others: taking turns, cheering, and not spraying beta when a climber wants to work a problem themselves.",
+   "whyItMatters": "Youth sessions share walls and pads; how the group treats a try matters as much as the try.",
+   "howToCoachIt": "Build it into process goals and into three good choices. Cheer every climber, and ask before offering beta.",
+   "relatedTerms": [
+    "project",
+    "send",
+    "observation-period"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Program definition (existing vocabulary text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
