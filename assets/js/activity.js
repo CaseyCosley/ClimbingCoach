@@ -34,6 +34,7 @@
       document.title = a.name + " · Activity Library · " + H.SITE_TITLE;
       var src = a.sources.map(function (k) {
         var s = S.library[k];
+        if (s && !s.href) return "<li>" + esc(s.site + ": " + s.title) + "</li>";
         return s ? '<li><a href="' + esc(s.href) + '" rel="noopener">' + esc(s.site + ": " + s.title) + "</a></li>" : "<li>" + esc(S.coachingPractice) + "</li>";
       }).join("");
       var uses = U.acts[H.nz(a.name)] || [];
@@ -64,7 +65,7 @@
         if (meta) meta = '<dl class="meta-list">' + meta + "</dl>";
         var research = (a.researchSources || []).filter(function (s) { return s && (s.title || s.href); });
         var researchHtml = research.length ? "<h2>Research sources</h2><ul class=\"sources\">" + research.map(function (s) {
-          var label = (s.site ? s.site + ": " : "") + (s.title || s.href);
+          var label = H.sourceLabel(s);
           return s.href ? '<li><a href="' + esc(s.href) + '" rel="noopener">' + esc(label) + "</a></li>" : "<li>" + esc(label) + "</li>";
         }).join("") + "</ul>" : "";
         return H.figuresHtml(a.images) + listSection("Coaching cues", a.coachingCues) +

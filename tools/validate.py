@@ -8,6 +8,15 @@ load = lambda n: json.loads((D / f"{n}.json").read_text(encoding="utf-8"))
 nz = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())
 acts, voc, cur, src, meta = (load(n) for n in ("activities", "vocabulary", "curricula", "sources", "meta"))
 errors = []
+# Warm-up minutes by group, sized to class length on the model in The Science of Climbing Training, Ch 8 and 9:
+# 5 for the 60-minute classes, 8 for the 90-minute class, 12-18 for the 120-minute classes.
+WARM = {"parent-child": 5, "ages-3-4": 5, "ages-4-6": 5, "ages-6-9": 8, "ages-9-12": 12, "ages-12-plus": 15, "ages-14-plus": 18}
+TEEN = {"ages-12-plus", "ages-14-plus"}
+# Finger rule (book, Ch 8: under 16, no maximal-weight or minimum-edge protocols): bar hangs and low-intensity 24 mm
+# three-pad hangs for Ages 12+ and 14+ only. Never campus, added weight, one-arm, minimum-edge or max-weight work.
+FINGERBOARD = re.compile(r"\b(?:hangboard\w*|fingerboard\w*|three-pad|24 ?mm)\b", re.I)
+FINGER_NEVER = re.compile(r"\b(?:campus\w*|weighted (?:hang|pull)\w*|added weight|weight vest|one-arm hang\w*|minimum[- ]edge|max(?:imum)?[- ]weight)\b", re.I)
+NEGATED = re.compile(r"\b(?:no|not|never|without|avoid|skip|instead of|isn't|aren't|don't|do not)\b[^.;]*$", re.I)
 
 def dedup(items, label):
     seen, ids = {}, set()
@@ -33,6 +42,7 @@ for a in acts["items"]:
         if x not in ages: errors.append(f"activity {a['name']}: unknown age {x}")
     for x in a.get("types", []):
         if x not in types: errors.append(f"activity {a['name']}: unknown type {x}")
+        if x == "cool-down": errors.append(f"activity {a['name']}: cool-down is not a type in this program")
     for x in a.get("themes", []):
         if x not in themes: errors.append(f"activity {a['name']}: unknown theme {x}")
     for s in a.get("sources", []):
@@ -49,17 +59,31 @@ for g in cur["groups"]:
     warm = [b for b in g["blocks"] if b["slot"] == "W"]
     if any(b["slot"] == "C" for b in g["blocks"]):
         errors.append(f"{g['name']}: cool-down is not a scheduled block")
-    if len(warm) != 1 or warm[0]["min"] != 5:
-        errors.append(f"{g['name']}: warm-up block should be 5 minutes")
+    target = WARM.get(g["ageId"])
+    if target is None: errors.append(f"{g['name']}: no warm-up target for {g['ageId']}")
+    elif len(warm) != 1 or warm[0]["min"] != target:
+        errors.append(f"{g['name']}: warm-up block should be {target} minutes")
     for s in g.get("session", []):
         blob = s.get("title", "") + " " + s.get("detail", "")
         if re.search(r"cool-?down", blob, re.I):
             errors.append(f"{g['name']} session: still mentions a cool-down ({s.get('title')})")
-        if re.search(r"warm-up,\s*(?!5\b)\d+", blob, re.I):
-            errors.append(f"{g['name']} session: warm-up is not 5 minutes ({s.get('title')})")
+        m = re.search(r"warm-up,\s*(\d+)", blob, re.I)
+        if m and int(m.group(1)) != target:
+            errors.append(f"{g['name']} session: warm-up is not {target} minutes ({s.get('title')})")
     for w in g["weeks"]:
         weeks += 1
-        for n in (w["warm"], w["drill"], w["game"], w["cool"]):
+        if "cool" in w: errors.append(f"{g['name']} week {w['n']}: cool-down is not a scheduled block (remove 'cool')")
+        wu = w.get("warmup") or {}
+        parts = wu.get("parts") or []
+        if wu.get("minutes") != target or sum(p_.get("minutes", 0) for p_ in parts) != target:
+            errors.append(f"{g['name']} week {w['n']}: warm-up parts must add to {target} minutes")
+        for p_ in parts:
+            act = byid.get(p_.get("activityId"))
+            if not act: errors.append(f"{g['name']} week {w['n']}: warm-up part id '{p_.get('activityId')}' does not resolve")
+            else:
+                if g["ageId"] not in act["ages"]: errors.append(f"{g['name']} week {w['n']}: warm-up part '{act['id']}' not listed for {g['ageId']}")
+                if nz(act["id"]) != nz(act["name"]): errors.append(f"warm-up part '{act['id']}': id and name must match after normalizing (usage index)")
+        for n in (w["warm"], w["drill"], w["game"]):
             if n not in byname: errors.append(f"{g['name']} week {w['n']}: activity '{n}' not in library (exact name)")
             elif g["ageId"] not in byname[n]["ages"]: errors.append(f"{g['name']} week {w['n']}: '{n}' not listed for {g['ageId']}")
         for t in w["vocab"]:
@@ -97,8 +121,14 @@ for label, path in (("about.html", root / "about.html"), ("README", root / "READ
 for label, blob in shape_text:
     if re.search(r"cool-?down", blob, re.I):
         errors.append(f"{label}: still mentions a cool-down block")
-    if re.search(r"warm-up,?\s+(10|15|20)\s*min", blob, re.I):
-        errors.append(f"{label}: still describes a warm-up longer than 5 minutes")
+    if re.search(r"\b5-minute warm-up\b|warm-up \(5 min|warm-up, 5 minutes|warm-up is about 5 minutes", blob, re.I) and label not in ("playbook Parent & Child", "playbook Ages 3–4", "playbook Ages 4–6"):
+        errors.append(f"{label}: still describes one 5-minute warm-up for every group")
+gshape = {gpb["id"]: gpb for gpb in pb["groups"]}
+for gid, target in WARM.items():
+    gpb = gshape.get(gid)
+    shape = " ".join(pr.get("value", "") for pr in (gpb or {}).get("props", []) if pr.get("label") == "Session shape")
+    nums = [int(x) for x in re.findall(r"(\d+)[- ]minute (?:\w+[- ])*?warm-up|warm-up is about (\d+)", shape) for x in x if x] if shape else []
+    if shape and nums and target not in nums: errors.append(f"playbook {gid}: Session shape warm-up should be about {target} minutes")
 # Competitive games, contact games, water blocks, risk-free wording, and gym branding.
 # The allowlist is only for uses that are not those games. Each entry says why.
 game_flag = re.compile("|".join([
@@ -187,6 +217,7 @@ game_allow = [
         r"not a chase",                # a warning against a chase, not a chase game
         r"into an elimination",        # tells the coach not to make an elimination game
         r"documents/safety/",          # published source URL; keep it verbatim
+        r"active vs passive flexibility",  # a section heading in The Science of Climbing Training; citations keep it verbatim
     ]
 ]
 def scrub(text):
@@ -207,6 +238,17 @@ for a in acts["items"]:
         errors.append(f"activity {a['name']}: prereqs must be a list")
     elif "auto-belay" in a.get("discipline", []) and not any("staff permission" in p.lower() for p in a["prereqs"]):
         errors.append(f"activity {a['name']}: auto belay requires a staff-permission prerequisite")
+    core = " ".join([a.get("setup", "")] + a.get("steps", []))
+    for m in FINGER_NEVER.finditer(core):
+        if not NEGATED.search(core[max(0, core.rfind(".", 0, m.start()) + 1):m.start()]):
+            errors.append(f"activity {a['name']}: campus, weighted, one-arm or maximal finger work ('{m.group(0)}') is not used in any group")
+    if FINGERBOARD.search(core):
+        if not set(a["ages"]) <= TEEN:
+            errors.append(f"activity {a['name']}: fingerboard hangs are only for Ages 12+ and 14+")
+        if not re.search(r"24 ?mm|three-pad", core, re.I):
+            errors.append(f"activity {a['name']}: fingerboard hangs must use the 24 mm three-pad edge")
+        if not any("warm-up" in x.lower() for x in a.get("prereqs", [])):
+            errors.append(f"activity {a['name']}: fingerboard hangs need a full warm-up prerequisite")
 for v in voc["items"]:
     if "discipline" not in v or not isinstance(v["discipline"], list) or not v["discipline"]:
         errors.append(f"term {v.get('name')}: discipline must be a non-empty list")
@@ -244,8 +286,8 @@ for L in ropes.get("items", []):
         errors.append(f"rope lesson {L.get('title')}: unknown discipline")
     if L.get("discipline") == "lead" and L.get("ageId") not in LEAD_AGES:
         errors.append(f"rope lesson {L.get('title')}: lead is only for ages 12+ and 14+")
-    if L.get("warmup", {}).get("minutes") != 5:
-        errors.append(f"rope lesson {L.get('title')}: warm-up must be 5 minutes")
+    if L.get("warmup", {}).get("minutes") != WARM.get(L.get("ageId")):
+        errors.append(f"rope lesson {L.get('title')}: warm-up must be {WARM.get(L.get('ageId'))} minutes for {L.get('ageId')}")
     total = L.get("warmup", {}).get("minutes", 0) + sum(b.get("minutes", 0) for b in L.get("blocks", []))
     if total != L.get("minutes"):
         errors.append(f"rope lesson {L.get('title')}: blocks add to {total}, lesson is {L.get('minutes')}")
@@ -254,6 +296,18 @@ for L in ropes.get("items", []):
     for b in L.get("blocks", []):
         for ref in b.get("activityIds", []):
             if ref not in ids: errors.append(f"rope lesson {L.get('title')}: unknown activity id {ref}")
+for k, s_ in src["library"].items():
+    if not s_.get("title") or not (s_.get("site") or s_.get("author")): errors.append(f"source {k}: needs a title and a site or author")
+def check_cites(lst, label):
+    for c in lst or []:
+        if isinstance(c, dict) and c.get("publisher") and not c.get("chapter"):
+            errors.append(f"{label}: book citation needs a chapter")
+for a in acts["items"]:
+    check_cites(a.get("researchSources"), f"activity {a['name']}")
+for v in voc["items"]:
+    check_cites(v.get("sources"), f"term {v.get('name')}")
+for gpb in pb["groups"]:
+    if gpb["id"] not in ages: errors.append(f"playbook group {gpb['id']}: unknown age id")
 root = pathlib.Path(__file__).resolve().parent.parent
 scan = list(D.glob("*.json")) + [root / "README.md"] + list(root.glob("*.html"))
 for path in scan:

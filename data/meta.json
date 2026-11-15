@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-11-10",
+ "lastUpdated": "2026-11-14",
  "ages": [
   {
    "id": "parent-child",
@@ -33,7 +33,7 @@
   },
   {
    "id": "ages-14-plus",
-   "label": "Ages 14+ (competitive)",
+   "label": "Ages 14+",
    "short": "Ages 14+"
   }
  ],
@@ -92,10 +92,6 @@
   {
    "id": "training",
    "label": "Training block"
-  },
-  {
-   "id": "cool-down",
-   "label": "Cool-down"
   }
  ]
 }

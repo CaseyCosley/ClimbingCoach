@@ -29,11 +29,14 @@
     }
     var blocks = featured.blocks.map(function (b) {
       var name = { W: plan.warm, D: plan.drill, G: plan.game }[b.slot];
-      var note = b.slot === "W" ? "Off the wall. Raise heart rate and loosen joints before climbing."
+      var parts = b.slot === "W" && plan.warmup && plan.warmup.parts.length > 1 ? plan.warmup.parts : null;
+      if (parts) name = null;
+      var note = parts ? parts.map(function (p) { return p.minutes + " min " + p.label.toLowerCase(); }).join(", ") + "."
+        : b.slot === "W" ? "Off the wall. Raise heart rate and loosen joints before climbing."
         : b.slot === "D" ? "Bouldering · Drill. Teach: " + plan.skill + "."
         : "Bouldering · Game.";
       return "<tr><td class=\"mins\">" + b.min + "<span>min</span></td><td>" + esc(b.label) + "</td><td>" +
-        actLink(name) + "</td><td>" + esc(note) + "</td></tr>";
+        (parts ? parts.map(function (p) { var a = aIdx[H.nz(p.activityId)]; return a ? actLink(a.name) : esc(p.activityId); }).join(", ") : actLink(name)) + "</td><td>" + esc(note) + "</td></tr>";
     }).join("");
     var vocab = plan.vocab.slice(0, 2).map(function (name) {
       var t = vIdx[H.nz(name)];

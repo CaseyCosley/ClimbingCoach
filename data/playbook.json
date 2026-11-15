@@ -100,7 +100,7 @@
     "Personal bests and team totals"
    ],
    [
-    "Ages 14+ (competitive)",
+    "Ages 14+",
     "Train to Compete",
     "Co-planned training",
     "Personal bests in training"
@@ -317,7 +317,7 @@
     },
     {
      "label": "Session shape",
-     "value": "The ages 6–9 class runs 90 min of varied, low-intensity climbing with a high success rate. The warm-up is about 5 minutes; the rest is climbing and a game. Climbers drink when they need to; it is not a timed block [1]."
+     "value": "The ages 6–9 class runs 90 min of varied, low-intensity climbing with a high success rate. The warm-up is about 8 minutes (pulse raiser, active joint circles, easy climbing that builds up); the rest is climbing and a game. Climbers drink when they need to; it is not a timed block [1]."
     }
    ],
    "learn": [
@@ -383,7 +383,7 @@
     },
     {
      "label": "Session shape",
-     "value": "About a 5-minute warm-up (pulse, joint mobility, easy climbing) [4], then a technique block and time on routes or a personal-best block."
+     "value": "About a 12-minute progressive warm-up (pulse raiser, active mobility, activation, then a ramp-up on big holds) [4], then a technique block and time on routes or a personal-best block."
     }
    ],
    "learn": [
@@ -429,7 +429,7 @@
     "Praise effort and strategy, and explain the link between practice and outcome [1]."
    ],
    "donts": [
-    "Campus boards, hangboard dead-hangs, or added weight; federation guidance says wait until skeletal maturity [1][23].",
+    "Campus boards, added weight, one-arm or small-edge hangs before about 16 [1][23]. Following The Science of Climbing Training (Ch 8), only low-intensity bar hangs and 24 mm three-pad hangs are used, after a full warm-up.",
     "Letting kids climb through finger pain at the middle knuckle; stop and refer [24].",
     "Early specialization: encourage other sports alongside climbing [1][6].",
     "Games that pit climbers against each other, or where climbers touch one another or try to get away from one another. Those split attention and raise the risk of falls."
@@ -449,7 +449,7 @@
     },
     {
      "label": "Session shape",
-     "value": "About a 5-minute climber-led warm-up, then technique, project time with peer beta, and a team or fall-practice block."
+     "value": "About a 15-minute climber-led progressive warm-up ending in a ramp-up on big holds, then technique, project time with peer beta, and a team or fall-practice block."
     }
    ],
    "learn": [
@@ -503,7 +503,7 @@
   },
   {
    "id": "ages-14-plus",
-   "name": "Ages 14+ (competitive)",
+   "name": "Ages 14+",
    "props": [
     {
      "label": "LTAD stage",
@@ -515,7 +515,7 @@
     },
     {
      "label": "Session shape",
-     "value": "About a 5-minute warm-up, then the planned training block and personal-best attempts or projecting. A training note can close the session; it is not a separate timed block."
+     "value": "About an 18-minute progressive warm-up that ramps up toward about 100 easy moves before small edges, then the planned training block and personal-best attempts or projecting. A training note can close the session; it is not a separate timed block."
     }
    ],
    "learn": [

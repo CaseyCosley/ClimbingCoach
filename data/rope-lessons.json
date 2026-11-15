@@ -1,7 +1,7 @@
 {
- "lastUpdated": "2026-11-10",
+ "lastUpdated": "2026-11-14",
  "count": 16,
- "formatNotes": "Each lesson: title, discipline, ageId, minutes, notes, warmup (~5 min), blocks[{title,minutes,activityIds}]. No cool-down block. Class lengths: parent-child/3-4/4-6=60; 6-9=90; 9-12/12+/14+=120.",
+ "formatNotes": "Each lesson: title, discipline, ageId, minutes, notes, warmup (minutes by age: 5 for parent-child, 3-4 and 4-6; 8 for 6-9; 12 for 9-12; 15 for 12+; 18 for 14+), blocks[{title,minutes,activityIds}]. No cool-down block. Class lengths: parent-child/3-4/4-6=60; 6-9=90; 9-12/12+/14+=120.",
  "items": [
   {
    "title": "Auto-Belay Watch & Touch (Parent & Child)",
@@ -297,10 +297,11 @@
    "notes": "Staff permission to use auto belays required for every climber before any auto-belay lap. Move from staff-clipped to supervised self-clip where gym policy allows. Every lap gets a full double-check.",
    "warmup": {
     "title": "Warm-up",
-    "minutes": 5,
+    "minutes": 8,
     "activityIds": [
      "pulse-raiser",
-     "joint-circles"
+     "joint-circles",
+     "easy-climbing-build-up"
     ]
    },
    "blocks": [
@@ -329,7 +330,7 @@
     },
     {
      "title": "Supervised climbs + reach tasks",
-     "minutes": 30,
+     "minutes": 27,
      "activityIds": [
       "auto-belay-reach-games-low",
       "staff-controlled-first-auto-belay"
@@ -359,9 +360,10 @@
    "notes": "Ground-school belay may begin per gym policy with coach backup. Partner checks are non-negotiable.",
    "warmup": {
     "title": "Warm-up",
-    "minutes": 5,
+    "minutes": 8,
     "activityIds": [
      "pulse-raiser",
+     "joint-circles",
      "easy-climbing-build-up"
     ]
    },
@@ -390,7 +392,7 @@
     },
     {
      "title": "Ground school belay (backed up)",
-     "minutes": 20,
+     "minutes": 17,
      "activityIds": [
       "ground-school-belay",
       "backup-belayer-habit"
@@ -419,10 +421,13 @@
    "minutes": 120,
    "notes": "Staff permission to use auto belays required for every climber before any auto-belay lap. Full self-routine with partner/coach double-check. Endurance only after the routine is automatic—ABC complacency theme.",
    "warmup": {
-    "title": "Warm-up",
-    "minutes": 5,
+    "title": "Progressive warm-up",
+    "minutes": 12,
     "activityIds": [
-     "climber-led-warm-up"
+     "climber-led-warm-up",
+     "joint-circles",
+     "tic-tac-toe-foot-taps",
+     "ramp-up-boulders"
     ]
    },
    "blocks": [
@@ -452,7 +457,7 @@
     },
     {
      "title": "Technique on auto belay",
-     "minutes": 25,
+     "minutes": 21,
      "activityIds": [
       "auto-belay-reach-games-low",
       "top-rope-route-preview"
@@ -460,7 +465,7 @@
     },
     {
      "title": "Endurance colors",
-     "minutes": 25,
+     "minutes": 22,
      "activityIds": [
       "auto-belay-endurance-colors"
      ]
@@ -481,12 +486,13 @@
    "minutes": 120,
    "notes": "Belay certification remains gym-gated. Fall practice stays on top rope at the climber’s comfort-zone edge.",
    "warmup": {
-    "title": "Warm-up",
-    "minutes": 5,
+    "title": "Progressive warm-up",
+    "minutes": 12,
     "activityIds": [
      "pulse-raiser",
      "joint-circles",
-     "easy-climbing-build-up"
+     "tic-tac-toe-foot-taps",
+     "ramp-up-boulders"
     ]
    },
    "blocks": [
@@ -500,7 +506,7 @@
     },
     {
      "title": "Belay stance + pay out / take in",
-     "minutes": 25,
+     "minutes": 21,
      "activityIds": [
       "belay-stance-practice",
       "paying-out-and-taking-in",
@@ -517,7 +523,7 @@
     },
     {
      "title": "Push-off and progressive slump",
-     "minutes": 25,
+     "minutes": 22,
      "activityIds": [
       "push-off-fall-practice",
       "progressive-top-rope-slump"
@@ -546,10 +552,13 @@
    "minutes": 120,
    "notes": "Staff permission to use auto belays required for every climber before any auto-belay lap. Treat auto belay as a training tool (endurance, mock-lead backup) while keeping ABC double-check discipline against complacency.",
    "warmup": {
-    "title": "Warm-up",
-    "minutes": 5,
+    "title": "Progressive warm-up",
+    "minutes": 15,
     "activityIds": [
-     "climber-led-warm-up"
+     "climber-led-warm-up",
+     "joint-circles",
+     "tic-tac-toe-foot-taps",
+     "ramp-up-boulders"
     ]
    },
    "blocks": [
@@ -571,14 +580,14 @@
     },
     {
      "title": "Endurance colors",
-     "minutes": 30,
+     "minutes": 27,
      "activityIds": [
       "auto-belay-endurance-colors"
      ]
     },
     {
      "title": "Mock lead with auto-belay backup",
-     "minutes": 35,
+     "minutes": 28,
      "activityIds": [
       "mock-lead-auto-belay-backup",
       "first-three-clips-focus"
@@ -607,11 +616,13 @@
    "minutes": 120,
    "notes": "Uses Rock & Sun / Prowess top-rope stages before any lead fall work.",
    "warmup": {
-    "title": "Warm-up",
-    "minutes": 5,
+    "title": "Progressive warm-up",
+    "minutes": 15,
     "activityIds": [
      "pulse-raiser",
-     "easy-climbing-build-up"
+     "joint-circles",
+     "tic-tac-toe-foot-taps",
+     "ramp-up-boulders"
     ]
    },
    "blocks": [
@@ -625,7 +636,7 @@
     },
     {
      "title": "Belay quality block",
-     "minutes": 25,
+     "minutes": 22,
      "activityIds": [
       "belay-stance-practice",
       "paying-out-and-taking-in",
@@ -642,7 +653,7 @@
     },
     {
      "title": "Fall ladder stages 1–3",
-     "minutes": 30,
+     "minutes": 23,
      "activityIds": [
       "push-off-fall-practice",
       "pendulum-comfort-top-rope",
@@ -672,10 +683,13 @@
    "minutes": 120,
    "notes": "JUSTIFICATION: Aligns with ~12–13+ course norms (GVSU intermediate lead lesson; Camp5 recommends 13, 10–12 only with adult; SNCS Level 2 age 13). Live lead and lead falls only for climbers inside the gym’s certification pathway with instructor belay as required. Lead content is for ages 12+ and 14+ only (Casey 2026-11-09).",
    "warmup": {
-    "title": "Warm-up",
-    "minutes": 5,
+    "title": "Progressive warm-up",
+    "minutes": 15,
     "activityIds": [
-     "climber-led-warm-up"
+     "climber-led-warm-up",
+     "joint-circles",
+     "tic-tac-toe-foot-taps",
+     "ramp-up-boulders"
     ]
    },
    "blocks": [
@@ -689,7 +703,7 @@
     },
     {
      "title": "Clipping errors lab",
-     "minutes": 20,
+     "minutes": 18,
      "activityIds": [
       "back-clip-spotting-board",
       "z-clip-recognition-drill",
@@ -698,7 +712,7 @@
     },
     {
      "title": "Stance + first three clips",
-     "minutes": 20,
+     "minutes": 19,
      "activityIds": [
       "clipping-stance-finder",
       "first-three-clips-focus"
@@ -706,7 +720,7 @@
     },
     {
      "title": "Mock lead block",
-     "minutes": 25,
+     "minutes": 19,
      "activityIds": [
       "mock-lead-auto-belay-backup",
       "rope-behind-leg-awareness",
@@ -715,7 +729,7 @@
     },
     {
      "title": "Lead fall below the draw (clinic)",
-     "minutes": 20,
+     "minutes": 19,
      "activityIds": [
       "lead-fall-below-the-draw"
      ]
@@ -737,10 +751,13 @@
    "minutes": 120,
    "notes": "Older teens refine belay quality and may teach-back checks to younger groups under coach oversight.",
    "warmup": {
-    "title": "Warm-up",
-    "minutes": 5,
+    "title": "Progressive warm-up",
+    "minutes": 18,
     "activityIds": [
-     "climber-led-warm-up"
+     "climber-led-warm-up",
+     "joint-circles",
+     "tic-tac-toe-foot-taps",
+     "ramp-up-boulders"
     ]
    },
    "blocks": [
@@ -754,7 +771,7 @@
     },
     {
      "title": "Belay polish",
-     "minutes": 25,
+     "minutes": 19,
      "activityIds": [
       "belay-stance-practice",
       "paying-out-and-taking-in",
@@ -763,7 +780,7 @@
     },
     {
      "title": "Route read + rests",
-     "minutes": 20,
+     "minutes": 19,
      "activityIds": [
       "top-rope-route-preview",
       "top-rope-rest-hunt"
@@ -771,7 +788,7 @@
     },
     {
      "title": "Fall comfort maintenance",
-     "minutes": 25,
+     "minutes": 20,
      "activityIds": [
       "push-off-fall-practice",
       "clip-and-let-go-top-rope",
@@ -780,7 +797,7 @@
     },
     {
      "title": "Endurance quality laps",
-     "minutes": 20,
+     "minutes": 19,
      "activityIds": [
       "top-rope-endurance-laps"
      ]
@@ -801,10 +818,13 @@
    "minutes": 120,
    "notes": "JUSTIFICATION: Ages 14+ matches competitive/training tracks and typical lead-card ages in published courses (Camp5 Youth Team expects lead proficiency; SNCS Level 2 age 13+). Still certification-gated; coach supervises fall practice.",
    "warmup": {
-    "title": "Warm-up",
-    "minutes": 5,
+    "title": "Progressive warm-up",
+    "minutes": 18,
     "activityIds": [
-     "climber-led-warm-up"
+     "climber-led-warm-up",
+     "joint-circles",
+     "tic-tac-toe-foot-taps",
+     "ramp-up-boulders"
     ]
    },
    "blocks": [
@@ -818,7 +838,7 @@
     },
     {
      "title": "Error recognition speed (personal accuracy)",
-     "minutes": 20,
+     "minutes": 19,
      "activityIds": [
       "back-clip-spotting-board",
       "z-clip-recognition-drill"
@@ -826,7 +846,7 @@
     },
     {
      "title": "First three clips + drag line",
-     "minutes": 20,
+     "minutes": 19,
      "activityIds": [
       "first-three-clips-focus",
       "rope-drag-zigzag-demo",
@@ -835,7 +855,7 @@
     },
     {
      "title": "Mock or live lead per certification",
-     "minutes": 30,
+     "minutes": 19,
      "activityIds": [
       "mock-lead-auto-belay-backup",
       "rope-behind-leg-awareness"
@@ -865,10 +885,13 @@
    "minutes": 120,
    "notes": "Staff permission to use auto belays required for every climber before any auto-belay lap. Optional block: experienced teens are the highest complacency risk on auto belays per ABC. Keep the routine sacred while using auto belay for volume and mock-lead backup.",
    "warmup": {
-    "title": "Warm-up",
-    "minutes": 5,
+    "title": "Progressive warm-up",
+    "minutes": 18,
     "activityIds": [
-     "climber-led-warm-up"
+     "climber-led-warm-up",
+     "joint-circles",
+     "tic-tac-toe-foot-taps",
+     "ramp-up-boulders"
     ]
    },
    "blocks": [
@@ -889,14 +912,14 @@
     },
     {
      "title": "Endurance colors",
-     "minutes": 35,
+     "minutes": 28,
      "activityIds": [
       "auto-belay-endurance-colors"
      ]
     },
     {
      "title": "Mock-lead backup session",
-     "minutes": 35,
+     "minutes": 29,
      "activityIds": [
       "mock-lead-auto-belay-backup",
       "first-three-clips-focus"

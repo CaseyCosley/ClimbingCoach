@@ -27,7 +27,7 @@
         }
         if (v.sources && v.sources.length) {
           parts.push("<h2>Sources</h2><ul class=\"sources\">" + v.sources.map(function (s) {
-            var label = (s.site ? s.site + ": " : "") + (s.title || s.href || "");
+            var label = H.sourceLabel(s);
             return s.href ? '<li><a href="' + esc(s.href) + '" rel="noopener">' + esc(label) + "</a></li>" : "<li>" + esc(label) + "</li>";
           }).join("") + "</ul>");
         }

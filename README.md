@@ -59,7 +59,7 @@ The HTML holds no content. Change the JSON files and the site updates.
   - `discipline`: one or more of `bouldering`, `auto-belay`, `top-rope`, `lead`. Lead entries are only for Ages 12+ and Ages 14+. Every auto-belay entry lists staff permission in `prereqs`
   - `prereqs`: a list of prerequisite phrases (may be empty)
   - Optional coaching fields on some activities: `coachingCues`, `commonMistakes`, `progressions` (`easier` and `harder`), `equipment`, `duration`, `groupSize`, `images`, and `researchSources`. Empty sections are not shown. Each image has a credit line and a source link.
-- **`data/rope-lessons.json`**: sample lessons by `ageId` and `discipline`. Each has a 5-minute warm-up and skill blocks, and the minutes add up to the class length. Curricula shows the lesson that matches the selected age group and discipline.
+- **`data/rope-lessons.json`**: sample lessons by `ageId` and `discipline`. Each has an age-sized warm-up (5, 8, 12, 15 or 18 minutes) and skill blocks, and the minutes add up to the class length. Curricula shows the lesson that matches the selected age group and discipline.
 - **`data/vocabulary.json`**: `{ lastUpdated, count, items: [...] }`. Each term has these fields:
   - `id`
   - `name`
@@ -80,7 +80,7 @@ The HTML holds no content. Change the JSON files and the site updates.
     - `months`: the chart rows, each with month, theme, color category and weeks as [skill, optional session type]
     - `session`: the typical session steps
     - `notes`
-    - `blocks`: timed blocks that add up to the class length; the slot is W (warm-up, 5 minutes), D (drill), or G (game). Climbers drink when they need to; it is not a timed block
+    - `blocks`: timed blocks that add up to the class length; the slot is W (warm-up: 5 minutes for the 60-minute classes, 8 for Ages 6–9, 12 for 9–12, 15 for 12+, 18 for 14+), D (drill), or G (game). Each week also has `warmup.parts` (label, minutes, activityId) that add up to the warm-up block. Climbers drink when they need to; it is not a timed block
     - `vocabLevel`
     - `gamesByMonth`
     - `plan`: the authored weekly source data
@@ -151,7 +151,7 @@ Names are compared after lowercasing and removing everything except letters and 
   "Finish standing still so the group is ready to listen."
  ],
  "why": "BMC's FUNdamentals notes build a climbing warm-up in three parts: pulse raiser, joint rotation, then easy climbing. Raising heart rate and body temperature first prepares muscles and gets attention on you.",
- "variations": "Parent & Child (ages 2–3) to Ages 4–6: tell a story (run from the rain, jump the puddles). Ages 6–9 and Ages 9–12: follow-the-leader on separate lanes. Ages 12+ (training) and Ages 14+ (competitive): athlete-led.",
+ "variations": "Parent & Child (ages 2–3) to Ages 4–6: tell a story (run from the rain, jump the puddles). Ages 6–9 and Ages 9–12: follow-the-leader on separate lanes. Ages 12+ (training) and Ages 14+: athlete-led.",
  "risk": "Keep running lanes clear of bags, ropes and the landing zones under climbers.",
  "sources": [
   "BMC",

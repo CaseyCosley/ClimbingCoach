@@ -4,10 +4,9 @@
   H.init("curricula.html");
   var VIEWS = { lesson: 1, roadmap: 1, months: 1, ladder: 1, table: 1 };
   var FOCUS = {
-    W: function () { return "Raise heart rate and loosen joints before climbing."; },
+    W: function () { return "Raise heart rate, move joints through their range, wake up key muscles, then build up on the wall from big holds."; },
     D: function (r) { return "Teach: " + r.skill + "."; },
     G: function () { return "Reward this week's skill, not just reaching the top."; },
-    C: function () { return "Recover, then each climber names one thing they got better at."; },
     B: function () { return "Rest fingers, then a quick show-me of the skill."; }
   };
 
@@ -336,12 +335,24 @@
         }).join("") + "</ul>" : "");
     }
 
+    /* warm-up parts (minutes add up to the W block) */
+    function warmParts(r, plain) {
+      var parts = (r.warmup && r.warmup.parts) || [];
+      if (parts.length < 2) return "";
+      var items = parts.map(function (p) {
+        var a = byId(p.activityId), nm = a ? a.name : p.activityId;
+        return p.minutes + " min · " + esc(p.label) + ": " + (plain ? esc(nm) : la(nm));
+      });
+      return plain ? items.join("; ") : '<ol class="warm-parts">' + items.map(function (x) { return "<li>" + x + "</li>"; }).join("") + "</ol>";
+    }
+
     function lesson(g) {
       var m = g.months[state.m], r = weekAt(g), review = m.c === "fun";
       var blocks = g.blocks.map(function (b) {
-        var name = { W: r.warm, D: r.drill, G: r.game, C: r.cool }[b.slot];
+        var name = { W: r.warm, D: r.drill, G: r.game }[b.slot];
+        var wp = b.slot === "W" ? warmParts(r) : "";
         return '<li class="block-row"><div class="mins">' + b.min + '<span>min</span></div><div><h3>' + esc(b.label) + "</h3>" +
-          (name ? "<p>" + la(name) + "</p>" : "<p>Break</p>") +
+          (wp || (name ? "<p>" + la(name) + "</p>" : "<p>Break</p>")) +
           '<p class="cue">' + esc(FOCUS[b.slot](r)) + "</p></div></li>";
       }).join("");
       var vocab = r.vocab.map(function (name) {
@@ -452,8 +463,9 @@
         r.vocab.map(function (v) { var x = cur.weekVocab[v] || ["", "", ""]; return [lv(v), esc(x[0]), esc(x[lvl])]; }), { raw: true });
       h += "<h3>Activities (" + total + " min)</h3>" + H.table(["Block", "Minutes", "Activity (Library name)", "Focus"],
         g.blocks.map(function (b) {
-          var name = { W: r.warm, D: r.drill, G: r.game, C: r.cool }[b.slot];
-          return [esc(b.label), String(b.min), name ? la(name) : esc(b.label), esc((FOCUS[b.slot] || FOCUS.W)(r))];
+          var name = { W: r.warm, D: r.drill, G: r.game }[b.slot];
+          var wp = b.slot === "W" ? warmParts(r, true) : "";
+          return [esc(b.label), String(b.min), wp ? wp : name ? la(name) : esc(b.label), esc((FOCUS[b.slot] || FOCUS.W)(r))];
         }), { raw: true, num: [1] });
       h += "<h3>This month at a glance</h3>" + H.table(["Week", "Skill", "Skill drill", "Game", "Vocabulary"],
         month.map(function (x) { return [String(x.week), esc(x.skill), la(x.drill), la(x.game), x.vocab.map(lv).join(", ")]; }), { raw: true });
