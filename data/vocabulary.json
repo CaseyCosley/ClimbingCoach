@@ -1,6 +1,6 @@
 {
- "lastUpdated": "2026-11-10",
- "count": 251,
+ "lastUpdated": "2026-11-14",
+ "count": 289,
  "items": [
   {
    "id": "hold",
@@ -58,7 +58,7 @@
    "discipline": [
     "bouldering"
    ],
-   "explanation": "A jug (also called a bucket in the glossary) is a large handhold that is very easy to use.",
+   "explanation": "A jug (also called a bucket in the glossary) is a large handhold that is very easy to use. The photo attached here is a large, positive indoor speed-climbing hold — an honest stand-in for that ‘easy to hold’ shape, not a training cue to climb speed routes.",
    "whyItMatters": "Jugs are the right place to teach new movement, rests, and straight arms, because the hands can hold on while the feet and hips learn the skill.",
    "howToCoachIt": "Ask the group to find three jugs and then do a drill (hover feet, robot arms, or a mantle press) only on those large holds first.",
    "relatedTerms": [
@@ -67,10 +67,19 @@
     "pump",
     "straight-arms"
    ],
-   "images": [],
+   "images": [
+    {
+     "src": "assets/images/figures/speed-hold-large.jpg",
+     "alt": "A large, positive indoor speed-climbing hold with a deep, easy-to-grab shape. It is shown here as a close-up of a jug-like hold, not as a cue to practise speed climbing.",
+     "credit": "Photo: Polarbear24 / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Speed_climbing_hold_large.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "sources": [
     {
-     "title": "Glossary: jug, bucket",
+     "title": "Glossary of climbing terms",
      "site": "Wikipedia",
      "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
     },
@@ -95,6 +104,59 @@
    "demo": "Show open-hand and half-crimp on a big edge; no full crimp for young kids.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A crimp, or crimper, is a small, thin edge held with the fingertips; the word also names the grip used on it. An open-hand or half-crimp position uses the fingertips without closing the thumb over the index finger. A full crimp, with the thumb closed, loads the fingers more aggressively. The BMC notes that forces from the crimping action are especially implicated in finger growth-plate stress fractures in teenage climbers. The Science of Climbing Training adds that crimping puts most stress on the A2 and A4 finger pulleys, and reports research linking pulley tears to crimping without a thorough warm-up (at least 100 moves of easier climbing).",
+   "whyItMatters": "Thin edges show up often, but full crimping is a poor default for youth fingers that are still growing. Open-hand and half-crimp on larger edges are the grips this program demonstrates first.",
+   "howToCoachIt": "Show open-hand and half-crimp on a big edge. Do not teach a full, thumb-closed crimp to young climbers. If a climber has persistent finger pain, stop loading that finger and get it checked — do not work through it. See growth-plate. Only move to small edges after plenty of easy climbing on big holds.",
+   "relatedTerms": [
+    "growth-plate",
+    "hold",
+    "jug",
+    "sloper",
+    "edging"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/crimp-stoehr-zoom.jpg",
+     "alt": "Close-up insets of fingertip grips on small edges, including more open and more closed (full-crimp) positions. Use this to name the positions; do not use it as a cue for youth climbers to train a full, thumb-closed crimp.",
+     "credit": "Photo: Henning Schlottmann, modified by O.Taris / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:BW_2012-08-26_Anna_Stoehr_AUS_0601-ZoomDoigtsArqu%C3%A9s.jpg",
+     "license": "CC BY 1.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/1.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Growth plate stress fractures in teenage climbers",
+     "site": "British Mountaineering Council",
+     "href": "https://services.thebmc.co.uk/media/files/Comps/Development%20Squad/Growth%20Plate%20Stress%20Fractures%20in%20Teenage%20Climbers.pdf"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Strength training for injury prevention"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 4: Brief Notes on Anatomy",
+     "section": "Upper body: pulling muscles"
+    }
    ]
   },
   {
@@ -108,6 +170,33 @@
    "demo": "Hold it with straight arms and hips low and pulled in high.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A sloper is a hold whose surface slopes down toward the ground, with very little positive lip. It is held with open-handed friction and body position — often a straight arm and hips or shoulders placed so the hand is pressing in and down — rather than with a crimp.",
+   "whyItMatters": "Slopers punish a pull that is not lined up with the hold. They are a good classroom for body position and straight arms, once the climber has some basic tension.",
+   "howToCoachIt": "Start with a large sloper on moderate ground. Cue a full-hand contact, a straight arm, and hips or feet placed so the body weight loads the hold instead of peeling off it.",
+   "relatedTerms": [
+    "hold",
+    "crimp",
+    "jug",
+    "straight-arms",
+    "body-tension"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/sloper-auflegegriff.jpg",
+     "alt": "A climber’s open hand pressed onto a rounded, sloping hold with little or no positive edge.",
+     "credit": "Photo: ThomasP / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thomasp_auflegegriff.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -190,6 +279,37 @@
    "demo": "Climb onto a volume and stand on it.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A volume is a large, hollow, bolted-on feature on an indoor wall. It may itself have smaller holds on it, and climbers can stand, smear, or press on its faces and edges.",
+   "whyItMatters": "Volumes change the shape of the wall: they create new angles, rests, smears, and mantles that are not obvious from a hold list alone.",
+   "howToCoachIt": "Have climbers climb onto a low volume and stand on it, then find a hold on it and a smear on its side. Volume Stay and mantle practice both use a large volume as the classroom.",
+   "relatedTerms": [
+    "hold",
+    "smear",
+    "mantle",
+    "rest-position"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/youth-olympics-clipping.jpg",
+     "alt": "Indoor lead wall with several large, angular volumes bolted to the panels, plus a climber clipping a quickdraw. The volumes are the teaching point here; the clipping context is Ages 12+ and 14+.",
+     "credit": "Photo: Martin Rulsch / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-10-09_Sport_climbing_Girls%27_combined_at_2018_Summer_Youth_Olympics_(Martin_Rulsch)_085.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Climbing hold",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Climbing_hold"
+    }
    ]
   },
   {
@@ -400,6 +520,41 @@
    "demo": "Toe hook a volume edge.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A toe hook is pressing the upper side of the toes under or behind a hold to pull the body in, most often on overhangs and volumes. It is the opposite idea of a heel hook, which uses the heel. The main muscle doing the pulling is the tibialis anterior, at the front of the shin.",
+   "whyItMatters": "On steep ground a toe hook can keep the hips in and stop the feet from cutting, if the hook is placed with intention and the shoe stays on.",
+   "howToCoachIt": "Start on a large volume edge or a big hold on an easy overhang. Show the top of the shoe making contact, then a gentle pull-in, and a calm release. Keep the first tries low.",
+   "relatedTerms": [
+    "heel-hook",
+    "overhang",
+    "volume",
+    "cut-feet",
+    "climbing-shoes"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/toe-hook-hojer.jpg",
+     "alt": "Climber hooking the top of the toes around a hold on steep terrain, pulling the body in toward the wall.",
+     "credit": "Photo: Henning Schlottmann / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hojer_jan_1610.JPG",
+     "license": "CC BY 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 4: Brief Notes on Anatomy",
+     "section": "Lower body: pushing muscles"
+    }
    ]
   },
   {
@@ -416,6 +571,24 @@
    "demo": "See Foot Switching.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A foot swap (also a foot switch) is replacing one foot with the other on the same hold, so the feet can be reorganized for the next move without losing the hold.",
+   "whyItMatters": "Without a calm swap, climbers hop, match badly, or end up with the wrong foot forward for the next reach. It is a basic organizing skill on vertical and slab.",
+   "howToCoachIt": "On a large foothold, practise a slow swap: weight on the hands and the other foot, place the new foot, then take the old one off. Cue quiet contacts rather than a jump-switch.",
+   "relatedTerms": [
+    "foothold",
+    "match",
+    "quiet-feet",
+    "smear",
+    "edging"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -442,6 +615,38 @@
    "demo": "See Quick Step.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A backstep uses the outside edge of the shoe (the little-toe side) on a foothold, with the hip turned in toward the wall. It is a different hip and foot orientation from a standard inside-edge step, and it often sets up a drop knee or a longer reach on the same-side hand.",
+   "whyItMatters": "Turning the hip in can bring the body closer to the wall and make a reach possible without pulling harder. Same-hand, same-foot still usually applies; a back flag is a named exception.",
+   "howToCoachIt": "On a vertical wall with an obvious foothold out to the side, ask the climber to stand on the outside edge and turn the hip in, then compare it with an inside-edge stance on the same hold.",
+   "relatedTerms": [
+    "drop-knee",
+    "flagging",
+    "edging",
+    "foothold",
+    "center-of-gravity"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/backstep-eindrehen.jpg",
+     "alt": "Climber with the hip turned in, standing on the outside edge of the shoe — a backstep.",
+     "credit": "Photo: ThomasP / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eindrehen.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Fundamental Movement Pattern",
+     "site": "Momentum Youth Programs",
+     "href": "https://youthprograms.momentumclimbing.com/fundamental-movement-pattern/"
+    }
    ]
   },
   {
@@ -546,6 +751,51 @@
    "demo": "Drop knee on two footholds at the same height.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A drop knee (also called an Egyptian) is turning one knee inward and down so the hip comes close to the wall and the reach gets longer. Both feet push through the big toes, and the knee that turns is the one on the same side as the reaching hand. It is a position you pass through — turn in, reach, unwind — and a deep drop knee puts real load on the knee.",
+   "whyItMatters": "On steep ground, a drop knee often buys reach and takes weight off the arms in a way that pulling harder will not. It suits climbers who already have a comfortable backstep, and it should be built gradually.",
+   "howToCoachIt": "Use Drop-Knee Finder: compare the same move hips-square and with the drop knee. Start with close footholds, a shallow turn, and big handholds. Skip very deep or wide drop knees, keep reps low, and stop if the knee twinges. If a climber has tweaked a knee on a drop knee, expect hesitation even after it has healed: the brain keeps guarding a move it links with pain. Rebuild it in small, easy, successful steps (see Rebuild the Move in enrich_v3).",
+   "relatedTerms": [
+    "backstep",
+    "overhang",
+    "center-of-gravity",
+    "flagging",
+    "body-tension"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/drop-knee-verhoeven.jpg",
+     "alt": "Climber with one knee dropped in and down, hip close to the steep wall, reaching with the same-side hand.",
+     "credit": "Photo: O.Taris / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:AnakVerhoeven-1.JPG",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Drop knee climbing: how to do a drop knee",
+     "site": "Blok Sessions",
+     "href": "https://bloksessions.com/exercises/drop-knees"
+    },
+    {
+     "title": "Drop Knee",
+     "site": "Momentum Youth Programs",
+     "href": "https://youthprograms.momentumclimbing.com/drop-knee/"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 3: Understanding and Optimising Mobility",
+     "section": "Threat perception as a limiting factor of ROM"
+    }
    ]
   },
   {
@@ -630,13 +880,24 @@
    "name": "Lock-Off",
    "aka": [],
    "category": "Movement",
-   "definition": "Holding a bent arm still while the other hand reaches.",
+   "definition": "Holding a bent arm still while the other hand reaches; strength in a lock-off mostly improves at the exact angle practised.",
    "kid": "Freezing one arm bent while you reach.",
    "little": "Statue arm.",
    "demo": "See Hover Hands.",
    "discipline": [
     "bouldering"
-   ]
+   ],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Maximum isometric strength. Lock-offs"
+    }
+   ],
+   "images": []
   },
   {
    "id": "dyno",
@@ -652,27 +913,37 @@
    ],
    "explanation": "A dyno is a dynamic jump or leap to an out-of-reach hold; missing the hold will usually result in a fall. A deadpoint is a more controlled dynamic in which the hold is grabbed at the apex of the movement while other points of contact remain.",
    "whyItMatters": "Dynos are exciting and easy to overuse. They belong on closed pads or a belay, at a height you have agreed, after the climber can do the same wall statically when the holds allow it.",
-   "howToCoachIt": "Compare a static reach and a short padded dyno to a large hold. Talk about the landing before the first jump.",
+   "howToCoachIt": "Compare a static reach and a short padded dyno to a large hold. Talk about the landing before the first jump. For Ages 12+ and 14+, keep dynamic practice to a few high-quality tries with full rest, and stop when the moves slow down.",
    "relatedTerms": [
     "static",
     "fall-zone",
-    "landing-position"
+    "landing-position",
+    "dynamic",
+    "deadpoint"
    ],
    "images": [
     {
-     "src": "assets/images/figures/dyno-mushroom-boulder.jpg",
-     "alt": "Climber on a boulder making a dynamic reach, one foot off, both hands going to a higher hold.",
-     "credit": "Photo: Dana Le / Wikimedia Commons",
-     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mushroom_boulder_dyno.jpg",
-     "license": "CC BY 2.0",
-     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+     "src": "assets/images/figures/dyno-colli-jump.jpg",
+     "alt": "Indoor climber fully off the wall in mid-air, both feet off, jumping toward the next hold — a clearer dyno than a one-foot dynamic reach.",
+     "credit": "Photo: Yuri Palma / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beatrice_Colli_huge_jumping,_pic_by_Yuri_Palma.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ],
    "sources": [
     {
-     "title": "Glossary: dyno, deadpoint, campusing",
+     "title": "Glossary of climbing terms",
      "site": "Wikipedia",
      "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Power and RFD training"
     }
    ]
   },
@@ -687,6 +958,29 @@
    "demo": "Deadpoint on a big hold.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A deadpoint is a controlled dynamic move: the climber catches the next hold at the exact moment the body stops rising, while the feet (and usually the other hand) stay on the wall. It is not a dyno — if the feet come off, the try was a dyno.",
+   "whyItMatters": "A deadpoint lengthens the reach at a low cost: the body barely leaves the wall, and the climber is not hanging off a slow lock-off. Precision — catching an exact spot on the hold — is the skill being trained.",
+   "howToCoachIt": "On easy boulders, pick 3–4 long reaches and an exact spot on each target. Five tries per move with about a minute of rest. Start on big jugs and a vertical wall; if the feet leave, reset and name the difference.",
+   "relatedTerms": [
+    "dyno",
+    "dynamic",
+    "static",
+    "cut-feet",
+    "jug"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Deadpoint climbing: how to train deadpoints",
+     "site": "Blok Sessions",
+     "href": "https://bloksessions.com/exercises/deadpoint-training"
+    }
    ]
   },
   {
@@ -734,6 +1028,41 @@
    "demo": "See Static and Dynamic.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Dynamic movement uses momentum — a swing, a pop, or a jump — to reach a hold that is hard to get statically. A dyno is the bigger leap, usually leaving the feet; a deadpoint is a smaller, more controlled dynamic that catches the hold at the apex while the feet stay on.",
+   "whyItMatters": "Climbers who only pull statically can get stuck on longer moves. Timing a small dynamic, on a closed pad or a belay, is often less costly than a strained lock-off — but big dynos are easy to overuse and need an agreed height and a clear landing. Holding the target after a fast move also depends on how quickly grip force builds on landing (rate of force development), which the book finds markedly higher in boulderers than in route climbers.",
+   "howToCoachIt": "Compare a static reach and a short, padded dynamic to a large hold. For a jump, talk through the landing first. If the feet stay on and the catch is at the high point, name it a deadpoint, not a dyno.",
+   "relatedTerms": [
+    "dyno",
+    "deadpoint",
+    "static",
+    "landing-position",
+    "cut-feet"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/dyno-colli-jump.jpg",
+     "alt": "Indoor climber fully off the wall in mid-air, jumping toward the next hold — a clear dynamic / dyno, not a deadpoint (the feet have left the wall).",
+     "credit": "Photo: Yuri Palma / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beatrice_Colli_huge_jumping,_pic_by_Yuri_Palma.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 7: Analysis of the Main Physiological Factors in Climbing Performance",
+     "section": "New findings about limiting factors in climbing performance: routes and bouldering"
+    }
    ]
   },
   {
@@ -820,6 +1149,37 @@
    "demo": "Mantle a volume.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A mantle (also spelled mantel) is pressing down on a ledge or the top of a volume and bringing the feet up so you can stand on it, like pushing out of a pool. The hands change from pulling to pressing as the chest comes up and over the lip.",
+   "whyItMatters": "Many indoor tops and volumes finish with a press, not another pull. Practising the press on a low volume keeps the skill from becoming a desperate belly flop at the top of a problem.",
+   "howToCoachIt": "Start on a low volume or ledge. Ask for a press, a foot on the lip, and a stand-up, with a clear mat and a step-down if it does not work. See Mantle Practice.",
+   "relatedTerms": [
+    "top-out",
+    "volume",
+    "high-step",
+    "straight-arms"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/mantle-move.jpg",
+     "alt": "Outdoor climber pressing both hands down on a ledge and bringing the body up to stand on top of it — a mantle.",
+     "credit": "Photo: luis vilanova / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mantel_Move.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Mantle",
+     "site": "Momentum Youth Programs",
+     "href": "https://youthprograms.momentumclimbing.com/mantle/"
+    }
    ]
   },
   {
@@ -942,6 +1302,39 @@
    "demo": "Show controlled foot return.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Cut feet (also cutting feet, or a cut-loose) is when the feet swing off the wall, usually on steep terrain, leaving the climber hanging from the hands. Sometimes it is planned; often it is a surprise loss of foot pressure.",
+   "whyItMatters": "Unexpected cut feet turn a move into an all-arms moment and can end a try. On a deadpoint drill, feet coming off means the try became a dyno.",
+   "howToCoachIt": "On an easy overhang, have the climber practise a controlled foot return after a small, planned cut. Cue pushing through the feet so they stay on when the goal is a deadpoint or a static reach.",
+   "relatedTerms": [
+    "deadpoint",
+    "dyno",
+    "overhang",
+    "body-tension",
+    "heel-hook",
+    "toe-hook"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/overhang-margalef.jpg",
+     "alt": "Climber on a steep overhang, the kind of terrain where feet can cut loose if pressure through the toes is lost.",
+     "credit": "Photo: N McQ / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al,_Margalef,_Spain.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Deadpoint climbing: how to train deadpoints",
+     "site": "Blok Sessions",
+     "href": "https://bloksessions.com/exercises/deadpoint-training"
+    }
    ]
   },
   {
@@ -1024,6 +1417,29 @@
    "demo": "Count limbs on the wall each move.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Three points of contact means keeping three limbs on the wall while one moves. It is a starting habit for balance on slabs and vertical walls, not a rule that never changes — dynos, flags, and some steep moves deliberately break it.",
+   "whyItMatters": "New climbers often move two limbs at once and get off balance. Counting ‘three on, one moves’ slows the sequence down until foot placements are reliable.",
+   "howToCoachIt": "On an easy slab or vertical wall, have the climber say which limb is moving and count the three that stay on. Later, name the exceptions (a flag, a deadpoint, a planned dyno) so the habit does not block more advanced movement.",
+   "relatedTerms": [
+    "static",
+    "flagging",
+    "smear",
+    "deadpoint",
+    "dyno"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1033,7 +1449,7 @@
     "Core Tension"
    ],
    "category": "Body Position",
-   "definition": "Engaging the core to keep feet on and body controlled.",
+   "definition": "Engaging the whole trunk, hips and shoulders, not just the stomach, to keep the feet on and the body controlled.",
    "kid": "Squeezing your middle so you stay stuck.",
    "little": "Strong tummy.",
    "demo": "See Keep the Tension.",
@@ -1069,6 +1485,22 @@
      "title": "Drop Knee",
      "site": "Momentum Youth Programs",
      "href": "https://youthprograms.momentumclimbing.com/drop-knee/"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 4: Brief Notes on Anatomy",
+     "section": "Core: the connecting chain"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Wall-based core work. Resistance band exercises and body tension"
     }
    ]
   },
@@ -1096,12 +1528,52 @@
     "No-Hand Rest"
    ],
    "category": "Body Position",
-   "definition": "A low-effort stance on the wall to recover, often with straight arms, shaking out each hand.",
+   "definition": "A low-effort stance on the wall to recover, often with straight arms, resting one hand at a time and breathing slowly.",
    "kid": "A comfy spot on the wall to rest your arms.",
    "little": "Rest spot.",
    "demo": "See Freeze Traverse.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A rest position is a low-effort stance on the wall used to recover — often with straight arms, weight over the feet or a stem, and resting one hand at a time. A no-hand rest is a fully leg-supported stance that does not require the hands on the wall. This is different from rest, which in this vocabulary means time off the wall.",
+   "whyItMatters": "Climbers who can find a hidden rest climb longer before they pump. A poor ‘rest’ that is still a bent-arm hang does not actually recover the forearms.",
+   "howToCoachIt": "Use Hidden Rest and Top-Rope Rest Hunt: demonstrate a stem, a stance over a big foothold, or hips against a volume, then have climbers find and show one. No-hands rests stay low on a boulder or on top rope. Teach climbers to rest early, before a full pump: on a big hold, let one hand hang loose for about 3–10 seconds, swap, and repeat 4–5 times while breathing slowly. The book reports that shaking out by itself does little.",
+   "relatedTerms": [
+    "rest",
+    "straight-arms",
+    "pump",
+    "stemming",
+    "endurance"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/stemming-no-hands-rest-dihedral.jpg",
+     "alt": "Climber in a dihedral using a no-hands stem rest, weight on the legs, both hands off the rock.",
+     "credit": "Photo: Svickova / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:No-Hands_Rest_in_Verschneidung.jpg",
+     "license": "Public domain",
+     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Improving recovery. High-intensity interval methods. Active wall-based recovery. Intermittent deadhangs"
+    }
    ]
   },
   {
@@ -1172,6 +1644,52 @@
    "demo": "Point to it on a harness.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "The belay loop is the strong closed loop on the front of a sit harness, and the point to which a belay device or an auto-belay carabiner is attached. It is not the same as the two tie-in points, where the rope is tied through. Gear loops are not load-bearing.",
+   "whyItMatters": "Clipping a device or an auto-belay carabiner to a tie-in point, a gear loop, or both hard points is a serious loading error. Naming the belay loop correctly is the foundation of harness-parts teaching and partner checks.",
+   "howToCoachIt": "In Harness Parts Callout, end by pointing to the belay loop as the only clip-in point for a belay device or auto-belay carabiner (staff permission still required before any auto-belay use) and to the two tie-in points for the rope. Petzl’s harness figures show both clearly.",
+   "relatedTerms": [
+    "tie-in-points",
+    "harness",
+    "belay-device",
+    "auto-belay",
+    "carabiner",
+    "partner-check"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/petzl-harness-two-tie-in-points.png",
+     "alt": "Petzl diagram of a sit harness with the belay loop and the two tie-in points labeled as separate attachment places.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 2, harness with a belay loop and two tie-in points",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    },
+    {
+     "src": "assets/images/figures/harness-petzl-corax.jpg",
+     "alt": "A sit harness with the belay loop visible at the front, between the waist belt and the leg-loop connection.",
+     "credit": "Photo: Savant-fou / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baudrier.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "ACCESS BOOK #1: Belaying in a climbing gym",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    },
+    {
+     "title": "How to Use an Auto Belay: Step by Step Instructions",
+     "site": "TRUBLUE / Head Rush Technologies",
+     "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
    ]
   },
   {
@@ -1187,6 +1705,51 @@
    "demo": "Thread a rope through both.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Tie-in points are the two harness hard points the rope is threaded through when tying in with a figure-8 follow-through — usually one at the waist belt and one at the leg-loop junction, not the belay loop. Petzl’s gym and harness notices show the rope passing through both tie-in points. Clipping in with a carabiner is not a substitute for tying through both tie-in points.",
+   "whyItMatters": "Threading only one point, or tying into the belay loop, changes how a fall loads the harness. This is one of the first things a partner check should trace.",
+   "howToCoachIt": "Use a practice harness on the ground. Have the climber thread both tie-in points, dress the knot, and have a partner trace the rope path before a coach confirms. Petzl’s finished-knot and harness figures are the model.",
+   "relatedTerms": [
+    "belay-loop",
+    "harness",
+    "figure-8-follow-through",
+    "partner-check",
+    "tail"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/petzl-harness-two-tie-in-points.png",
+     "alt": "Petzl diagram of a harness showing the two tie-in points separately from the belay loop.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 2, harness with a belay loop and two tie-in points",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    },
+    {
+     "src": "assets/images/figures/petzl-tie-in-finished-both-points.png",
+     "alt": "Petzl diagram of a figure-eight follow-through threaded through both tie-in points.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 2",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ACCESS BOOK #1: Belaying in a climbing gym",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    },
+    {
+     "title": "Tying in with a figure-8 knot",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/US/en/Sport/Tying-in-with-a-figure-8-knot"
+    },
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1202,6 +1765,34 @@
    "demo": "Feel the rubber.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Climbing shoes are snug footwear with sticky rubber soles, designed so the climber can stand on small edges, smear on volumes or slabs, and hook with the toes or heel. They fit more tightly than approach or street shoes, but youth shoes should still be comfortable enough for a full class.",
+   "whyItMatters": "Footwork cues (edging, smearing, backstep, quiet feet) only work if the shoe can actually stand on the hold. Shoes that are painfully tight, or so loose they spin, get in the way of learning.",
+   "howToCoachIt": "Let climbers feel the rubber and find the inside edge, outside edge, and toe. Match the drill to the shoe: smear practice on slab, an outside-edge backstep, a careful toe hook on a volume. Watch for numb toes or shoes that slip off the heel.",
+   "relatedTerms": [
+    "edging",
+    "smear",
+    "backstep",
+    "toe-hook",
+    "heel-hook",
+    "quiet-feet"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/climbing-shoes-mythos.jpg",
+     "alt": "A climbing shoe showing the sticky rubber sole, rand, and edges used for edging, smearing, and hooking.",
+     "credit": "Photo: akeg / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Climbing_shoe_la_sportiva_mythos_01.jpg",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1233,6 +1824,59 @@
    "demo": "Lock and unlock.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A carabiner is a metal loop with a spring-loaded gate, used to connect parts of a climbing system. Locking carabiners have a sleeve (screw, twist, or ball-lock) that secures the gate and are the usual choice for attaching a belay device or an auto-belay connector to the belay loop. Non-locking gates are common on quickdraws. Keychain-style clips are not climbing-rated.",
+   "whyItMatters": "An unlocked locker, or a carabiner on a gear loop, is a partner-check failure. Climbers need to know which end of a quickdraw is which, and to confirm that a locker is actually locked.",
+   "howToCoachIt": "Practise opening, closing, and locking a locker out loud (‘locked’) during harness and partner checks. Show a quickdraw’s two carabiners and a locking belay biner side by side. Never use a decorative or keychain clip in a climbing system.",
+   "relatedTerms": [
+    "quickdraw",
+    "belay-device",
+    "belay-loop",
+    "partner-check",
+    "auto-belay"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/carabiner-petzl-balllock.jpg",
+     "alt": "A Petzl locking carabiner with a ball-lock sleeve, the kind of locker used on a belay loop.",
+     "credit": "Photo: Stefan Bellini / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carabiner_for_climbing_Petzl_ball_lock.JPG",
+     "license": "CC0",
+     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+     "src": "assets/images/figures/carabiner-types.jpg",
+     "alt": "Several climbing-rated carabiner shapes and gate types, including locking designs, shown together for comparison.",
+     "credit": "Photo: Thomas Gehrlein / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Klettern_genormte_karabinertypen.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/atc-xp-locker.jpg",
+     "alt": "A locking carabiner connecting a tube-style belay device — the usual attachment of a device to the belay loop.",
+     "credit": "Photo: Stewartadcock / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:ATC-XP_on_locking_carabiner.saa.jpeg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Carabiner",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Carabiner"
+    },
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Quickdraw",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Quickdraw"
+    }
    ]
   },
   {
@@ -1249,6 +1893,73 @@
    "demo": "Show the brake position.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A belay device is a mechanical tool that adds friction so a belayer can control the rope, take in, pay out, hold a fall, and lower. Tube devices (for example a Black Diamond ATC) are passive and need the belayer to bring the rope into a brake position. Assisted-braking devices (for example a Petzl GRIGRI) help pinch or cam the rope under load, but still need a brake hand and the gym’s taught technique.",
+   "whyItMatters": "The device is only half of the system: it attaches to the belay loop with a locking carabiner, and the brake hand stays on the brake strand. Mixing tube and ABD habits is a common source of errors.",
+   "howToCoachIt": "Show the gym’s tube device and ABD side by side, each on a locker on the belay loop. Practise the brake position on the ground (see Ground School Belay) before any real climber weight, with a backup.",
+   "relatedTerms": [
+    "assisted-braking-device",
+    "brake-hand",
+    "belay-loop",
+    "carabiner",
+    "pbus",
+    "belay-stance"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/atc-xp-locker.jpg",
+     "alt": "A Black Diamond ATC-XP tube-style belay device clipped to a locking carabiner.",
+     "credit": "Photo: Stewartadcock / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:ATC-XP_on_locking_carabiner.saa.jpeg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/belay-tube-device.jpg",
+     "alt": "A tube-style belay device with a rope loaded, shown as a product and use photo of a passive belay device.",
+     "credit": "Photo: Rupertsciamenna / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belaying_tuber.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/belay-grigri.jpg",
+     "alt": "A Petzl GRIGRI assisted-braking belay device with a rope loaded, shown as a product and use photo.",
+     "credit": "Photo: Rupertsciamenna / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belaying_grigri.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/petzl-reverso-install.png",
+     "alt": "Petzl REVERSO technical figure showing how a tube-style device is installed on the rope and locker.",
+     "credit": "Diagram: Petzl — REVERSO technical notice, section 6a",
+     "sourceUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Belay device",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Belay_device"
+    },
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "REVERSO technical notice",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    },
+    {
+     "title": "GRIGRI technical notice",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw30589f53/media/product/technical-notice-GRIGRI-3_068Tx000009YCjEIAW.pdf"
+    }
    ]
   },
   {
@@ -1264,6 +1975,38 @@
    "demo": "See Ground Clipping Practice.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A quickdraw (also a draw or extender) is two carabiners connected by a short, semi-rigid sling (sometimes called a dogbone). One carabiner clips to the bolt or anchor; the other takes the rope. The rope-end carabiner is often a bent gate, and a small elastic keeps that gate oriented — the elastic is not a load-bearing part and belongs on the rope end, not the bolt end.",
+   "whyItMatters": "Draws let the rope run through protection as a leader climbs. How the rope is clipped into the rope-end carabiner is the difference between a correct clip, a back-clip, and a Z-clip.",
+   "howToCoachIt": "On a ground board for Ages 12+ and 14+, name the bolt-end and rope-end carabiners, then practise clipping both hands and reading rope direction. See Ground Clipping Practice, Back-Clip Spotting Board, and Z-Clip Recognition Drill.",
+   "relatedTerms": [
+    "carabiner",
+    "clipping",
+    "back-clip",
+    "z-clip",
+    "lead-climbing"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/quickdraw-expressset.jpg",
+     "alt": "Several quickdraws, each made of two carabiners joined by a short sling.",
+     "credit": "Photo: Thomas Gehrlein / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Klettern_Expressset.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Quickdraw",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Quickdraw"
+    },
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -1329,6 +2072,43 @@
    "demo": "Clip-in check demo.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "An auto belay is a mechanical device, usually fixed at the top of a gym lane, that takes in webbing as the climber goes up and lowers them when they sit back. TRUBLUE’s published instructions have climbers clip the carabiner to the belay loop only, test that the webbing retracts, stay in the lane, and unclip only on the ground. In this program, auto-belay use always needs staff permission, and staff clip and unclip for the youngest groups.",
+   "whyItMatters": "Most serious auto-belay incidents involve climbing unclipped or clipped to the wrong point. A consistent clip-in routine, a retraction test, and lane discipline are how the class manages that risk.",
+   "howToCoachIt": "Run Auto-Belay Clip-In Routine and the retraction test before any ascent. Staff-controlled first goes come first. Nobody climbs until a coach confirms the locked clip on the belay loop.",
+   "relatedTerms": [
+    "auto-belay-lane",
+    "auto-belay-webbing",
+    "auto-belay-induction",
+    "belay-loop",
+    "harness"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/auto-belay-overview.png",
+     "alt": "Overview diagram of an auto-belay device, webbing, and a carabiner clipped to the belay loop only, inside a marked lane.",
+     "credit": "Climbing Coach overview diagram, checked against TRUBLUE clip-to-belay-loop guidance",
+     "sourceUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions",
+     "license": "Climbing Coach overview diagram; hosted with credit and source link",
+     "licenseUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
+   ],
+   "sources": [
+    {
+     "title": "How to Use an Auto Belay: Step by Step Instructions",
+     "site": "TRUBLUE / Head Rush Technologies",
+     "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    },
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -1344,6 +2124,39 @@
    "demo": "Pull to feel the stretch.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A climbing rope used for belaying is a dynamic rope, designed to stretch and absorb energy in a fall. It is tied into the harness through both tie-in points, or, in some systems, used with a device; it is not the same as auto-belay webbing.",
+   "whyItMatters": "The stretch is part of how a fall is managed. A rope also needs a dressed tie-in, an adequate tail, and — if the gym requires it — a stopper at the free end so the rope cannot run through the device.",
+   "howToCoachIt": "Let climbers feel a little stretch on a gently weighted top rope (with a backup). Trace the path from tie-in to anchor to device. Contrast a dynamic rope with auto-belay webbing so the two systems are not mixed up.",
+   "relatedTerms": [
+    "tail",
+    "stopper-knot",
+    "figure-8-follow-through",
+    "top-rope",
+    "slack",
+    "auto-belay-webbing"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/top-rope-pair.jpg",
+     "alt": "A dynamic rope running from a climber’s harness up to a top-rope anchor and back to a belayer on the ground.",
+     "credit": "Photo: AvantaR / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asekurujacy_i_asekurowany.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "ACCESS BOOK #1: Belaying in a climbing gym",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
    ]
   },
   {
@@ -1428,6 +2241,43 @@
    "demo": "Tie on the end of a practice rope.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A stopper knot (often a barrel knot or double overhand) is tied in the free end of the rope so that end cannot pass through the belay device. Some gyms require it as part of every partner check; follow the gym’s standard.",
+   "whyItMatters": "If the belayer runs out of rope, a stopper is the last thing that can keep the end from pulling through the device. It is only useful if it is actually tied, and it does not replace a dressed figure-8 or a coach check.",
+   "howToCoachIt": "If the gym requires it, add the stopper after the figure-8 is dressed, and include it on the point-and-trace partner check. Practise on a spare rope first.",
+   "relatedTerms": [
+    "tail",
+    "rope",
+    "figure-8-follow-through",
+    "partner-check",
+    "belay-device"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/petzl-tie-in-finished-both-points.png",
+     "alt": "Petzl diagram of a finished figure-eight with a visible tail — the section of rope where a gym-required stopper would be tied.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 2",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "ACCESS BOOK #1: Belaying in a climbing gym",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
    ]
   },
   {
@@ -1441,6 +2291,51 @@
    "demo": "Measure a fist-length tail.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "The tail is the extra rope past a finished knot. For a figure-8 follow-through, this program uses a fist-length or gym-standard tail after the knot is dressed. Too short a tail can spill; a huge untidy tail is harder to inspect.",
+   "whyItMatters": "A partner check that only glances at the shape of the 8 can miss a short tail. Dressing the knot and measuring the tail belong together.",
+   "howToCoachIt": "In Figure-8 Dressing Lab and Spot the Figure 8, have partners measure a fist-length (or the gym’s stated length) after counting the five strand pairs. Add a stopper only if the gym requires it.",
+   "relatedTerms": [
+    "stopper-knot",
+    "figure-8-follow-through",
+    "partner-check",
+    "rope",
+    "tie-in-points"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/petzl-tie-in-finished-both-points.png",
+     "alt": "Petzl diagram of a dressed figure-eight follow-through with a clearly visible tail past the knot.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 2",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    },
+    {
+     "src": "assets/images/figures/petzl-tie-in-figure8-sequence.png",
+     "alt": "Petzl tying sequence that ends with a dressed figure-eight and an adequate tail.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet page 3, tying in with a figure-eight knot",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "Tying in with a figure-8 knot",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/US/en/Sport/Tying-in-with-a-figure-8-knot"
+    },
+    {
+     "title": "ACCESS BOOK #1: Belaying in a climbing gym",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
    ]
   },
   {
@@ -1487,6 +2382,47 @@
    "demo": "Trace the rope from climber to anchor to belayer.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Top-rope climbing means the rope already runs through a fixed anchor above the climb, and the belayer, usually on the ground, takes in as the climber goes up. If the climber comes off with a snug rope, they hang on a short amount of slack rather than taking a long lead fall.",
+   "whyItMatters": "Top rope is the program’s main roped context before any lead work. Partner checks, commands, take and lower, and belay stance are all learned here, with a backup until the gym’s certification.",
+   "howToCoachIt": "Trace the rope from climber to anchor to belayer. Practise partner check, start-up commands, and take-and-lower on easy routes, with a backup belayer for uncertified belayers. Compare it later with mock lead so climbers feel how the rope path changes.",
+   "relatedTerms": [
+    "lead-climbing",
+    "belay",
+    "lower",
+    "take",
+    "partner-check",
+    "on-belay"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/top-rope-pair.jpg",
+     "alt": "A climber on a top-rope wall and a belayer on the ground, the rope running up to an anchor above and back down to the belay device.",
+     "credit": "Photo: AvantaR / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asekurujacy_i_asekurowany.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/petzl-top-rope-primary-position.png",
+     "alt": "Petzl diagram of the primary top-rope belaying position, with the belayer facing the wall and holding the brake side of the rope.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet pages 6–7, primary belaying position",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "ACCESS BOOK #1: Belaying in a climbing gym",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
    ]
   },
   {
@@ -1503,6 +2439,45 @@
    "demo": "See Mock Lead.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Lead climbing is climbing with the rope coming from below, clipping it into protection (in the gym, usually quickdraws on bolts) as you go. A leader fall is at least twice the distance to the last clipped piece. In this program, mock lead and all lead content are for Ages 12+ and 14+ only.",
+   "whyItMatters": "Leading changes both the climber’s and the belayer’s jobs: clips, slack, stance, and fall length all matter in a way they do not on top rope. Skills are built on the ground and on mock lead with a real backup before any live lead.",
+   "howToCoachIt": "Start with Ground Clipping Practice and Mock Lead (top-rope or auto-belay backup, with staff permission for any auto-belay use). No live leading until the gym’s certification and coach approval.",
+   "relatedTerms": [
+    "lead-belay",
+    "clipping",
+    "quickdraw",
+    "back-clip",
+    "z-clip",
+    "soft-catch",
+    "top-rope"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/youth-olympics-clipping.jpg",
+     "alt": "Lead climber clipping a quickdraw on an indoor competition wall. Teaching context for Ages 12+ and 14+ only, usually after mock-lead practice with a backup.",
+     "credit": "Photo: Martin Rulsch / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-10-09_Sport_climbing_Girls%27_combined_at_2018_Summer_Youth_Olympics_(Martin_Rulsch)_085.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Lead climbing",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Lead_climbing"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -1516,6 +2491,38 @@
    "demo": "See What Is Wrong?",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A back-clip is a lead-clipping error: the rope is clipped into the quickdraw so that it runs the wrong way — typically not from the wall or bolt side out toward the climber, in the gym’s taught orientation. In a fall, that path can fold the rope over the gate and unclip. This is Ages 12+ and 14+ content.",
+   "whyItMatters": "A back-clip can defeat the protection the climber just placed. Recognizing it on a board is much cheaper than discovering it on a live lead.",
+   "howToCoachIt": "Use Back-Clip Spotting Board on the ground: mark each preset clip correct or back-clipped, explain the rope path, and fix it. Agree the gym’s direction model before debating edge cases. Stay on the ground or on mock lead with a backup.",
+   "relatedTerms": [
+    "clipping",
+    "quickdraw",
+    "z-clip",
+    "lead-climbing",
+    "carabiner"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/quickdraw-expressset.jpg",
+     "alt": "Quickdraws used when teaching rope direction. This photo is the gear, not an example of a back-clip.",
+     "credit": "Photo: Thomas Gehrlein / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Klettern_Expressset.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Quickdraw",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Quickdraw"
+    }
    ]
   },
   {
@@ -1529,6 +2536,38 @@
    "demo": "Show on a ground clipping board.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A Z-clip happens in lead climbing when the climber takes rope from below the previous quickdraw and clips it into the next one, so the rope forms a Z and creates heavy drag. The correct hand path takes rope from near the harness or knot, above the last clipped draw. This is Ages 12+ and 14+ content.",
+   "whyItMatters": "A Z-clip adds drag that can stall a climber, and it leaves a messy, hazardous rope path that should be fixed before anyone climbs higher, even on mock lead.",
+   "howToCoachIt": "Use Z-Clip Recognition Drill on a two-draw board: demo the correct path, demo the Z, then have climbers practise slowly and identify coach-made mistakes. Cue: grab rope close to the knot.",
+   "relatedTerms": [
+    "clipping",
+    "quickdraw",
+    "back-clip",
+    "lead-climbing",
+    "slack"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/quickdraw-expressset.jpg",
+     "alt": "Quickdraws of the kind used on a ground board to demonstrate a correct rope path and a Z-clip. This photo shows the gear, not the error itself.",
+     "credit": "Photo: Thomas Gehrlein / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Klettern_Expressset.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Quickdraw",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Quickdraw"
+    }
    ]
   },
   {
@@ -1631,6 +2670,52 @@
    "demo": "Shout 'brake hand!' and freeze to check.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "The brake hand is the hand that stays on the brake strand — the side of the rope that comes out of the device and is used to add friction. In a tube-device sequence such as PBUS, that hand pulls, goes to the brake position, and slides back up the rope without letting go of the strand.",
+   "whyItMatters": "A break in brake-hand contact is one of the most common belay errors. The device cannot do its job if the brake strand is released.",
+   "howToCoachIt": "Use a freeze cue (‘brake hand!’) during ground school and backed-up wall practice. Watch the slide: the hand must return up the brake strand, not come off it. Petzl’s tube-device notices show the brake side held throughout.",
+   "relatedTerms": [
+    "pbus",
+    "belay-device",
+    "take",
+    "lower",
+    "belay-stance",
+    "assisted-braking-device"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/petzl-reverso-belay-position.png",
+     "alt": "Petzl REVERSO figure showing the brake side of the rope held in the brake position.",
+     "credit": "Diagram: Petzl — REVERSO technical notice, section 6b: always hold the brake side of the rope",
+     "sourceUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    },
+    {
+     "src": "assets/images/figures/assurage-5temps.png",
+     "alt": "Hand-sequence diagram in which the brake hand stays on the rope while sliding back up the brake strand after taking in.",
+     "credit": "Diagram: FrançoisLouvel / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Assurage5temps.png",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Belay device",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Belay_device"
+    },
+    {
+     "title": "REVERSO technical notice",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -1646,6 +2731,51 @@
    "demo": "Chant and do it slowly.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "PBUS is a tube-device belay sequence: Pull, Brake, Under, Slide. The belayer pulls rope through the device, brings the brake hand to the brake position, brings the other hand under the brake hand, and slides the brake hand back up the rope without leaving the brake strand.",
+   "whyItMatters": "It is a repeatable way to take in rope while keeping brake-hand contact — the habit Ground School Belay is built on. Assisted-braking devices use a related idea but have gym-specific technique that staff must teach separately.",
+   "howToCoachIt": "Chant the four words slowly on a ground-school rope with a backup. Freeze on ‘brake’ to check the brake-hand position, then watch the slide. Do not mix ABD handwork into a PBUS drill in the same turn.",
+   "relatedTerms": [
+    "brake-hand",
+    "belay-device",
+    "belay-stance",
+    "assisted-braking-device",
+    "take"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/assurage-5temps.png",
+     "alt": "Technical hand-sequence diagram of taking in rope in steps, including the brake position and sliding the brake hand back up the strand — a PBUS-style motion, not a cartoon of people.",
+     "credit": "Diagram: FrançoisLouvel / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Assurage5temps.png",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "src": "assets/images/figures/petzl-reverso-belay-position.png",
+     "alt": "Petzl tube-device figure showing the brake side of the rope held, the position at the heart of a PBUS cycle.",
+     "credit": "Diagram: Petzl — REVERSO technical notice, section 6b: always hold the brake side of the rope",
+     "sourceUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "REVERSO technical notice",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    },
+    {
+     "title": "Belay device",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Belay_device"
+    }
    ]
   },
   {
@@ -1659,6 +2789,35 @@
    "demo": "Show tight and slack.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Slack is extra loose rope in the system. It is also a climber’s call asking the belayer for more rope. Some slack is needed so a leader can clip or move without being short-roped; too much slack makes a fall longer before the rope begins to hold.",
+   "whyItMatters": "Managing slack is the daily job of a belayer: tight enough to manage a fall, loose enough to let the climber move and clip. On an auto belay (staff permission required before anyone uses one), slack from outclimbing the webbing’s retraction is a cue to slow down or stop.",
+   "howToCoachIt": "In Paying Out and Taking In, name both errors — short-roping and too much slack — while a partner walks away and back, with a backup. On top rope, a snug rope at a take should still be the default. If you mention auto-belay slack from a climber outpacing retraction, remind the group that auto-belay use still needs staff permission.",
+   "relatedTerms": [
+    "take",
+    "lead-belay",
+    "clipping",
+    "soft-catch",
+    "brake-hand",
+    "auto-belay-webbing"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "How to Use an Auto Belay: Step by Step Instructions",
+     "site": "TRUBLUE / Head Rush Technologies",
+     "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
    ]
   },
   {
@@ -1674,6 +2833,38 @@
    "demo": "Sit back on a tight rope at the first bolt.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "‘Take’ (some gyms say ‘tension’) is the climber’s call asking the belayer to pull the rope tight and hold. The belayer takes in, answers, and holds; the climber sits and confirms weight is on the rope before calling ‘lower’ or climbing on.",
+   "whyItMatters": "A clear take-and-hold is how a climber rests on top rope, comes off a move, or prepares to lower. Mumbled or unmatched words leave the belayer guessing.",
+   "howToCoachIt": "Practise the gym’s exact words in Take and Lower Sequence: call, take tight, sit, confirm, then lower. The brake hand stays on the brake strand the whole time.",
+   "relatedTerms": [
+    "lower",
+    "slack",
+    "on-belay",
+    "brake-hand",
+    "top-rope"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/petzl-top-rope-primary-position.png",
+     "alt": "Petzl diagram of a top-rope belayer in position to take in rope and hold a climber who has called take.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet pages 6–7, primary belaying position",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "ACCESS BOOK #1: Belaying in a climbing gym",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
    ]
   },
   {
@@ -1802,6 +2993,24 @@
    "demo": "Practice shouting loud.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "In this vocabulary, ‘Falling!’ is a warning call to the belayer that the climber is coming off. ‘Rock!’ is the warning for anything dropped. They are communication, not a description of landing posture (see landing-position and fear-of-falling).",
+   "whyItMatters": "A loud, early call gives the belayer a moment to brake and look, and it warns people under the wall if something is falling. Quiet or late calls leave partners guessing.",
+   "howToCoachIt": "Practise the gym’s exact words at a real volume, on the ground first, then on a planned top-rope take or a coach-supervised fall practice. Keep ‘Falling!’ and ‘Rock!’ distinct.",
+   "relatedTerms": [
+    "take",
+    "lower",
+    "belay",
+    "fear-of-falling",
+    "landing-position"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -1876,6 +3085,35 @@
    "demo": "Coach-led lead fall demo.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A soft catch (sometimes called a dynamic belay) is a lead-belay catch in which the belayer moves with the fall, or manages a little give in the rope, so the stop is less abrupt than a fully static hard catch. It is a lead skill for Ages 12+ and 14+, and it is not appropriate close to the ground, near ledges, or where a longer fall would swing the climber into a hazard.",
+   "whyItMatters": "On steep ground, a well-timed soft catch can make a higher lead fall more comfortable. Used in the wrong place, the same idea can let a climber hit a ledge or the floor. The concept should be taught before any live practice fall.",
+   "howToCoachIt": "Use Soft-Catch Concept Lab first: define hard and soft catches, discuss when each belongs, and role-play the words used before a planned fall. Live practice comes later, only with certified lead belayers under coach oversight, on steep, clean terrain, at the climber’s pace.",
+   "relatedTerms": [
+    "lead-belay",
+    "lead-climbing",
+    "slack",
+    "belay-stance",
+    "fear-of-falling",
+    "falling"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "A fresh look at fall practice",
+     "site": "Rock and Sun",
+     "href": "https://rockandsun.com/2021/05/25/a-fresh-look-at-fall-practice/"
+    },
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -2114,6 +3352,37 @@
    "demo": "See Spotting Practice.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Spotting is standing ready beneath a boulderer (or, in some contexts, a leader close to the ground) to guide a fall toward the mat. The spotter uses soft hands near the hips and guides — they do not try to catch the climber’s full weight.",
+   "whyItMatters": "A well-placed pad still needs a person who can keep the hips and head moving toward that pad. Poor spotting, or spotting a high problem, adds risk instead of reducing it.",
+   "howToCoachIt": "Use Spotting Practice on a low boulder: hands up at the hips, eyes on the climber, mat covering the likely landing, guide rather than catch. Parents may spot the youngest children on very low problems.",
+   "relatedTerms": [
+    "crash-pad",
+    "fall-zone",
+    "landing-position",
+    "falling"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/bloc-parade.jpg",
+     "alt": "Spotter behind a low boulder with hands raised near the climber’s hips and pads on the ground, ready to guide a fall toward the mat.",
+     "credit": "Photo: Romary / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bloc_parade.JPG",
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -2202,7 +3471,7 @@
    "definition": "Sending on the first try with prior beta.",
    "kid": "Finishing on your first try.",
    "little": "First try!",
-   "demo": "See Flash or Fail.",
+   "demo": "Pick a climb nobody has tried, read it aloud first, then give it one go.",
    "discipline": [
     "bouldering"
    ]
@@ -2218,6 +3487,24 @@
    "demo": "Read an onsight route from the ground, then climb it.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "An onsight is sending a route or problem on the first attempt, with no prior beta (no advice, no watching a successful go, no rehearsal). A first-try send with beta is a flash; a send after previous falls or practice is a redpoint.",
+   "whyItMatters": "Onsighting is a useful personal challenge and a reason to practise route reading, but it is not a required standard in class. Treating every first try as a high-stakes onsight can make climbers rush or refuse to try.",
+   "howToCoachIt": "Use a quiet preview from the ground, then one honest first try. If you give beta, name it a flash attempt instead. Keep the frame personal — not a contest over who onsighted more.",
+   "relatedTerms": [
+    "route-reading",
+    "send",
+    "project",
+    "attempt",
+    "crux"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -2290,6 +3577,24 @@
    "demo": "Point to the crux.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "The crux is the hardest move or section of a climb. The grade of a route or problem is often defined by the difficulty of that crux.",
+   "whyItMatters": "Finding the crux on the ground changes how a climber rests, paces, and chooses beta. Treating every move as the crux burns energy that was needed later.",
+   "howToCoachIt": "In a route preview, ask the climber to point to the crux and say why it looks hardest, then check that guess after the climb. On a pyramid or project, place the crux work where rest can follow.",
+   "relatedTerms": [
+    "route-reading",
+    "project",
+    "onsight",
+    "route",
+    "send"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -2306,6 +3611,29 @@
    "demo": "See Read and Point.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Route reading (also preview or reading) is planning a sequence from the ground: pointing holds, naming rests or awkward sections, and noticing the crux before pulling on.",
+   "whyItMatters": "A short plan reduces surprise mid-route and is the habit behind onsight attempts and calmer top-rope climbs. It also keeps climbers out of other people’s fall lines if they stand aside to look.",
+   "howToCoachIt": "Use Read and Point or Top-Rope Route Preview: from outside the fall line, point holds in order, then partner-check, climb, and name one thing that matched and one that changed. Ages 6–9 can point only the first five holds.",
+   "relatedTerms": [
+    "crux",
+    "onsight",
+    "route",
+    "observation-period",
+    "send"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    }
    ]
   },
   {
@@ -2351,6 +3679,47 @@
    "demo": "See Wall Types.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "A slab is a low-angle wall — significantly less than vertical — that emphasizes balance, footwork, and smearing. The wall leans back toward the climber, so hips and feet do more of the work than a hard pull.",
+   "whyItMatters": "Climbers who only pull with their arms often feel worse on slab, not better. Slab is where smearing, precise feet, and a calm shift of weight over a foot (place, shift, move) get learned.",
+   "howToCoachIt": "Start with the wall-angles diagram, then a standing smear or a slow rock-over on a low slab. Cue quiet, precise feet and hips over the feet before the next reach.",
+   "relatedTerms": [
+    "smear",
+    "edging",
+    "high-step",
+    "center-of-gravity",
+    "quiet-feet",
+    "overhang"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/smear-standing-friction-slab.jpg",
+     "alt": "Climber standing in balance on a low-angle friction slab, weight over the feet, using the sole of the shoe.",
+     "credit": "Photo: Hermann Feederle / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stehen_auf_Reibungsplatten.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "src": "assets/images/figures/wall-angles.png",
+     "alt": "Overview diagram of wall angles, with slab shown as less than vertical.",
+     "credit": "Climbing Coach overview diagram, checked against PRG wall-angle wording",
+     "sourceUrl": "https://philarockgym.com/all-about-indoor-climbing-walls/",
+     "license": "Climbing Coach overview diagram; hosted with credit and source link",
+     "licenseUrl": "https://philarockgym.com/all-about-indoor-climbing-walls/"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Rock Over",
+     "site": "Momentum Youth Programs",
+     "href": "https://youthprograms.momentumclimbing.com/rock-over/"
+    }
    ]
   },
   {
@@ -2384,6 +3753,55 @@
    "demo": "See Wall Types.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "An overhang is a wall or rock face angled beyond the vertical. A roof or ceiling is the horizontal end of that spectrum. Steep ground asks for body tension, hips close to the wall, and often techniques such as drop knees, hooks, and careful foot pressure so the feet do not cut.",
+   "whyItMatters": "Movement that works on slab or vertical often fails on an overhang if the hips sag and the feet unload. Teaching wall types first helps climbers choose the right tools. The book reports that climbers who loaded their feet more used up to about 11% less energy and had a lower heart rate.",
+   "howToCoachIt": "Use the wall-angles overview, then let climbers feel the same easy sequence on vertical and on a steep wall. Cue hips in and pressure through the big toes. Save deep drop knees and hard hooks for older groups and easy holds first.",
+   "relatedTerms": [
+    "slab",
+    "drop-knee",
+    "cut-feet",
+    "body-tension",
+    "toe-hook",
+    "heel-hook"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/overhang-margalef.jpg",
+     "alt": "Climber on a steep, overhanging rock face, the wall leaning over the body.",
+     "credit": "Photo: N McQ / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al,_Margalef,_Spain.jpg",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "src": "assets/images/figures/wall-angles.png",
+     "alt": "Overview diagram of wall angles, including less-than-vertical slab, vertical, and steeper-than-vertical overhang.",
+     "credit": "Climbing Coach overview diagram, checked against PRG wall-angle wording",
+     "sourceUrl": "https://philarockgym.com/all-about-indoor-climbing-walls/",
+     "license": "Climbing Coach overview diagram; hosted with credit and source link",
+     "licenseUrl": "https://philarockgym.com/all-about-indoor-climbing-walls/"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 7: Analysis of the Main Physiological Factors in Climbing Performance",
+     "section": "New findings about limiting factors in climbing performance: routes and bouldering"
+    }
    ]
   },
   {
@@ -2479,13 +3897,32 @@
    "name": "Warm-Up",
    "aka": [],
    "category": "Training & Body Care",
-   "definition": "Raising heart rate and mobility before hard climbing to reduce injury risk.",
+   "definition": "A routine before climbing that goes from light cardio and active joint movement to a little muscle activation, then easy climbing that builds up and matches the day's focus. It lasts about 5 minutes for the youngest groups, about 8 for Ages 6–9 and about 12–18 for Ages 9–12 and older.",
    "kid": "Getting your body ready.",
    "little": "Wiggle time.",
    "demo": "See Pulse Raiser.",
    "discipline": [
     "bouldering"
-   ]
+   ],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "General warm-up. Joint mobilisation. Coordination-based cardio. Increasing ROM. Muscle activation"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Specific wall-based exercises"
+    }
+   ],
+   "images": []
   },
   {
    "id": "cool-down",
@@ -2495,7 +3932,7 @@
    "definition": "Easy movement and stretching after climbing.",
    "kid": "Slowing down your body at the end.",
    "little": "Calm time.",
-   "demo": "See Cool-Down Stretch & Reflect.",
+   "demo": "Not a separate block in these classes; the last game stays low-key, and on the way out climbers say how their forearms feel.",
    "discipline": [
     "bouldering"
    ]
@@ -2508,10 +3945,10 @@
     "Forearm Pump"
    ],
    "category": "Training & Body Care",
-   "definition": "Forearm fatigue from sustained gripping.",
+   "definition": "Forearm fatigue when hard, sustained gripping squeezes off blood flow, so the muscles run short of oxygen and acidity builds.",
    "kid": "When your arms feel tight and tired.",
    "little": "Tired arms.",
-   "demo": "Shake out and feel it fade.",
+   "demo": "Hold a jug gently, then squeeze hard for the same time; notice which one pumps.",
    "discipline": [
     "bouldering"
    ],
@@ -2534,6 +3971,30 @@
      "title": "Neil Gresham: Improve Your Movement — energy and bent arms when pumped",
      "site": "UKClimbing",
      "href": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/improve_your_movement-12519"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 7: Analysis of the Main Physiological Factors in Climbing Performance",
+     "section": "New findings about limiting factors in climbing performance: routes and bouldering"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Increasing forearm blood flow. Continuous, long-interval and intermittent methods. Blood flow restriction training (BFR)"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Improving recovery. High-intensity interval methods. Active wall-based recovery. Intermittent deadhangs"
     }
    ]
   },
@@ -2544,7 +4005,7 @@
     "Stamina"
    ],
    "category": "Training & Body Care",
-   "definition": "The ability to keep climbing a long time.",
+   "definition": "The ability to keep climbing a long time; it depends on forearm blood flow, efficient movement and putting weight through the feet.",
    "kid": "Climbing a long time without getting tired.",
    "little": "Long climbing.",
    "demo": "See Easy Continuous Laps.",
@@ -2576,6 +4037,22 @@
      "title": "Glossary: pump",
      "site": "Wikipedia",
      "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 7: Analysis of the Main Physiological Factors in Climbing Performance",
+     "section": "New findings about limiting factors in climbing performance: routes and bouldering"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Increasing forearm blood flow. Continuous, long-interval and intermittent methods. Blood flow restriction training (BFR)"
     }
    ]
   },
@@ -2601,7 +4078,7 @@
     "Power"
    ],
    "category": "Training & Body Care",
-   "definition": "Maximum force for single hard moves.",
+   "definition": "The maximum force a climber can produce; it powers single hard moves and also makes every easier move cost less, which helps endurance.",
    "kid": "How hard you can pull.",
    "little": "Strong muscles.",
    "demo": "See Limit Bouldering.",
@@ -2627,6 +4104,22 @@
      "title": "Glossary: pump",
      "site": "Wikipedia",
      "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 2: Understanding the Importance of Strength",
+     "section": "Ways to develop strength: hypertrophy and neural"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Improving recovery. High-intensity interval methods. Active wall-based recovery. Intermittent deadhangs"
     }
    ]
   },
@@ -2637,13 +4130,32 @@
     "Flexibility"
    ],
    "category": "Training & Body Care",
-   "definition": "Range of motion in hips and shoulders for climbing positions.",
+   "definition": "The range a climber can actively control in climbing positions; the brain sets how far a joint is allowed to move.",
    "kid": "How far your body can bend.",
    "little": "Bendy body.",
-   "demo": "Frog stretch.",
+   "demo": "Compare how high a foot goes with a leg lift (active) and when pulling it up with the hands (passive).",
    "discipline": [
     "bouldering"
-   ]
+   ],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 3: Understanding and Optimising Mobility",
+     "section": "Active vs passive flexibility and mobility reserve"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 3: Understanding and Optimising Mobility",
+     "section": "What is mobility? Flexibility, elasticity and stiffness"
+    }
+   ],
+   "images": []
   },
   {
    "id": "growth-plate",
@@ -2652,12 +4164,46 @@
     "Finger Injury"
    ],
    "category": "Training & Body Care",
-   "definition": "Growing bone ends in kids' fingers; hangboarding and full crimping are deferred for youth to manage injury risk.",
+   "definition": "Growing bone ends in kids' fingers; full crimping and maximal, weighted or small-edge hangboarding are deferred for youth to manage injury risk.",
    "kid": "The growing part of your finger bones that needs care.",
    "little": "Growing fingers.",
    "demo": "Show open-hand grip.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Growth plates (epiphyseal plates) are the cartilage zones at the ends of long bones where those bones grow longer. They are present in children and adolescents and later fuse. In climbers, stress fractures of the finger growth plates are most often reported in the middle and ring fingers at the PIP joint, around the pubertal growth spurt. The BMC notes that fingers do not finish growing until around age 17, and that growth plates are significantly weaker than the surrounding tendons and ligaments. The forces from crimping are especially implicated. This guide does not replace medical care.",
+   "whyItMatters": "Intensive finger loading in teenage climbers raises the risk of these stress fractures. If they are left untreated, the BMC reports that disruption of bone growth and long-term joint damage can follow. Full crimping and maximal, weighted or small-edge hangboarding are deferred for youth in this program to manage that injury risk; Ages 12+ and 14+ may do low-intensity bar and 24 mm three-pad hangs, as The Science of Climbing Training recommends for under-16s.",
+   "howToCoachIt": "Show an open-hand or half-crimp grip on a large edge; do not teach a full, thumb-closed crimp to young climbers. Persistent finger pain — or pain that changes how a climber moves or performs — means stop loading that finger and get it checked by a doctor. The BMC is clear: young climbers should not work through that pain. Epiphyseal finger injuries can be hard to see on a first x-ray, so a prompt medical review matters.",
+   "relatedTerms": [
+    "crimp",
+    "hold",
+    "strength"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Growth plate stress fractures in teenage climbers",
+     "site": "British Mountaineering Council",
+     "href": "https://services.thebmc.co.uk/media/files/Comps/Development%20Squad/Growth%20Plate%20Stress%20Fractures%20in%20Teenage%20Climbers.pdf"
+    },
+    {
+     "title": "Epiphyseal plate",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Epiphyseal_plate"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Maximum grip strength. Deadhangs. Evidence and protocols. Adaptation for different levels of training"
+    }
    ]
   },
   {
@@ -2673,6 +4219,44 @@
    "demo": "Time a 3-minute rest.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "In this vocabulary, rest means recovery time off the wall between attempts or sessions — not a rest position on the wall (see rest-position). Enough rest lets the forearms recover from a pump and keeps later tries sharp.",
+   "whyItMatters": "Short-changing rest turns a planned session into tired, sloppy repeats. Limit bouldering, for example, uses several minutes between hard tries so quality stays high. The Science of Climbing Training reports that the muscles' quick-energy stores are about 84% refilled after 2 minutes, 89% after 4 and 97% after 8, which is why it recommends 3–5 minutes between maximal efforts.",
+   "howToCoachIt": "Time a real rest (for example, three minutes after a hard boulder) instead of ‘shake once and go again.’ Help climbers tell the difference between an on-wall shake-out and time off the wall. For Ages 12+ and 14+, leave a day or two between very hard sessions; the book suggests 24–48 hours after maximum-strength work.",
+   "relatedTerms": [
+    "rest-position",
+    "pump",
+    "attempt",
+    "endurance"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "Deadpoint climbing: how to train deadpoints",
+     "site": "Blok Sessions",
+     "href": "https://bloksessions.com/exercises/deadpoint-training"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Recovery time during and between sessions"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 6: Bioenergetics and Metabolism",
+     "section": "The ATP–PCr system"
+    }
    ]
   },
   {
@@ -2749,6 +4333,45 @@
    "demo": "See Top-Rope Fall Practice.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Fear of falling is a normal response. In coaching, it is managed with gradual exposure and practised falls — starting small, on terrain and with a belay or pads that match the drill — rather than with a sudden big jump above the last clip. Rock and Sun note that being comfortable with falling helps climbers stay focused on the movement, and that many gym ‘jump off above the draw’ sessions feel unpleasant and are not repeated. The Science of Climbing Training describes the same idea from the body's side: when the brain predicts harm it tightens muscles and limits movement, and calm, controlled, successful experiences loosen that brake.",
+   "whyItMatters": "Unaddressed fear can freeze movement long before strength runs out. Poorly staged fall practice can also make fear worse.",
+   "howToCoachIt": "Start with top-rope sit-backs and astronaut lowering, then short, chosen top-rope falls if the gym and the climber are ready. Lead-fall progressions are Ages 12+ and 14+ only, at the clip first, on steep clean ground, with a qualified lead belayer and a coach, progressing only as the climber chooses.",
+   "relatedTerms": [
+    "falling",
+    "landing-position",
+    "soft-catch",
+    "lead-climbing",
+    "top-rope"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "A fresh look at fall practice",
+     "site": "Rock and Sun",
+     "href": "https://rockandsun.com/2021/05/25/a-fresh-look-at-fall-practice/"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 3: Understanding and Optimising Mobility",
+     "section": "Threat perception as a limiting factor of ROM"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 3: Understanding and Optimising Mobility",
+     "section": "Brain maps, SIMs and DIMs"
+    }
    ]
   },
   {
@@ -2887,6 +4510,32 @@
    "demo": "Count your own attempts on one problem.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "An attempt (also a try or a burn) is one go at a route or boulder, from pull-on to coming off or topping out. Counting attempts helps a climber and coach see how a session is being spent.",
+   "whyItMatters": "Quality usually drops after too many hard tries with too little rest. Limit bouldering, for example, uses few attempts and long rests, and stops when movement quality drops.",
+   "howToCoachIt": "Have climbers count their own attempts on one problem, and pair the count with a rest. Keep the count personal — not a contest over who tried more. For hard attempts, the book recommends 3–5 minutes of rest between tries so each one gets full effort.",
+   "relatedTerms": [
+    "rest",
+    "project",
+    "send",
+    "onsight",
+    "pump"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Integrated strength, power and RFD training: bouldering"
+    }
    ]
   },
   {
@@ -3264,10 +4913,21 @@
    "definition": "Climbing with hands only and no feet; campus-board training is for experienced climbers about 16 and older.",
    "kid": "Climbing with no feet; campus boards wait until you're older.",
    "little": "No feet.",
-   "demo": "Mention only; see Peter Pans for older teens.",
+   "demo": "Mention only; see Peter Pans for older teens. The book stresses that campusing needs high strength and full speed, and stops as soon as moves slow.",
    "discipline": [
     "bouldering"
-   ]
+   ],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Campus board training"
+    }
+   ],
+   "images": []
   },
   {
    "id": "hand-foot-match",
@@ -3334,13 +4994,24 @@
     "Over-Gripping"
    ],
    "category": "Holds",
-   "definition": "Holding on just hard enough not to slip; over-gripping wastes energy and pumps the forearms early.",
+   "definition": "Holding on just hard enough not to slip; over-gripping wastes energy and squeezes off forearm blood flow, so the pump comes early.",
    "kid": "Holding on only as hard as you need to.",
    "little": "Soft hands.",
    "demo": "See Tap Your Thumbs.",
    "discipline": [
     "bouldering"
-   ]
+   ],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Increasing forearm blood flow. Continuous, long-interval and intermittent methods. Blood flow restriction training (BFR)"
+    }
+   ],
+   "images": []
   },
   {
    "id": "pressing",
@@ -3453,13 +5124,24 @@
     "Fingerboard"
    ],
    "category": "Training & Body Care",
-   "definition": "A board of edges and pockets for finger-strength hangs; deferred until about age 16 for youth climbers because of growth-plate risk.",
-   "kid": "A board for training finger strength, saved for older teens.",
-   "little": "Grown-up finger board.",
-   "demo": "Explain why it waits until about 16.",
+   "definition": "A board of edges and pockets for finger-strength hangs. Before about 16 (and before two years of systematic training), only low-intensity hangs on a 24 mm, three-pad edge are used, at Ages 12+ and 14+, after bar hangs; maximal, minimum-edge, weighted, one-arm and repeater protocols wait.",
+   "kid": "A board for training finger strength. Teens start on the biggest edge with easy hangs; the hard stuff waits until you're older.",
+   "little": "Big-kid finger board.",
+   "demo": "Show the 24 mm three-pad edge and an open-hand grip; see Dead Hang, then Three-Pad Edge Hang.",
    "discipline": [
     "bouldering"
-   ]
+   ],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Maximum grip strength. Deadhangs. Evidence and protocols. Adaptation for different levels of training"
+    }
+   ],
+   "images": []
   },
   {
    "id": "deliberate-practice",
@@ -3971,6 +5653,44 @@
    "demo": "See Ground Clipping Practice.",
    "discipline": [
     "bouldering"
+   ],
+   "explanation": "Clipping, in lead, is putting the rope into the rope-end carabiner of a quickdraw (or into an anchor). The climber may call ‘Clipping!’ so the belayer can pay out slack quickly. A stable clipping stance comes first; rushing the rope toward the draw is how back-clips and Z-clips appear. This is Ages 12+ and 14+ content.",
+   "whyItMatters": "Accurate, unhurried clips — especially the first three, where ground-fall risk is highest — are a core lead skill. They are practised on the ground and on mock lead with a real backup before any live lead.",
+   "howToCoachIt": "Start with Ground Clipping Practice, both hands, checking rope direction. Add Clipping Stance Finder and First Three Clips Focus on mock lead (top-rope or auto-belay backup, with staff permission for any auto-belay use).",
+   "relatedTerms": [
+    "quickdraw",
+    "back-clip",
+    "z-clip",
+    "lead-climbing",
+    "slack",
+    "carabiner"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/youth-olympics-clipping.jpg",
+     "alt": "Lead climber clipping a quickdraw from a standing stance on an indoor wall. Teaching context for Ages 12+ and 14+ only.",
+     "credit": "Photo: Martin Rulsch / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-10-09_Sport_climbing_Girls%27_combined_at_2018_Summer_Youth_Olympics_(Martin_Rulsch)_085.jpg",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "Quickdraw",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Quickdraw"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -4312,6 +6032,36 @@
    "demo": "Walk the lane edges on the floor before climbing.",
    "discipline": [
     "auto-belay"
+   ],
+   "explanation": "An auto-belay lane is the marked vertical corridor that one device protects. Climbing outside it, beside the device, or above the device leaves the climber unprotected by that unit. TRUBLUE also warns climbers not to outclimb the webbing’s retraction speed. Staff permission is required before anyone uses an auto belay.",
+   "whyItMatters": "Lane discipline is a core risk-management control, not optional etiquette. Slack from climbing too fast, or stepping into the next lane, is how climbers get outside the system that was meant to hold them.",
+   "howToCoachIt": "Walk the lane edges and the out-of-lane path on the floor before anyone climbs (Auto-Belay Lane Boundaries). Point out flags or barriers at the base. If slack appears, slow down or stop.",
+   "relatedTerms": [
+    "auto-belay",
+    "auto-belay-webbing",
+    "auto-belay-induction"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/auto-belay-overview.png",
+     "alt": "Overview diagram showing a single auto-belay corridor: device, webbing, and the lane the climber stays inside.",
+     "credit": "Climbing Coach overview diagram, checked against TRUBLUE clip-to-belay-loop guidance",
+     "sourceUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions",
+     "license": "Climbing Coach overview diagram; hosted with credit and source link",
+     "licenseUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
+   ],
+   "sources": [
+    {
+     "title": "How to Use an Auto Belay: Step by Step Instructions",
+     "site": "TRUBLUE / Head Rush Technologies",
+     "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -4328,6 +6078,38 @@
    "demo": "Point to webbing, carabiner, and device as three linked parts.",
    "discipline": [
     "auto-belay"
+   ],
+   "explanation": "Auto-belay webbing (also called a lanyard or tape) is the strap that runs from the device to the climber’s carabiner. It should retract as the climber goes up and then lower them when they sit back. It is not a dynamic climbing rope. Staff permission is required before anyone uses an auto belay.",
+   "whyItMatters": "A retraction test — pull webbing out, let it retract, feel the tug — is how a climber checks that the webbing is running before leaving the ground. Failed retraction means do not climb that lane; get staff.",
+   "howToCoachIt": "In Auto-Belay Retraction Test, pull about an arm’s length before clipping, then pull again after the carabiner is locked on the belay loop and feel the tug on the harness.",
+   "relatedTerms": [
+    "auto-belay",
+    "auto-belay-lane",
+    "auto-belay-induction",
+    "belay-loop",
+    "rope"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/auto-belay-overview.png",
+     "alt": "Diagram of auto-belay webbing running from the overhead device to a carabiner on the belay loop — the strap a retraction test pulls and releases.",
+     "credit": "Climbing Coach overview diagram, checked against TRUBLUE clip-to-belay-loop guidance",
+     "sourceUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions",
+     "license": "Climbing Coach overview diagram; hosted with credit and source link",
+     "licenseUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
+   ],
+   "sources": [
+    {
+     "title": "How to Use an Auto Belay: Step by Step Instructions",
+     "site": "TRUBLUE / Head Rush Technologies",
+     "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -4412,6 +6194,51 @@
    "discipline": [
     "top-rope",
     "lead"
+   ],
+   "explanation": "An assisted-braking device (ABD), such as a Petzl GRIGRI, is a belay device that helps pinch or cam the rope under load. It still requires a brake hand and the gym’s specific technique. Paying out slack, especially to a leader, has to be smooth — a jerked payout can lock the device early (short-roping).",
+   "whyItMatters": "ABDs are not ‘hands-free’ devices. Mixing tube-device (PBUS) handwork with ABD habits, or taking the brake hand off, is a common error. Staff teach the gym’s exact model.",
+   "howToCoachIt": "Show the gym’s ABD and a tube device in separate turns. On the ground, practise smooth payout and fast take-in with a backup (Paying Out and Taking In). Keep the brake hand on the brake strand. Do not invent techniques that differ from staff teaching.",
+   "relatedTerms": [
+    "belay-device",
+    "brake-hand",
+    "pbus",
+    "lead-belay",
+    "slack"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/belay-grigri.jpg",
+     "alt": "A Petzl GRIGRI, an assisted-braking belay device, with a rope loaded.",
+     "credit": "Photo: Rupertsciamenna / Wikimedia Commons",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belaying_grigri.jpg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "src": "assets/images/figures/petzl-grigri-loading.png",
+     "alt": "Petzl GRIGRI technical figure showing how the rope is loaded in the device.",
+     "credit": "Diagram: Petzl — GRIGRI technical notice, section 6",
+     "sourceUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw30589f53/media/product/technical-notice-GRIGRI-3_068Tx000009YCjEIAW.pdf",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw30589f53/media/product/technical-notice-GRIGRI-3_068Tx000009YCjEIAW.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Belay device",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Belay_device"
+    },
+    {
+     "title": "GRIGRI technical notice",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw30589f53/media/product/technical-notice-GRIGRI-3_068Tx000009YCjEIAW.pdf"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -4542,6 +6369,46 @@
    "discipline": [
     "top-rope",
     "lead"
+   ],
+   "explanation": "Belay stance is how the belayer stands and braces — usually facing the wall, in an athletic position, ready to move — so they can take in, pay out, and catch without being pulled off balance. Weight differences between climber and belayer may change the stance or call for a ground anchor, according to gym rules.",
+   "whyItMatters": "A casual, narrow stance gets pulled in on a real catch. Stance is a learning objective in ground school and should be set before the belayer ever holds a climber’s full weight.",
+   "howToCoachIt": "Use Belay Stance Practice: set the stance, brake hand on the brake strand, and have a partner give gentle tugs with a backup. Name what would change for a heavier or lighter climber, following the gym’s policy.",
+   "relatedTerms": [
+    "brake-hand",
+    "pbus",
+    "lead-belay",
+    "soft-catch",
+    "belay-device"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/petzl-top-rope-primary-position.png",
+     "alt": "Petzl diagram of a belayer in an athletic primary stance, facing the wall and holding the brake side of the rope.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet pages 6–7, primary belaying position",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    },
+    {
+     "src": "assets/images/figures/petzl-reverso-belay-position.png",
+     "alt": "Petzl figure of the brake position on a tube device, which a solid stance is meant to support.",
+     "credit": "Diagram: Petzl — REVERSO technical notice, section 6b: always hold the brake side of the rope",
+     "sourceUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/on/demandware.static/-/Sites-petzl-master-catalog/default/dw3ddbef35/media/product/technical-notice-REVERSO-5_068bK00000nDYPVQA4.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "ACCESS BOOK #1: Belaying in a climbing gym",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
    ]
   },
   {
@@ -4701,6 +6568,45 @@
    "demo": "Ground payout/take-in, then watch a coach demo on a real lead with a backup.",
    "discipline": [
     "lead"
+   ],
+   "explanation": "Lead belay is belaying a climber who is clipping protection overhead. It requires smooth payout, fast take-in, an active stance, and the gym’s lead-belay certification. In this program it is Ages 12+ and 14+ only. A soft catch is a later, situational skill, not the starting point, and it is inappropriate near the ground or ledges.",
+   "whyItMatters": "The belayer now has to give slack for clips without short-roping, take in quickly when the leader is above a bolt, and stay ready for a longer fall than on top rope.",
+   "howToCoachIt": "Build the skill on the ground: Belay Stance Practice and Paying Out and Taking In, with a backup. Introduce soft-catch ideas in a concept lab before any live lead catch. No live lead belaying until certification and coach approval.",
+   "relatedTerms": [
+    "lead-climbing",
+    "soft-catch",
+    "belay-stance",
+    "slack",
+    "clipping",
+    "assisted-braking-device",
+    "brake-hand"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/petzl-top-rope-primary-position.png",
+     "alt": "Petzl diagram of an athletic belay stance facing the wall — the starting posture, later adapted for lead belay after certification, for Ages 12+ and 14+.",
+     "credit": "Diagram: Petzl — ACCESS BOOK #1, booklet pages 6–7, primary belaying position",
+     "sourceUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html",
+     "license": "Petzl technical figure; hosted for internal coaching use with credit and source link",
+     "licenseUrl": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    },
+    {
+     "title": "Glossary of climbing terms",
+     "site": "Wikipedia",
+     "href": "https://en.wikipedia.org/wiki/Glossary_of_climbing_terms"
+    },
+    {
+     "title": "ACCESS BOOK #1: Belaying in a climbing gym",
+     "site": "Petzl",
+     "href": "https://www.petzl.com/us/en/downloads/access-book--1--belaying-in-a-climbing-gym/accessbook-sport-n1-belaying-in-a-climbing-gym.html"
+    }
    ]
   },
   {
@@ -4750,6 +6656,38 @@
    "demo": "Run the induction steps as a class block even for kids who will remain coach-clipped.",
    "discipline": [
     "auto-belay"
+   ],
+   "explanation": "Auto-belay induction is staff-delivered, hands-on teaching of harness fit, clipping to the belay loop, the retraction test, lowering, lane rules, and the risk of climbing unclipped, before a climber may use auto belays unsupervised. In this program, even after induction, class use still needs staff permission, and staff clip and unclip for the youngest groups.",
+   "whyItMatters": "A one-time verbal briefing is not the same as a hands-on induction. The habits that prevent climbing unclipped have to be practised, not only heard.",
+   "howToCoachIt": "Run the induction steps as a class block: harness parts, clip-in routine, retraction test, lowering position, and lane boundaries. For first sessions, use Staff-Controlled First Auto Belay so only the coach clips and unclips.",
+   "relatedTerms": [
+    "auto-belay",
+    "auto-belay-lane",
+    "auto-belay-webbing",
+    "belay-loop",
+    "harness"
+   ],
+   "images": [
+    {
+     "src": "assets/images/figures/auto-belay-overview.png",
+     "alt": "Overview of the auto-belay system taught in induction: device, webbing, belay-loop clip, and lane.",
+     "credit": "Climbing Coach overview diagram, checked against TRUBLUE clip-to-belay-loop guidance",
+     "sourceUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions",
+     "license": "Climbing Coach overview diagram; hosted with credit and source link",
+     "licenseUrl": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    }
+   ],
+   "sources": [
+    {
+     "title": "How to Use an Auto Belay: Step by Step Instructions",
+     "site": "TRUBLUE / Head Rush Technologies",
+     "href": "https://trubluetech.com/eu/en/adventure/blog/how-use-auto-belay-instructions"
+    },
+    {
+     "title": "Coaching practice (existing activity text)",
+     "site": "This hub",
+     "href": ""
+    }
    ]
   },
   {
@@ -4892,6 +6830,1584 @@
    "demo": "Harness Parts Callout, then a correct and incorrect clip demo on the ground.",
    "discipline": [
     "auto-belay"
+   ]
+  },
+  {
+   "id": "supercompensation",
+   "name": "Supercompensation",
+   "aka": [
+    "Training Adaptation"
+   ],
+   "category": "Training & Body Care",
+   "definition": "The body rebuilding a little stronger than before after a training stress, once it has had time to recover.",
+   "kid": "After a good, hard session and a rest, your body comes back a bit stronger.",
+   "little": "Rest makes you stronger.",
+   "demo": "Draw a simple line on a whiteboard: effort dips it down, rest brings it back up a little higher.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra describes training as a planned disturbance of the body's normal balance. A session pushes the body off balance; during recovery it rebuilds to a slightly higher level so it copes better next time. That gain only sticks if the next stimulus comes along before it fades, and only helps if the body has had enough time to rebuild first.",
+   "whyItMatters": "It explains to climbers and parents why rest is part of training, not time off from it, and why showing up regularly matters more than one huge session.",
+   "howToCoachIt": "Use it to explain why hard skill days are spread out and why a tired climber gets an easier day. For teens, connect it to a training log: hard day, recovery, then a better day.",
+   "relatedTerms": [
+    "rest",
+    "training-threshold",
+    "detraining",
+    "training-log"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 1: The Process of Training",
+     "section": "Homeostasis, GAS and supercompensation"
+    }
+   ]
+  },
+  {
+   "id": "training-threshold",
+   "name": "Training Threshold",
+   "aka": [
+    "Overload",
+    "Just-Hard-Enough Zone"
+   ],
+   "category": "Training & Body Care",
+   "definition": "The level of effort a training task has to reach before it causes any improvement; below it nothing changes, far above it the risk of overtraining and injury rises.",
+   "kid": "Practice has to be a little bit hard to help you get better, but not so hard it hurts you.",
+   "little": "A little bit hard.",
+   "demo": "Show three versions of one move: too easy, just right, and too hard. Ask which one teaches the most.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book frames effort in four zones. Work well below the threshold has no training effect. Work right around it may hold a level steady. Work just above it is the target: uncomfortable, outside the comfort zone, but recoverable. Work beyond what the climber can tolerate leads toward overtraining and injury. The book's rule of thumb: if it takes days to recover from a session, it was too much.",
+   "whyItMatters": "It gives coaches a simple test for every drill: is this at the edge of what this climber can do, with good form? For youth, the right challenge is usually a technical one, not a heavier load.",
+   "howToCoachIt": "Pick drill difficulty so most tries succeed with real effort. If a climber cruises every try, add a constraint; if they fail every try or their form falls apart, make it easier.",
+   "relatedTerms": [
+    "comfort-zone-edge",
+    "deliberate-practice",
+    "overtraining",
+    "supercompensation"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 1: The Process of Training",
+     "section": "Intensity and thresholds"
+    }
+   ]
+  },
+  {
+   "id": "overtraining",
+   "name": "Overtraining",
+   "aka": [
+    "Overtraining Syndrome",
+    "Too Much Too Soon"
+   ],
+   "category": "Training & Body Care",
+   "definition": "A drop in performance and health from piling on hard training before the body has recovered from the last bout.",
+   "kid": "When you train too hard too often and your body gets worn out instead of stronger.",
+   "little": "Too tired to grow.",
+   "demo": "Talk through the signs a climber can notice: sore for days, grumpy, sleeping badly, getting weaker.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra explains that a new hard stress applied while the body is still recovering pushes it into breakdown rather than rebuilding. Repeated, that becomes overtraining syndrome. He adds that it is hard to fall into unless someone trains far too much and far too often, which is exactly what keen teenagers sometimes do outside class.",
+   "whyItMatters": "Teens who climb at the gym, at home and on a team can stack sessions without anyone seeing the total. Spotting the pattern early protects fingers and motivation.",
+   "howToCoachIt": "Ask Ages 12+ and 14+ to log every climbing day, not just class. If soreness lasts several days or performance keeps dropping, plan easier days and talk with a parent.",
+   "relatedTerms": [
+    "rest",
+    "supercompensation",
+    "training-log",
+    "overuse-injury"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 1: The Process of Training",
+     "section": "Homeostasis, GAS and supercompensation"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 1: The Process of Training",
+     "section": "Intensity and thresholds"
+    }
+   ]
+  },
+  {
+   "id": "specificity",
+   "name": "Specificity",
+   "aka": [
+    "Principle of Specificity"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Training improves mainly the exact skill, position and type of effort that was practised.",
+   "kid": "You get better at exactly what you practise.",
+   "little": "Practise what you want.",
+   "demo": "Compare a pull on a bar with a pull on a sidepull, and ask whether they feel the same.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book counts specificity among the key principles of training: gains from one exercise carry over poorly to different situations. Its example is that strength built pulling straight down on a bar carries over mostly to pulling straight down on bar-like holds. Lock-off strength is similar, since isometric strength mostly improves at the angle that was trained.",
+   "whyItMatters": "It is the reason this program builds strength by climbing many kinds of holds, angles and moves instead of relying on gym exercises.",
+   "howToCoachIt": "When a climber wants to get better at something (slopers, steep walls, mantles), set practice that looks like it. Vary angles and hold types so the skill transfers widely.",
+   "relatedTerms": [
+    "lock-off",
+    "training-variety",
+    "training-transfer",
+    "deliberate-practice"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 1: The Process of Training",
+     "section": "The principles of training"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Maximum isometric strength. Lock-offs"
+    }
+   ]
+  },
+  {
+   "id": "individualization",
+   "name": "Individualization",
+   "aka": [
+    "Principle of Individualization"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Adjusting training to each climber's body, experience and current level instead of copying what works for someone else.",
+   "kid": "Your practice is made for you, not copied from someone else.",
+   "little": "Your own plan.",
+   "demo": "Give two climbers the same goal with different starting holds or moves, then talk about why.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra calls individualization one of the most ignored principles: training should fit the climber's build, function and level, and copying a friend's routine just because it suits them is a mistake. Effort scales that each climber rates for themselves are one way he suggests fitting the load to the person.",
+   "whyItMatters": "Youth groups mix growth stages, heights and experience. One plan for everyone overloads some and bores others.",
+   "howToCoachIt": "Offer the same drill at two or three levels (hold size, angle, number of moves) and let climbers choose with your guidance. For teens, keep personal targets in a log rather than comparing with peers.",
+   "relatedTerms": [
+    "ape-index",
+    "process-goal",
+    "training-log",
+    "training-threshold"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 1: The Process of Training",
+     "section": "The principles of training"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Maximum grip strength. Deadhangs. Evidence and protocols. Adaptation for different levels of training"
+    }
+   ]
+  },
+  {
+   "id": "training-variety",
+   "name": "Training Variety",
+   "aka": [
+    "Principle of Variety"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Changing exercises, terrain and stimulus over time so the body keeps adapting instead of stalling.",
+   "kid": "Mixing up what you practise so your body keeps learning.",
+   "little": "New things to try.",
+   "demo": "Run the same skill on a slab one week and a steep wall the next.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book's variety principle says that repeating the same exercises the same way all season leads to a plateau, because the body adapts and stops changing. It pairs this with continuity: training has to be regular, too. Both ideas sit behind a curriculum that returns to skills with new terrain, holds and challenges.",
+   "whyItMatters": "Variety keeps young climbers engaged and spreads load across different fingers, joints and muscles.",
+   "howToCoachIt": "Bring back a skill in a new setting: different angle, hold type or partner role. Keep the core cue the same so climbers recognise the skill.",
+   "relatedTerms": [
+    "specificity",
+    "multilateral-training",
+    "deliberate-practice"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 1: The Process of Training",
+     "section": "The principles of training"
+    }
+   ]
+  },
+  {
+   "id": "detraining",
+   "name": "Detraining",
+   "aka": [
+    "Reversibility",
+    "Losing Fitness"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Losing training gains after a break; endurance fades soonest, while strength lasts longer.",
+   "kid": "When you stop climbing for a while, some of your climbing fitness goes away.",
+   "little": "Use it or lose it.",
+   "demo": "After a holiday break, start with easier laps and see how quickly the arms feel pumped.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra notes there is little research on detraining in climbing, so he draws on other sports. Endurance qualities such as forearm blood flow and aerobic enzymes drop within one to a few weeks of stopping. Maximum strength holds up much better over a several-week break. He also notes that the most extreme adaptations are lost soonest.",
+   "whyItMatters": "It sets realistic expectations after school holidays, illness or injury, and explains why the first sessions back should be easier.",
+   "howToCoachIt": "After a break of a few weeks, start with easy volume and technique, and expect endurance to feel down before strength does. Teens can compare the first week back in their log.",
+   "relatedTerms": [
+    "endurance",
+    "supercompensation",
+    "training-log"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 11: Detraining",
+     "section": "Detraining"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 1: The Process of Training",
+     "section": "Homeostasis, GAS and supercompensation"
+    }
+   ]
+  },
+  {
+   "id": "isometric-contraction",
+   "name": "Isometric Contraction",
+   "aka": [
+    "Isometric",
+    "Static Contraction"
+   ],
+   "category": "Training & Body Care",
+   "definition": "A muscle working hard without changing length, like gripping a hold or holding a lock-off.",
+   "kid": "Squeezing a muscle to hold still, like when you hang on a hold.",
+   "little": "Squeeze and hold.",
+   "demo": "Grip a jug and hold still, then explain that the forearm is working even though it isn't moving.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book separates three kinds of muscle work: isometric (tension, no change in length), concentric (shortening, like the pull up phase of a pull-up) and eccentric (lengthening under control, like lowering down). Gripping is mainly isometric: the finger muscles hold a fixed position while the rest of the body moves. Real climbing mixes all three from moment to moment.",
+   "whyItMatters": "It explains why grip and lock-offs tire in a different way from walking or running, and why isometric strength mostly improves at the angle that is trained.",
+   "howToCoachIt": "Use it with Hover Hands or lock-off drills for Ages 9–12 and up: hold at a few different arm angles, not just one.",
+   "relatedTerms": [
+    "lock-off",
+    "eccentric-contraction",
+    "concentric-contraction",
+    "specificity"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 2: Understanding the Importance of Strength",
+     "section": "Types of muscle contraction"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Maximum isometric strength. Lock-offs"
+    }
+   ]
+  },
+  {
+   "id": "eccentric-contraction",
+   "name": "Eccentric Contraction",
+   "aka": [
+    "Eccentric",
+    "Lowering Phase"
+   ],
+   "category": "Training & Body Care",
+   "definition": "A muscle working while it lengthens under control, like slowly lowering down from a pull-up.",
+   "kid": "Using your muscles to lower yourself down slowly.",
+   "little": "Slow lowering.",
+   "demo": "Step up so the chin is over a bar, then lower down slowly with control. See Pull-Up Lowering.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "In eccentric work the muscle resists while it lengthens. The book notes that muscles can produce more force this way than when shortening. That is why controlled lowering is its preferred route to a first full pull-up, ahead of band-assisted pull-ups. It also notes that controlled eccentric work at the end of a joint's range can build strength and confidence in that range.",
+   "whyItMatters": "Many climbers can lower down long before they can pull up. Lowering is a good first strength task, and controlled downclimbing uses the same idea.",
+   "howToCoachIt": "For Ages 12+ and 14+, use bodyweight lowering on a bar or big jug with a step to get into the top position, a few reps, and full rest. Downclimbing gives younger groups the same feel.",
+   "relatedTerms": [
+    "concentric-contraction",
+    "isometric-contraction",
+    "downclimb"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 2: Understanding the Importance of Strength",
+     "section": "Types of muscle contraction"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Maximum pulling strength. Pull-ups. Velocity-based strength training. Maximum intensity methods and calculating your RM"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 3: Understanding and Optimising Mobility",
+     "section": "Options for optimising mobility"
+    }
+   ]
+  },
+  {
+   "id": "concentric-contraction",
+   "name": "Concentric Contraction",
+   "aka": [
+    "Concentric",
+    "Pulling Phase"
+   ],
+   "category": "Training & Body Care",
+   "definition": "A muscle working while it shortens, like the pulling-up part of a pull-up or standing up off a high foot.",
+   "kid": "When a muscle gets shorter to pull or push you up.",
+   "little": "Pull up.",
+   "demo": "Stand up on a high foot and point to the thigh muscles shortening as they push.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Concentric work is the shortening phase of a movement. The book adds a practical point: when strength work is done, doing the lifting phase briskly and with intent gives more muscle activation and less tendon strain than very slow reps. This is part of why it questions super-slow pull-ups.",
+   "whyItMatters": "It helps older climbers understand the three ways muscles work and why each kind of practice feels different.",
+   "howToCoachIt": "Contrast pushing up off a high foot (concentric) with lowering back down slowly (eccentric) and holding still halfway (isometric).",
+   "relatedTerms": [
+    "eccentric-contraction",
+    "isometric-contraction",
+    "high-step"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 2: Understanding the Importance of Strength",
+     "section": "Types of muscle contraction"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Power and RFD training"
+    }
+   ]
+  },
+  {
+   "id": "effort-level",
+   "name": "Effort Level",
+   "aka": [
+    "Reps in Reserve",
+    "Margin Before Failure"
+   ],
+   "category": "Training & Body Care",
+   "definition": "How much a climber is holding back on purpose: the reps or seconds they still could have done when they stop.",
+   "kid": "Stopping while you still have some energy left in the tank.",
+   "little": "Some left over.",
+   "demo": "After a set, ask: how many more could you have done? Aim to stop with plenty left.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book writes effort as reps done compared with reps possible, for example 5 of a possible 10. For hangs, it uses seconds held compared with seconds possible. It recommends stopping strength and power sets around halfway to failure, and ending a set as soon as moves slow down noticeably. A climber rating this for themselves lets intensity fit each person.",
+   "whyItMatters": "It gives teens a simple rule that keeps quality high and fatigue low, and it replaces the 'until you drop' habit.",
+   "howToCoachIt": "For Ages 12+ and 14+ strength or power drills, ask climbers to stop with about half their reps left and log the number. Younger groups just hear: stop while it still looks smooth.",
+   "relatedTerms": [
+    "training-to-failure",
+    "individualization",
+    "training-log"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Maximum grip strength. Deadhangs. Evidence and protocols. Adaptation for different levels of training"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Strength training to maximise performance. Methods and techniques for upper body, core and lower body exercises"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 2: Understanding the Importance of Strength",
+     "section": "Muscle failure: is it really necessary?"
+    }
+   ]
+  },
+  {
+   "id": "training-to-failure",
+   "name": "Training to Failure",
+   "aka": [
+    "Muscle Failure",
+    "Until You Drop"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Repeating an effort until another rep or move is impossible; the book advises against it for climbing strength and power.",
+   "kid": "Doing something until you can't do it anymore. We stop before that.",
+   "little": "Stop before tired.",
+   "demo": "Explain why a set ends while moves still look crisp.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra reviews studies showing that sets taken to failure add a lot of fatigue and stress without adding strength compared with stopping around halfway. Strength gains were similar, and the half-way groups kept more speed and recovered faster. For climbing he wants every rep and attempt at full quality, which tired muscles can't give.",
+   "whyItMatters": "Youth climbers often believe 'one more' is always better. Stopping early protects fingers and shoulders and keeps the next attempt good.",
+   "howToCoachIt": "End sets and attempts when quality drops: slower moves, re-gripping, sloppy feet. Praise the decision to stop.",
+   "relatedTerms": [
+    "effort-level",
+    "pump",
+    "attempt"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 2: Understanding the Importance of Strength",
+     "section": "Muscle failure: is it really necessary?"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Campus board training"
+    }
+   ]
+  },
+  {
+   "id": "neural-adaptation",
+   "name": "Neural Adaptation",
+   "aka": [
+    "Neural Strength",
+    "Strength Without Size"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Getting stronger because the nervous system learns to switch on more muscle, faster, rather than because the muscles get bigger.",
+   "kid": "Your brain learns to use more of your muscles, so you get stronger without getting bigger.",
+   "little": "Brain-strong muscles.",
+   "demo": "Compare a first try and a fifth try on a new move: same muscles, better coordination.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book separates gains in muscle size from gains in how well the nervous system recruits the muscle already there. For climbers it favours the second, since it raises strength without adding weight. Early improvements in young and new climbers are largely about coordination and recruitment.",
+   "whyItMatters": "It explains why kids get visibly better at hard moves within weeks, and why skill practice is strength practice at this age.",
+   "howToCoachIt": "Give lots of good-quality repetitions of a move, with rest. Name improvements as the body learning, not as muscles growing.",
+   "relatedTerms": [
+    "strength",
+    "contact-strength",
+    "deliberate-practice"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 2: Understanding the Importance of Strength",
+     "section": "Ways to develop strength: hypertrophy and neural"
+    }
+   ]
+  },
+  {
+   "id": "contact-strength",
+   "name": "Contact Strength",
+   "aka": [
+    "Rate of Force Development",
+    "RFD"
+   ],
+   "category": "Training & Body Care",
+   "definition": "How fast a climber can build grip force the moment the hand lands on a hold.",
+   "kid": "Grabbing a hold hard, fast, the instant your hand lands on it.",
+   "little": "Fast grab.",
+   "demo": "On a big hold at an easy deadpoint, cue a quick, firm grab instead of a slow settle.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra explains rate of force development as force built per unit of time, measured in climbing over the first fifth of a second. A climber may be strong enough to hold a sloper but still fall off a dynamic move if they can't build that force fast enough on landing. Studies he reports found it markedly higher in boulderers than in sport climbers.",
+   "whyItMatters": "It explains why some kids hold a hold statically but drop it when they move fast to it. It is a concept for Ages 12+ and 14+; the training methods the book uses for it, such as campus boards and one-arm hangs, are not used in this program.",
+   "howToCoachIt": "Build it through climbing: deadpoints and controlled dynamic moves to big, positive holds for Ages 12+ and 14+, with low reps and full rest. No campus, weighted or small-edge hangboard work before about 16; easy 24 mm three-pad hangs are the only fingerboard work.",
+   "relatedTerms": [
+    "deadpoint",
+    "dyno",
+    "dynamic",
+    "campusing"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 7: Analysis of the Main Physiological Factors in Climbing Performance",
+     "section": "New findings about limiting factors in climbing performance: routes and bouldering"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Power and RFD training"
+    }
+   ]
+  },
+  {
+   "id": "finger-pulleys",
+   "name": "Finger Pulleys",
+   "aka": [
+    "Pulley",
+    "A2 Pulley",
+    "A4 Pulley"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Bands of tissue that hold the finger tendons close to the bones, like the rings on a fishing rod; the A2 and A4 pulleys take the most load when crimping.",
+   "kid": "Little straps inside your fingers that keep the tendons close to the bone.",
+   "little": "Finger straps.",
+   "demo": "Bend a finger and show where the tendon would bowstring without the straps (no squeezing on anyone's finger).",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book uses a fishing-rod picture: the bone is the rod, the tendon is the line and the pulleys are the guide rings. Crimping puts heavy strain on the pulleys, especially A2 and A4. A study the book reports links pulley tears to crimping without a thorough warm-up. In injury surveys it cites, fingers are by far the most often injured area in climbing, and pulleys are the most common finger injury. Pulleys thicken with years of climbing, so adaptation is slow.",
+   "whyItMatters": "It gives older climbers a reason for open-hand grips, gradual build-ups and stopping at finger pain. In younger climbers, the growth plates are a further concern.",
+   "howToCoachIt": "For Ages 12+ and 14+: explain the fishing-rod picture, demonstrate open-hand and half-crimp on a big edge, and build up to small holds only after easy climbing. Any pop, sharp pain or swelling means stop climbing and get it checked.",
+   "relatedTerms": [
+    "crimp",
+    "full-crimp",
+    "half-crimp",
+    "open-hand-grip",
+    "growth-plate",
+    "tendon"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 4: Brief Notes on Anatomy",
+     "section": "Upper body: pulling muscles"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Strength training for injury prevention"
+    }
+   ]
+  },
+  {
+   "id": "tendon",
+   "name": "Tendon",
+   "aka": [
+    "Tendons"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Tough, cord-like tissue that connects muscle to bone and passes the muscle's pull to the skeleton; a ligament connects bone to bone.",
+   "kid": "The strong strings that join your muscles to your bones.",
+   "little": "Muscle strings.",
+   "demo": "Feel the tendons move on the inside of the wrist while opening and closing the fingers.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book compares tendons to a static rope: flexible but barely stretchy, so they pass force from muscle to bone efficiently. Ligaments hold joints together and limit how far they move. Repeated loading without enough recovery damages tendons gradually. The book explains that the swelling this causes is not mainly inflammation, which is why rest and gradual loading matter more than ice.",
+   "whyItMatters": "Tendons adapt much more slowly than muscles. Climbers who get strong fast can outpace their tendons and fingers, which is why the program builds load gradually.",
+   "howToCoachIt": "Pair it with Tendon Glides in the warm-up. With teens, explain that muscles can feel ready before tendons are, so finger-heavy climbing builds up over weeks, not days.",
+   "relatedTerms": [
+    "finger-pulleys",
+    "finger-flexors",
+    "growth-plate",
+    "overuse-injury"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 4: Brief Notes on Anatomy",
+     "section": "Connective tissue: tendons and ligaments"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Strength training for injury prevention"
+    }
+   ]
+  },
+  {
+   "id": "finger-flexors",
+   "name": "Finger Flexors",
+   "aka": [
+    "FDP",
+    "Flexor Digitorum Profundus",
+    "Forearm Flexors"
+   ],
+   "category": "Training & Body Care",
+   "definition": "The forearm muscles on the palm side that curl the fingers and do most of the gripping in climbing.",
+   "kid": "The muscles in your forearm that make your fingers hold on.",
+   "little": "Holding muscles.",
+   "demo": "Squeeze and relax a hand while the other hand feels the forearm move.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book names the deep finger flexor, the flexor digitorum profundus, as the single most important muscle in climbing: it bends the end joints of the four fingers. In Consuegra's analysis, the forearm is the bottleneck. Climbers usually fall because these small muscles can't keep producing enough grip, and their endurance depends heavily on blood flow and how fast they re-oxygenate.",
+   "whyItMatters": "It explains pump, why gripping lightly matters, and why the forearms set the limit long before the legs do.",
+   "howToCoachIt": "Link it to Light Grip and Pump. Teens can feel the difference between over-gripping and just-enough grip on the same easy traverse.",
+   "relatedTerms": [
+    "pump",
+    "light-grip",
+    "endurance",
+    "tendon"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 4: Brief Notes on Anatomy",
+     "section": "Upper body: pulling muscles"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 7: Analysis of the Main Physiological Factors in Climbing Performance",
+     "section": "New findings about limiting factors in climbing performance: routes and bouldering"
+    }
+   ]
+  },
+  {
+   "id": "lats",
+   "name": "Lats",
+   "aka": [
+    "Latissimus Dorsi"
+   ],
+   "category": "Training & Body Care",
+   "definition": "The large, wing-shaped back muscles that pull the arms down and back; the main pulling muscle in climbing.",
+   "kid": "The big back muscles that pull you up the wall.",
+   "little": "Wing muscles.",
+   "demo": "Pull down on a big hold with a straight arm and feel the side of the back work.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra calls the latissimus dorsi the number one pulling muscle in climbing. He also notes something many people miss: the chest muscle is not its opposite. Both rotate the upper arm inward, so balancing climbing means strengthening the muscles that pull the shoulder blades back and down and rotate the arm outward, not adding chest work.",
+   "whyItMatters": "Strong lats help on steep ground. Knowing what balances them keeps antagonist work on the right muscles.",
+   "howToCoachIt": "On a big hold, cue 'pull with the back, not just the arms' with shoulders down. For antagonist work, pair it with Band Face Pulls and the upper-back exercises.",
+   "relatedTerms": [
+    "straight-arms",
+    "serratus-anterior",
+    "rotator-cuff",
+    "climbers-back"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 4: Brief Notes on Anatomy",
+     "section": "Upper body: pulling muscles"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Strength training for injury prevention"
+    }
+   ]
+  },
+  {
+   "id": "rotator-cuff",
+   "name": "Rotator Cuff",
+   "aka": [
+    "Shoulder Stabilisers"
+   ],
+   "category": "Training & Body Care",
+   "definition": "A group of small shoulder muscles that keep the ball of the upper arm centred in its shallow socket.",
+   "kid": "Small muscles that keep your shoulder joint steady.",
+   "little": "Shoulder helpers.",
+   "demo": "Elbow at the side, rotate the forearm outward against a light band. See Band Face Pulls.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book explains that the shoulder trades stability for mobility: a big ball sits in a shallow socket. Many large muscles rotate the arm inward, while only a few small ones rotate it outward. Without balancing work, climbers drift toward rounded shoulders and more shoulder injuries. Consuegra also cautions against tiring the rotator cuff with band work in the warm-up, since a tired cuff holds the joint less well.",
+   "whyItMatters": "Shoulders are the second most often injured area in climbing in the surveys the book cites. Teens doing a lot of steep climbing benefit from external-rotation and upper-back work.",
+   "howToCoachIt": "For Ages 12+ and 14+, do light external rotations and face pulls after climbing as training, not before. In the warm-up, keep band work to a few easy reps.",
+   "relatedTerms": [
+    "lats",
+    "serratus-anterior",
+    "climbers-back",
+    "muscle-activation"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 4: Brief Notes on Anatomy",
+     "section": "Upper body: pulling muscles"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "General warm-up. Joint mobilisation. Coordination-based cardio. Increasing ROM. Muscle activation"
+    }
+   ]
+  },
+  {
+   "id": "glutes",
+   "name": "Glutes",
+   "aka": [
+    "Gluteus Maximus",
+    "Bum Muscles"
+   ],
+   "category": "Training & Body Care",
+   "definition": "The muscles of the buttocks; the biggest one is the main hip extensor and drives standing up off a high foot.",
+   "kid": "Your bottom muscles that help you stand up on a high foot.",
+   "little": "Stand-up muscles.",
+   "demo": "Do a high step and press up; feel the bottom muscle on that side squeeze. See Glute Bridge.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra calls the gluteus maximus the most powerful muscle in the body and the main hip extensor: it is what lets a climber weight a very high foot and stand on it. The smaller glutes stabilise the hip and lift the leg sideways. The book also lists the gluteus maximus among the muscles that climbing posture tends to under-use.",
+   "whyItMatters": "High steps and rock-overs fail when climbers pull with the arms instead of pushing with the glutes.",
+   "howToCoachIt": "Cue 'push the hips up and in' on high steps. Off the wall, Glute Bridge and Box Step-Ups build the same push.",
+   "relatedTerms": [
+    "high-step",
+    "rock-over",
+    "hips-to-the-wall"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 4: Brief Notes on Anatomy",
+     "section": "Lower body: pushing muscles"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Strength training for injury prevention"
+    }
+   ]
+  },
+  {
+   "id": "proprioception",
+   "name": "Proprioception",
+   "aka": [
+    "Body Sense",
+    "Body Awareness"
+   ],
+   "category": "Training & Body Care",
+   "definition": "The body's sense of where its parts are and how they're moving, from sensors in muscles, tendons and joints.",
+   "kid": "Knowing where your arms and feet are without looking.",
+   "little": "Feel where you are.",
+   "demo": "Place a foot with eyes closed, then open them to check. See Blink Feet.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book describes sensors in muscles (length and speed), tendons (tension) and joints (position) that report to the brain constantly. The brain uses this to decide how far, and how freely, a joint is allowed to move. A good warm-up is partly about waking up that sensitivity.",
+   "whyItMatters": "Precise feet and quiet movement depend on it, and it improves quickly with practice in kids.",
+   "howToCoachIt": "Use eyes-closed foot placements, slow-motion climbing and Hover Feet. Ask climbers to describe what they felt before they look.",
+   "relatedTerms": [
+    "eye-to-foot-contact",
+    "quiet-feet",
+    "threat-perception"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 3: Understanding and Optimising Mobility",
+     "section": "Active vs passive flexibility and mobility reserve"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "General warm-up. Joint mobilisation. Coordination-based cardio. Increasing ROM. Muscle activation"
+    }
+   ]
+  },
+  {
+   "id": "threat-perception",
+   "name": "Threat Perception",
+   "aka": [
+    "Protective Tension",
+    "Danger Signals"
+   ],
+   "category": "Competition & Mental",
+   "definition": "The brain's prediction that a position or move could cause harm, which makes muscles tense, limits range and adds fear.",
+   "kid": "When your brain thinks a move might hurt, so your body gets stiff.",
+   "little": "Brain says careful.",
+   "demo": "After a scare on a move, rebuild it step by step. See Rebuild the Move.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra explains that the brain predicts outcomes from past experience. If a move or position is unfamiliar, or once went badly, the brain can tense the muscles and limit range to protect the joint. His example is a climber who hurt a knee on a drop knee and later tenses up before the same move even after the knee has healed. Good experiences and feeling secure loosen that brake; scary or painful ones tighten it.",
+   "whyItMatters": "It explains stiff, hesitant movement after a fall or tweak, and why pushing a scared climber harder backfires.",
+   "howToCoachIt": "Rebuild with easy, successful versions low on the wall, slow breathing, mental rehearsal and the climber's own choice of next step. Praise the calm attempt, not the height.",
+   "relatedTerms": [
+    "fear-of-falling",
+    "breathing",
+    "visualization",
+    "mobility"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 3: Understanding and Optimising Mobility",
+     "section": "Threat perception as a limiting factor of ROM"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 3: Understanding and Optimising Mobility",
+     "section": "Brain maps, SIMs and DIMs"
+    }
+   ]
+  },
+  {
+   "id": "phosphagen-system",
+   "name": "Phosphagen System",
+   "aka": [
+    "ATP–PCr System",
+    "Quick-Energy System"
+   ],
+   "category": "Training & Body Care",
+   "definition": "The muscles' quickest energy supply, used in short, hard efforts like each grip on a hold; it refills during brief rests.",
+   "kid": "Your muscles' quick-energy battery that refills when you rest.",
+   "little": "Quick battery.",
+   "demo": "Do one hard move, rest two minutes, and try again: the quick battery has refilled.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book explains that each hard grip mostly runs on stored high-energy phosphates. The aerobic system then tops those stores up in the short gaps between holds. The stores refill fast but not instantly: the book reports most of the store back after about two minutes and nearly all of it after about eight. That is why it recommends three to five minutes between maximal efforts.",
+   "whyItMatters": "It gives a clear reason for long rests between hard attempts and short, light gripping between moves.",
+   "howToCoachIt": "For Ages 12+ and 14+, time real rests of three minutes or more between limit tries. Use the battery picture with Ages 9–12.",
+   "relatedTerms": [
+    "rest",
+    "attempt",
+    "endurance",
+    "pump"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 6: Bioenergetics and Metabolism",
+     "section": "The ATP–PCr system"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 6: Bioenergetics and Metabolism",
+     "section": "The energy continuum"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Recovery time during and between sessions"
+    }
+   ]
+  },
+  {
+   "id": "active-recovery",
+   "name": "Active Recovery",
+   "aka": [
+    "Recovery Traverse",
+    "Easy Movement Rest"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Easy climbing or movement between hard efforts to help the forearms recover, instead of sitting still.",
+   "kid": "Climbing very easy stuff between hard climbs to help your arms feel better.",
+   "little": "Easy climbing rest.",
+   "demo": "Between two hard problems, traverse very easy holds until the arms feel lighter. See Crux-and-Traverse Intervals.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra reports a study where climbers who traversed easily between attempts had lower blood lactate by the final attempt and got higher on their last try than climbers who walked. He builds interval sessions on this: short hard efforts separated by easy traversing, without ever reaching a total pump.",
+   "whyItMatters": "It turns rests into useful practice and suits youth sessions, which keep everyone moving rather than waiting.",
+   "howToCoachIt": "Use the easiest traverse in the gym, at an effort around 1–2 on a 5-point scale. If the arms get more pumped during the 'rest', it is too hard.",
+   "relatedTerms": [
+    "rest",
+    "pump",
+    "traverse",
+    "endurance"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Improving recovery. High-intensity interval methods. Active wall-based recovery. Intermittent deadhangs"
+    }
+   ]
+  },
+  {
+   "id": "forearm-blood-flow",
+   "name": "Forearm Blood Flow",
+   "aka": [
+    "Capillarization",
+    "Forearm Circulation"
+   ],
+   "category": "Training & Body Care",
+   "definition": "How well blood reaches the forearm muscles; light gripping keeps it flowing, hard gripping squeezes it off.",
+   "kid": "Blood bringing fresh energy to your arm muscles. Squeezing too hard blocks it.",
+   "little": "Blood to the arms.",
+   "demo": "Hold a jug gently, then squeeze hard, and talk about which one you could hold longer.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book reports that forearm blood flow is highest at light grip effort, roughly a tenth to a quarter of maximum. It starts dropping as grip gets harder and is choked off at high effort. Long, easy climbing encourages new capillaries within a couple of weeks and new mitochondria over about six. Better climbers re-oxygenate their forearms much faster between holds.",
+   "whyItMatters": "It is the science behind easy endurance laps, light grip and resting before a deep pump.",
+   "howToCoachIt": "For Ages 9–12 and up: easy laps at a mild pump, about 1–2 out of 5, with light grip. For teens: explain why the endurance block is easy on purpose.",
+   "relatedTerms": [
+    "pump",
+    "light-grip",
+    "endurance",
+    "finger-flexors"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Increasing forearm blood flow. Continuous, long-interval and intermittent methods. Blood flow restriction training (BFR)"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 7: Analysis of the Main Physiological Factors in Climbing Performance",
+     "section": "New findings about limiting factors in climbing performance: routes and bouldering"
+    }
+   ]
+  },
+  {
+   "id": "training-load",
+   "name": "Training Load",
+   "aka": [
+    "Training Volume",
+    "Training Intensity"
+   ],
+   "category": "Training & Body Care",
+   "definition": "How much training is done (volume: time, moves, attempts) and how hard it is (intensity: how close to maximum each effort is).",
+   "kid": "How much you climb and how hard it is.",
+   "little": "How much, how hard.",
+   "demo": "Count total moves in a session and rate how hard the hardest ones felt.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book separates the method (how an exercise is run) from the means (the equipment or terrain). It then splits the load into volume (the total amount of work) and intensity (how much work per unit of time, including nervous-system and mental load). Changing either one changes what a session trains.",
+   "whyItMatters": "Thinking in volume and intensity helps coaches keep youth sessions high in volume and moderate in intensity, and save the true limit efforts for older groups.",
+   "howToCoachIt": "Teens can log both: number of climbs or minutes on the wall, and a 1–5 rating of the hardest efforts. Watch for weeks where both jump at once.",
+   "relatedTerms": [
+    "training-density",
+    "training-log",
+    "endurance",
+    "strength"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Climbing-specific training needs"
+    }
+   ]
+  },
+  {
+   "id": "training-density",
+   "name": "Training Density",
+   "aka": [
+    "Work-to-Rest Ratio"
+   ],
+   "category": "Training & Body Care",
+   "definition": "How much work time there is compared with rest time, within a session or across a week.",
+   "kid": "How long you climb compared with how long you rest.",
+   "little": "Climb time, rest time.",
+   "demo": "Climb one minute, rest two, and call that a 1-to-2 density.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book defines density as the balance of work to recovery, whether that is one minute on and two off in a set or two days of training to one day of rest across a week. Strength and power need low density (long rests); endurance tolerates higher density.",
+   "whyItMatters": "It gives coaches one more dial besides 'harder' or 'more' and explains why limit days have long rests.",
+   "howToCoachIt": "Set density on purpose: long rests for hard boulders, short rests for easy laps. Write the ratio on the whiteboard so teens see it.",
+   "relatedTerms": [
+    "training-load",
+    "rest",
+    "phosphagen-system"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Climbing-specific training needs"
+    }
+   ]
+  },
+  {
+   "id": "training-cycle",
+   "name": "Training Cycle",
+   "aka": [
+    "Macrocycle",
+    "Mesocycle",
+    "Microcycle"
+   ],
+   "category": "Training & Body Care",
+   "definition": "A planned block of training: a macrocycle is the long block toward a goal, made of medium blocks (mesocycles), made of short blocks (microcycles).",
+   "kid": "Planning practice in blocks: a big plan, made of smaller chunks, made of weeks.",
+   "little": "Training blocks.",
+   "demo": "Show the season on a calendar: the year, the monthly themes, and the weeks inside them.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra defines the three planning units by length rather than by calendar. A macrocycle is a long block that ends in a higher level of performance. It is split into mesocycles with intermediate goals, which are split into microcycles focused on particular qualities.",
+   "whyItMatters": "This program's monthly themes and weekly plans already work like mesocycles and microcycles; the vocabulary helps older climbers understand why the year is structured.",
+   "howToCoachIt": "With Ages 12+ and 14+, map the current month's theme as a block and the week as a step within it. Keep plans for youth simple and flexible.",
+   "relatedTerms": [
+    "taper",
+    "multilateral-training",
+    "training-log"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 10: Periodisation Models: In Search of Optimal Peak Form",
+     "section": "Basic concepts: macrocycle, mesocycle and microcycle"
+    }
+   ]
+  },
+  {
+   "id": "taper",
+   "name": "Taper",
+   "aka": [
+    "Tapering"
+   ],
+   "category": "Training & Body Care",
+   "definition": "A planned cut in training volume before an important event, keeping intensity, so the climber arrives rested and sharp.",
+   "kid": "Climbing less, but still well, in the days before a big event so you feel fresh.",
+   "little": "Rest before the big day.",
+   "demo": "Before an event, keep the same kind of climbing but fewer climbs and longer rests.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book's tapering guidelines, drawn from sport-science reviews, cut training volume substantially over the final weeks. Sessions are dropped first, then shortened. Intensity is held, not raised, the last sessions aren't used as tests, and recovery is complete. Consuegra stresses that the athlete may not feel great during a taper and that is normal.",
+   "whyItMatters": "It suits Ages 14+ team members before an event, and the 'don't test yourself the day before' idea helps every age.",
+   "howToCoachIt": "For Ages 14+ before a March-style event: fewer, shorter sessions with the same quality, no new hard projects, and no limit testing in the final sessions.",
+   "relatedTerms": [
+    "training-cycle",
+    "rest",
+    "outcome-goal"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 10: Periodisation Models: In Search of Optimal Peak Form",
+     "section": "Linear periodisation: traditional and reverse. General and specific preparation period. Competition and tapering period. Advantages and disadvantages. Example periodisation"
+    }
+   ]
+  },
+  {
+   "id": "multilateral-training",
+   "name": "Multilateral Training",
+   "aka": [
+    "General Preparation",
+    "All-Round Training"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Broad, varied practice across many movements, terrains and skills before narrowing to specific goals.",
+   "kid": "Practising lots of different kinds of climbing and moving, not just one thing.",
+   "little": "Try lots of things.",
+   "demo": "Rotate slab, vertical, steep and volumes across a month of the same skill.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "In the book's planning models, the general preparation period puts varied, non-specific work ahead of narrow training. It emphasises volume over intensity, introduces different types of movement, corrects basic technique and gathers a wide base of climbing experience. It is the stage where the base for later, more specific work is laid.",
+   "whyItMatters": "This is the base the youth curriculum already rests on: broad movement and technique first, specific strength later.",
+   "howToCoachIt": "Keep sessions varied in terrain and hold type, with technique as the main goal. Save narrow, intense blocks for the older training groups.",
+   "relatedTerms": [
+    "training-variety",
+    "training-cycle",
+    "deliberate-practice"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 10: Periodisation Models: In Search of Optimal Peak Form",
+     "section": "Linear periodisation: traditional and reverse. General and specific preparation period. Competition and tapering period. Advantages and disadvantages. Example periodisation"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Physical conditioning for climbing"
+    }
+   ]
+  },
+  {
+   "id": "training-transfer",
+   "name": "Training Transfer",
+   "aka": [
+    "Interference",
+    "Session Order"
+   ],
+   "category": "Training & Body Care",
+   "definition": "How practice of one thing helps (or gets in the way of) another; the order of skills in a session changes what each one trains.",
+   "kid": "Some practice helps other skills, and the order you do things matters.",
+   "little": "Order matters.",
+   "demo": "Do technique while fresh and endurance laps later in the same class.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book's session-design rules: train technique without fatigue, at the intensity it will really be used. Maximum strength needs full rest between sets. Power needs strength and speed, so it never comes after exhausting work. Endurance work can interfere with strength gains. When strength and power share a session, strength comes first, never the reverse, and endurance sessions are mostly single-focus.",
+   "whyItMatters": "It explains why this program puts the skill block early and the more tiring game or volume later.",
+   "howToCoachIt": "Plan the order: warm-up, technique or hard moves while fresh, then volume or endurance. Don't put dynamic or limit work at the end of a tiring session.",
+   "relatedTerms": [
+    "specificity",
+    "training-load",
+    "warm-up"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 9: Training Session Design",
+     "section": "Criteria for planning a multi-focus session. Transfer and interference"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 9: Training Session Design",
+     "section": "Single-focus sessions. Example session"
+    }
+   ]
+  },
+  {
+   "id": "climbers-back",
+   "name": "Climber's Back",
+   "aka": [
+    "Rounded Shoulders",
+    "Climbing Posture"
+   ],
+   "category": "Training & Body Care",
+   "definition": "A rounded upper back and forward shoulders that can develop from lots of pulling without balancing work.",
+   "kid": "When your shoulders round forward from lots of climbing.",
+   "little": "Round shoulders.",
+   "demo": "Stand against a wall and see whether the back of the head and shoulders reach it comfortably. See Wall Angel Hold.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book describes a typical climbing posture: rounded upper back, an increased lower-back curve, and forward shoulders. Pulling muscles, the chest and the hip flexors tend to become dominant, while the upper-back muscles, deep core and glutes are under-used. It is more pronounced in more advanced climbers. Consuegra recommends relaxing the overactive muscles first, then strengthening the under-used ones.",
+   "whyItMatters": "Teens who climb a lot and also sit at desks are most likely to drift this way, and posture changes can feed shoulder and back pain.",
+   "howToCoachIt": "For Ages 12+ and 14+: upper-back and external-rotation work (Band Face Pulls, Wall Angel Hold, Push-Up Plus), Glute Bridge and Superman Hold, done after climbing. Refer persistent pain to a physio.",
+   "relatedTerms": [
+    "lats",
+    "rotator-cuff",
+    "serratus-anterior",
+    "thoracic-spine"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Strength training for injury prevention"
+    }
+   ]
+  },
+  {
+   "id": "overuse-injury",
+   "name": "Overuse Injury",
+   "aka": [
+    "Chronic Injury",
+    "Load Injury"
+   ],
+   "category": "Training & Body Care",
+   "definition": "An injury that builds up from repeated loading without enough recovery, rather than from one fall or knock.",
+   "kid": "An injury that comes from doing too much of the same thing over and over.",
+   "little": "Too much, too often.",
+   "demo": "Ask climbers what 'sore in a normal way' feels like, and how that differs from pain that stays or gets worse.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "In the surveys the book reviews, overuse injuries are the most frequent kind in climbing. It rises with climbing grade and is especially common in boulderers. Fingers account for about half of injuries, followed by shoulders, hands and elbows. Prevention comes down to building load gradually, respecting recovery and treating early warning signs seriously.",
+   "whyItMatters": "Keen youth climbers often add sessions quickly; overuse is the most likely injury they will meet.",
+   "howToCoachIt": "Make pain reporting normal. Climbers name where it hurts and when; persistent finger pain or pain that changes how they climb means stop and get it checked.",
+   "relatedTerms": [
+    "finger-pulleys",
+    "tendon",
+    "growth-plate",
+    "overtraining"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Strength training for injury prevention"
+    }
+   ]
+  },
+  {
+   "id": "muscle-activation",
+   "name": "Muscle Activation",
+   "aka": [
+    "Activation, Not Fatigue"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Waking up the muscles a session will use with a few easy reps, without tiring them.",
+   "kid": "Waking up your muscles before you climb, without wearing them out.",
+   "little": "Wake up muscles.",
+   "demo": "A few easy squats, push-ups and scapular pulls, then straight to the wall.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "In the book's warm-up, activation comes after joint mobilisation, light cardio and range-of-motion work. It starts with big multi-joint movements, then smaller targeted ones, always at a level that activates without fatiguing. The book singles out the hamstrings (before heel hooks) and warns against tiring the rotator cuff, which weakens shoulder control.",
+   "whyItMatters": "It keeps the warm-up short and useful and stops climbers arriving at the wall already tired.",
+   "howToCoachIt": "In the activation part of the warm-up (about 2–4 minutes for Ages 9–12 and older), choose two or three easy movements matched to the day, a few reps each. If anyone is breathing hard or shaking, it was too much.",
+   "relatedTerms": [
+    "warm-up",
+    "specific-warm-up",
+    "rotator-cuff"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "General warm-up. Joint mobilisation. Coordination-based cardio. Increasing ROM. Muscle activation"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Core activation"
+    }
+   ]
+  },
+  {
+   "id": "specific-warm-up",
+   "name": "Specific Warm-Up",
+   "aka": [
+    "Wall Warm-Up",
+    "Matched Warm-Up"
+   ],
+   "category": "Training & Body Care",
+   "definition": "The part of the warm-up on the wall, using easy climbing that matches the movement the session will train.",
+   "kid": "Warming up on the wall with easy moves like the ones you'll practise today.",
+   "little": "Easy climbs first.",
+   "demo": "On a dynamic day, warm up with gradually bigger reaches on big holds; on a footwork day, quiet-feet laps.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book splits the warm-up into a general part (getting the body moving and warm) and a specific part on the wall. It argues that the wall part should match the day's focus: a dynamic or big-move day warms up with gradually bigger moves and pulls rather than small crimps and balance moves. It also notes that pulleys are most at risk when crimping without a thorough warm-up.",
+   "whyItMatters": "It makes the short warm-up do double duty: it prepares the body and previews the skill.",
+   "howToCoachIt": "For Ages 9–12, 12+ and 14+, close the warm-up with Ramp-Up Boulders: easy climbs that preview the skill and build up to a good number of easy moves before any small holds. Younger groups use one or two easy climbs at the end of their shorter warm-up.",
+   "relatedTerms": [
+    "warm-up",
+    "muscle-activation",
+    "finger-pulleys"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Specific wall-based exercises"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Strength training for injury prevention"
+    }
+   ]
+  },
+  {
+   "id": "foam-rolling",
+   "name": "Foam Rolling",
+   "aka": [
+    "Myofascial Release",
+    "Massage Ball"
+   ],
+   "category": "Training & Body Care",
+   "definition": "Rolling muscles over a foam roller or ball to ease stiffness and free up movement before training.",
+   "kid": "Rolling your muscles on a foam tube to loosen up.",
+   "little": "Rolling pin legs.",
+   "demo": "8–10 slow passes on the calves, then try a high step. See Foam Roll Primer.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "Consuegra presents rollers, massage sticks and balls as a way to calm the pain signals that limit range, so a muscle tolerates more stretch. He suggests 8–10 passes on an area as enough. For long-term posture changes he points to a physiotherapist.",
+   "whyItMatters": "It can help a stiff teen get more range for high steps in a short time, without the strength loss of long static stretches.",
+   "howToCoachIt": "Ages 12+ and 14+: a short, optional part of the warm-up on calves, hamstrings, glutes and upper back. Easy pressure, no rolling on joints, the lower back or any injury.",
+   "relatedTerms": [
+    "mobility",
+    "warm-up",
+    "pnf-stretching"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "General warm-up. Joint mobilisation. Coordination-based cardio. Increasing ROM. Muscle activation"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Mobility training for climbing"
+    }
+   ]
+  },
+  {
+   "id": "pnf-stretching",
+   "name": "Contract-Relax Stretching",
+   "aka": [
+    "PNF Stretching",
+    "Contract-Relax"
+   ],
+   "category": "Training & Body Care",
+   "definition": "A stretching method that alternates a gentle stretch with a short, steady muscle contraction to gain range; for non-climbing days.",
+   "kid": "Stretch, push gently against it, relax, then stretch a bit more.",
+   "little": "Push, relax, stretch.",
+   "demo": "On a non-climbing day, try it on the hamstrings. See Contract-Relax Hamstring Stretch.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book offers contract-relax stretching as part of separate mobility work aimed at posture and long-term range, apart from the warm-up. It reports that the method gains more range than passive stretching. In the basic version the muscle is stretched lightly, tensed against resistance for about 10–15 seconds, relaxed, and then stretched for another 15–20 seconds. A variation adds a contraction of the opposite muscle. Two to four rounds per muscle is the range it gives.",
+   "whyItMatters": "It gives teens an off-day tool for stiff hamstrings or hips without stretching before climbing, which the book shows lowers strength for a while.",
+   "howToCoachIt": "Teach it to Ages 12+ and 14+ as home mobility, never in the warm-up. Gentle effort, no pain, no bouncing.",
+   "relatedTerms": [
+    "mobility",
+    "foam-rolling",
+    "adductors"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Mobility training for climbing"
+    }
+   ]
+  },
+  {
+   "id": "three-pad-edge",
+   "name": "Three-Pad Edge",
+   "aka": [
+    "24 mm Edge",
+    "Big Edge"
+   ],
+   "category": "Training & Body Care",
+   "definition": "A deep fingerboard edge or hold, about 24 mm, wide enough for the first three finger pads; the only fingerboard edge used before about 16.",
+   "kid": "The biggest edge on a finger board, deep enough for three finger pads.",
+   "little": "Big edge.",
+   "demo": "Lay a hand on the 24 mm edge and count the finger pads that fit. See Three-Pad Edge Hang.",
+   "discipline": [
+    "bouldering"
+   ],
+   "explanation": "The book's under-16 options for finger strength are bar hangs and hangs on a 24 mm edge or three-pad hold, which it calls a good hold. Smaller edges and max-weight protocols are kept for climbers over 16 with two or more years of systematic training. On a three-pad edge an open hand or half crimp is possible, never a full crimp.",
+   "whyItMatters": "It gives coaches and teens one clear line: if it isn't the three-pad edge, it isn't for under-16s.",
+   "howToCoachIt": "Ages 12+ and 14+ only, after bar hangs and after a full warm-up. Short hangs with seconds in reserve, long rests, and a log of total hang time.",
+   "relatedTerms": [
+    "hangboard",
+    "growth-plate",
+    "open-hand-grip",
+    "half-crimp",
+    "effort-level"
+   ],
+   "images": [],
+   "sources": [
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 8: What Can I Optimise in My Training Sessions?",
+     "section": "Maximum grip strength. Deadhangs. Evidence and protocols. Adaptation for different levels of training"
+    },
+    {
+     "title": "The Science of Climbing Training",
+     "author": "Sergio Consuegra",
+     "publisher": "Vertebrate Publishing",
+     "year": 2023,
+     "chapter": "Chapter 10: Periodisation Models: In Search of Optimal Peak Form",
+     "section": "Linear periodisation: traditional and reverse. General and specific preparation period. Competition and tapering period. Advantages and disadvantages. Example periodisation"
+    }
    ]
   }
  ]

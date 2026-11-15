@@ -61,11 +61,21 @@
     cur.groups.forEach(function (g) {
       g.weeks.forEach(function (w) {
         var ref = { g: g, w: w };
-        [w.warm, w.drill, w.game, w.cool].forEach(function (n) { var k = nz(n); (acts[k] = acts[k] || []).push(ref); });
+        var seen = {};
+        /* warm-up parts are stored by activity id; nz(id) equals nz(name) for every warm-up part (checked by tools/validate.py) */
+        [w.warm, w.drill, w.game].concat(((w.warmup || {}).parts || []).map(function (p) { return p.activityId; })).forEach(function (n) {
+          var k = nz(n); if (!k || seen[k]) return; seen[k] = 1; (acts[k] = acts[k] || []).push(ref);
+        });
         w.vocab.forEach(function (n) { var k = nz(n); (terms[k] = terms[k] || []).push(ref); });
       });
     });
     return { acts: acts, terms: terms };
+  }
+  /* label for a source: book citations show author, year, title and chapter; web sources show site: title */
+  function sourceLabel(s) {
+    if (!s) return "";
+    if (s.chapter) return (s.author ? s.author + " (" + (s.year || "") + "), " : "") + s.title + " — " + s.chapter + (s.section ? ", “" + s.section + "”" : "");
+    return (s.site ? s.site + ": " : "") + (s.title || s.href || "");
   }
   /* September = month index 0. July and August fall back to week 1. */
   var SEASON = { 8: 0, 9: 1, 10: 2, 11: 3, 0: 4, 1: 5, 2: 6, 3: 7, 4: 8, 5: 9 };
@@ -202,6 +212,6 @@
     esc: esc, nz: nz, load: load, loadAll: loadAll, indexByName: indexByName,
     actHref: actHref, termHref: termHref, linkName: linkName, usageIndex: usageIndex, weekHref: weekHref,
     seasonWeek: seasonWeek, lessonHref: lessonHref, lessonCard: lessonCard, figuresHtml: figuresHtml,
-    cite: cite, table: table, init: init, fail: fail
+    cite: cite, table: table, init: init, fail: fail, sourceLabel: sourceLabel
   };
 })();
