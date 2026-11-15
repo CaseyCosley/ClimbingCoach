@@ -72,7 +72,7 @@
    [
     "Ages 3–4",
     "Active Start",
-    "Pretend play, one rule",
+    "One clear rule",
     "None"
    ],
    [
@@ -133,13 +133,13 @@
    "motivate": [
     "Their own parent: the parent is the real coach in the room, and the child mostly wants the parent's attention and approval.",
     "Discovery and doing it themselves (\"me do it!\"), plus simple cause and effect: ring a bell, grab a toy, slide down.",
-    "Pretend play and familiar stories, not long rule lists or ranking children."
+    "Copying a parent and one short goal, not long rule lists or ranking children."
    ],
    "approach": "Guided play is the fit: the coach sets up the space and the goal, the child keeps the choice of how to play [10]. Competition and ranking children have no place here; LTAD guidance for this stage calls for non-competitive, participation-focused games [1].",
    "games": [
     [
-     "Animal Rescue",
-     "A stuffed animal is taped or clipped low on the wall; the child climbs a move or two to rescue it and hands it to the parent."
+     "Fuzz-Ball Search",
+     "Small fuzzy balls sit on low holds. Each child climbs to one and brings it down to a parent or a bucket."
     ],
     [
      "Mirror Me",
@@ -185,7 +185,7 @@
     },
     {
      "label": "Session shape",
-     "value": "About a 5-minute story warm-up, then 2–3 short wall games with constant rotation."
+     "value": "About a 5-minute floor warm-up, then 2–3 short wall games with constant rotation."
     }
    ],
    "learn": [
@@ -194,11 +194,11 @@
     "At 3–4, children's sharing choices are mostly self-interested in fairness experiments, so taking turns needs gentle structure rather than appeals to fairness [16]."
    ],
    "motivate": [
-    "Make-believe: being a monkey, spider or firefighter is the reason to climb.",
+    "A clear picture helps: frog feet, a quiet sloth, or a bell to ring.",
     "Feeling big and capable; preschoolers tend to rate their own abilities very highly, which is an asset to protect.",
     "Short, visible successes: a treasure in the bucket, a bell rung."
    ],
-   "approach": "Guided play with a story wrapper. Use one rule at a time (\"only blue holds\") and keep the whole group moving. Rules exist to make the game fun, not to sort winners from losers [1].",
+   "approach": "Guided play with one rule at a time (\"only blue holds\") and the whole group moving. Rules exist to make the game fun, not to sort winners from losers [1].",
    "games": [
     [
      "Animal Climbs",

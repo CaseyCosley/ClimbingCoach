@@ -238,6 +238,21 @@ for a in acts["items"]:
         errors.append(f"activity {a['name']}: prereqs must be a list")
     elif "auto-belay" in a.get("discipline", []) and not any("staff permission" in p.lower() for p in a["prereqs"]):
         errors.append(f"activity {a['name']}: auto belay requires a staff-permission prerequisite")
+# Story games depend on a coach inventing a plot. Flag them in names and how-to text.
+# The allowlist is only for a concrete picture inside an otherwise structured drill.
+story_flag = re.compile(r"\b(?:story|stories|pretend\w*|imagin\w*|adventure|once upon)\b", re.I)
+story_allow = [re.compile(p, re.I) for p in [
+    r"adventurebooks\.com",  # publisher URL, not a story game
+]]
+def story_scrub(text):
+    for pat in story_allow:
+        text = pat.sub(" ", text)
+    return text
+for a in acts["items"]:
+    how = "\n".join([a.get("name") or "", a.get("setup") or "", a.get("why") or "", a.get("variations") or ""] + list(a.get("steps") or []))
+    how = story_scrub(how)
+    for m in story_flag.finditer(how):
+        errors.append(f"activity {a['name']}: story-game wording '{m.group(0)}'")
     core = " ".join([a.get("setup", "")] + a.get("steps", []))
     for m in FINGER_NEVER.finditer(core):
         if not NEGATED.search(core[max(0, core.rfind(".", 0, m.start()) + 1):m.start()]):

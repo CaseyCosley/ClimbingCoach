@@ -36,7 +36,7 @@
     "Explore & Play",
     "Copy Me (parent-led)",
     "Brave Steps",
-    "Story Game"
+    "Game"
    ],
    "intro": "Every session here stands on its own, so families who join mid-year don't miss anything, while still following a monthly theme. The parent is the spotter and the main coach; you coach the parents. Each week keeps one simple focus for the whole class, with two or three activities and a few cues for families to leave with. Skills return later in the year so little climbers can practise them again.",
    "months": [
@@ -157,7 +157,7 @@
        "Practice favorite climb"
       ],
       [
-       "Family Rescue Mission (everyone together)",
+       "Sticky feet with your grown-up",
        "Celebration Day"
       ],
       [
@@ -228,8 +228,8 @@
      "detail": "Families rotate through the themed skill (coach shows parent, parent shows child), a free climb, a crawl or balance path, and a calm corner for anyone who needs a pause."
     },
     {
-     "title": "Story game, 17 min",
-     "detail": "The week's story game, played in parallel by each family, restarting often with small changes."
+     "title": "Game, 17 min",
+     "detail": "The week's game, played in parallel by each family, restarting often with small changes."
     }
    ],
    "notes": [
@@ -248,7 +248,7 @@
      "slot": "D"
     },
     {
-     "label": "Story game",
+     "label": "Game",
      "min": 17,
      "slot": "G"
     }
@@ -262,18 +262,18 @@
     ],
     [
      "Oct",
-     "Rescue Mission",
+     "Fuzz-Ball Search",
      "Fuzz-Ball Search"
     ],
     [
      "Nov",
      "Animal Walks",
-     "Rescue Mission"
+     "Fuzz-Ball Search"
     ],
     [
      "Dec",
      "Fun rotation",
-     "Parachute Games, Rescue Mission, Fuzz-Ball Search, High-Five the Star"
+     "Parachute Games, Fuzz-Ball Search, High-Five the Star"
     ],
     [
      "Jan",
@@ -287,7 +287,7 @@
     ],
     [
      "Mar",
-     "Rescue Mission",
+     "Fuzz-Ball Search",
      "Parachute Games"
     ],
     [
@@ -298,12 +298,12 @@
     [
      "May",
      "Mirror Me",
-     "Rescue Mission"
+     "Fuzz-Ball Search"
     ],
     [
      "Jun",
      "Fun rotation",
-     "Parachute Games, Rescue Mission, Fuzz-Ball Search, High-Five the Star"
+     "Parachute Games, Fuzz-Ball Search, High-Five the Star"
     ]
    ],
    "plan": {
@@ -315,7 +315,7 @@
      "Animal Walks|Hold;Foothold",
      "Animal Crossing|High Step;Foothold",
      "High-Five the Star|Jug;Hold",
-     "Rescue Mission|Jug;Traverse",
+     "Sticky Feet|Jug;Traverse",
      "Freeze Traverse|Jug;Three Points of Contact",
      "Animal Crossing|Foothold;High Step",
      "Learn to Fall|Landing Position;Spotting",
@@ -329,7 +329,7 @@
      "Sticky Feet|Foothold;Route",
      "Mirror Me|Hold;Foothold",
      "High-Five the Star|Top Out;Route",
-     "Rescue Mission|Traverse;Send",
+     "Sticky Feet|Traverse;Send",
      "Mirror Me|Match;Hold",
      "High-Five the Star|Send;Sportsmanship",
      "Freeze Traverse|Three Points of Contact;Hold",
@@ -347,12 +347,12 @@
       "High-Five the Star"
      ],
      [
-      "Rescue Mission",
+      "Fuzz-Ball Search",
       "Fuzz-Ball Search"
      ],
      [
       "Animal Walks",
-      "Rescue Mission"
+      "Fuzz-Ball Search"
      ],
      [
       "High-Five the Star",
@@ -363,7 +363,7 @@
       "Animal Walks"
      ],
      [
-      "Rescue Mission",
+      "Fuzz-Ball Search",
       "Parachute Games"
      ],
      [
@@ -372,7 +372,7 @@
      ],
      [
       "Mirror Me",
-      "Rescue Mission"
+      "Fuzz-Ball Search"
      ]
     ],
     "warm": [
@@ -382,7 +382,7 @@
     ],
     "fun": [
      "Parachute Games",
-     "Rescue Mission",
+     "Fuzz-Ball Search",
      "Fuzz-Ball Search",
      "High-Five the Star"
     ]
@@ -507,7 +507,7 @@
      "theme": "Welcome & Wall Rules",
      "cat": "rope",
      "skill": "Turtle landings",
-     "type": "Story Game",
+     "type": "Game",
      "vocab": [
       "Landing Position",
       "Fall Zone"
@@ -551,11 +551,11 @@
      ],
      "warm": "Pulse Raiser",
      "drill": "Animal Walks",
-     "game": "Rescue Mission",
+     "game": "Fuzz-Ball Search",
      "focusActivities": [
       "animal-walks",
       "welcome-to-the-wall",
-      "rescue-mission"
+      "fuzz-ball-search"
      ],
      "learnings": [
       "Crawl or step along the path all the way to the wall.",
@@ -625,10 +625,10 @@
      ],
      "warm": "Animal Walks",
      "drill": "High-Five the Star",
-     "game": "Rescue Mission",
+     "game": "Fuzz-Ball Search",
      "focusActivities": [
       "high-five-the-star",
-      "rescue-mission",
+      "fuzz-ball-search",
       "animal-crossing"
      ],
      "learnings": [
@@ -654,24 +654,24 @@
      "week": 4,
      "theme": "Moving Like Animals 101",
      "cat": "tech",
-     "skill": "Animal Rescue",
-     "type": "Story Game",
+     "skill": "Sticky feet",
+     "type": "Game",
      "vocab": [
       "Jug",
       "Traverse"
      ],
      "warm": "Pulse Raiser",
-     "drill": "Rescue Mission",
+     "drill": "Sticky Feet",
      "game": "Fuzz-Ball Search",
      "focusActivities": [
-      "rescue-mission",
+      "sticky-feet",
       "fuzz-ball-search",
       "high-five-the-star"
      ],
      "learnings": [
-      "The story is the lesson: go get the toy and bring it back down.",
-      "Coming down with the toy is the second half of the rescue.",
-      "Each family runs the story on their own piece of wall, restarting often."
+      "Feet stay where they land. Climb to one fuzz ball and bring it down.",
+      "Coming down is part of the climb.",
+      "Each family plays on their own piece of wall, restarting often."
      ],
      "warmup": {
       "minutes": 5,
@@ -736,11 +736,11 @@
      ],
      "warm": "Animal Walks",
      "drill": "Animal Crossing",
-     "game": "Rescue Mission",
+     "game": "Fuzz-Ball Search",
      "focusActivities": [
       "animal-crossing",
       "sticky-feet",
-      "rescue-mission"
+      "fuzz-ball-search"
      ],
      "learnings": [
       "Straighten the legs to stand up on the footholds.",
@@ -803,14 +803,14 @@
      "theme": "Strong Little Bodies 101",
      "cat": "str",
      "skill": "Bear Crawl Path",
-     "type": "Story Game",
+     "type": "Game",
      "vocab": [
       "Crash Pad",
       "Hold"
      ],
      "warm": "Joint Circles",
      "drill": "Animal Walks",
-     "game": "Rescue Mission",
+     "game": "Fuzz-Ball Search",
      "focusActivities": [
       "animal-walks",
       "animal-crossing",
@@ -887,11 +887,11 @@
      ],
      "warm": "Pulse Raiser",
      "drill": "Animal Walks",
-     "game": "Rescue Mission",
+     "game": "Fuzz-Ball Search",
      "focusActivities": [
       "animal-walks",
       "animal-crossing",
-      "rescue-mission"
+      "fuzz-ball-search"
      ],
      "learnings": [
       "Pick an animal and move that way to the wall, then up two holds.",
@@ -962,15 +962,15 @@
       "Sportsmanship"
      ],
      "warm": "Animal Walks",
-     "drill": "Rescue Mission",
+     "drill": "Sticky Feet",
      "game": "High-Five the Star",
      "focusActivities": [
-      "rescue-mission",
+      "sticky-feet",
       "parachute-games",
       "high-five-the-star"
      ],
      "learnings": [
-      "Families pick the favorite story game and play it in parallel.",
+      "Each family plays the week's game side by side.",
       "Cheer for tries, not for who went highest.",
       "Leave with one thing the child wanted to do again."
      ],
@@ -1077,7 +1077,7 @@
      "game": "High-Five the Star",
      "focusActivities": [
       "high-five-the-star",
-      "rescue-mission",
+      "animal-crossing",
       "sticky-feet"
      ],
      "learnings": [
@@ -1104,7 +1104,7 @@
      "theme": "Welcome Back & Routines",
      "cat": "rope",
      "skill": "Turtle landings review",
-     "type": "Story Game",
+     "type": "Game",
      "vocab": [
       "Landing Position",
       "Crash Pad"
@@ -1252,7 +1252,7 @@
      "theme": "Feet First 201",
      "cat": "tech",
      "skill": "Mirror Me",
-     "type": "Story Game",
+     "type": "Game",
      "vocab": [
       "Hold",
       "Foothold"
@@ -1296,10 +1296,10 @@
      ],
      "warm": "Animal Walks",
      "drill": "High-Five the Star",
-     "game": "Rescue Mission",
+     "game": "Fuzz-Ball Search",
      "focusActivities": [
       "high-five-the-star",
-      "rescue-mission",
+      "fuzz-ball-search",
       "mirror-me"
      ],
      "learnings": [
@@ -1325,17 +1325,17 @@
      "week": 2,
      "theme": "Family Climbing Party",
      "cat": "event",
-     "skill": "Family Rescue Mission (everyone together)",
+     "skill": "Sticky feet with your grown-up",
      "type": "Celebration Day",
      "vocab": [
       "Traverse",
       "Send"
      ],
      "warm": "Pulse Raiser",
-     "drill": "Rescue Mission",
+     "drill": "Sticky Feet",
      "game": "Parachute Games",
      "focusActivities": [
-      "rescue-mission",
+      "sticky-feet",
       "parachute-games",
       "fuzz-ball-search"
      ],
@@ -1370,7 +1370,7 @@
      ],
      "warm": "Joint Circles",
      "drill": "Mirror Me",
-     "game": "Rescue Mission",
+     "game": "Fuzz-Ball Search",
      "focusActivities": [
       "mirror-me",
       "sticky-feet",
@@ -1400,7 +1400,7 @@
      "theme": "Family Climbing Party",
      "cat": "event",
      "skill": "Photo & cheer day",
-     "type": "Story Game",
+     "type": "Game",
      "vocab": [
       "Send",
       "Sportsmanship"
@@ -1411,12 +1411,12 @@
      "focusActivities": [
       "high-five-the-star",
       "parachute-games",
-      "rescue-mission"
+      "sticky-feet"
      ],
      "learnings": [
       "A photo or a cheer is for the try, not for height.",
       "Each child picks one climb to share.",
-      "End with a favorite story game the group already knows."
+      "End with a game the group already knows."
      ],
      "warmup": {
       "minutes": 5,
@@ -1548,7 +1548,7 @@
      "theme": "Balance & Body 201",
      "cat": "str",
      "skill": "Bear Crawl Path 2.0",
-     "type": "Story Game",
+     "type": "Game",
      "vocab": [
       "Center of Gravity",
       "Crash Pad"
@@ -1629,10 +1629,10 @@
      ],
      "warm": "Animal Walks",
      "drill": "Animal Crossing",
-     "game": "Rescue Mission",
+     "game": "Fuzz-Ball Search",
      "focusActivities": [
       "animal-crossing",
-      "rescue-mission",
+      "fuzz-ball-search",
       "mirror-me"
      ],
      "learnings": [
@@ -1696,14 +1696,14 @@
      "theme": "New Shapes 301",
      "cat": "tech",
      "skill": "Climbing down",
-     "type": "Story Game",
+     "type": "Game",
      "vocab": [
       "Downclimb",
       "Landing Position"
      ],
      "warm": "Joint Circles",
      "drill": "Downclimbing",
-     "game": "Rescue Mission",
+     "game": "Fuzz-Ball Search",
      "focusActivities": [
       "downclimbing",
       "learn-to-fall",
@@ -1779,7 +1779,7 @@
      ],
      "warm": "Pulse Raiser",
      "drill": "Freeze Traverse",
-     "game": "Rescue Mission",
+     "game": "Fuzz-Ball Search",
      "focusActivities": [
       "freeze-traverse",
       "animal-walks",
@@ -1854,17 +1854,17 @@
       "Sportsmanship"
      ],
      "warm": "Animal Walks",
-     "drill": "Rescue Mission",
+     "drill": "Sticky Feet",
      "game": "High-Five the Star",
      "focusActivities": [
-      "rescue-mission",
+      "sticky-feet",
       "parachute-games",
       "high-five-the-star"
      ],
      "learnings": [
       "Families pick the games they want to repeat.",
       "Cheer for effort and for kind waiting.",
-      "Leave with one climb or story the child wants next time."
+      "Leave with one climb the child wants next time."
      ],
      "warmup": {
       "minutes": 5,
@@ -1890,7 +1890,7 @@
     "Brave Climb Challenge",
     "Game Day"
    ],
-   "intro": "Pretend play is the engine at this age. Each skill is wrapped in a character or story, one focus at a time, with constant rotation so nobody waits. A technique keeps a full week, then comes back later in the year. Each week lists two or three activities and the cues kids should leave repeating.",
+   "intro": "One focus at a time, with constant rotation so nobody waits. A technique keeps a full week, then comes back later in the year. Each week lists two or three activities and the cues kids should leave repeating.",
    "months": [
     {
      "m": "Sept",
@@ -2120,12 +2120,12 @@
     [
      "Nov",
      "Fuzz-Ball Search",
-     "Wake-Up Wall"
+     "Hot Lava"
     ],
     [
      "Dec",
      "Fun rotation",
-     "Wake-Up Wall, Swinging Monkeys, Animal Habitats, Hot Lava, Puzzle Hunt"
+     "Hot Lava, Swinging Monkeys, Animal Habitats, Puzzle Hunt"
     ],
     [
      "Jan",
@@ -2150,12 +2150,12 @@
     [
      "May",
      "Animal Crossing",
-     "Wake-Up Wall"
+     "Hot Lava"
     ],
     [
      "Jun",
      "Fun rotation",
-     "Wake-Up Wall, Swinging Monkeys, Animal Habitats, Hot Lava, Puzzle Hunt"
+     "Hot Lava, Swinging Monkeys, Animal Habitats, Puzzle Hunt"
     ]
    ],
    "plan": {
@@ -2204,7 +2204,7 @@
      ],
      [
       "Fuzz-Ball Search",
-      "Wake-Up Wall"
+      "Hot Lava"
      ],
      [
       "Hot Lava",
@@ -2224,7 +2224,7 @@
      ],
      [
       "Animal Crossing",
-      "Wake-Up Wall"
+      "Hot Lava"
      ]
     ],
     "warm": [
@@ -2236,7 +2236,7 @@
      "Animal Walks"
     ],
     "fun": [
-     "Wake-Up Wall",
+     "Hot Lava",
      "Swinging Monkeys",
      "Animal Habitats",
      "Hot Lava",
@@ -2416,7 +2416,7 @@
      ],
      "learnings": [
       "Pick an animal and climb the way that animal would move.",
-      "Big holds are rocks, logs, or lily pads in the story.",
+      "Big holds are the steps. Stand on the whole hold.",
       "Each child stays on their own stretch of wall."
      ],
      "warmup": {
@@ -2593,11 +2593,11 @@
      ],
      "warm": "Pulse Raiser",
      "drill": "High-Five the Star",
-     "game": "Wake-Up Wall",
+     "game": "Hot Lava",
      "focusActivities": [
       "high-five-the-star",
       "target-practice",
-      "wake-up-wall"
+      "hot-lava"
      ],
      "learnings": [
       "Point to the hold you want, then reach for it.",
@@ -2667,7 +2667,7 @@
      ],
      "warm": "Animal Walks",
      "drill": "Static and Dynamic",
-     "game": "Wake-Up Wall",
+     "game": "Hot Lava",
      "focusActivities": [
       "static-and-dynamic",
       "silent-feet",
@@ -2821,11 +2821,11 @@
      ],
      "warm": "Pulse Raiser",
      "drill": "Fuzz-Ball Search",
-     "game": "Wake-Up Wall",
+     "game": "Hot Lava",
      "focusActivities": [
       "fuzz-ball-search",
       "puzzle-hunt",
-      "wake-up-wall"
+      "hot-lava"
      ],
      "learnings": [
       "Kids pick a favorite game and play it with one rule at a time.",
@@ -3488,7 +3488,7 @@
      ],
      "warm": "Pulse Raiser",
      "drill": "Animal Habitats",
-     "game": "Wake-Up Wall",
+     "game": "Hot Lava",
      "focusActivities": [
       "animal-habitats",
       "high-five-the-star",
@@ -3562,7 +3562,7 @@
      ],
      "warm": "Animal Walks",
      "drill": "Downclimbing",
-     "game": "Wake-Up Wall",
+     "game": "Hot Lava",
      "focusActivities": [
       "downclimbing",
       "learn-to-fall",
@@ -3723,7 +3723,7 @@
      ],
      "learnings": [
       "Kids choose the games and treasures for the last class.",
-      "The group shares one basket or one story.",
+      "The group shares one basket.",
       "Leave naming a favorite skill from the year."
      ],
      "warmup": {
@@ -5849,7 +5849,7 @@
     [
      "Dec",
      "Fun rotation",
-     "Add-On, Wake-Up Wall, Fuzz-Ball Search, Scavenger Hunt, Climbing Bingo"
+     "Add-On, Hot Lava, Fuzz-Ball Search, Scavenger Hunt, Climbing Bingo"
     ],
     [
      "Jan",
@@ -5879,7 +5879,7 @@
     [
      "Jun",
      "Fun rotation",
-     "Add-On, Wake-Up Wall, Fuzz-Ball Search, Scavenger Hunt, Climbing Bingo"
+     "Add-On, Hot Lava, Fuzz-Ball Search, Scavenger Hunt, Climbing Bingo"
     ]
    ],
    "plan": {
@@ -5963,7 +5963,7 @@
     ],
     "fun": [
      "Add-On",
-     "Wake-Up Wall",
+     "Hot Lava",
      "Fuzz-Ball Search",
      "Scavenger Hunt",
      "Add-On"
@@ -7695,7 +7695,7 @@
      ],
      "warm": "Pulse Raiser",
      "drill": "Balanced Flag",
-     "game": "Wake-Up Wall",
+     "game": "Hot Lava",
      "focusActivities": [
       "balanced-flag",
       "smearing-drill",
