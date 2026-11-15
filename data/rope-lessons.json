@@ -76,7 +76,7 @@
      ]
     },
     {
-     "title": "Watch a coach lower (astronaut story)",
+     "title": "Watch a coach lower",
      "minutes": 15,
      "activityIds": [
       "astronaut-lowering"
@@ -181,7 +181,7 @@
      "title": "Easy top-rope explore",
      "minutes": 15,
      "activityIds": [
-      "rescue-mission"
+      "astronaut-lowering"
      ]
     }
    ]

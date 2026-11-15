@@ -1,6 +1,6 @@
 {
- "lastUpdated": "2026-11-14",
- "count": 331,
+ "lastUpdated": "2026-11-15",
+ "count": 328,
  "items": [
   {
    "id": "pulse-raiser",
@@ -40,7 +40,7 @@
     "Finish standing still so the group is ready to listen."
    ],
    "why": "BMC's FUNdamentals notes build a climbing warm-up in three parts: pulse raiser, joint rotation, then easy climbing. Raising heart rate and body temperature first prepares muscles and gets attention on you.",
-   "variations": "Parent & Child (ages 2–3) to Ages 4–6: tell a story (run from the rain, jump the puddles). Ages 6–9 and Ages 9–12: follow-the-leader on separate lanes. Ages 12+ (training) and Ages 14+: athlete-led.",
+   "variations": "Parent & Child (ages 2–3) to Ages 4–6: run from the rain and jump the puddles. Ages 6–9 and Ages 9–12: follow-the-leader on separate lanes. Ages 12+ (training) and Ages 14+: athlete-led.",
    "risk": "Keep running lanes clear of bags, ropes and the landing zones under climbers.",
    "sources": [
     "BMC",
@@ -560,7 +560,7 @@
     "Progress to about halfway up the wall when the landing is controlled."
    ],
    "why": "Falling is part of climbing; a rehearsed landing reduces injury risk and fear, which frees kids to try harder moves.",
-   "variations": "Parent & Child (ages 2–3): parent holds hands and they ‘fall like a leaf’ together from the first hold. Ages 3–4: Turtle Tuck story. Ages 6–9 through Ages 14+: add falls from awkward positions and sideways.",
+   "variations": "Parent & Child (ages 2–3): parent holds hands and they fall like a leaf together from the first hold. Ages 3–4: land like a turtle, then sit back. Ages 6–9 through Ages 14+: add falls from awkward positions and sideways.",
    "risk": "Check the landing zone is clear before every fall; no arms reaching back to catch the fall; only one climber per fall zone.",
    "sources": [
     "MOMO",
@@ -753,7 +753,7 @@
     "Use the swing to move everyone to the other island without touching the floor. One person on the swing at a time.",
     "Optional: carry a bean bag across too."
    ],
-   "why": "A classic adventure-education team challenge: planning, trust and encouragement.",
+   "why": "A team challenge: planning, trust and encouragement.",
    "variations": "Add a time limit or a no-talking round.",
    "risk": "Only with a swing rigged and checked by staff; one person on the swing at a time; spotters at each island.",
    "sources": [
@@ -1202,8 +1202,7 @@
    "id": "lava-obstacle-course",
    "name": "Lava Obstacle Course",
    "aka": [
-    "Floor Is Lava (obstacle course)",
-    "Party Island"
+    "Floor Is Lava (obstacle course)"
    ],
    "types": [
     "warm-up",
@@ -1226,7 +1225,7 @@
    "setup": "Course of crash pads, volumes, ropes on the floor and a low traverse.",
    "steps": [
     "The floor is lava for the whole course.",
-    "Everyone travels from the start to the finish, ‘Party Island’.",
+    "Everyone travels from the start to the finish, the finish pad.",
     "For a variation, time your own run and try to match it next week."
    ],
    "why": "Mixes balance, crawling and low climbing in one flow.",
@@ -1342,7 +1341,7 @@
     "Hold the freeze, then move again."
    ],
    "why": "Freezing in odd positions teaches balance and finding rest stances.",
-   "variations": "Ages 3–4: a stop-and-go story. Ages 6–9: freeze with straight arms. Ages 12+ (training): freeze then shake out each hand.",
+   "variations": "Ages 3–4: stop and go when the coach calls it. Ages 6–9: freeze with straight arms. Ages 12+ (training): freeze then shake out each hand.",
    "risk": "Space climbers so nobody is directly above or below another.",
    "sources": [
     "MOMT",
@@ -1627,70 +1626,6 @@
      "title": "All About Indoor Climbing Walls",
      "site": "Philadelphia Rock Gyms",
      "href": "https://philarockgym.com/all-about-indoor-climbing-walls/"
-    }
-   ]
-  },
-  {
-   "id": "rescue-mission",
-   "name": "Rescue Mission",
-   "aka": [
-    "Animal Rescue",
-    "Family Rescue Mission"
-   ],
-   "types": [
-    "game"
-   ],
-   "skills": [
-    "fear & confidence",
-    "focus"
-   ],
-   "ages": [
-    "parent-child",
-    "ages-3-4",
-    "ages-4-6",
-    "ages-6-9"
-   ],
-   "themes": [
-    "fun",
-    "rope",
-    "event"
-   ],
-   "setup": "Stuffed animals clipped with a sling to holds on the wall.",
-   "steps": [
-    "Tell the story: the animals are stuck and need rescuing.",
-    "Each child climbs to an animal and brings it down."
-   ],
-   "why": "A clear, kind goal pulls nervous kids up the wall a little higher each time.",
-   "variations": "Parent & Child (ages 2–3): parent spots and cheers. Ages 4–6: on top rope. Whole-group version for a celebration day.",
-   "risk": "Place animals at a height that fits each child; climb down or lower, no jumping holding the toy.",
-   "sources": [
-    "B4C"
-   ],
-   "discipline": [
-    "bouldering"
-   ],
-   "prereqs": [],
-   "coachingCues": [
-    "The rescue is a climbing task with a clear start and finish, not a chase.",
-    "One climber moves at a time in each fall zone; helpers stay off the pads unless they are spotting a planned low problem."
-   ],
-   "commonMistakes": [
-    "Crowding the landing area to help."
-   ],
-   "progressions": {
-    "easier": "A stuffed toy on a low, large hold.",
-    "harder": "A slightly higher target that still allows a controlled downclimb or drop to the pad."
-   },
-   "equipment": [
-    "A soft object to retrieve",
-    "Clear pads"
-   ],
-   "images": [],
-   "researchSources": [
-    {
-     "title": "Coaching practice (existing activity text)",
-     "site": "This hub",
-     "href": ""
     }
    ]
   },
@@ -2000,41 +1935,6 @@
    "why": "Teaches low, wide body positions and hip flexibility.",
    "variations": "Over-and-under version: stick high for some rounds.",
    "risk": "Use a soft noodle; holder stands clear.",
-   "sources": [
-    "MOMG"
-   ],
-   "discipline": [
-    "bouldering"
-   ],
-   "prereqs": []
-  },
-  {
-   "id": "wake-up-wall",
-   "name": "Wake-Up Wall",
-   "aka": [],
-   "types": [
-    "game"
-   ],
-   "skills": [
-    "listening",
-    "reaction"
-   ],
-   "ages": [
-    "ages-3-4",
-    "ages-4-6",
-    "ages-6-9"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Climbers lie on the mat, heads near the wall, an arm's length apart.",
-   "steps": [
-    "Tell a story. On the trigger word (“wake up!”) everyone gets onto their own part of the wall.",
-    "The group adds one sentence, then climbs again."
-   ],
-   "why": "A story game that holds young kids' attention, each climber on their own lane.",
-   "variations": "Change the trigger word each round.",
-   "risk": "Arm's-length spacing; only low holds.",
    "sources": [
     "MOMG"
    ],
@@ -3734,7 +3634,7 @@
     "Speed up as accuracy improves."
    ],
    "why": "No readjusting forces careful first placements, so feet become accurate and trustworthy.",
-   "variations": "Ages 4–6: glue feet story. Ages 9–12: count readjustments and try for zero. Ages 14+: on small holds.",
+   "variations": "Ages 4–6: feet stay where they land. Ages 9–12: count readjustments and try for zero. Ages 14+: on small holds.",
    "risk": "Low or roped terrain.",
    "sources": [
     "PRG",
@@ -8739,45 +8639,6 @@
    ]
   },
   {
-   "id": "story-stretch",
-   "name": "Story Stretch",
-   "aka": [
-    "Yoga Story"
-   ],
-   "types": [
-    "warm-up",
-    "off-wall"
-   ],
-   "skills": [
-    "recovery",
-    "listening"
-   ],
-   "ages": [
-    "parent-child",
-    "ages-3-4",
-    "ages-4-6",
-    "ages-6-9"
-   ],
-   "themes": [
-    "fun"
-   ],
-   "setup": "Mats.",
-   "steps": [
-    "Tell a short story where each part is a quick, active movement held only a few seconds (tall tree reach, sleepy cat-cow, frog hop).",
-    "Kids act it out."
-   ],
-   "why": "Keeps young kids engaged in an active warm-up; short, moving shapes prepare the body better than long held stretches.",
-   "variations": "Kids add a part to the story.",
-   "risk": "Gentle, moving shapes only; nothing held longer than a few seconds.",
-   "sources": [
-    "CP"
-   ],
-   "discipline": [
-    "bouldering"
-   ],
-   "prereqs": []
-  },
-  {
    "id": "pass-the-animal",
    "name": "Pass the Animal",
    "aka": [
@@ -9648,7 +9509,7 @@
     "The next climber tries a pose nobody has done yet."
    ],
    "why": "Kids discover positions they would never try on a route, building coordination, body awareness and flexibility; the cheer celebrates creativity, not a ranking.",
-   "variations": "Ages 4–6: coach calls a theme (animals). Ages 9–12: each pose must use a named technique (drop knee, flag). Ages 12+: link three poses into a short sequence.",
+   "variations": "Ages 4–6: coach names a shape (a star, a flag, a frog). Ages 9–12: each pose must use a named technique (drop knee, flag). Ages 12+: link three poses into a short sequence.",
    "risk": "Start new climbers on a slab before vertical; keep poses low and step down from awkward positions instead of letting go.",
    "sources": [
     "MCOFS"
@@ -16959,7 +16820,7 @@
     "Move slowly between the two, about 5–8 times, with a breath each way."
    ],
    "why": "The book lists cat-cow as a mobility exercise for the spine. For young climbers it is a simple active movement that wakes up the back and shoulders without any held stretch.",
-   "variations": "Ages 3–4 and 4–6: animal sounds and a story (cat, cow). Ages 6–9+: add a pause at each end. Ages 12+: link it to shoulder-blade control.",
+   "variations": "Ages 3–4 and 4–6: add the animal sound (cat, cow). Ages 6–9+: add a pause at each end. Ages 12+: link it to shoulder-blade control.",
    "risk": "Slow and comfortable; no forcing the range. Skip it for any back or wrist pain.",
    "sources": [
     "SCTC"

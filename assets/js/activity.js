@@ -16,7 +16,10 @@
       "quickdraw-relay": "quickdraw-carry",
       "harness-check-race": "harness-check",
       "flake-and-coil-races": "flake-and-coil",
-      "shark-attack": "wake-up-wall",
+      "shark-attack": "hot-lava",
+      "wake-up-wall": "hot-lava",
+      "rescue-mission": "fuzz-ball-search",
+      "story-stretch": "joint-circles",
       "ready-set-go": "finish-together",
       "speed-climbing-bouldering": "beat-your-own-laps"
     };

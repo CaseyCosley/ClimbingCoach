@@ -396,6 +396,23 @@ td { padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); vertical-a
   .nav.open { display: flex; }
   .chart { font-size: .78rem; grid-template-columns: .7fr 1.1fr 1.3fr 1.2fr; }
 }
+/* Phone detail pages: long labels were max-content, so values and pills were squeezed off the right edge. */
+@media (max-width: 640px) {
+  .site-header { position: sticky; top: 0; z-index: 40; background: var(--surface); }
+  .site-header .bar { grid-template-columns: minmax(0, 1fr) auto; align-items: center; }
+  .brand { min-width: 0; }
+  .head-search { position: relative; z-index: 2; background: var(--surface); }
+  .meta-list, .props, article.detail > dl {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2px 0;
+  }
+  .meta-list dt, .props dt, article.detail > dl dt { padding-top: 12px; }
+  .meta-list dd, .props dd, article.detail > dl dd { margin: 0; min-width: 0; }
+  .pill { white-space: normal; }
+  .detail, .detail dd, .detail li { overflow-wrap: anywhere; }
+  .warm-parts { padding-left: 1.2em; }
+}
 @media print {
   .site-header, .site-footer, .no-print, .nav-toggle, .head-search { display: none !important; }
   body { background: #fff; }

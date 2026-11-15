@@ -151,7 +151,7 @@ Names are compared after lowercasing and removing everything except letters and 
   "Finish standing still so the group is ready to listen."
  ],
  "why": "BMC's FUNdamentals notes build a climbing warm-up in three parts: pulse raiser, joint rotation, then easy climbing. Raising heart rate and body temperature first prepares muscles and gets attention on you.",
- "variations": "Parent & Child (ages 2–3) to Ages 4–6: tell a story (run from the rain, jump the puddles). Ages 6–9 and Ages 9–12: follow-the-leader on separate lanes. Ages 12+ (training) and Ages 14+: athlete-led.",
+ "variations": "Parent & Child (ages 2–3) to Ages 4–6: run from the rain and jump the puddles. Ages 6–9 and Ages 9–12: follow-the-leader on separate lanes. Ages 12+ (training) and Ages 14+: athlete-led.",
  "risk": "Keep running lanes clear of bags, ropes and the landing zones under climbers.",
  "sources": [
   "BMC",
